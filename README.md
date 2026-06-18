@@ -33,7 +33,7 @@ And... it consists of two separate repositories
 
 ### Public engine repository: coach.zander.cfk
 
-Engine to create a static RPG journey website based on speific data prvided in the given XML format (for now).
+Engine to create a static RPG journey website based on speific data provided in the given XML format (for now).
 
 - Java, XML, Velocity Templates
 - css, js
@@ -45,9 +45,9 @@ Engine to create a static RPG journey website based on speific data prvided in t
 
 One specific journey of one group of RPG players of "Das Schwarze Auge" - "Die Chroniken des Fliegenden Kessels". Private for copyright reasons (for now).
 
-- XML files containing heroes, NPCs, monsters, locations, and more
+- XML files containing heroes, NPCs, monsters, locations, events, adventures, and more
 - image files
-- Google map tiles, of "Aventurien"
+- Google map tiles of "Aventurien"
 
 ## What I am exploring
 
