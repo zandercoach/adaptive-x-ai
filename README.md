@@ -1,4 +1,6 @@
-# From Agile to Agentic
+# Adaptive × Agentic
+
+*How to adapt your business model, leadership model, and operating model to benefit from the agentic disruption.*
 
 ## Why this repository exists
 
@@ -6,9 +8,11 @@ Fifteen years ago I stopped creating software professionally.
 
 I left software architecture and development behind to become a Scrum Master, Business Coach and Certified Scrum Trainer with the Scrum Alliance. The code became quieter, but the curiosity never disappeared.
 
-Today, Agentic Engineering feels like one of those rare moments when technology fundamentally changes how people work together.
+Today, the agentic disruption feels like one of those rare moments when technology fundamentally changes how people work together.
 
-This repository documents my attempt to understand that change. Not from the outside.
+This repository documents my attempt to understand that change.
+
+Not from the outside.
 
 By building. By experimenting. By learning in public.
 
@@ -51,27 +55,33 @@ One specific journey of one group of RPG players of "Das Schwarze Auge" - "Die C
 
 ## What I am exploring
 
-At first glance, this repository is about Agentic Engineering.
-But that is not the real topic.
+At first glance, this repository looks like it's about AI and agents.
 
-The real question is:
+It isn't, not really. Agentic is this decade's disruption — the latest in a line that includes digitalization and globalization before it. The real question I'm after is what it takes to benefit from the agentic disruption, rather than just survive it, and what that demands of a business model, a leadership model, and an operating model that were all built for a different world.
 
-What happens when autonomous agents become part of how humans create value together?
+I don't have answers to that yet, and I'm suspicious of anyone who claims they do this early. This repository documents the implications I'm running into, not solutions I'm prescribing.
 
-I am interested in questions such as:
+Questions I'm currently sitting with:
 
-- How does delegation change when the recipient is not a human?
-- When does an agent evolve from a tool to a team member?
-- What happens to knowledge work?
-- How does leadership evolve?
-- How do adaptive organizations become agent-capable organizations?
-- What remains uniquely human?
+**Business model**
+- What can you build with agents that you couldn't build before?
+- Which parts of a value proposition only ever existed because of human labor cost — and what happens to them once that constraint loosens?
+
+**Leadership model**
+- How does leadership change when part of your "team" is an agent?
+- When does an agent stop being a tool and start being a team mate?
+- What remains uniquely human to lead?
+
+**Operating model**
+- How does delegation change when the recipient isn't human?
+- What happens to knowledge work, and to the structures organizations built around it?
+- How does an adaptive organization become an agent-capable one?
 
 ## Working Hypothesis
 
-The biggest challenge of Agentic Engineering is not technology.
+The biggest challenge of the agentic disruption is not technology.
 
-It is helping people, teams and organizations learn how to collaborate effectively with autonomous actors.
+It is whether your business model, leadership model, and operating model — all built for a different world — can adapt fast enough to benefit from agentic instead of being disrupted by it.
 
 ## Why learn in public?
 
@@ -87,7 +97,7 @@ And because the future of work will be shaped by practitioners who are willing t
 - Rebuild technical fluency
 - Explore AI-assisted software development
 - Document lessons learned
-- Develop a practical perspective on Agentic Organizations
+- Develop a practical perspective on adaptive, agent-capable organizations
 
 ## Research Journal
 
@@ -95,7 +105,7 @@ This repository is not intended to document answers.
 
 It is intended to document questions, experiments and observations.
 
-The goal is to understand how humans, teams and organizations evolve when autonomous agents become part of value creation.
+The goal is to understand what it takes for a business model, a leadership model, and an operating model to become adaptive enough to benefit from the agentic disruption.
 
 ## Status
 
