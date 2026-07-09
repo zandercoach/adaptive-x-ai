@@ -1,6 +1,6 @@
 # Instructions for Claude Code working in this repo
 
-This repo is Christian's second brain for the "Adaptive × Agentic" learning journey (see README.md for the why). It documents the *journey*, not the code — the actual project being modernized along the way lives in separate repos (`coach.zander.cfk`, the public engine, and `coach.zander.cfk.data`, the private content).
+This repo is Christian's second brain for the "Adaptive × AI" learning journey (see README.md for the why). It documents the *journey*, not the code — the actual project being modernized along the way lives in separate repos (`chronicler-engine`, the public engine, and `chronicler-data-cfk`, the private content).
 
 ## Structure
 
