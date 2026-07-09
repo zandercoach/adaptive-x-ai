@@ -118,6 +118,7 @@ The goal is to understand what it takes for a business model, a leadership model
 - [20260624 - Eclipse Renames and Cleanup](research/20260624-eclipse-renames-and-cleanup.md)
 - [20260628 - Rename Complete](research/20260628-rename-complete.md)
 - [20260709 - Broadening to AI](research/20260709-broadening-to-ai.md)
+- [20260709 - Public Snapshot Live](research/20260709-public-snapshot-live.md)
 
 ## Status
 
