@@ -3,21 +3,21 @@ LINKEDIN POST
 
 Adaptive × AI — the learning journey now has a public home
 
-Three weeks ago I started a learning journey: 15 years after hanging up my developer hat to become an Agile Coach and Certified Scrum Trainer (CST) with the @Scrum Alliance, I handed my old Java hobby project to an AI agent to finally understand — by doing — what everyone keeps having opinions about.
+Three weeks ago I started a learning journey: 15 years after hanging up my developer hat to become an Agile Coach and Certified Scrum Trainer (CST) with the @Scrum Alliance, I handed my old Java hobby project to an AI agent to finally understand — learning by doing — what everyone keeps having opinions about.
 
 Since then, the frame has widened on its own. I set out to learn agentic coding. But every session pushed the questions further: if building gets cheap, what happens to product discovery? To teams? To the manager side of an organization? The project outgrew its name twice — it's now called Adaptive × AI: how to adapt your business model, leadership model, and operating model to benefit from the AI disruption, rather than just survive it.
 
-Today, the journey got an address: https://adaptive-x-ai.org
+Today, the journey got an address: adaptive-x-ai.org (see comment)
 
 (It also answers to adaxai.org and adaptivexai.org. I may have over-registered.)
 
-What's there: the intention, the laboratory (a 15-year-old static-site generator for our pen-and-paper RPG chronicles — legacy code, forgotten assumptions, in other words: perfect), the process, and the first six learnings from seven journal entries.
+What's there: the intention, the laboratory (a 15-year-old static-site generator for our pen-and-paper RPG chronicles: legacy code, forgotten assumptions, in other words: perfect), the process, and an aggregation of learnings from the journal entries.
 
-The slightly ironic part: the page about what AI changes about work was itself produced the new way. One afternoon, from "I should publish this" to a live site — copy, design, domains, DNS, certificate, even the Imprint and Privacy Policy updates. My contribution was judgement: what to say, how it should look, what not to publish, when to say "larger headlines, please." The agent did the doing. That division of labor is, I suspect, the whole point — and the site is its own first exhibit.
+The slightly ironic part: the page about what AI changes about work was itself produced the new way. One afternoon, from "I should publish this" to a live site — copy, design, domains, DNS, certificate, even the Imprint and Privacy Policy updates. My contribution was judgement: what to say, how it should look, what not to publish, when to say "larger headlines, please." The agent did the doing. That division of labor is, I suspect, the whole point... and the site is its own first exhibit.
 
 And yes, even the style of the images changed to a more positive flipchart style I usually use in trainings and workshops.
 
-Full disclosure, as always: this is not a "here's how you do it" post. It's a learning report — what I tried, what broke, what I got wrong. The full journal, including the mistakes, is public on GitHub (linked from the site).
+Full disclosure, as always: this is not a "here's how you do it" post. It's a learning report: what I tried, what broke, what I got wrong. The full journal, including the mistakes, is public on GitHub (linked from the site).
 
 Next up: sorting the pile of ideas this journey keeps producing. More to come, warts included.
 
