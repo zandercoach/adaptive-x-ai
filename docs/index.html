@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Adaptive × AI — a public learning journal</title>
+<meta name="description" content="How to adapt your business model, leadership model, and operating model to benefit from the AI disruption. A public learning journal by Christian Zander.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ctext x='8' y='13' font-size='14' text-anchor='middle' fill='%233E7D68' font-family='Georgia,serif'%3E%C3%97%3C/text%3E%3C/svg%3E">
+<style>
+:root {
+  --paper: #F5F6F2;
+  --ink: #212721;
+  --muted: #5A645B;
+  --accent: #3E7D68;
+  --rule: #DDE1D9;
+  --serif: Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+  --mono: ui-monospace, "Cascadia Code", Consolas, "SF Mono", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #161A16;
+    --ink: #D9DED4;
+    --muted: #93A094;
+    --accent: #7FBCA5;
+    --rule: #2B312B;
+  }
+}
+:root[data-theme="light"] {
+  --paper: #F5F6F2;
+  --ink: #212721;
+  --muted: #5A645B;
+  --accent: #3E7D68;
+  --rule: #DDE1D9;
+}
+:root[data-theme="dark"] {
+  --paper: #161A16;
+  --ink: #D9DED4;
+  --muted: #93A094;
+  --accent: #7FBCA5;
+  --rule: #2B312B;
+}
+* { box-sizing: border-box; }
+html { background: var(--paper); }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 1.125rem;
+  line-height: 1.7;
+}
+main {
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 4.5rem 1.5rem 2rem;
+}
+a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+a:hover { text-decoration-thickness: 2px; }
+a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 1px;
+}
+header { margin-bottom: 3.5rem; }
+.eyebrow {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 1.5rem;
+}
+h1 {
+  font-size: clamp(2.75rem, 8vw, 4rem);
+  font-weight: 400;
+  line-height: 1.1;
+  margin: 0 0 1.25rem;
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+}
+h1 .x { color: var(--accent); }
+.lede {
+  font-size: 1.375rem;
+  line-height: 1.55;
+  margin: 0 0 1.25rem;
+  text-wrap: balance;
+}
+.byline {
+  font-family: var(--mono);
+  font-size: 0.8125rem;
+  color: var(--muted);
+  margin: 0;
+}
+section { margin-bottom: 4rem; }
+h2 {
+  font-family: var(--serif);
+  font-size: 1.75rem;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  margin: 0 0 1.1rem;
+  text-wrap: balance;
+}
+p { margin: 0 0 1.1rem; }
+p:last-child { margin-bottom: 0; }
+.hypothesis {
+  font-style: italic;
+  padding-left: 1.4rem;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+ul li {
+  padding-left: 1.4rem;
+  position: relative;
+}
+ul li::before {
+  content: "×";
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+}
+footer {
+  border-top: 1px solid var(--rule);
+  margin-top: 4rem;
+  padding: 1.5rem 0 3rem;
+  font-family: var(--mono);
+  font-size: 0.8125rem;
+  color: var(--muted);
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+footer p { margin: 0; }
+footer a { color: var(--muted); }
+footer a:hover { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+
+<header>
+  <p class="eyebrow">A public learning journal · since June 2026</p>
+  <h1>Adaptive <span class="x">×</span> AI</h1>
+  <p class="lede">How to adapt your business model, leadership model, and operating model to benefit from the AI disruption.</p>
+  <p class="byline">by Christian Zander — agile coach, Certified Scrum Trainer®, relapsed software architect</p>
+</header>
+
+<section>
+  <h2>The intention</h2>
+  <p>Fifteen years ago I stopped building software for a living and started coaching the people who do. The code got quieter. The curiosity never did.</p>
+  <p>Which means I am late to the AI party — at least to the part that goes beyond prompting. Fashionably late, I tell myself.</p>
+  <p>Now AI looks like one of those rare moments when technology changes how people work together — not incrementally, but structurally. This journal documents my attempt to understand that change. Not from the outside: by building, by experimenting, by learning in public.</p>
+  <p class="hypothesis">Working hypothesis: the biggest challenge of the AI disruption is not the technology. It is whether your business model, leadership model, and operating model — all built for a different world — can adapt fast enough to benefit from it instead of being disrupted by it.</p>
+  <p>I don't have answers yet, and I'm suspicious of anyone who claims to have them this early. On good days, that includes me.</p>
+</section>
+
+<section>
+  <h2>The laboratory</h2>
+  <p>Every experiment needs a subject. Mine is a hobby project of honorable age: a Java static-site generator I wrote years ago to chronicle our pen-and-paper RPG campaigns — <em>The Chronicles of the Flying Cauldron</em>. It has legacy code, technical debt, historical decisions, and forgotten assumptions.</p>
+  <p>In other words: it is perfect.</p>
+  <p>The plan is to modernize it with AI agents doing much of the work, while I take notes on who is actually coaching whom.</p>
+  <p>One honest caveat: this laboratory only exercises the product-engineering leg of the journey. AI's impact on product discovery and on the organization itself will need experiments of their own. My one-person business is a likely candidate.</p>
+</section>
+
+<section>
+  <h2>The process</h2>
+  <ul>
+    <li>One entry per working session, in a public repository, following a fixed template: what happened, technical learnings, organizational learnings, a leadership perspective, open questions.</li>
+    <li>A strict division of labor: the AI may draft the facts. The reflection stays handwritten. Some things shouldn't be delegated — the journal's own rules say so, and so far the journal is right.</li>
+    <li>Entries are immutable records of their moment. When the thinking changes, a new entry says so — the old ones stay exactly as wrong as they were.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>First learnings — three weeks, seven entries</h2>
+  <ul>
+    <li><strong>Safety nets before cleverness.</strong> Characterization tests and a published baseline came before any refactoring. The cost was paid once; the payoff arrived the very next session.</li>
+    <li><strong>Verify, don't assume.</strong> Twice in one session, the "obvious" answer about twenty-year-old code was wrong and an empirical check was right. This applies to the agent. It also applies to me.</li>
+    <li><strong>Documentation is suddenly almost free — and it compounds.</strong> Well-kept notes turned a later cleanup from an afternoon of archaeology into minutes. Agents read your docs. Write them.</li>
+    <li><strong>Agents make mistakes the way people do.</strong> And leading one feels oddly familiar: set a goal, give context, draw boundaries, give feedback, stay in the loop. My coaching vocabulary transferred better than my Java did.</li>
+    <li><strong>You learn as fast as you build.</strong> When building gets cheap, evaluating ideas gets cheap, and pivoting gets cheap. This project reframed itself twice in its first month; each pivot cost an afternoon, not a quarter.</li>
+    <li><strong>Speed cuts both ways.</strong> I have heard about the mess that speed produces. So far, the safety nets are holding. Ask me again in a few entries.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Follow along</h2>
+  <p>The full journal — including the mistakes — is public: <a href="https://github.com/zandercoach/adaptive-x-ai">github.com/zandercoach/adaptive-x-ai</a>.</p>
+  <p>I post occasional updates on <a href="https://linkedin.com/in/zandercoach">LinkedIn</a>. My coaching and training practice lives at <a href="https://www.zander.coach">zander.coach</a>.</p>
+</section>
+
+<footer>
+  <p>© 2026 Christian Zander · <a href="https://www.zander.coach/impressum/">Impressum</a> · <a href="https://www.zander.coach/datenschutz/">Datenschutz</a></p>
+  <p>adaptive-x-ai.org — also answers to adaxai.org</p>
+</footer>
+
+</main>
+</body>
+</html>
