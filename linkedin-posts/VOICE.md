@@ -1,6 +1,6 @@
 # Christian's LinkedIn voice guide
 
-How posts must sound so they read as Christian, not as an AI. Built from four genuine
+How posts must sound so they read as Christian, not as an AI. Built from five genuine
 posts Christian wrote himself (quoted in the appendix) plus a style interview on
 2026-07-12. Every draft in this folder gets checked against this file before it is
 shown to Christian.
@@ -38,6 +38,13 @@ German = about leading people, English = the lab notebook.
   tend ~120–250 words; journey reports may run longer (250–350) per the format.
 - **Hashtags:** woven into the sentence (e.g. "meinen eigenen #Rhythmus"), plus
   any *new* terms parked at the bottom. Few, not a wall.
+- **No external links in the post body** (LinkedIn downranks them). Refer to
+  "link in the first comment" / "Link im ersten Kommentar" instead, and every
+  draft file carries a paste-ready `FIRST COMMENT` / `ERSTER KOMMENTAR` block
+  with the URL, to be posted right after publishing. The journey anchor in the
+  body is "my learning journey on adaptive-x-ai" (German: "meine Lernreise
+  adaptive-x-ai") — the domain name without the TLD, so readers see the brand
+  but LinkedIn sees no link.
 - **Emoji:** sparingly is fine. His natural set: 😉 ;-) ✅️ 😄 — roughly one per
   post, usually a self-ironic wink near the end.
 - **German is gender-inclusive** with colon forms: "Nutzer:innen, Stakeholder:innen".
@@ -64,6 +71,20 @@ German = about leading people, English = the lab notebook.
 - **✅️ short takeaways** are his native bullet form in German recaps.
 - English is fluent, warm, slightly formal in idiom ("Last but not least"),
   sentences take their time.
+- **Opens with a skeptic's objection, then refutes it with lived experience:**
+  "Vorschulkinder können doch noch gar nicht schreiben … wie sollen sie da an
+  unserer Wochenplanung mitwirken?" A rhetorical question works when it voices
+  a real doubt the story then answers — not as engagement bait.
+- **Family life is legitimate material.** The kids appear (by age, not name) as
+  living examples of team practices; the bridge from private story to
+  professional relevance is explicit ("Diese Bilder sind Teil meiner
+  Online-Trainings").
+- **Playful interaction is allowed** when it is genuine: a riddle for readers
+  with a promised resolution ("Ratet gerne in den Kommentaren … die Lösung kommt
+  in den nächsten Tagen"), or an announced series ("montags als kleines
+  Rätsel"). The ban is on cheap bait ("Agree?"), not on real play.
+- **Addresses readers as "ihr"** when speaking to the crowd ("Anbei seht ihr…");
+  exclamation marks carry warmth, ";-)!" happens.
 
 ## Workflow
 
@@ -152,3 +173,35 @@ guide).
 > offene, inspirierende und motivierende Art der Facilitation viele Impulse für
 > die Durchführung von kreativen Workshops mit und ohne Lego gegeben hat. Und auch
 > meine Trainings dürften in hohem Maße davon profitieren 😉
+
+### 5. Family story as professional material, German (kids in the weekly planning)
+
+> Vorschulkinder können doch noch gar nicht schreiben und haben kein Verständnis
+> für das Planen von Zeit - wie sollen sie da an unserer #Wochenplanung für die
+> Familie mitwirken?
+>
+> Unsere beiden Kinder haben ziemlich genaue Vorstellungen davon, was sie gerne
+> machen (wollen) und was sie nicht so gerne machen (wollen). Und insbesondere
+> bei den Dingen, die sie gerne machen, sind sie sehr darauf bedacht, dass es
+> auch passiert. Sie begleiten uns schon seit mehreren Jahren bei unserer
+> Wochenplanung, fragen nach und bringen eigene Wünsche ein. Mittlerweile
+> schreibt unsere achtjährige Tochter ihre eigenen Zettel, manchmal intuitiv
+> garniert mit kleinen Zeichnungen - #Visualisierung:en ihrer Wünsche. Und seit
+> ein paar Monaten hat sich auch unser Fünfjähriger davon anstecken lassen. Er
+> nutzt vereinzelt Buchstaben, aber vor allen Dingen die Kraft des (manchmal
+> abstrakten) Bildes! Zudem lern(t)en sie durch die Planung und Strukturierung
+> des Boards mehr über Wochentage, Uhrzeiten und ganz nebenbei etwas über all
+> die notwendigen und wünschenswerten Tätigkeiten, die eine Familie ausmachen!
+>
+> Diese Bilder sind Teil meiner #Online-#Trainings, weil sie ein praktisches
+> Beispiel von #Teamplanung sind und insbesondere in den "Kaffeepausen" spannende
+> und entspannende #Konversation:en auslösen. Ein Aspekt, der bei
+> Online-Workshops oft zu kurz kommt!
+>
+> Anbei seht ihr das ganze Planungsboard und eine beispielhafte Visualisierung
+> (Ratet gerne in den Kommentaren, was es darstellt - die Lösung kommt in den
+> nächsten Tagen ...).
+>
+> Mehr davon teile ich gerne in der nächsten Zeit montags als kleines Rätsel für
+> einen positiven Start in die Woche - auf gängigen und neuen Social Media
+> Plattformen ;-)!

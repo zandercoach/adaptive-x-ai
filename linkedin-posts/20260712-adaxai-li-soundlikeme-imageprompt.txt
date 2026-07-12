@@ -1,0 +1,12 @@
+IMAGE STYLE GUIDE ("Zander Flipchart" — use for every future post)
+====================================================================
+
+Hand-drawn flipchart illustration, as sketched live by a trainer with markers: clean black marker outlines on a plain white background, simple friendly shapes, stick figures with round heads and expressive posture, hand-lettered text. Accents only in classic flipchart marker colors — yellow, orange, green, blue, red — applied as wide, slightly uneven marker strokes. No gradients, no photorealism, no dark shading, plenty of white space. Light, warm, optimistic mood. Square composition.
+
+
+IMAGE PROMPT ("sounding like me — the portrait")
+=================================================
+
+A hand-drawn flipchart illustration, black marker outlines on a plain white background, in the style of a trainer sketching live with flipchart markers: simple friendly shapes, stick figures with round heads, hand-lettered text, accents only in yellow, orange, green, blue, and red marker strokes, no gradients, plenty of white space, light and optimistic mood.
+
+The scene: A small friendly stick-figure robot stands at an easel painting a portrait. On the left, a first canvas leans against the easel showing the robot's self-portrait, crossed out with a big red X. On the easel, a second canvas shows a simple stick-figure portrait of a smiling person, marked with a green checkmark. Next to the easel, the person hands the robot a small stack of handwritten pages, drawn with squiggly text lines, one page with a tiny yellow lightbulb on it. A blue speech bubble above the person contains a simple hand-drawn ear symbol, hinting at listening. A small yellow sun in the top corner. Hand-lettered caption at the bottom in black marker: "sound like me". Square composition, white background, flipchart marker style throughout.

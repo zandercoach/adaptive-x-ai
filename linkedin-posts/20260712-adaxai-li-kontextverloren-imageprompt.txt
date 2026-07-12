@@ -1,0 +1,12 @@
+IMAGE STYLE GUIDE ("Zander Flipchart" — use for every future post)
+====================================================================
+
+Hand-drawn flipchart illustration, as sketched live by a trainer with markers: clean black marker outlines on a plain white background, simple friendly shapes, stick figures with round heads and expressive posture, hand-lettered text. Accents only in classic flipchart marker colors — yellow, orange, green, blue, red — applied as wide, slightly uneven marker strokes. No gradients, no photorealism, no dark shading, plenty of white space. Light, warm, optimistic mood. Square composition.
+
+
+IMAGE PROMPT ("context lost — smaller packages")
+=================================================
+
+A hand-drawn flipchart illustration, black marker outlines on a plain white background, in the style of a trainer sketching live with flipchart markers: simple friendly shapes, stick figures with round heads, hand-lettered text, accents only in yellow, orange, green, blue, and red marker strokes, no gradients, plenty of white space, light and optimistic mood.
+
+The scene, split in two halves by a thin vertical dotted line: On the left, a small friendly stick-figure robot carries one huge, clearly too-heavy parcel that hides half its body; above its head a thought bubble is bursting at the seams, little sketched papers fluttering out and away, one red exclamation mark beside it, the robot looking sheepish. On the right, the same robot and a stick-figure person stand at a table passing along a neat row of four small parcels, each drawn as a simple box with a tiny label and a green checkmark; the person hands the next parcel over with a friendly gesture. A wide orange marker arrow curves from the left half to the right half. A small yellow sun in the top right corner. Hand-lettered caption at the bottom in black marker: "kleine Pakete". Square composition, white background, flipchart marker style throughout.

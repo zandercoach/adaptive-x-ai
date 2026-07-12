@@ -1,0 +1,26 @@
+LINKEDIN POST (Track B — journey report, English)
+==================================================
+
+Adaptive × AI — teaching the AI to sound like me
+
+Next experiment on my learning journey on adaptive-x-ai: LinkedIn posts from the lab. The idea: my AI agent drafts, I check and post. So the agent suggested analyzing my writing style first, to make the drafts sound like me. Good idea, I thought.
+
+It came back with a confident style profile, based on the three most recent posts in this series. Small problem: those posts were mostly written by the agent itself, lightly edited by me. It was reading its own style back to itself and calling it mine.
+
+So we started over, this time with ground truth: five posts I had actually written myself, from workshop recaps to the story of my kids joining our family's weekly planning. Plus an interview, one question at a time: language, tone, endings, taboos. The result is a versioned style guide in the repo that every future draft gets checked against.
+
+My favorite finding: the em-dash. The agent's most-used punctuation mark, and one of the clearest "an AI wrote this" signals. It is now rationed — at most two per post. (That was one.)
+
+The general lesson: an AI fed with its own output converges on itself, not on you. If it should represent you, give it evidence of you — and check that the evidence isn't circular.
+
+Full disclosure, as always: this is not a "here's how you do it" post. It's a learning report: what I tried, what broke, what I got wrong. The full journal, including the mistakes, is public (link in the first comment).
+
+Next up: the first posts drafted from the new repertoire, in German for a change. More to come, warts included.
+
+#AdaptiveOrganisations #AI #AgenticEngineering #LearningInPublic
+
+
+FIRST COMMENT (paste right after publishing)
+=============================================
+
+The journey's public home, with the full journal linked: https://adaptive-x-ai.org
