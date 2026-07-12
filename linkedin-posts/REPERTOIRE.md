@@ -16,7 +16,7 @@ AI story first (mostly), then the people-leadership translation.
 
 | # | Working title | AI story (source) | Leadership translation | Status |
 |---|---|---|---|---|
-| A1 | Kontext verloren | Refactoring hit the token limit; compacting failed because the context window was too small; session gone (Christian's own example) | Cut work into smaller chunks for overloaded employees; an overloaded person can't even hand over properly | drafted (20260712-adaxai-li-kontextverloren) |
+| A1 | Kontext verloren | Refactoring hit the token limit; compacting failed because the context window was too small; session gone (Christian's own example) | Cut work into smaller chunks for overloaded employees; an overloaded person can't even hand over properly | drafted (20260712-li-story-kontextverloren) |
 | A2 | Selbstbewusst ist nicht richtig | Agent reasoned confidently about path resolution and was wrong, twice in one session; the empirical check won (20260617) | The most confident voice in the meeting isn't the most correct one; verify at the source instead of trusting delivery style | idea |
 | A3 | Erst das Netz, dann die Kür | Characterization tests and a published baseline came before any refactoring; paid off the very next session (20260617, 20260628) | Build safety before demanding change from a team; psychological safety and reversibility make people brave | idea |
 | A4 | Wer muss sich bewegen? | Test fails after an intentional API change: first question is not "how do I make it pass?" but "which side should move — test or code?" (20260628) | When reality and a rule/KPI/process collide, ask which side should move instead of gaming the metric | idea |
@@ -40,7 +40,7 @@ Classic "what I did and learned", continuing the published series
 |---|---|---|---|
 | B1 | The big rename | 20260622–20260628 arc: reframe, publish-before-refactor, downstream reference chains, "which side should move", 288-file data commit | idea |
 | B2 | The frame keeps widening | 20260709 broadening: agentic → AI, three lenses, "you learn as fast as you build" (partly told in the snapshot post; angle: how the project keeps renaming itself and why that's cheap) | idea |
-| B3 | Teaching the AI to sound like me | This session: voice interview, five genuine posts as ground truth, the em-dash confession, building the repertoire itself | drafted (20260712-adaxai-li-soundlikeme) |
+| B3 | Teaching the AI to sound like me | This session: voice interview, five genuine posts as ground truth, the em-dash confession, building the repertoire itself | drafted (20260712-li-report-soundlikeme) |
 
 ## Parked / raw material
 

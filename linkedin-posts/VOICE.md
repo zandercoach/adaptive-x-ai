@@ -89,7 +89,8 @@ German = about leading people, English = the lab notebook.
 ## Workflow
 
 Claude drafts, Christian voice-checks and posts himself. The final "post" click is
-always his. File naming: `YYYYMMDD-adaxai-li-<topic>.txt` (+ `-imageprompt.txt`);
+always his. File naming: `YYYYMMDD-li-report-<topic>.txt` for journey reports,
+`YYYYMMDD-li-story-<topic>.txt` for leadership stories (+ `-imageprompt.txt`);
 images in the Zander Flipchart style (see the 20260709 imageprompt for the style
 guide).
 
