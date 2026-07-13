@@ -1,6 +1,6 @@
 # Adaptive × AI
 
-*How to adapt your business model, leadership model, and operating model to benefit from the AI disruption.*
+*A personal learning journey: How to adapt your business model, leadership model, and operating model to benefit from the AI disruption.*
 
 ## Why this repository exists
 
