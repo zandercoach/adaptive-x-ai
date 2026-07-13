@@ -1,7 +1,7 @@
 LINKEDIN POST (Track A — leadership story, German)
 ===================================================
 
-Kontext verloren - oder: warum kleinere Arbeitspakete keine Bürokratie sind
+Kontext verloren - oder: warum kleinere Schritte helfen
 
 Mein KI-Agent hat sich neulich mitten in der Arbeit verabschiedet. Und alles mitgenommen, was nicht dokumentiert war.
 
@@ -9,9 +9,11 @@ Was war passiert? Ich hatte Claude ein größeres Refactoring übergeben. Mitten
 
 Das kam mir seltsam bekannt vor, allerdings aus der Welt der Menschen. Wenn Mitarbeiter:innen so ausgelastet sind, dass selbst für Dokumentation und Übergabe keine Zeit mehr bleibt, geht Wissen genauso verloren: mit der Person, die es trägt. Urlaub, Krankheit, Wechsel - und das Kontextfenster ist leer.
 
-Die Lösung ist in beiden Fällen dieselbe: Arbeit in kleinere Pakete schneiden und Zwischenstände festhalten. Kleine Pakete sind nicht schneller. Aber nach jedem Paket existiert ein Stand, den jemand anderes übernehmen kann - und die Übergabe passiert, bevor die Luft dafür fehlt.
+Die Lösung ist in beiden Fällen dieselbe: Arbeit in kleinere Pakete schneiden und Zwischenstände festhalten. Kleine Pakete sind nicht schneller. Aber nach jedem Paket existiert ein Stand, den jemand anderes übernehmen kann - und die Übergabe passiert, bevor die Luft dafür fehlt. 
 
 Seitdem achte ich beim #Delegieren auf die Größe der Pakete. Claude hat aus der Sache übrigens nichts gelernt. Ich schon 😉
+
+Und über zielorientiertes Führen und Arbeiten sprechen wir bestimmt auch noch...
 
 Die Geschichte stammt aus meiner Lernreise adaptive-x-ai: Was ändert KI an Führung, Zusammenarbeit und Organisation? Das Journal dazu ist öffentlich (Link im ersten Kommentar).
 
