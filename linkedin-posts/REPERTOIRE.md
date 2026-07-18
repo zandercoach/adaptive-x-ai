@@ -6,7 +6,8 @@ against `VOICE.md`, Christian voice-checks and posts. Status: `idea` → `drafte
 
 **Cadence (agreed 2026-07-12):** journey reports (Track B) go out early in the
 week, Monday or Tuesday; leadership stories (Track A) late in the week, Thursday
-or Friday. B3 went out Mon 2026-07-13; next up: A1 (Thu/Fri 2026-07-16/17).
+or Friday. B3 went out Mon 2026-07-13, A1 Thu 2026-07-16; next up: B1
+(Mon/Tue 2026-07-20/21), then A2 (Thu/Fri 2026-07-23/24).
 
 Harvested 2026-07-12 from all journal entries in `research/`.
 
@@ -16,7 +17,7 @@ AI story first (mostly), then the people-leadership translation.
 
 | # | Working title | AI story (source) | Leadership translation | Status |
 |---|---|---|---|---|
-| A1 | Kontext verloren | Refactoring hit the token limit; compacting failed because the context window was too small; session gone (Christian's own example) | Situational leadership: Christian treated the agent as a senior (delegating) when for this task it was a junior needing telling/selling — smaller goals, checkpoints; match style to task maturity, not to confident appearance (reframed 2026-07-14 from "smaller packages") | drafted (20260712-li-story-kontextverloren) |
+| A1 | Kontext verloren | Refactoring hit the token limit; compacting failed because the context window was too small; session gone (Christian's own example) | Situational leadership: Christian treated the agent as a senior (delegating) when for this task it was a junior needing telling/selling — smaller goals, checkpoints; match style to task maturity, not to confident appearance (reframed 2026-07-14 from "smaller packages") | posted (2026-07-16, 20260712-li-story-kontextverloren) |
 | A2 | Selbstbewusst ist nicht richtig | Agent reasoned confidently about path resolution and was wrong, twice in one session; the empirical check won (20260617) | The most confident voice in the meeting isn't the most correct one; verify at the source instead of trusting delivery style | idea |
 | A3 | Erst das Netz, dann die Kür | Characterization tests and a published baseline came before any refactoring; paid off the very next session (20260617, 20260628) | Build safety before demanding change from a team; psychological safety and reversibility make people brave | idea |
 | A4 | Wer muss sich bewegen? | Test fails after an intentional API change: first question is not "how do I make it pass?" but "which side should move — test or code?" (20260628) | When reality and a rule/KPI/process collide, ask which side should move instead of gaming the metric | idea |

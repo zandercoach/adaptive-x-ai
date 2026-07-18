@@ -5,7 +5,7 @@ Kontext verloren - oder: wie ich meinen KI-Agenten für einen Senior hielt
 
 Mein KI-Agent hat sich neulich mitten in der Arbeit verabschiedet. Und alles mitgenommen, was nicht dokumentiert war.
 
-Was war passiert? Ich hatte Claude ein größeres Refactoring übergeben - so, wie ich es bei einem erfahrenen Kollegen tun würde: Ziel erklärt, Rahmen abgesteckt, machen lassen. Delegieren eben. Mittendrin stieß der Agent ans Token-Limit. Für diesen Fall gibt es eigentlich einen Rettungsanker, das "Compacting": Der Agent verdichtet den bisherigen Verlauf zu einer Übergabe und arbeitet damit weiter. Diesmal ging das nicht - das Kontextfenster war zu klein. Session beendet, Zwischenstand verloren.
+Was war passiert? Ich hatte Claude ein größeres Refactoring übergeben - so, wie ich es bei einem erfahrenen Kollegen tun würde: Ziel erklärt, Rahmen abgesteckt, machen lassen. Delegieren eben. Mittendrin stieß der Agent ans Token-Limit. Für diesen Fall gibt es eigentlich einen Rettungsanker, das "Compacting": Der Agent verdichtet den bisherigen Verlauf zu einer Übergabe und kann damit später weiterarbeiten. Diesmal ging das nicht - das Kontextfenster war zu klein. Session beendet, Zwischenstand verloren.
 
 Mein Fehler lag nicht in der Aufgabe, sondern in meiner Einschätzung. Der Agent wirkt wie ein Senior: eloquent, selbstsicher, schnell. Für dieses Refactoring war er ein Junior - mit hartem Limit und ohne Gespür dafür, wann ihm die Luft ausgeht. Und einem Junior übergibt man keine großen Ziele am langen Zügel, sondern kleinere Ziele mit Checkpoints. Enger führen statt Delegieren.
 
