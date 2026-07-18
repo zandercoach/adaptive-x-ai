@@ -1,0 +1,12 @@
+IMAGE STYLE GUIDE ("Zander Flipchart" — use for every future post)
+====================================================================
+
+Hand-drawn flipchart illustration, as sketched live by a trainer with markers: clean black marker outlines on a plain white background, simple friendly shapes, stick figures with round heads and expressive posture, hand-lettered text. Accents only in classic flipchart marker colors — yellow, orange, green, blue, red — applied as wide, slightly uneven marker strokes. No gradients, no photorealism, no dark shading, plenty of white space. Light, warm, optimistic mood. Square composition.
+
+
+IMAGE PROMPT ("the big rename — trace the full chain")
+=======================================================
+
+A hand-drawn flipchart illustration, black marker outlines on a plain white background, in the style of a trainer sketching live with flipchart markers: simple friendly shapes, stick figures with round heads, hand-lettered text, accents only in yellow, orange, green, blue, and red marker strokes, no gradients, plenty of white space, light and optimistic mood.
+
+The scene: a stick-figure person stands on a small ladder repainting a large hanging wooden sign; on the sign the hand-lettered word "Held" is crossed out with a red marker stroke and "Member" is freshly written below it in green. Next to the ladder a small friendly stick-figure robot holds a long checklist scroll that unrolls all the way to the floor, filled with green checkmarks. From the sign, a thin string of small paper tags runs across the picture like bunting, each tag bearing a tiny simple symbol: a folder, a gear, a cloud, a book, a little brain. One single tag at the end of the string dangles loose and unchecked, marked with a small orange exclamation mark. A small yellow sun in the top right corner. Hand-lettered caption at the bottom in black marker: "the big rename". Square composition, white background, flipchart marker style throughout.

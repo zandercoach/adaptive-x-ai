@@ -1,0 +1,28 @@
+LINKEDIN POST (Track B — journey report, English)
+==================================================
+
+Adaptive × AI — the big rename
+
+Catching up on the lab part of my learning journey on adaptive-x-ai: at the end of June, my old RPG chronicle generator got a new identity. What I actually got was a lesson in what "just rename it" means.
+
+The generator was built for exactly one campaign, German domain terms everywhere: Held, Kreatur, Abenteuer. To become a reusable engine, all of it had to turn English: seven domain terms, the Java package, the XML element names, four entity files, around 250 image directories. The final commit in the data repo alone touched 288 files.
+
+First attempt: delegate the refactoring to my AI agent. That ended mid-work at the token limit, with the session lost. So I fired up good old Eclipse and did the refactoring myself, step by step, model class after model class, chasing the hardcoded references along the way, for example in the Velocity templates. The agent took the work around it: directory renames, the GitHub repos, the cross-checks. When I claimed the XML translation was complete, it checked git status instead of taking my word - and found leftovers.
+
+Two things I learned on the way:
+
+Publish before refactor: both repos went to GitHub exactly as they were, before we touched anything. A risky in-place rewrite became a reversible operation with a remote safety net.
+
+Necessary is not sufficient: I missed some of the hardcoded references anyway. The generator happily produced all the correct files - with missing links and images inside. The characterization tests we had built earlier caught the structure, not the content. I double-checked manually, and the safety net gets an upgrade: content-level tests that check what is inside the pages. (Not done yet. It's on the list.)
+
+Full disclosure, as always: this is a learning report, not a how-to — what I tried, what broke, what I got wrong. The full journal is public (link in the first comment).
+
+Next up: an agent that reminds me when a post like this one is due. More to come, warts included.
+
+#AdaptiveOrganisations #AI #AgenticEngineering #LearningInPublic
+
+
+FIRST COMMENT (paste right after publishing)
+=============================================
+
+The journey's public home, with the full journal linked: https://adaptive-x-ai.org
