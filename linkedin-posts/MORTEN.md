@@ -94,3 +94,5 @@ Every Friday morning, run the full queue-check workflow below.
   for the agent and granting it access to the zandercoach workspace. Email
   and Slack both tested successfully. Plan: switch escalation back to a
   phone call if/when that capability gets unlocked.
+- 2026-07-18: End-to-end queue-check test successful, Friday-08:00 trigger
+  confirmed. Morten is operational; first scheduled run Fri 2026-07-25.

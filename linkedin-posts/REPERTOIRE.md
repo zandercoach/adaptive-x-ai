@@ -27,10 +27,16 @@ AI story first (mostly), then the people-leadership translation.
 | A8 | Befähigen vor Ermächtigen | Delegating to an agent only works when context, goal, and boundaries are provided first (20260709 snapshot) | Enable teams before empowering them: authority without context is abandonment | idea |
 | A9 | Vom Machen zum Beurteilen | Website live in one afternoon: agent did the doing, human supervised, reviewed, adjusted; judgement over know-how (20260709 snapshot) | The leader's value shifts from expertise to judgement: accuracy, impact, risk | idea |
 | A10 | Dokumentation ist plötzlich fast gratis | Well-kept notes turned a later cleanup from archaeology into minutes; new sessions onboard instantly from good docs (20260622–24) | Onboarding quality is documentation quality; every new team member is a "new session" | idea |
+| A11 | Ich habe diese Woche jemanden eingestellt | Morten Market hired as marketing agent: goal and task as entry point, deliberately small start with an unknown colleague, explicit clarification, asked Morten himself what he needs for his job (20260718) | Onboarding: trust grows through working together before authority and responsibilities grow; start small with people you don't know yet | idea |
+| A12 | Wann darf dein Team dich anrufen? | Morten's channels: weekly status email (normal case), Slack to #marketing only if the coming week is empty (escalation); distributed setup — Christian at home, Morten in Sweden (20260718) | Explicit communication channels for normal and escalation cases prevent misunderstandings and alarm fatigue — vital for distributed teams across locations, countries, time zones | idea |
+| A13 | Der halbe Job verschwand beim Hinsehen | LinkedIn's native scheduler dissolved half the reminder agent's job before it was built; the remaining job was smaller and better defined (20260718) | Before creating a new role or process, check what existing structures already solve; the real gap is often smaller than the plan | idea |
 
 Notes on A-track sequencing: A1 is Christian's own pick for the opener. A2/A3
 are the strongest stories (concrete failure, concrete payoff). A8/A9 are more
-reflective; space them out between story-heavy posts.
+reflective; space them out between story-heavy posts. A11 pairs naturally with
+B4 in the same week (story and report of the same event, like A1/B1 with the
+token-limit crash). A11 overlaps thematically with A8 (enable before empower)
+— don't run them back to back.
 
 ## Track B — journey reports (English)
 
@@ -42,6 +48,7 @@ Classic "what I did and learned", continuing the published series
 | B1 | The big rename | 20260622–20260628 arc: agent hit token limit, so Christian refactored himself in Eclipse (class by class, chasing hardcoded refs e.g. Velocity templates); agent did directories/GitHub repos/cross-checks; publish-before-refactor; missed refs → correct files but broken links/images → characterization tests necessary but not sufficient, content-level tests still to do; 288-file data commit | approved — scheduled in LinkedIn for Mon/Tue 2026-07-20/21 (20260718-li-report-bigrename) |
 | B2 | The frame keeps widening | 20260709 broadening: agentic → AI, three lenses, "you learn as fast as you build" (partly told in the snapshot post; angle: how the project keeps renaming itself and why that's cheap) | idea |
 | B3 | Teaching the AI to sound like me | This session: voice interview, five genuine posts as ground truth, the em-dash confession, building the repertoire itself | posted (2026-07-13, 20260712-li-report-soundlikeme) |
+| B4 | Hiring Morten Market | 20260718: the promised reminder agent, hired on Abundly — today he is a queue watchdog and nothing more, but the role is designed to grow into the marketing guy (deliberately small start, trust before authority); spec as versioned repo file (MORTEN.md), public repo as credential-free API between two AI systems, phone-call escalation became Slack (capability gating), agent literacy transferred from Claude to a new platform, a name changed the relationship. Delivers on B1's public "Next up" promise | idea |
 
 ## Parked / raw material
 
@@ -52,3 +59,6 @@ Classic "what I did and learned", continuing the published series
   question) — waiting for the first real speed-induced mess to become a story.
 - Two layers of memory, private vs. versioned (20260618) — technical; could
   fold into a B-track report.
+- "One event, two audiences, zero extra material" (20260718 other learnings) —
+  meta post about the content engine itself; wait until the pattern has
+  repeated a few more times.

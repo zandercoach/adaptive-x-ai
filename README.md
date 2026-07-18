@@ -120,6 +120,7 @@ The goal is to understand what it takes for a business model, a leadership model
 - [20260709 - Broadening to AI](research/20260709-broadening-to-ai.md)
 - [20260709 - Public Snapshot Live](research/20260709-public-snapshot-live.md)
 - [20260712 - Voice and Repertoire](research/20260712-voice-and-repertoire.md)
+- [20260718 - Drafts, Schedules, and Morten Market](research/20260718-drafts-and-morten-market.md)
 
 ## Status
 
