@@ -30,13 +30,20 @@ AI story first (mostly), then the people-leadership translation.
 | A11 | Ich habe diese Woche jemanden eingestellt | Morten Market hired as marketing agent: goal and task as entry point, deliberately small start with an unknown colleague, explicit clarification, asked Morten himself what he needs for his job (20260718) | Onboarding: trust grows through working together before authority and responsibilities grow; start small with people you don't know yet | idea |
 | A12 | Wann darf dein Team dich anrufen? | Morten's channels: weekly status email (normal case), Slack to #marketing only if the coming week is empty (escalation); distributed setup — Christian at home, Morten in Sweden (20260718) | Explicit communication channels for normal and escalation cases prevent misunderstandings and alarm fatigue — vital for distributed teams across locations, countries, time zones | idea |
 | A13 | Der halbe Job verschwand beim Hinsehen | LinkedIn's native scheduler dissolved half the reminder agent's job before it was built; the remaining job was smaller and better defined (20260718) | Before creating a new role or process, check what existing structures already solve; the real gap is often smaller than the plan | idea |
+| A14 | Er wusste es - und tat es trotzdem | Morten concluded himself that the LinkedIn API route was closed — and still fell into a loop of API calls in the very next attempt, until an explicit boundary ("no API calls, CSV only") stopped him (20260719) | Insight is not behavior change: people also know better and still fall back into old patterns; explicit agreements and boundaries work where appeals to insight don't | idea |
+| A15 | Die Mauer war nicht technisch | Everything for automated LinkedIn statistics existed — data, agent, channels — except permission: no analytics API for personal profiles; kept a five-minute-per-month manual export as a designed process instead (20260719) | Blockers in organizations are often institutional, not technical; weigh cost and benefit honestly — sometimes a small human ritual is the better design than fragile automation | idea |
+| A16 | „CEO-friendly" statt Formatvorgaben | The stats report went from tables-tables-tables to genuinely good charts in three attempts; the effective specification was the audience descriptor "CEO-friendly", not detailed format requirements — plus feedback per iteration (20260719) | Name the audience and the goal, not the method; let people (and agents) iterate against feedback instead of prescribing the path | idea |
 
 Notes on A-track sequencing: A1 is Christian's own pick for the opener. A2/A3
 are the strongest stories (concrete failure, concrete payoff). A8/A9 are more
 reflective; space them out between story-heavy posts. A11 pairs naturally with
 B4 in the same week (story and report of the same event, like A1/B1 with the
 token-limit crash). A11 overlaps thematically with A8 (enable before empower)
-— don't run them back to back.
+— don't run them back to back. A14 pairs with B5 in the same week (story and
+report of the same event — third instance of that pattern after A1/B1 and
+A11/B4). A16 delivers on A1's published teaser ("über zielorientiertes Führen
+und Arbeiten sprechen wir bestimmt auch noch"). A15 and A13 share the
+"check reality before building" family — space them out.
 
 ## Track B — journey reports (English)
 
@@ -49,6 +56,7 @@ Classic "what I did and learned", continuing the published series
 | B2 | The frame keeps widening | 20260709 broadening: agentic → AI, three lenses, "you learn as fast as you build" (partly told in the snapshot post; angle: how the project keeps renaming itself and why that's cheap) | idea |
 | B3 | Teaching the AI to sound like me | This session: voice interview, five genuine posts as ground truth, the em-dash confession, building the repertoire itself | posted (2026-07-13, 20260712-li-report-soundlikeme) |
 | B4 | Hiring Morten Market | 20260718: the promised reminder agent, hired on Abundly — today he is a queue watchdog and nothing more, but the role is designed to grow into the marketing guy (deliberately small start, trust before authority); spec as versioned repo file (MORTEN.md), public repo as credential-free API between two AI systems, phone-call escalation became Slack (capability gating), agent literacy transferred from Claude to a new platform, a name changed the relationship. Delivers on B1's public "Next up" promise | idea |
+| B5 | Morten's first real job | 20260719: one day after go-live, Morten built PDF statistics reports ad hoc — three rendering attempts (chart.js needs a browser; hand-drawn pie charts came out bulgy; an own JavaScript renderer finally looked right); one API-call loop stopped only by an explicit "CSV only" boundary; the API wall (no analytics API for personal LinkedIn profiles, DMA portability API doubtful, scraping ruled out); decision: manual export as a designed process with monthly reminder — the human as defined interface; spec drift: the Abundly config ran ahead of MORTEN.md for the first time; two agreeing Claudes are correlated answers, not confirmation | idea |
 
 ## Parked / raw material
 
@@ -61,4 +69,8 @@ Classic "what I did and learned", continuing the published series
   fold into a B-track report.
 - "One event, two audiences, zero extra material" (20260718 other learnings) —
   meta post about the content engine itself; wait until the pattern has
-  repeated a few more times.
+  repeated a few more times. (Now seen three times: A1/B1, A11/B4, A14/B5 —
+  getting close.)
+- "Two agreeing Claudes are comfort, not confirmation" (20260719 other
+  learnings) — correlated second opinions; could carry an A-track post about
+  consensus vs. confirmation in teams once a human story pairs with it.

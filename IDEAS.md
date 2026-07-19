@@ -29,6 +29,9 @@ Tags: `[eng]` engineering / Chronicler lab · `[showcase]` product & visibility 
 6. **Requirements funnel + requirements agent** `[org]`
    One idea in two layers: the *role* — an agent as go-to person for new requirements that asks for clarification, creates backlog entries, and orders them (a bit like what Christian and Claude do interactively now) — and the *plumbing* — input via email, better a chat client or Slack (Claude in Slack exists), landing in a tool (maybe Notion, maybe this repo). *First operating-model experiment outside the codebase.*
 
+16. **Morten Market as a real agent with shared context** `[org]`
+   Today Morten is a read-only watchdog on the public repertoire — but he is meant to do marketing, and for that he needs to actively co-shape instead of just watching: contribute ideas, propose queue changes, share context with the Claude Code sessions instead of only reading their output via public raw URLs (a one-way street). What "shared context" between two agents on different platforms should look like is the open design question. *(From the 2026-07-19 session — see the journal's open questions.)*
+
 ## Later — organization & showcase
 
 7. **A chronicler agent as ongoing author** `[showcase]` — an agent creating a small but maybe ongoing chronicle of a demo group of heroes and its adventures, published through the engine. Forces the hard agent problems: memory, continuity, quality drift over time. *Depends on: #2.*
@@ -51,6 +54,7 @@ Tags: `[eng]` engineering / Chronicler lab · `[showcase]` product & visibility 
 
 14. **Training module: "Leading agents, leading people — same discipline?"** `[lead]` — the journey becomes product for CSM/leadership trainings. *Wait until enough learnings have accumulated.*
 15. **Community talk/session** `[lead]` — Scrum Gathering, Agile Trainers Retreat, SFAO.
+17. **Try Substack as a storytelling medium (with newsletter functionality)** `[lead]` `[showcase]` — long-form reports and stories on Substack, teased on LinkedIn. Motivation: LinkedIn feels like a closed shop flooded with generated content, and avoiding vendor lock-in makes sense. A concrete approach still needs to be worked out before starting. *(From the 2026-07-19 session.)*
 
 ## Ongoing principles (not backlog items)
 
