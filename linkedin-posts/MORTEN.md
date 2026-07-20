@@ -133,5 +133,6 @@ try to fetch LinkedIn data yourself.
   API exists for personal LinkedIn profiles; scraping ruled out (ToS, account
   risk). Decision: keep the manual export as a designed process — monthly
   reminder in the Friday email, Christian exports and sends the CSV, Morten
-  reports. Instruction block updated accordingly — **needs mirroring to
-  Abundly**.
+  reports. Instruction block updated accordingly.
+- 2026-07-20: Instruction block (monthly export reminder, "CSV only, no API
+  calls" boundary) mirrored to Abundly. Spec and live config back in sync.
