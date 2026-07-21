@@ -266,3 +266,8 @@ try to fetch LinkedIn data yourself.
   regeneration would have reintroduced the error. Same drift class as
   2026-07-19, opposite direction. Countermeasure: the "Reworks" section above,
   and the imageprompt was fixed in the repo before the merge.
+- 2026-07-21 (end of day): instruction block mirrored to Abundly — the image
+  workflow, the on-demand section, the branch-reuse rule, the "Reworks"
+  section and the new hard boundary "work only from what is in the
+  repository". Spec and live config in sync again, this time in the intended
+  direction: the repo changed first, Abundly followed.
