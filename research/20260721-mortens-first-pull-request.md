@@ -143,9 +143,12 @@
 
 - Morten has no identity of his own in the repository. His token is mine, so
   his commits and pull requests are authored by "zandercoach" and cannot be
-  told apart from mine. A gap worth investigating — a GitHub App with its own
-  bot identity, or at least a committer identity on his commits. (→ backlog,
-  IDEAS.md #19)
+  told apart from mine. The narrow fix would be a bot identity of his own; the
+  bigger question is whether the whole setup should look like a team in the
+  first place — a GitHub organization holding the repos, with humans and
+  agents as distinct members, in teams, with roles and permissions. If we are
+  learning to work with agents as team members, the tooling should model them
+  as team members. (→ backlog, IDEAS.md #19)
 - Should requests and escalations live in separate channels? Since today,
   #marketing carries both — I ask Morten for work there, and he escalates an
   empty queue there. That is exactly the concern of the A12 story: an
