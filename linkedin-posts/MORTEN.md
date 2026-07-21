@@ -215,3 +215,12 @@ try to fetch LinkedIn data yourself.
   the escalation keeps its signal value (the concern of the A12 story). Setup
   Christian has to do outside this file: GitHub app/token scoped to this repo,
   branch protection on `main`, inbound Slack permissions for the agent.
+- 2026-07-21: Access setup started. Fine-grained PAT created, scoped to this
+  repo (Contents + Pull requests, read & write), handed to Morten and validated
+  by him. Branch protection enabled on `main`: pull request required before
+  merging, force pushes and deletions blocked, **not** enforced for admins —
+  so Christian keeps committing directly from his Claude Code sessions while
+  Morten's non-admin token is refused. The boundary "never writes to `main`"
+  is now a control, not only an instruction. Still open: inbound Slack
+  permissions, enabling the image tool in Abundly, mirroring the grown
+  instruction block.
