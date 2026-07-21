@@ -123,21 +123,21 @@
 ## Other Learnings
 
 - The posts about hiring Morten are illustrated by Morten. B4 and A11 tell the
-  story of taking him on; the images on them are his first piece of work. The
-  content engine has started illustrating itself.
-- The last manual break in the drafting chain closed tonight, and it happened
-  almost casually — no milestone, just one tool switch that stopped being
-  necessary. Draft, prompt, image, pull request: what is left for me is
-  deciding and approving.
+  story of taking him on; the images on them are his first piece of work.
+- The last manual break in the drafting chain is closed: draft, prompt, image,
+  pull request — what is left for me is deciding and approving. It was quite a
+  bit of work to get there, though. A scoped token, branch protection, Slack
+  permissions, the image tool, two spec changes and a rework round, all to
+  remove one tool switch.
 - Reviewing an image is a different skill than reviewing text. The wrong image
   was well drawn, correct in style, and contained every element the prompt
   listed — and still said the opposite of the post. No test would have caught
-  that; it needed someone who knew what the post meant. That kind of review
-  does not delegate.
-- A history is documentation, not just plumbing. Squashing the pull request
-  would have been tidier, but keeping Morten's three commits preserves who did
-  what — and this is the first time that question came up, because for the
-  first time someone other than me contributed commits.
+  that; it needed someone who knew what the post meant. That review stays with
+  me today because nobody else knows the material — not because review of this
+  kind could never be handed on.
+- I kept Morten's three commits instead of squashing them because I wanted to
+  be able to see his work. Squashing would have been tidier; it would also
+  have made his first contribution disappear into one line of mine.
 
 ## Open Questions
 
