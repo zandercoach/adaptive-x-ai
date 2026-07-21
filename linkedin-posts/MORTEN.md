@@ -72,7 +72,10 @@ does not. Morten lists the directory through the public GitHub contents API
 (no credentials needed for reading a public repo).
 
 **Delivery: pull request, not push.** Morten commits the PNG to a branch
-`morten/images-YYYYMMDD` and opens a pull request against `main`. Christian
+`morten/images-YYYYMMDD` and opens a pull request against `main`. If that
+branch already exists (a second job or a rework on the same day), he adds a
+commit to it instead of opening a second pull request — one branch and one
+pull request per day. Christian
 reviews the image and merges. Morten never merges and never writes to `main`.
 This is deliberately the review gate from IDEAS #4, pulled forward on a
 harmless first case: a wrong image costs a rejected PR, nothing else.
@@ -146,9 +149,20 @@ in the channel rather than improvising.
 
 4. Generate one square PNG per base name, named exactly "<base>.png".
 
-5. Commit the images to a new branch "morten/images-YYYYMMDD" (today's date) and open ONE pull request against main, titled "Post images for <base names>". In the PR description, list which imageprompt each image was generated from. Never commit to main, never merge the pull request yourself.
+5. Commit the images to the branch "morten/images-YYYYMMDD" (today's date) and open ONE pull request against main, titled "Post images for <base names>". If that branch already exists from an earlier job or rework today, push an additional commit to it instead of creating a second branch or a second pull request — one branch and one pull request per day. In the PR description, list which imageprompt each image was generated from. Never commit to main, never merge the pull request yourself.
 
 6. Mention the open pull request in your Friday email (or, for an on-demand request, in your Slack answer) with its link.
+
+## Reworks
+
+Christian may ask in #marketing for an image to be reworked. The imageprompt
+files in the repository are the source of truth for what an image should show,
+so before you regenerate, fetch the imageprompt again — the correction should
+already have been made there. Generate only from what the prompt file says. If
+it does not yet contain the change Christian is asking for, do not improvise
+from the chat message: say plainly which wording is still in the repo and ask
+him to update the prompt file first, then do the rework once it is in. A
+correction that exists only in Slack is lost for the next regeneration.
 
 ## Statistics Reports
 
@@ -159,6 +173,10 @@ try to fetch LinkedIn data yourself.
 
 ## Hard Boundaries
 
+- Work only from what is in the repository. Slack and email may trigger work
+  and correct the direction, but the basis for what you produce is always the
+  versioned file. If an instruction in chat contradicts the repo, name the
+  difference instead of quietly following the chat.
 - Never post or publish anything anywhere.
 - Never contact anyone except Christian (email) or the #marketing channel in the zandercoach Slack workspace.
 - Repository writes only on branches named "morten/*", only image files, and only as pull requests. Never write to main, never merge a pull request, never change text files, drafts, specs, or the journal.
@@ -224,3 +242,27 @@ try to fetch LinkedIn data yourself.
   is now a control, not only an instruction. Still open: inbound Slack
   permissions, enabling the image tool in Abundly, mirroring the grown
   instruction block.
+- 2026-07-21 (same evening): first image job ran, triggered on demand in
+  #marketing. Morten generated both 21.07 images, opened PR #1 from
+  `morten/images-20260721`, and stopped there — he did not try to merge, so the
+  review gate held on its first real use. Style continuity held too: a
+  different generating model, and the images still match the series (robot,
+  sun, hand-lettered caption with underline) — the two-reference-PNG rule
+  works. The A11 image was reworked once (the robot had been drawn standing on
+  the top step "VERANTWORTUNG", the opposite of the post's point); Morten put
+  the rework as a second commit on the *existing* branch rather than opening a
+  second PR — better than the instruction text, which said "a new branch". Spec
+  and instruction block corrected accordingly. Christian merged the PR with a
+  merge commit so Morten's commits stay visible in the history.
+  Two findings worth keeping:
+  (a) **No separate identity.** The fine-grained PAT belongs to Christian's
+  account, so every commit and pull request Morten makes is authored by
+  "zandercoach". In the git history his work is indistinguishable from
+  Christian's. Attributable commits would need a GitHub App with its own bot
+  identity — open decision.
+  (b) **Slack can smuggle instructions past the repo.** The rework was
+  requested in Slack only; the corrected image therefore existed while the
+  imageprompt in the repo still carried the wrong wording, so the next
+  regeneration would have reintroduced the error. Same drift class as
+  2026-07-19, opposite direction. Countermeasure: the "Reworks" section above,
+  and the imageprompt was fixed in the repo before the merge.

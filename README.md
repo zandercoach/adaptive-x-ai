@@ -122,6 +122,7 @@ The goal is to understand what it takes for a business model, a leadership model
 - [20260712 - Voice and Repertoire](research/20260712-voice-and-repertoire.md)
 - [20260718 - Drafts, Schedules, and Morten Market](research/20260718-drafts-and-morten-market.md)
 - [20260719 - Statistics Reports and the API Wall](research/20260719-statistics-and-the-api-wall.md)
+- [20260721 - Morten's First Pull Request](research/20260721-mortens-first-pull-request.md)
 
 ## Status
 
