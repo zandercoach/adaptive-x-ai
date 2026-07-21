@@ -1,0 +1,28 @@
+LINKEDIN POST (Track B — journey report, English)
+==================================================
+
+Adaptive × AI — hiring Morten Market
+
+Last time I promised an agent that reminds me when a post is due. He exists now. He has a name, a job title, and a considerably smaller job than I had planned.
+
+The shrinking came first. Before building anything, I put two posts into LinkedIn's own scheduler and watched half of the agent's job disappear. "Don't forget to post today" was already solved. What remained is the part no platform covers: noticing that the queue upstream is running dry while I am busy with client work and my drafting rhythm quietly stalls.
+
+So the job description got small and precise. Every Friday at 08:00 he reads the public post queue in my repo, mails me a two-line verdict on whether the coming week is covered, and escalates to a Slack channel only if nothing is scheduled at all. The agent is read-only. He never posts anywhere. He was supposed to call me on the phone for escalations, but that capability would have needed support from the platform provider, @Abundly, so @Slack it is for now. And that is how I learned to build a Slack app along the way.
+
+Two things surprised me on the way.
+
+He needs no credentials for my GitHub repo. It is public, so the queue, the voice guide, and even his own spec are just raw URLs. One agent (Claude Code, in my sessions) writes the state, the other one reads it. A markdown file in a public repo turned out to be a perfectly good API between two AI systems.
+
+And the name did something. The agent is hosted on Abundly, @Henrik Kniberg's agent platform, and I called him Morten Market, after the singer of a-ha. From that moment on the work stopped feeling like configuring a cron job. I was writing a job description, defining reporting lines, deciding what he may and may not do. Better design decisions came out of that framing, and it was considerably more fun. (a-ha are Norwegian. Morten now lives in Sweden 😉)
+
+Full disclosure, as always: this is a learning report, not a how-to — what I tried, what shrank, what I got wrong. The full journal is public (link in the first comment).
+
+Next up: what happened when the new colleague got his first real job, one day after starting. More to come, warts included.
+
+#AdaptiveOrganisations #AI #AgenticEngineering #LearningInPublic #aha
+
+
+FIRST COMMENT (paste right after publishing)
+=============================================
+
+The journey's public home, with the full journal linked: https://adaptive-x-ai.org

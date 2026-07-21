@@ -18,6 +18,9 @@ Tags: `[eng]` engineering / Chronicler lab · `[showcase]` product & visibility 
 3. **Public demo-content repo for the Chronicler** `[showcase]`
    Copyright-free demo RPG content (e.g., `chronicler-data-demo`) to show-case the engine fast, and to serve as a richer test fixture. *Why now: small effort, unlocks three later ideas (demo site, author agent, content tests against public data) and retires the "private for copyright reasons" limitation.*
 
+18. **Let Morten generate the post images** `[org]` `[lead]`
+   Today the image step is the only manual break in the drafting chain: Claude Code writes the draft and the imageprompt into the repo, then Christian switches to ChatGPT to generate the flipchart PNG. Claude Code has no image generation; Abundly probably does. Everything Morten would need is already public and versioned — the imageprompt file sits right next to the draft, with the Zander Flipchart style guide at the top. **Decided 2026-07-21, spec written in MORTEN.md:** delivery as a pull request from a `morten/*` branch (not by email, not by pushing to `main`), triggered by the Friday run plus on-demand requests in Slack. Consequences: Morten gets credentials for the first time, `#marketing` becomes a two-way working channel, and a piece of #4 gets pulled forward. Remaining: the setup in GitHub, Slack, and Abundly — plus the open question whether requests and escalations belong in separate channels. *Why now: small, concrete, removes a real friction Christian feels every week — and it's the first step from watchdog toward the co-shaping role of #16.*
+
 ## Next — delegation
 
 4. **Pull-request infrastructure for agent coding** `[eng]` `[org]`

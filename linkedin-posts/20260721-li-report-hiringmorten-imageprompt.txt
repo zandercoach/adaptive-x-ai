@@ -1,0 +1,12 @@
+IMAGE STYLE GUIDE ("Zander Flipchart" — use for every future post)
+====================================================================
+
+Hand-drawn flipchart illustration, as sketched live by a trainer with markers: clean black marker outlines on a plain white background, simple friendly shapes, stick figures with round heads and expressive posture, hand-lettered text. Accents only in classic flipchart marker colors — yellow, orange, green, blue, red — applied as wide, slightly uneven marker strokes. No gradients, no photorealism, no dark shading, plenty of white space. Light, warm, optimistic mood. Square composition.
+
+
+IMAGE PROMPT ("hiring Morten Market — the small first job")
+============================================================
+
+A hand-drawn flipchart illustration, black marker outlines on a plain white background, in the style of a trainer sketching live with flipchart markers: simple friendly shapes, stick figures with round heads, hand-lettered text, accents only in yellow, orange, green, blue, and red marker strokes, no gradients, plenty of white space, light and optimistic mood.
+
+The scene: a stick-figure person shakes hands with a small friendly robot; the robot wears a rectangular name badge with the hand-lettered words "MORTEN MARKET" and a tiny blue musical note next to the name. The robot holds one single small card in its other hand, marked with a green checkmark, while a tall stack of further cards stays on a small table on the human's side, held back by an orange marker line drawn like a boundary. Behind them a simple wall calendar shows one column circled in red and hand-lettered "FRI 08:00". A small envelope with two short lines of writing floats from the robot toward the human, drawn with a thin blue arrow. A small yellow sun in the top right corner. Hand-lettered caption at the bottom in black marker: "start small". Square composition, white background, flipchart marker style throughout.
