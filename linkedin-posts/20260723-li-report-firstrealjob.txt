@@ -1,0 +1,24 @@
+LINKEDIN POST (Track B — journey report, English)
+==================================================
+
+Adaptive × AI — Morten's first real job
+
+More from the lab notebook of my learning journey on adaptive-x-ai. One day after my marketing agent Morten went live as a simple queue watchdog, I handed him his first real task: turn my LinkedIn analytics into a proper statistics report, delivered as a PDF.
+
+Getting there took three attempts, and I let him take all three. His first version leaned on a charting library that needs a browser to render; in the PDF it looked neither good nor right. For the second he drew the charts himself, and the pie slices came out bulgy and lopsided 😉 For the third he wrote his own little rendering program, and that one finally looked the part. Three genuinely different approaches, each triggered by nothing more than my feedback on the last. An agent iterates like a developer, if you let it iterate instead of prescribing the path. And what helped him most was an audience rather than a spec: telling him to make it "CEO-friendly" did more than any list of font sizes and chart types would have.
+
+One moment went sideways. We had already established, his own conclusion included, that the data route we wanted was closed. On the very next attempt he looped on it anyway, firing the same futile calls again and again, until I stopped him with a flat instruction to drop it and work only from the data he already had. He knew better, and did it anyway. An agent's stated insight does not quietly constrain what it does next. That boundary is now written into his brief, so it no longer depends on him remembering what he already knew.
+
+Which brings me to the wall itself. There is no analytics API for a personal LinkedIn profile. The real ones cover company pages, behind a partner review; the single legal path to my own numbers exists only because EU regulation forced it into being, and even that is doubtful for post performance; scraping would risk the very account my visibility depends on. So I stopped treating the manual export as a stopgap and designed it as the process. I export the numbers by hand once a month, Morten reminds me in his Friday mail, and he builds the report. Two minutes of my time beats weeks of fragile plumbing. A human in the loop can be the interface by design.
+
+Full disclosure, as always: this is a learning report, not a how-to. What I tried, what looked wrong, where the wall actually stood. The full journal is public (link in the first comment).
+
+Next up: the day Morten started opening his own pull requests, and I learned that a wrong image is really a wrong prompt. More to come, warts included.
+
+#AdaptiveOrganisations #AI #AgenticEngineering #LearningInPublic
+
+
+FIRST COMMENT (paste right after publishing)
+=============================================
+
+The journey's public home, with the full journal linked: https://adaptive-x-ai.org
