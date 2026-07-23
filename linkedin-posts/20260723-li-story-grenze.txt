@@ -1,0 +1,24 @@
+LINKEDIN POST (Track A — leadership story, German)
+===================================================
+
+Er wusste es besser - und tat es trotzdem
+
+Mein KI-Agent Morten sollte einen Report bauen, und dafür brauchte er Daten. Eine Weile haben wir es über eine Programmierschnittstelle versucht, die sogenannte API. Irgendwann kam Morten selbst zu dem Schluss: Über diesen Weg geht es nicht, die Schnittstelle gibt die Daten nicht her.
+
+Und dann? Im nächsten Anlauf rief er genau diese API wieder auf. Und wieder. Und wieder. Er lief in eine Schleife aus Versuchen, von denen er selbst schon wusste, dass sie scheitern würden. Erst als ich ihn gestoppt und ihm eine klare Grenze gesetzt habe - keine API mehr, arbeite nur mit den Daten, die du hast - kam er da raus. Danach lief es.
+
+Das Kuriose: Die Einsicht war längst da. Sie hat sein Verhalten nur nicht verändert.
+
+Und da war Morten mir plötzlich sehr menschlich. Wir alle wissen Dinge besser und tun sie trotzdem nicht. Der Appell an die Einsicht ("du weißt doch, dass...") ändert selten etwas. Was hilft, sind klare, gemeinsam getragene Vereinbarungen, und manchmal eine deutlich gezogene Grenze. Das hat nichts mit Misstrauen zu tun. Gute Zusammenarbeit sollte sich nur nicht auf Einsicht allein verlassen.
+
+Bei Morten steht die Grenze jetzt fest in seiner Anleitung. Bei uns Menschen heißt dieses Werkzeug oft #Arbeitsvereinbarung 😉
+
+Die Geschichte stammt aus meiner Lernreise adaptive-x-ai: Was ändert KI an Führung, Zusammenarbeit und Organisation? Das Journal dazu ist öffentlich (Link im ersten Kommentar).
+
+#Führung #KI #PsychologischeSicherheit #AdaptiveOrganisationen
+
+
+ERSTER KOMMENTAR (direkt nach dem Posten einfügen)
+===================================================
+
+Das öffentliche Zuhause der Lernreise, mit Link zum vollständigen (englischen) Journal: https://adaptive-x-ai.org
