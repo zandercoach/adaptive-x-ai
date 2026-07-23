@@ -3,13 +3,13 @@ LINKEDIN POST (Track A — leadership story, German)
 
 Er wusste es besser - und tat es trotzdem
 
-Mein KI-Agent Morten sollte einen Report bauen, und dafür brauchte er Daten. Eine Weile haben wir es über eine Programmierschnittstelle versucht, die sogenannte API. Irgendwann kam Morten selbst zu dem Schluss: Über diesen Weg geht es nicht, die Schnittstelle gibt die Daten nicht her.
+Mein KI-Agent Morten sollte einen Report erstellen, und dafür brauchte er Daten. Eine Weile haben wir es über eine Programmierschnittstelle (API) versucht. Irgendwann kam Morten selbst zu dem Schluss: Über diesen Weg geht es nicht, die Schnittstelle gibt die Daten nicht her.
 
 Und dann? Im nächsten Anlauf rief er genau diese API wieder auf. Und wieder. Und wieder. Er lief in eine Schleife aus Versuchen, von denen er selbst schon wusste, dass sie scheitern würden. Erst als ich ihn gestoppt und ihm eine klare Grenze gesetzt habe - keine API mehr, arbeite nur mit den Daten, die du hast - kam er da raus. Danach lief es.
 
 Das Kuriose: Die Einsicht war längst da. Sie hat sein Verhalten nur nicht verändert.
 
-Und da war Morten mir plötzlich sehr menschlich. Wir alle wissen Dinge besser und tun sie trotzdem nicht. Der Appell an die Einsicht ("du weißt doch, dass...") ändert selten etwas. Was hilft, sind klare, gemeinsam getragene Vereinbarungen, und manchmal eine deutlich gezogene Grenze. Das hat nichts mit Misstrauen zu tun. Gute Zusammenarbeit sollte sich nur nicht auf Einsicht allein verlassen.
+Und da war Morten mir plötzlich sehr menschlich. Wir alle wissen Dinge besser und tun sie trotzdem nicht. Der Appell an die Einsicht ("du weißt doch, dass...") ändert selten etwas. Was hilft, sind klare, gemeinsam getragene Vereinbarungen, und manchmal eine deutlich gezogene Grenze. Das hat nichts mit Misstrauen zu tun. Gute Zusammenarbeit darf sich nicht auf Einsicht allein verlassen.
 
 Bei Morten steht die Grenze jetzt fest in seiner Anleitung. Bei uns Menschen heißt dieses Werkzeug oft #Arbeitsvereinbarung 😉
 
