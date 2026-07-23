@@ -59,7 +59,7 @@ writes the draft and the `*-imageprompt.txt` into the repo, Christian switched
 to another tool to generate the PNG. Morten takes that over.
 
 **File convention** — everything derives from the draft's base name, e.g.
-`20260721-li-report-hiringmorten`:
+`20260727-li-report-hiringmorten`:
 
 | File | Written by |
 |---|---|
