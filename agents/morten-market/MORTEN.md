@@ -324,3 +324,9 @@ try to fetch LinkedIn data yourself.
   "agents propose, Christian decides" is readable in the repo, not only in
   the settings. The dead token on Christian's account was revoked the same
   day — Morten holds the only repo credential, and it is his own.
+- 2026-07-23 (later): LinkedIn post files renamed so the date prefix is the
+  intended posting date rather than the drafting date (handy for scheduling).
+  Updated the base-name *example* in the "Post images" section to match. **No
+  Abundly mirror needed:** the "Instructions (paste into Abundly)" block uses
+  `<base>` placeholders and carries no literal post filenames, so file renames
+  never touch the live config.
