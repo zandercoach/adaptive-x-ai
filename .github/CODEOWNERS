@@ -1,0 +1,4 @@
+# Review gate: every pull request needs a review from the human.
+# Agents propose (branches + PRs), Christian decides and merges — see
+# agents/morten-market/MORTEN.md ("Identity & access") and IDEAS.md #4/#19.
+* @christian-ulrich-zander

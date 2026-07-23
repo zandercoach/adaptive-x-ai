@@ -21,7 +21,7 @@ watchdog has proven itself.
 |---|---|
 | **Trigger** | Scheduled: every Friday 08:00 Europe/Berlin. Plus on demand: a message to Morten in #marketing on zandercoach.slack.com |
 | **Knowledge** | Public repo, read without credentials: [REPERTOIRE.md](https://raw.githubusercontent.com/zandercoach/adaptive-x-ai/main/linkedin-posts/REPERTOIRE.md) (the queue), [VOICE.md](https://raw.githubusercontent.com/zandercoach/adaptive-x-ai/main/linkedin-posts/VOICE.md) (context), the `*-imageprompt.txt` files and the existing post PNGs (style reference) |
-| **Tools** | Web fetch (read the repo files), email (send), Slack (dedicated Slack app in the zandercoach workspace; reads and posts in #marketing), image generation, GitHub write on a branch (dedicated app/token, scoped to this repo) |
+| **Tools** | Web fetch (read the repo files), email (send), Slack (dedicated Slack app in the zandercoach workspace; reads and posts in #marketing), image generation, GitHub write on a branch (fine-grained token owned by his own account `morten-market-agent`, scoped to this repo — see "Identity & access") |
 | **Outputs** | Weekly status email to christian@zander.coach; Slack message to #marketing when the coming week is empty (switch to a phone call once that capability is unlocked) and as the answer to on-demand requests; PDF statistics reports when Christian supplies a CSV export; pull requests carrying generated post images (see below) |
 | **Human collaboration** | Morten reports, suggests, and proposes changes as pull requests; Christian decides, drafts (with Claude Code), reviews and merges, schedules, and updates REPERTOIRE.md. Morten writes only to his own branches, never to `main` |
 | **Risks / boundaries** | Never posts anywhere; contacts only Christian by email and the #marketing channel in his own Slack workspace; repo write access limited to `morten/*` branches and opening pull requests, never merging, never writing to `main`; scheduled run once per week plus on-demand requests |
@@ -89,7 +89,35 @@ model changes.
 credential-free through public raw URLs; writing needs a GitHub app or token
 scoped to this repo. That trade was made consciously on 2026-07-21 — the
 alternative (mailing the PNG to Christian, who commits it) would have kept the
-boundary but only saved the tool switch, not the manual step.
+boundary but only saved the tool switch, not the manual step. (Since
+2026-07-23 the token belongs to Morten's own GitHub account, not Christian's —
+see "Identity & access" below.)
+
+## Identity & access (added 2026-07-23)
+
+Morten has his own GitHub identity: the account `morten-market-agent`, a
+member of the `zandercoach` **organization** (which owns this repo since the
+2026-07-23 restructuring) and of its `marketing` **team** — together with
+Christian. Teams are named after the work, not the species: one marketing
+team whose members happen to be one human and one agent. The role difference
+is expressed where it belongs — repo permissions and the review gate — not by
+team membership. (This directory, `agents/`, is no contradiction: it groups
+by *artifact type* — versioned agent definitions, which only exist for
+agents — while the GitHub team groups by *collaboration*.)
+
+- **Write access** flows through the `marketing` team (Write on this repo);
+  the earlier individual collaborator grant was removed.
+- **Token:** fine-grained PAT `morten-market-agent-abundly`, owned by
+  Morten's own account, resource owner `zandercoach`, scoped to this single
+  repo, permissions Contents + Pull requests (read & write). Org policy:
+  fine-grained PATs require admin approval, classic PATs are restricted — so
+  every new agent credential is an explicit onboarding event Christian signs
+  off.
+- **Attribution:** commits and pull requests are now authored by
+  `morten-market-agent` — his work is distinguishable from Christian's in the
+  git history. This resolves the 2026-07-21 finding "no separate identity"
+  without a GitHub App (which remains the heavier alternative if bot-badged
+  attribution or finer-grained automation is ever needed).
 
 ## Instructions (paste into Abundly)
 
@@ -271,3 +299,28 @@ try to fetch LinkedIn data yourself.
   section and the new hard boundary "work only from what is in the
   repository". Spec and live config in sync again, this time in the intended
   direction: the repo changed first, Abundly followed.
+- 2026-07-23: Morten becomes a team member with his own identity (the first
+  slice of IDEAS #19). Christian renamed his personal account to
+  `christian-ulrich-zander` and created the organization `zandercoach`, which
+  now owns `adaptive-x-ai` and `chronicler-engine`
+  (`chronicler-data-cfk` stays personal). Transfer hiccup: GitHub refused the
+  name "adaptive-x-ai" as "retired"; a support ticket reactivated it. GitHub
+  Pages and adaptive-x-ai.org survived the move — all `zandercoach/...` URLs
+  in the instruction block still resolve, so nothing there changed.
+  `morten-market-agent` is now an org member and sits in the `marketing`
+  team together with Christian; Write on this repo flows through the team,
+  the individual collaborator grant was removed. Org policy set: fine-grained
+  PATs allowed with admin approval, classic PATs restricted. The old token
+  (owned by Christian's account) lost the repo with the transfer; the new
+  fine-grained token `morten-market-agent-abundly` is owned by Morten's own
+  account, went through the approval queue, and passed a functional check.
+  From now on his commits and pull requests are authored by
+  `morten-market-agent` — the 2026-07-21 finding "no separate identity" is
+  resolved without a GitHub App. The spec moved from `linkedin-posts/` to
+  `agents/morten-market/`: the directory says what kind of document this is
+  (a versioned agent definition), not which pipeline it serves. The review
+  gate got its visible form: `.github/CODEOWNERS` (everything → Christian)
+  plus branch protection now requiring one code-owner review — the rule
+  "agents propose, Christian decides" is readable in the repo, not only in
+  the settings. The dead token on Christian's account was revoked the same
+  day — Morten holds the only repo credential, and it is his own.

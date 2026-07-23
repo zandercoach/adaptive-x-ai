@@ -55,6 +55,16 @@ One specific journey of one group of RPG players of "Das Schwarze Auge" - "Die C
 
 One honest caveat: this laboratory exercises the *product engineering* leg of the journey. AI's impact on product discovery and on the organization itself will need their own experiments — my own one-person business is a likely candidate for those.
 
+## Who works here
+
+This started as a one-person journey. It isn't one anymore — though I am still the only human.
+
+- **Christian Zander** ([`christian-ulrich-zander`](https://github.com/christian-ulrich-zander)) — human. I decide, review, and merge.
+- **Morten Market** ([`morten-market-agent`](https://github.com/morten-market-agent)) — marketing agent, hosted on Abundly. Watches the LinkedIn posting queue, builds statistics reports, generates the post images and delivers them as pull requests. His role description lives in [agents/morten-market/MORTEN.md](agents/morten-market/MORTEN.md).
+- **Claude Code** — my pairing agent for engineering, drafting, and this journal. Works inside my sessions and through my identity — the honest asterisk in this list.
+
+The repositories belong to the GitHub organization [`zandercoach`](https://github.com/zandercoach). Humans and agents are members with their own accounts, roles, and permissions. Teams are named after the work — `marketing` is Morten and me — not after the species.
+
 ## What I am exploring
 
 At first glance, this repository looks like it's about AI and agents.
@@ -123,6 +133,7 @@ The goal is to understand what it takes for a business model, a leadership model
 - [20260718 - Drafts, Schedules, and Morten Market](research/20260718-drafts-and-morten-market.md)
 - [20260719 - Statistics Reports and the API Wall](research/20260719-statistics-and-the-api-wall.md)
 - [20260721 - Morten's First Pull Request](research/20260721-mortens-first-pull-request.md)
+- [20260723 - Morten Becomes a Team Member](research/20260723-morten-becomes-a-team-member.md)
 
 ## Status
 
