@@ -6,11 +6,13 @@ against `VOICE.md`, Christian voice-checks and posts. Status: `idea` → `drafte
 
 **Cadence (agreed 2026-07-12):** journey reports (Track B) go out early in the
 week, Monday or Tuesday; leadership stories (Track A) late in the week, Thursday
-or Friday. Out so far: B3 Mon 2026-07-13, A1 Thu 2026-07-16, B1 Mon 2026-07-20;
-next up: A2 (Thu/Fri 2026-07-23/24), then B4 (Mon/Tue 2026-07-27/28) and A11
-(Thu/Fri 2026-07-30/31).
+or Friday. Out so far: B3 Mon 2026-07-13, A1 Thu 2026-07-16, B1 Mon 2026-07-20,
+A2 Thu 2026-07-23; next up: B4 (Mon/Tue 2026-07-27/28) and A11 (Thu/Fri
+2026-07-30/31).
 
-Harvested 2026-07-12 from all journal entries in `research/`.
+Harvested 2026-07-12 from all journal entries in `research/`; extended
+2026-07-19 (A14–A16, B5) and 2026-07-23 with the 20260721 and 20260723 sessions
+(A17–A19, B6–B7).
 
 ## Track A — leadership stories (German, du-form)
 
@@ -19,7 +21,7 @@ AI story first (mostly), then the people-leadership translation.
 | # | Working title | AI story (source) | Leadership translation | Status |
 |---|---|---|---|---|
 | A1 | Kontext verloren | Refactoring hit the token limit; compacting failed because the context window was too small; session gone (Christian's own example) | Situational leadership: Christian treated the agent as a senior (delegating) when for this task it was a junior needing telling/selling — smaller goals, checkpoints; match style to task maturity, not to confident appearance (reframed 2026-07-14 from "smaller packages") | posted (2026-07-16, 20260712-li-story-kontextverloren) |
-| A2 | Selbstbewusst ist nicht richtig | Agent reasoned confidently about path resolution and was wrong, twice in one session; the empirical check won (20260617) | The most confident voice in the meeting isn't the most correct one; verify at the source instead of trusting delivery style | approved — scheduled in LinkedIn for Thu/Fri 2026-07-23/24 (20260718-li-story-selbstbewusst) |
+| A2 | Selbstbewusst ist nicht richtig | Agent reasoned confidently about path resolution and was wrong, twice in one session; the empirical check won (20260617) | The most confident voice in the meeting isn't the most correct one; verify at the source instead of trusting delivery style | posted (2026-07-23, 20260718-li-story-selbstbewusst) — repo file reflects the published wording |
 | A3 | Erst das Netz, dann die Kür | Characterization tests and a published baseline came before any refactoring; paid off the very next session (20260617, 20260628) | Build safety before demanding change from a team; psychological safety and reversibility make people brave | idea |
 | A4 | Wer muss sich bewegen? | Test fails after an intentional API change: first question is not "how do I make it pass?" but "which side should move — test or code?" (20260628) | When reality and a rule/KPI/process collide, ask which side should move instead of gaming the metric | idea |
 | A5 | Der Preis eines neuen Namens | A "simple" directory rename touched .gitignore, hardcoded paths, IDE metadata, remote URLs, docs, AI memory, repo name (20260624) | Renaming a team or restructuring touches far more than the org chart; trace the full chain of references before declaring it done | idea |
@@ -34,6 +36,9 @@ AI story first (mostly), then the people-leadership translation.
 | A14 | Er wusste es - und tat es trotzdem | Morten concluded himself that the LinkedIn API route was closed — and still fell into a loop of API calls in the very next attempt, until an explicit boundary ("no API calls, CSV only") stopped him (20260719) | Insight is not behavior change: people also know better and still fall back into old patterns; explicit agreements and boundaries work where appeals to insight don't | idea |
 | A15 | Die Mauer war nicht technisch | Everything for automated LinkedIn statistics existed — data, agent, channels — except permission: no analytics API for personal profiles; kept a five-minute-per-month manual export as a designed process instead (20260719) | Blockers in organizations are often institutional, not technical; weigh cost and benefit honestly — sometimes a small human ritual is the better design than fragile automation | idea |
 | A16 | „CEO-friendly" statt Formatvorgaben | The stats report went from tables-tables-tables to genuinely good charts in three attempts; the effective specification was the audience descriptor "CEO-friendly", not detailed format requirements — plus feedback per iteration (20260719) | Name the audience and the goal, not the method; let people (and agents) iterate against feedback instead of prescribing the path | idea |
+| A17 | Der Brief war falsch, nicht der Mitarbeiter | Morten's second image was drawn correctly in every detail and in the right style, yet said the opposite of the post (robot on the top step "VERANTWORTUNG"); the real defect was an ambiguous imageprompt ("leads from the robot upward"), so the prompt was reworded in the repo, not just the image redone (20260721) | When a result is wrong, question the brief before the worker — assume positive intent; an ambiguous instruction, not bad work, is often the cause, and fixing the person leaves the cause in place | idea |
+| A18 | Er war besser als seine Anweisung | Told to open "a new branch" for the rework, Morten added a second commit to the existing branch instead — a second same-named branch is impossible and a second pull request would have been noise; the spec was corrected upward to match his better judgement (20260721) | When someone does better than the process prescribes, raise the process to meet them instead of enforcing the letter; good deviation is a signal that the rule is too narrow | idea |
+| A19 | Ich wollte im Team sein, nicht darüber | The first team proposal was `agents` — bots only; I renamed it `marketing`, after the work, with Morten and me as its two members, because a team of only bots is a pen, not a team; write access flows through the team (20260723) | The leader who holds responsibility belongs in the team, not above it — equal footing means everyone contributes to the team's goal in good conscience, not to please management | idea |
 
 Notes on A-track sequencing: A1 is Christian's own pick for the opener. A2/A3
 are the strongest stories (concrete failure, concrete payoff). A8/A9 are more
@@ -44,7 +49,10 @@ token-limit crash). A11 overlaps thematically with A8 (enable before empower)
 report of the same event — third instance of that pattern after A1/B1 and
 A11/B4). A16 delivers on A1's published teaser ("über zielorientiertes Führen
 und Arbeiten sprechen wir bestimmt auch noch"). A15 and A13 share the
-"check reality before building" family — space them out.
+"check reality before building" family — space them out. A17 and A18 both come
+from the 21.07 pull-request session and pair with B6; don't run them back to
+back. A19 pairs with B7 (part-of-the-team story and the team-restructure report,
+same 23.07 event) — the fifth instance of the tell-it-twice pattern.
 
 ## Track B — journey reports (English)
 
@@ -58,6 +66,8 @@ Classic "what I did and learned", continuing the published series
 | B3 | Teaching the AI to sound like me | This session: voice interview, five genuine posts as ground truth, the em-dash confession, building the repertoire itself | posted (2026-07-13, 20260712-li-report-soundlikeme) |
 | B4 | Hiring Morten Market | 20260718: the promised reminder agent, hired on Abundly — today he is a queue watchdog and nothing more, but the role is designed to grow into the marketing guy (deliberately small start, trust before authority); spec as versioned repo file (MORTEN.md), public repo as credential-free API between two AI systems, phone-call escalation became Slack (capability gating), agent literacy transferred from Claude to a new platform, a name changed the relationship. Delivers on B1's public "Next up" promise | drafted, image ready (20260721-li-report-hiringmorten) — ready to schedule for Mon/Tue 2026-07-27/28 |
 | B5 | Morten's first real job | 20260719: one day after go-live, Morten built PDF statistics reports ad hoc — three rendering attempts (chart.js needs a browser; hand-drawn pie charts came out bulgy; an own JavaScript renderer finally looked right); one API-call loop stopped only by an explicit "CSV only" boundary; the API wall (no analytics API for personal LinkedIn profiles, DMA portability API doubtful, scraping ruled out); decision: manual export as a designed process with monthly reminder — the human as defined interface; spec drift: the Abundly config ran ahead of MORTEN.md for the first time; two agreeing Claudes are correlated answers, not confirmation | idea |
+| B6 | Morten's first pull request | 20260721: image generation handed to Morten as his second role — he found the two base names needing a PNG, generated both, pushed branch `morten/images-YYYYMMDD`, opened PR #1 and stopped (did not merge); the review gate held on first use but was never tested against resistance; style survived a change of generating model (visual examples beat style text); a wrong image is a wrong prompt — fixed the ambiguous imageprompt in the repo, not just the artifact; he was better than his instructions (reused the branch for the rework → spec corrected upward); fine-grained token as a sharp instrument (Contents + Pull requests = enough to open a PR, not to merge a protected `main`); merge commit over squash to keep his three commits visible; still no identity of his own → IDEAS #19 | idea |
+| B7 | Morten becomes a team member | 20260723: `zandercoach` renamed to an org, `chronicler-engine` and this repo transferred in (the "retired repository" wall cleared by GitHub support); a repo transfer silently kills fine-grained tokens — bound to the resource owner, Morten's would have failed unexplained on Friday; onboarded as an org member with his own identity, commits now authored by `morten-market-agent`; team named `marketing` not `agents` (Christian a member, not above it — "a team of only bots is a pen"); permissions made to say what the org chart says (read for all, write via the team, merge via a code-owner review); CODEOWNERS + branch protection make the review gate readable in the repo; for once nothing to mirror to Abundly | idea |
 
 ## Parked / raw material
 
@@ -70,8 +80,8 @@ Classic "what I did and learned", continuing the published series
   fold into a B-track report.
 - "One event, two audiences, zero extra material" (20260718 other learnings) —
   meta post about the content engine itself; wait until the pattern has
-  repeated a few more times. (Now seen three times: A1/B1, A11/B4, A14/B5 —
-  getting close.)
+  repeated a few more times. (Now seen five times: A1/B1, A11/B4, A14/B5,
+  A17–A18/B6, A19/B7 — the pattern has repeated, this one is ready to write.)
 - "Two agreeing Claudes are comfort, not confirmation" (20260719 other
   learnings) — correlated second opinions; could carry an A-track post about
   consensus vs. confirmation in teams once a human story pairs with it.
