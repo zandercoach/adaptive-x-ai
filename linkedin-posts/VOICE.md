@@ -90,9 +90,10 @@ German = about leading people, English = the lab notebook.
 
 Claude drafts, Christian voice-checks and posts himself. The final "post" click is
 always his. File naming: `YYYYMMDD-li-report-<topic>.txt` for journey reports,
-`YYYYMMDD-li-story-<topic>.txt` for leadership stories (+ `-imageprompt.txt`);
-images in the Zander Flipchart style (see the 20260709 imageprompt for the style
-guide).
+`YYYYMMDD-li-story-<topic>.txt` for leadership stories (+ `-imageprompt.txt`), where
+**`YYYYMMDD` is the intended posting date** (the Mon/Tue or Thu/Fri slot), not the
+drafting date, and `<topic>` carries no hyphens; images in the Zander Flipchart
+style (see the 20260709 imageprompt for the style guide).
 
 ## Appendix — genuine voice samples (written by Christian himself)
 
