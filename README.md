@@ -134,6 +134,7 @@ The goal is to understand what it takes for a business model, a leadership model
 - [20260719 - Statistics Reports and the API Wall](research/20260719-statistics-and-the-api-wall.md)
 - [20260721 - Morten's First Pull Request](research/20260721-mortens-first-pull-request.md)
 - [20260723 - Morten Becomes a Team Member](research/20260723-morten-becomes-a-team-member.md)
+- [20260728 - The Company Brain and the Team](research/20260728-company-brain-and-the-team.md)
 
 ## Status
 
