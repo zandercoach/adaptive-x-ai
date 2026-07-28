@@ -1,6 +1,6 @@
 # Christian Zander — the human
 
-The one human on the team, and its owner: [`christian-ulrich-zander`](https://github.com/christian-ulrich-zander), owner of the `zandercoach` org in GitHub. Partner in Change & Growth, Leadership Coach, and Certified Scrum Trainer® (CST®), with about 20 years on the people side of building software. On this team he decides, reviews, and merges; he drafts (with [Claude](claude.md)) and voice-checks and posts; he onboards each agent and signs off its access. The review gate — `CODEOWNERS`, branch protection — routes to him by design: agents propose, Christian decides.
+The one human on the team, and its owner: [`christian-ulrich-zander`](https://github.com/christian-ulrich-zander), owner of the `zandercoach` org in GitHub. Partner in Change & Growth, Business Coach, and Certified Scrum Trainer® (CST®), with about 20 years on the people side of building software. On this team he decides, reviews, and merges; he drafts (with [Claude](claude.md)) and voice-checks and posts; he onboards each agent and signs off its access. The review gate — `CODEOWNERS`, branch protection — routes to him by design: agents propose, Christian decides.
 
 ## His role, in his words
 
