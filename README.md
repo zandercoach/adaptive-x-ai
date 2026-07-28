@@ -57,11 +57,11 @@ One honest caveat: this laboratory exercises the *product engineering* leg of th
 
 ## Who works here
 
-This started as a one-person journey. It isn't one anymore — though I am still the only human.
+This started as a one-person journey. It isn't one anymore — though I am still the only human. Full descriptions live in [`team/`](team/).
 
-- **Christian Zander** ([`christian-ulrich-zander`](https://github.com/christian-ulrich-zander)) — human. I decide, review, and merge.
-- **Morten Market** ([`morten-market-agent`](https://github.com/morten-market-agent)) — marketing agent, hosted on Abundly. Watches the LinkedIn posting queue, builds statistics reports, generates the post images and delivers them as pull requests. His role description lives in [agents/morten-market/MORTEN.md](agents/morten-market/MORTEN.md).
-- **Claude Code** — my pairing agent for engineering, drafting, and this journal. Works inside my sessions and through my identity — the honest asterisk in this list.
+- **[Christian Zander](team/christian-zander.md)** ([`christian-ulrich-zander`](https://github.com/christian-ulrich-zander)) — human. I decide, review, and merge; I bring the ideas and the questions.
+- **[Morten Market](team/morten-market.md)** ([`morten-market-agent`](https://github.com/morten-market-agent)) — marketing agent, hosted on Abundly. Watches the LinkedIn posting queue, builds statistics reports, and generates the post images as pull requests.
+- **[Claude Code](team/claude.md)** — my pairing agent for engineering, drafting, and this journal. Works through my identity, with no standing identity of its own — the honest asterisk in this list.
 
 The repositories belong to the GitHub organization [`zandercoach`](https://github.com/zandercoach). Humans and agents are members with their own accounts, roles, and permissions. Teams are named after the work — `marketing` is Morten and me — not after the species.
 
