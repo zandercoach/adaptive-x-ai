@@ -1,6 +1,6 @@
 # Instructions for Claude Code working in this repo
 
-This repo is Christian's second brain for the "Adaptive × AI" learning journey (see README.md for the why). It documents the *journey*, not the code — the actual project being modernized along the way lives in separate repos (`chronicler-engine`, the public engine, and `chronicler-data-cfk`, the private content).
+This repo is **our company brain** for the "Adaptive × AI" learning journey (see README.md for the why): the shared, versioned source of truth that everyone on the team — human and agent — reads from and can rely on. It is the *long-term, reviewed* layer of that brain — durable facts, decisions, conventions and the journal — not a place for working state. Each member keeps their own private working memory outside the repo (Claude's session memory, Morten's Abundly context); only what is reviewed and shared belongs here. It documents the *journey*, not the code — the actual project being modernized along the way lives in separate repos (`chronicler-engine`, the public engine, and `chronicler-data-cfk`, the private content).
 
 ## Structure
 
@@ -18,6 +18,8 @@ This repo is Christian's second brain for the "Adaptive × AI" learning journey 
 Sections 1 and 2 (`What I did`, `Technical Learnings`) can be drafted directly from session history — they're factual and observable.
 
 Sections 3-6 (`Organizational Learnings`, `Leadership Perspective`, `Other Learnings`, `Open Questions`) are Christian's personal reflection. **Never invent or paraphrase these from inference alone.** Ask him directly, one question at a time, waiting for his answer before asking the next. Write his answers close to his own words — light cleanup for readability is fine, rewriting his voice is not.
+
+When you write his answer into a reflection section, make it a **self-contained statement, not a reply.** Drop the conversational opener ("Both, actually", "Yes, because…") and put back the thing it refers to, so the bullet stands on its own when the entry is read later without the interview around it. Everything after the opener stays close to his words. E.g. "Both at once" becomes "Giving write access was both at once — giving trust and installing a safeguard — and the safeguard is what made the trust cheap."
 
 ## Working in this repo
 
