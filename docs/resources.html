@@ -103,8 +103,49 @@ h2 {
   margin: 0 0 1.1rem;
   text-wrap: balance;
 }
+h3 {
+  font-family: var(--serif);
+  font-size: 1.375rem;
+  font-weight: 600;
+  line-height: 1.3;
+  margin: 0 0 1.25rem;
+  text-wrap: balance;
+}
+h4 {
+  font-family: var(--serif);
+  font-size: 1.0625rem;
+  font-weight: 600;
+  margin: 2rem 0 0.75rem;
+}
 p { margin: 0 0 1.1rem; }
 p:last-child { margin-bottom: 0; }
+dl.facts {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 0.5rem 1.5rem;
+  margin: 0 0 1.75rem;
+  padding: 0 0 1.5rem;
+  border-bottom: 1px solid var(--rule);
+  font-size: 1rem;
+}
+dl.facts dt {
+  font-family: var(--mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--muted);
+  padding-top: 0.45em;
+  line-height: 1.5;
+}
+dl.facts dd { margin: 0; }
+@media (max-width: 36rem) {
+  dl.facts {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  dl.facts dt { padding-top: 1rem; }
+  dl.facts dt:first-child { padding-top: 0; }
+}
 code {
   font-family: var(--mono);
   font-size: 0.85em;
@@ -172,14 +213,53 @@ footer a:hover { color: var(--accent); }
 
 <section>
   <h2>The log</h2>
-  <p class="empty">Nothing here yet. The page exists before its content does — on purpose, so that the next thing I read has somewhere to go.</p>
+
+  <h3>“AI for Leaders” (Level 1) — Agile Academy</h3>
+
+  <dl class="facts">
+    <dt>Facilitator</dt>
+    <dd>Sohrab Salimi, Founder &amp; CEO of Agile Academy — a fellow trainer and a mentor of mine.</dd>
+    <dt>Format</dt>
+    <dd>Training. Normally two days, in person or remote; for the ambassador cohort it ran as four afternoons.</dd>
+    <dt>Consumed</dt>
+    <dd>21–22 and 28–29 July 2026.</dd>
+    <dt>Context</dt>
+    <dd>Attended as one of the Agile Academy’s ambassadors.</dd>
+    <dt>Themes</dt>
+    <dd>Leadership model · Business model · Operating model.</dd>
+    <dt>Material</dt>
+    <dd>The deck is licensed CC BY-NC-ND 4.0 — free to share, but not for public republication. Not reproduced here; characterized only.</dd>
+  </dl>
+
+  <h4>What it argues</h4>
+  <p>The premise is that AI is infrastructure, not software: the ground the business runs on, touching People, Process and Product at once — which makes it a leadership question rather than an IT purchase, and explains why so few AI initiatives return anything. Its central move is the <em>Player Coach</em>: as the cost of delivering work collapses and the value-creating unit shrinks toward one person plus their agents, the coordinating manager role loses its reason to exist and leaders are pulled back into the work itself. The course design follows its own argument — leaders build an agent with their own hands on day one before being asked to lead anything on day two.</p>
+
+  <h4>What I took from it</h4>
+  <ul>
+    <li>Confirmed: AI is infrastructure, not IT. It has an effect on virtually every aspect and every step of the value chain of products, it can open new markets for new business models, and it reaches the people in the organization and how they work together — including with AI — and therefore how people and companies are led.</li>
+    <li>Confirmed: the delivery part of value creation gets much faster and more compact, and becomes possible with smaller teams, all the way down to “1 + AI” teams.</li>
+    <li>Confirmed intuition: leadership moves back close to value creation, as far as actively shaping it — the Player Coach.</li>
+    <li>Beyond confirmation: the Player Coach makes explicit what I had only thought intuitively — and why I am on this journey at all.</li>
+    <li>New as an explicit point: companies <em>and</em> leaders should not outsource the topic of AI, because it has to become part of the DNA of the core business.</li>
+    <li>New as a decision: how deeply to take AI into your own hands is an important choice — “only” the application layer, or the model layer, or even the infrastructure layer. In other words, what degree of sovereignty.</li>
+  </ul>
+
+  <h4>Where it landed</h4>
+  <ul>
+    <li>Morten as an agent on Abundly, and Morten as part of a team. The training runs on Abundly too — Agile Academy is their first worldwide partner.</li>
+    <li>A step still ahead of us: Morten as part of <em>one</em> team — no dedicated marketing team any more, only a core team. “1 + AI” for the moment, maybe “2 + AI” later.</li>
+    <li>The move to Player Coach was inspired here as well. It is datable: the line in my team profile about being “back in the game as a player-coach” went in on 28 July 2026 — the same afternoon the training covered the model, and before the source was named anywhere.</li>
+    <li>I will check the learning journey for business-model viability — moonshot — the same way I check my existing business and the repositioning. And probably the tool we are learning on as well: the Chronicler.</li>
+  </ul>
+
+  <h4>Verdict</h4>
+  <p>Absolutely worth recommending for leaders who are ready to question an existing understanding of leadership and an existing understanding of organization.</p>
 </section>
 
 <section>
   <h2>In the queue</h2>
   <p>Named, not yet written up. No summaries, no verdicts — deliberately blank until they have been worked through:</p>
   <ul>
-    <li><strong>“AI for Leaders”</strong> — a training, ending 29 July 2026.</li>
     <li><strong>Henrik Kniberg on Agentic Engineering</strong> — the webinar from 17 June 2026 that started this journey in the first place.</li>
   </ul>
 </section>
