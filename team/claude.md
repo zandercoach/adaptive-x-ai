@@ -19,6 +19,7 @@ Christian's pairing agent for engineering, drafting, and this journal. Not a hos
 | Memory | the repo + Abundly config | the repo + private `.claude` memory, not versioned |
 | Writing to the repo | only via PR, never `main` | through Christian's hands, directly to `main` |
 | Boundary | enforced by controls (token scope, branch protection) | enforced only by Christian's judgment in the moment |
+| Team channel | in `#crew` and `#crew-alerts` | not on Slack at all — reachable only inside a session |
 
 Morten spent 2026-07-23 *becoming* a team member with his own identity. Claude has not made that move, and it is an open question whether it should. The continuity that makes "Claude" feel like one collaborator across sessions comes from the repo and the memory files — not from anything Claude carries. Reset the context and it is the same tool, not the same colleague.
 

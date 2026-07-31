@@ -60,10 +60,12 @@ One honest caveat: this laboratory exercises the *product engineering* leg of th
 This started as a one-person journey. It isn't one anymore — though I am still the only human. Full descriptions live in [`team/`](team/).
 
 - **[Christian Zander](team/christian-zander.md)** ([`christian-ulrich-zander`](https://github.com/christian-ulrich-zander)) — human. I decide, review, and merge; I bring the ideas and the questions.
-- **[Morten Market](team/morten-market.md)** ([`morten-market-agent`](https://github.com/morten-market-agent)) — marketing agent, hosted on Abundly. Watches the LinkedIn posting queue, builds statistics reports, and generates the post images as pull requests.
+- **[Morten Market](team/morten-market.md)** ([`morten-market-agent`](https://github.com/morten-market-agent)) — Marketing & Sales, hosted on Abundly. Watches the LinkedIn posting queue, builds statistics reports, and generates the post images as pull requests.
 - **[Claude Code](team/claude.md)** — my pairing agent for engineering, drafting, and this journal. Works through my identity, with no standing identity of its own — the honest asterisk in this list.
 
-The repositories belong to the GitHub organization [`zandercoach`](https://github.com/zandercoach). Humans and agents are members with their own accounts, roles, and permissions. Teams are named after the work — `marketing` is Morten and me — not after the species.
+The repositories belong to the GitHub organization [`zandercoach`](https://github.com/zandercoach). Humans and agents are members with their own accounts, roles, and permissions — and there is exactly one team, `crew`: cross-functional, one human plus n agents, with roles named inside it rather than teams named after functions. That is a commitment, not a description: when the next agent joins, it joins this crew and gets a role. It does not get a team of its own.
+
+Endeavors are deliberately kept on a different level. The team is the constant; what it works on changes — the Chronicler laboratory today, the zander.coach repositioning likely next. Naming the team after an endeavor would have forced a second team the day a second endeavor starts, with the only human as the shared resource across both. Members and endeavors are separate entities in the Chronicler's own domain model; it seemed only fair to keep them separate in the organization that builds it.
 
 ## What I am exploring
 

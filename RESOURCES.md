@@ -100,8 +100,12 @@ being asked to lead anything on day two.
 
 - Morten as an agent on Abundly, and Morten as part of a team. (The training runs
   on Abundly too — Agile Academy is their first worldwide partner.)
-- A step still ahead of us: Morten as part of *one* team — no dedicated marketing
-  team any more, only a core team. "1 + AI" for the moment, maybe "2 + AI" later.
+- Morten as part of *one* team — no dedicated marketing team any more, only a
+  core team. "1 + AI" for the moment, maybe "2 + AI" later. **Done on
+  2026-07-31:** the GitHub team `marketing` became `crew`, Morten's role in it
+  is Marketing & Sales, and the Slack channels were split into `#crew` for the
+  normal case and `#crew-alerts` for escalation. Three days from the training
+  insight to the org chart.
 - The move to Player Coach was inspired here as well. It is datable: the line in
   `team/christian-zander.md` about being "back in the game as a player-coach"
   went in on 2026-07-28 — the same afternoon the training covered the model, and
