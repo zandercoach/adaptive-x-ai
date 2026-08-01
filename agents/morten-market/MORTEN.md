@@ -400,6 +400,13 @@ try to fetch LinkedIn data yourself.
   Abundly mirror needed:** the "Instructions (paste into Abundly)" block uses
   `<base>` placeholders and carries no literal post filenames, so file renames
   never touch the live config.
+- 2026-07-25: First scheduled Friday run since Morten has his own identity, and
+  it ran without a hitch — Christian's verdict afterwards: einwandfrei. Both
+  slots of the coming week were already filled (B4 on Mon 27.07, A11 on Thu
+  30.07), so this was the normal case: status report out, no escalation. The
+  day before, an on-demand image job had delivered the two August images as
+  pull request #2 from `morten/images-20260724` — the first PR authored by
+  `morten-market-agent` himself, merged unchanged.
 - 2026-07-31: From a marketing team to one crew — a training insight Christian
   brought back: build *one* genuinely cross-functional team, 1 human + n
   agents, rather than functional teams with an agent in them. The GitHub team
@@ -423,3 +430,8 @@ try to fetch LinkedIn data yourself.
   value without needing a new capability. The weekly status now goes to `#crew`
   **and** email: visible to the team, and still in the inbox Christian actually
   reads.
+- 2026-07-31 (end of day): the outside-repo half of that change is done — the
+  GitHub team renamed, `#crew` and `#crew-alerts` in place with Morten's app in
+  both, and the grown instruction block mirrored to Abundly. Spec and live
+  config in sync, again in the intended direction: the repo changed first,
+  Abundly followed.
