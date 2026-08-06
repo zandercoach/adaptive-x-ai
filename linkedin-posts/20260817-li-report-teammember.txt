@@ -1,0 +1,26 @@
+LINKEDIN POST (Track B — journey report, English)
+==================================================
+
+Adaptive × AI — Morten gets a name of his own
+
+My marketing agent had been working for a week, and none of it was visible as his. The token he used belonged to my account, so every commit and every pull request he opened was signed with my name. In the history, his work and mine were the same person.
+
+So I rebuilt the setup as a team. My personal GitHub account was renamed, an organization took over the old name, and the repositories moved into it. Morten joined as a member with his own account and his own credential. Since that day his commits are authored by "morten-market-agent".
+
+One thing nearly went wrong quietly. A fine-grained token is bound to the owner of a repository, not to its path, so moving the repo into the organization cut Morten's token off from it. No warning, no mail, nothing visible in the interface, and the token kept working for everything else. His next scheduled run was Friday morning and would have failed without an explanation I could have traced quickly. Infrastructure changes need a "who holds credentials to this?" check, and I did not have one.
+
+The team name turned out to be the interesting decision. The first proposal was a team called "agents", all the bots in one group. I named it after the work instead, with Morten and me as its two members. A team of only bots is a pen, not a team. And I wanted to be in the team rather than above it: whoever holds the responsibility belongs inside it.
+
+Then I made the permissions say what that org chart says. Read for everyone, write through the team, merging only after a review by a code owner. Each rule is a control and a statement at the same time, readable by anyone who opens the repo.
+
+The detail I liked most came at the end. None of it changed a single line of Morten's instructions. The organization took over the old account name, so every URL he reads still resolves. The structure moved around him while his brief held still.
+
+Full disclosure, as always: this is a learning report, not a how-to — what I set up, what nearly broke, what I got wrong.
+
+#AdaptiveOrganisations #AI #AgenticEngineering #LearningInPublic
+
+
+FIRST COMMENT (paste right after publishing)
+=============================================
+
+The journey's public home, with the full journal linked: https://adaptive-x-ai.org
