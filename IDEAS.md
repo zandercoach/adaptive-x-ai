@@ -42,6 +42,7 @@ Tags: `[eng]` engineering / Chronicler lab · `[showcase]` product & visibility 
 
 16. **Morten Market as a real agent with shared context** `[org]`
    Today Morten is a read-only watchdog on the public repertoire — but he is meant to do marketing, and for that he needs to actively co-shape instead of just watching: contribute ideas, propose queue changes, share context with the Claude Code sessions instead of only reading their output via public raw URLs (a one-way street). What "shared context" between two agents on different platforms should look like is the open design question. *(From the 2026-07-19 session — see the journal's open questions.)*
+   **Concrete trigger, 2026-08-01:** an evening spent almost entirely on catching the record up — three journal entries, Morten's own log missing his first scheduled run, and two `REPERTOIRE.md` rows still claiming posts were waiting on images merged a week earlier. None of that drift was caused by an agent; it was the human half of the crew running ahead of its own bookkeeping. Christian's conclusion: it may be time to give Morten more control over the LinkedIn posts and the repertoire, which makes the queue the first concrete area for this item rather than a general design question. Still open: how he gets the context that control would require.
 
 ## Later — organization & showcase
 

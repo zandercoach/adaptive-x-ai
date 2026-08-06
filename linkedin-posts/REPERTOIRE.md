@@ -87,6 +87,12 @@ Classic "what I did and learned", continuing the published series
   repeated a few more times. (Now seen five times: A1/B1, A11/B4, the A14 beat
   in A23/B5, the A17 beat in A22/B6, A19/B7 — the pattern has repeated, this one
   is ready to write.)
+- The voice check takes longer than the writing (20260801 other learnings) —
+  the honest counter-number to "the AI writes my posts", and it contradicts what
+  most readers expect. Christian's qualifier belongs in the post: it does not
+  always take longer, and much of that time went into making his voice concrete,
+  which is a one-off. B-track as an observation about where the work moves when
+  the drafting is borrowed; A-track needs a human story to pair with it first.
 - "Two agreeing Claudes are comfort, not confirmation" (20260719 other
   learnings) — correlated second opinions; could carry an A-track post about
   consensus vs. confirmation in teams once a human story pairs with it.
