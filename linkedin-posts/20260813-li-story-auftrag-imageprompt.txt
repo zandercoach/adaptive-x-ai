@@ -1,0 +1,12 @@
+IMAGE STYLE GUIDE ("Zander Flipchart" — use for every future post)
+====================================================================
+
+Hand-drawn flipchart illustration, as sketched live by a trainer with markers: clean black marker outlines on a plain white background, simple friendly shapes, stick figures with round heads and expressive posture, hand-lettered text. Accents only in classic flipchart marker colors — yellow, orange, green, blue, red — applied as wide, slightly uneven marker strokes. No gradients, no photorealism, no dark shading, plenty of white space. Light, warm, optimistic mood. Square composition.
+
+
+IMAGE PROMPT ("Der Auftrag war mehrdeutig — beide schauen auf den Zettel")
+==========================================================================
+
+A hand-drawn flipchart illustration, black marker outlines on a plain white background, in the style of a trainer sketching live with flipchart markers: simple friendly shapes, stick figures with round heads, hand-lettered text, accents only in yellow, orange, green, blue, and red marker strokes, no gradients, plenty of white space, light and optimistic mood.
+
+The scene: on the right side of the picture hangs a finished drawing, framed by a simple hand-drawn border, showing a tiny robot standing on the top step of a short staircase, with a red marker circle around that top step. On the left stands a flipchart easel carrying a single large sheet hand-lettered "AUFTRAG" in black at the top, with one wavy hand-drawn line of text below it and a blue question mark in the margin beside that line. A stick-figure person and a small friendly stick-figure robot stand together in front of the easel, side by side, both turned toward the sheet and looking at it, not at each other; the person holds a green marker up to the sheet, about to correct the line. Nobody points at anyone. A yellow sun in the top right corner. Hand-lettered caption at the bottom in black marker, underlined: "Erst den Auftrag prüfen". Square composition, white background, flipchart marker style throughout.

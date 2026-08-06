@@ -5,15 +5,15 @@ Adaptive × AI — Morten's first pull request
 
 Last time I promised the day my marketing agent started opening his own pull requests. The last manual break in my drafting chain was the image: Claude Code writes the post and an image prompt into the repo, and I switched tools to turn the prompt into a picture. Morten took that over: he finds a prompt with no image beside it, generates, and opens a pull request. I review and merge.
 
-That meant giving him write access for the first time. His token is scoped to this one repository, with two permissions: contents and pull requests. Once the main branch is protected, that is exactly enough to open a pull request and not enough to merge one. "Never write to main" stopped being a line in his brief and became something the credential itself refuses. The safeguard is what made the trust cheap. I never had to decide whether he deserved write access, only that the worst case was a rejected pull request.
+That meant giving him write access. His token is scoped to this one repository, with two permissions: contents and pull requests. Once the main branch is protected, that is exactly enough to open a pull request and not enough to merge one. "Never write to main" stopped being a line in his brief and became something the credential itself refuses. The safeguard is what made the trust cheap. I never had to decide whether he deserved write access, only that the worst case was a rejected pull request.
 
-He found the two posts that needed an image, generated both, opened pull request #1, and stopped there. One of the two images was wrong. Well drawn, right style, every element the prompt asked for, and it said the opposite of the post: the robot stood on the top step of a staircase whose point was that only the first step is unlocked so far. My instinct was to have the picture redone. The defect was one ambiguous sentence in the prompt file, and fixing only the picture would have left it sitting there, ready to come back on the next generation. A wrong image is a wrong prompt.
+He found the two posts that needed an image, generated both, opened pull request #1, and stopped there. One of the two images did not meet my intention. Well drawn, right style, every element the prompt asked for, and it said the opposite of the post: the robot stood on the top step of a staircase whose point was that only the first step is unlocked so far. I had to fix the prompt and let Morten do it again.
 
-And he was better than his instructions. Told to open "a new branch", he pushed the reworked image onto the day's existing one, because a second branch of the same name is impossible and a second pull request would have been noise. So I corrected the spec upward to match him. (The two posts announcing that I had hired him are illustrated by his own first piece of work 😉)
+Morten treated the prompt as a checklist, without understanding its intention. He ticked each row, yet the result was not helpful. A situation, where a goal-oriented description (like a user story) would have helped when working with a human - but with an AI agent?
 
-Full disclosure, as always: this is a learning report, not a how-to — what I set up, what broke, what I got wrong. The full journal is public (link in the first comment).
+On the other hand, Morten was better than his instructions. Told to open "a new branch", he pushed the reworked image onto the day's existing one, because a second branch of the same name is impossible and a second pull request would have been noise. So I corrected the spec upward to match him. (The two posts announcing that I had hired him are illustrated by his own first piece of work 😉)
 
-Next up: the week Morten stopped borrowing my hands and got a name of his own in the history. More to come, warts included.
+Full disclosure, as always: this is a learning report, not a how-to — what I set up, what broke, what I got wrong.
 
 #AdaptiveOrganisations #AI #AgenticEngineering #LearningInPublic
 
