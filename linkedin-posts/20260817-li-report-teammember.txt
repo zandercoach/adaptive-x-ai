@@ -3,7 +3,7 @@ LINKEDIN POST (Track B — journey report, English)
 
 Adaptive × AI — Morten gets a name of his own
 
-My marketing agent had been working for a week, and none of it was visible as his. The token he used belonged to my account, so every commit and every pull request he opened was signed with my name. In the history, his work and mine were the same person.
+More from the lab notebook of my learning journey on adaptive-x-ai. My marketing agent had been working for a week, and none of it was visible as his. The token he used belonged to my account, so every commit and every pull request he opened was signed with my name. In the history, his work and mine were the same person.
 
 So I rebuilt the setup as a team. My personal GitHub account was renamed, an organization took over the old name, and the repositories moved into it. Morten joined as a member with his own account and his own credential. Since that day his commits are authored by "morten-market-agent".
 

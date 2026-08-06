@@ -17,10 +17,20 @@ comment ("The full journal is public (link in the first comment)" / "Das Journal
 dazu ist öffentlich (Link im ersten Kommentar)") is **deliberately left out of
 B6**, to see whether it costs impressions on LinkedIn. Do not add it back as a
 missing line. The `FIRST COMMENT` block itself stays in every draft file and
-still gets posted. Christian took the pointer out of **A22 on 13.08** as well, so
-there is no control inside the week: the comparison runs against the earlier
-posts, across both tracks, and needs several posts before it says anything.
-Read it out in the monthly statistics report.
+still gets posted — no longer true as of 06.08, see below. Christian took the
+pointer out of **A22 on 13.08** as well, so there is no control inside the week:
+the comparison runs against the earlier posts, across both tracks, and needs
+several posts before it says anything. Read it out in the monthly statistics
+report.
+
+**Extended 2026-08-06: the first comment itself is dropped**, for the four posts
+of 10./13./17./20.08. Christian is away, and the comment is the one step nobody
+else can take for him; dropping it also widens the experiment, since the posts
+now carry neither the pointer nor the link. The `FIRST COMMENT` blocks stay in
+the draft files unused, so resuming costs nothing. Consequence to keep in view:
+the two German stories still name the journey in the body ("meine Lernreise
+adaptive-x-ai"), while the two English reports currently carry no reference to
+it at all.
 
 Harvested 2026-07-12 from all journal entries in `research/`; extended
 2026-07-19 (A14–A16, B5) and 2026-07-23 with the 20260721 and 20260723 sessions

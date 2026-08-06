@@ -141,6 +141,7 @@ The goal is to understand what it takes for a business model, a leadership model
 - [20260731 - The First Resource: AI for Leaders](research/20260731-ai-for-leaders.md)
 - [20260731 - From a Marketing Team to One Crew](research/20260731-one-crew.md)
 - [20260801 - Catching Up the Record](research/20260801-catching-up-the-record.md)
+- [20260806 - The Brief Without a List](research/20260806-the-brief-without-a-list.md)
 
 ## Status
 
