@@ -9,7 +9,7 @@ So I rebuilt the setup as a team. My personal GitHub account was renamed, an org
 
 One thing nearly went wrong quietly. A fine-grained token is bound to the owner of a repository, not to its path, so moving the repo into the organization cut Morten's token off from it. No warning, no mail, nothing visible in the interface, and the token kept working for everything else. His next scheduled run was Friday morning and would have failed without an explanation I could have traced quickly. Infrastructure changes need a "who holds credentials to this?" check, and I did not have one.
 
-The team name turned out to be the interesting decision. The first proposal was a team called "agents", all the bots in one group. I named it after the work instead, with Morten and me as its two members. A team of only bots is a pen, not a team. And I wanted to be in the team rather than above it: whoever holds the responsibility belongs inside it.
+The team itself turned out to be the interesting decision. The first proposal was a team called "agents", all the bots in one group. A team of only bots is a pen, not a team. So there is exactly one team, and everyone is in it, humans and agents alike, each with a role inside it. Mine is the role that holds the responsibility, which is precisely why I belong inside it rather than above. And when the next endeavor comes, it does not get a team of its own: the team is the constant, the endeavors are the backlog.
 
 Then I made the permissions say what that org chart says. Read for everyone, write through the team, merging only after a review by a code owner. Each rule is a control and a statement at the same time, readable by anyone who opens the repo.
 
