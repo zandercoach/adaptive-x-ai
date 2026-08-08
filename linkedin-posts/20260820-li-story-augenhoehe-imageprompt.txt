@@ -4,13 +4,23 @@ IMAGE STYLE GUIDE ("Zander Flipchart" — use for every future post)
 Hand-drawn flipchart illustration, as sketched live by a trainer with markers: clean black marker outlines on a plain white background, simple friendly shapes, stick figures with round heads and expressive posture, hand-lettered text. Accents only in classic flipchart marker colors — yellow, orange, green, blue, red — applied as wide, slightly uneven marker strokes. No gradients, no photorealism, no dark shading, plenty of white space. Light, warm, optimistic mood. Square composition.
 
 
-IMAGE PROMPT ("Im Team, nicht darüber")
-========================================
+IMAGE PROMPT ("Im Team, nicht darüber") — GOAL, NOT A CHECKLIST
+================================================================
 
-Note: this brief lists the motif in the usual way on purpose. It is the control
-next to the goal-oriented brief of 20260817 (IDEAS #21), same week, same style,
-so the two can be compared.
+This brief is written differently on purpose. It does not describe the scene element by element. It tells you what the picture is for, and leaves the motif to you.
 
-A hand-drawn flipchart illustration, black marker outlines on a plain white background, in the style of a trainer sketching live with flipchart markers: simple friendly shapes, stick figures with round heads hand-lettered text, accents only in yellow, orange, green, blue, and red marker strokes, no gradients, plenty of white space, light and optimistic mood.
+WHAT THE POST SAYS
+Setting up the collaboration with the agent needed a team, and the first proposal was to put all the bots in a group of their own. That was rejected: a team of only bots is a pen, not a team. So there is exactly one team, the human and the agent are both in it, each with a role, and the permissions run through it — who belongs is readable from the structure. The point behind it is the one that shows up in every team: does the person carrying the responsibility stand beside the team and watch, or inside it? Standing next to it is not membership. Everyone in the team contributes to the team's goal as best they can — and someone who is trying to please the leader instead is pursuing a different goal, which is exactly why the leader belongs inside.
 
-The scene: in the middle of the picture a large hand-drawn circle in green marker, like a rope laid on the ground, hand-lettered "TEAM" in black on its lower edge. Inside the circle a stick-figure person and a small friendly stick-figure robot stand side by side at the same height, both turned slightly toward each other, relaxed and at ease. Above and outside the circle floats an empty little podium or box drawn in thin black outline with a red marker cross through it, unoccupied, showing the position above the team that nobody stands on. Off to the right, well outside the circle, a small fenced pen drawn in black contains three tiny identical robots standing in a row, hand-lettered "nur Bots" beneath it in small letters. A yellow sun in the top right corner. Hand-lettered caption at the bottom in black marker, underlined: "Mittendrin". Square composition, white background, flipchart marker style throughout.
+WHAT THE PICTURE SHOULD DO
+Someone scrolling past should see, before reading a word, that the human is *inside* the team rather than above or beside it — and should read that as natural and relaxed, not as a statement being made. The feeling to aim at is ordinary togetherness: two members, same level, no one presiding. If a second idea fits without crowding the first, the rejected alternative may echo somewhere — a group of only bots, which is a pen rather than a team. If it does not fit, drop it: the leader standing inside is the message.
+
+WHAT IS FIXED
+The style guide above. Square composition, white background. The small friendly stick-figure robot that carries this series is the agent, and the stick-figure person is his human colleague. The team has exactly these two members — one human and one agent. Do not add further people to make it look like a team: colleagues who do not exist would make the picture say something untrue. Any hand-lettering in the picture is German, since the post is German. A hand-lettered caption at the bottom in black marker, underlined, reading exactly: "Mittendrin". As always, fetch two existing post PNGs from the same folder as visual reference so the series keeps one look.
+
+WHAT IS YOURS
+The motif, the composition, and which single detail carries the message. Pick one clear idea and let it breathe, rather than assembling several.
+
+TWO REQUESTS
+If the goal above is unclear or you can read it in more than one way, say so in the pull request description instead of guessing.
+And write one or two sentences into the pull request description explaining which idea you chose and why. That is the point of this experiment: this brief gives you a goal instead of a list, and we want to see what you do with the freedom.
