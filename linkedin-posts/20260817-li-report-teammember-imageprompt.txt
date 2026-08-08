@@ -1,22 +1,22 @@
 IMAGE STYLE GUIDE ("Zander Flipchart" — use for every future post)
 ====================================================================
 
-Hand-drawn flipchart illustration, as sketched live by a trainer with markers: clean black marker outlines on a plain white background, simple friendly shapes, stick figures with round heads and expressive posture, hand-lettered text. Accents only in classic flipchart marker colors — yellow, orange, green, blue, red — applied as wide, slightly uneven marker strokes. No gradients, no photorealism, no dark shading, plenty of white space. Light, warm, optimistic mood. Square composition.
+Hand-drawn flipchart illustration, as sketched live by a trainer with markers: clean black marker outlines on a plain white background, simple friendly shapes, stick figures with round heads, oval torsos, and expressive posture, hand-lettered text. Accents only in classic flipchart marker colors — yellow, orange, green, blue, red — applied as wide, slightly uneven marker strokes. No gradients, no photorealism, no dark shading, plenty of white space. Light, warm, optimistic mood. Square composition.
 
 
-IMAGE PROMPT ("Morten gets a name of his own") — GOAL, NOT A CHECKLIST
+IMAGE PROMPT ("Morten gets an identity of his own") — GOAL, NOT A CHECKLIST
 =======================================================================
 
 This brief is written differently on purpose. It does not describe the scene element by element. It tells you what the picture is for, and leaves the motif to you.
 
 WHAT THE POST SAYS
-For a week the agent did real work, but all of it was signed with someone else's name: his credential belonged to his human colleague, so in the history the two were indistinguishable. Then the setup was rebuilt as a team, and he joined it with his own account, his own credential and his own name. He is now a recognized member, not a pair of borrowed hands.
+For a week the agent did real work, but all of it was signed with someone else's name: his credential belonged to his human colleague, so in the history the two were indistinguishable. Then the setup was rebuilt as a team, and he joined it with his own account, his own credential and his own identity. He is now a recognized member, not a pair of borrowed hands.
 
 WHAT THE PICTURE SHOULD DO
 Someone scrolling past should understand before reading a word that a small robot has become a member of a team, and should find that warm rather than technical. The feeling to aim at is quiet belonging, with a bit of pride in it. Avoid anything that reads as hierarchy, promotion or a ceremony.
 
 WHAT IS FIXED
-The style guide above. Square composition, white background. The small friendly stick-figure robot that carries this series is the agent, and the stick-figure person is his human colleague. A hand-lettered caption at the bottom in black marker, underlined, reading exactly: "A name of his own". As always, fetch two existing post PNGs from the same folder as visual reference so the series keeps one look.
+The style guide above. Square composition, white background. The small friendly stick-figure robot that carries this series is the agent, and the stick-figure person is his human colleague. A hand-lettered caption at the bottom in black marker, underlined, reading exactly: "An identity of his own". As always, fetch two existing post PNGs from the same folder as visual reference so the series keeps one look.
 
 WHAT IS YOURS
 The motif, the composition, and which single detail carries the message. Pick one clear idea and let it breathe, rather than assembling several.

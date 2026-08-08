@@ -3,7 +3,7 @@ LINKEDIN POST (Track B — journey report, English)
 
 Adaptive × AI — Morten's first pull request
 
-Last time I promised the day my marketing agent started opening his own pull requests. More from the lab notebook of my learning journey on adaptive-x-ai. The last manual break in my drafting chain was the image: Claude Code writes the post and an image prompt into the repo, and I switched tools to turn the prompt into a picture. Morten took that over: he finds a prompt with no image beside it, generates, and opens a pull request. I review and merge.
+More from the lab notebook of my learning journey on adaptive-x-ai: I promised the day my marketing agent started opening his own pull requests. The last manual break in my drafting chain was the image: Claude Code writes the post and an image prompt into the repo, and I switched tools to turn the prompt into a picture. Morten took that over: he finds a prompt with no image beside it, generates, and opens a pull request. I review and merge.
 
 That meant giving him write access. His token is scoped to this one repository, with two permissions: contents and pull requests. Once the main branch is protected, that is exactly enough to open a pull request and not enough to merge one. "Never write to main" stopped being a line in his brief and became something the credential itself refuses. The safeguard is what made the trust cheap. I never had to decide whether he deserved write access, only that the worst case was a rejected pull request.
 
@@ -15,8 +15,7 @@ On the other hand, Morten was better than his instructions. Told to open "a new 
 
 Full disclosure, as always: this is a learning report, not a how-to — what I set up, what broke, what I got wrong.
 
-#AdaptiveOrganisations #AI #AgenticEngineering #LearningInPublic
-
+#AdaptiveOrganisations #AI #AgenticEngineering #LearningInPublic #PullRequest
 
 FIRST COMMENT (paste right after publishing)
 =============================================
