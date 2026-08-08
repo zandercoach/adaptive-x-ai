@@ -1,7 +1,7 @@
 IMAGE STYLE GUIDE ("Zander Flipchart" — use for every future post)
 ====================================================================
 
-Hand-drawn flipchart illustration, as sketched live by a trainer with markers: clean black marker outlines on a plain white background, simple friendly shapes, stick figures with round heads, oval torsos, and expressive posture, hand-lettered text. Accents only in classic flipchart marker colors — yellow, orange, green, blue, red — applied as wide, slightly uneven marker strokes. No gradients, no photorealism, no dark shading, plenty of white space. Light, warm, optimistic mood. Square composition.
+Hand-drawn flipchart illustration, as sketched live by a trainer with markers: clean black marker outlines on a plain white background, simple friendly shapes, stick figures with round heads and expressive posture, hand-lettered text. Accents only in classic flipchart marker colors — yellow, orange, green, blue, red — applied as wide, slightly uneven marker strokes. No gradients, no photorealism, no dark shading, plenty of white space. Light, warm, optimistic mood. Square composition.
 
 
 IMAGE PROMPT ("Im Team, nicht darüber")
@@ -11,6 +11,6 @@ Note: this brief lists the motif in the usual way on purpose. It is the control
 next to the goal-oriented brief of 20260817 (IDEAS #21), same week, same style,
 so the two can be compared.
 
-A hand-drawn flipchart illustration, black marker outlines on a plain white background, in the style of a trainer sketching live with flipchart markers: simple friendly shapes, stick figures with round heads, oval torsos, hand-lettered text, accents only in yellow, orange, green, blue, and red marker strokes, no gradients, plenty of white space, light and optimistic mood.
+A hand-drawn flipchart illustration, black marker outlines on a plain white background, in the style of a trainer sketching live with flipchart markers: simple friendly shapes, stick figures with round heads hand-lettered text, accents only in yellow, orange, green, blue, and red marker strokes, no gradients, plenty of white space, light and optimistic mood.
 
 The scene: in the middle of the picture a large hand-drawn circle in green marker, like a rope laid on the ground, hand-lettered "TEAM" in black on its lower edge. Inside the circle a stick-figure person and a small friendly stick-figure robot stand side by side at the same height, both turned slightly toward each other, relaxed and at ease. Above and outside the circle floats an empty little podium or box drawn in thin black outline with a red marker cross through it, unoccupied, showing the position above the team that nobody stands on. Off to the right, well outside the circle, a small fenced pen drawn in black contains three tiny identical robots standing in a row, hand-lettered "nur Bots" beneath it in small letters. A yellow sun in the top right corner. Hand-lettered caption at the bottom in black marker, underlined: "Mittendrin". Square composition, white background, flipchart marker style throughout.

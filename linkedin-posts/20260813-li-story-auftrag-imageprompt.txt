@@ -1,12 +1,26 @@
 IMAGE STYLE GUIDE ("Zander Flipchart" — use for every future post)
 ====================================================================
 
-Hand-drawn flipchart illustration, as sketched live by a trainer with markers: clean black marker outlines on a plain white background, simple friendly shapes, stick figures with round heads, oval torsos, and expressive posture, hand-lettered text. Accents only in classic flipchart marker colors — yellow, orange, green, blue, red — applied as wide, slightly uneven marker strokes. No gradients, no photorealism, no dark shading, plenty of white space. Light, warm, optimistic mood. Square composition.
+Hand-drawn flipchart illustration, as sketched live by a trainer with markers: clean black marker outlines on a plain white background, simple friendly shapes, stick figures with round heads and expressive posture, hand-lettered text. Accents only in classic flipchart marker colors — yellow, orange, green, blue, red — applied as wide, slightly uneven marker strokes. No gradients, no photorealism, no dark shading, plenty of white space. Light, warm, optimistic mood. Square composition.
 
 
-IMAGE PROMPT ("Der Auftrag war mehrdeutig — beide schauen auf den Zettel")
-==========================================================================
+IMAGE PROMPT ("Ziel statt Checkliste") — GOAL, NOT A CHECKLIST
+===============================================================
 
-A hand-drawn flipchart illustration, black marker outlines on a plain white background, in the style of a trainer sketching live with flipchart markers: simple friendly shapes, stick figures with round heads, oval torsos, hand-lettered text, accents only in yellow, orange, green, blue, and red marker strokes, no gradients, plenty of white space, light and optimistic mood.
+This brief is written differently on purpose. It does not describe the scene element by element. It tells you what the picture is for, and leaves the motif to you. The post it illustrates is about exactly that, so a list here would contradict the text it belongs to.
 
-The scene: on the right side of the picture hangs a finished drawing, framed by a simple hand-drawn border, showing a tiny robot standing on the top step of a short staircase, with a red marker circle around that top step. On the left stands a flipchart easel carrying a single large sheet hand-lettered "AUFTRAG" in black at the top, with one wavy hand-drawn line of text below it and a blue question mark in the margin beside that line. A stick-figure person and a small friendly stick-figure robot stand together in front of the easel, side by side, both turned toward the sheet and looking at it, not at each other; the person holds a green marker up to the sheet, about to correct the line. Nobody points at anyone. A yellow sun in the top right corner. Hand-lettered caption at the bottom in black marker, underlined: "Erst den Auftrag prüfen". Square composition, white background, flipchart marker style throughout.
+WHAT THE POST SAYS
+The human wrote the brief as a list of elements, and the agent drew every element on it. The result was clean, in the right style, and complete — and it said the opposite of the text it belonged to, because one line of the brief was ambiguous and the intention behind it was never written down. Every box ticked, the whole thing unusable. The first impulse was to have the picture redrawn; the better move was to read the brief again before discussing the result, and to treat the instruction as the source of the error rather than the one who followed it. The post closes by proposing the other way round: describe the goal and leave the design free. This brief is that attempt.
+
+WHAT THE PICTURE SHOULD DO
+Someone scrolling past should understand before reading a word that a list can be followed perfectly and still miss the point, and that naming the goal is the better instruction. The tone to aim at is light and a little self-ironic — the person is the one who learns something here, not the robot. Avoid anything that reads as blame, as the agent being corrected, or as a mistake pinned on him.
+
+WHAT IS FIXED
+The style guide above. Square composition, white background. The small friendly stick-figure robot that carries this series is the agent, and the stick-figure person is his human colleague. Any hand-lettering in the picture is German, since the post is German. A hand-lettered caption at the bottom in black marker, underlined, reading exactly: "Ziel > Checkliste". As always, fetch two existing post PNGs from the same folder as visual reference so the series keeps one look.
+
+WHAT IS YOURS
+The motif, the composition, and which single detail carries the message. Pick one clear idea and let it breathe, rather than assembling several.
+
+TWO REQUESTS
+If the goal above is unclear or you can read it in more than one way, say so in the pull request description instead of guessing — an ambiguous brief silently followed is the exact failure this post is about, and catching it is worth more than a fast delivery.
+And write one or two sentences into the pull request description explaining which idea you chose and why. That is the point of this experiment: this brief gives you a goal instead of a list, and we want to see what you do with the freedom.
