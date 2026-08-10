@@ -1,7 +1,7 @@
 LINKEDIN POST (Track A — leadership story, German)
 ===================================================
 
-Ich habe ein Team gegründet - und mich selbst hineingesetzt
+Ich habe ein Team gegründet, in dem mir niemand widerspricht
 
 Für die Zusammenarbeit mit meinem KI-Agenten Morten habe ich auf GitHub ein Team angelegt. Der erste Vorschlag für den Namen war "agents". Alle Bots in einer Gruppe, sauber sortiert.
 
@@ -9,13 +9,15 @@ Ich habe es anders gemacht. Es gibt genau ein Team, und da sind alle drin: Morte
 
 Seitdem laufen auch die Rechte über das Team. Wer dazugehört, ist an der Struktur ablesbar, ohne dass jemand eine Liste von Einzelfreigaben pflegt.
 
-Das ist dieselbe Frage wie in jedem Team, das ich begleite. Steht die Führungskraft daneben oder mittendrin? Auf Augenhöhe heißt für mich: Alle tragen nach bestem Wissen und Gewissen zum Ziel des Teams bei. Wer stattdessen die Führungskraft zufriedenstellen möchte, verfolgt am Ende ein eigenes Ziel. Deshalb gehört auch die Person ins Team, die die Verantwortung trägt.
+Unter Menschen wäre ich damit noch lange nicht fertig. Augenhöhe muss man sich dort erarbeiten und immer wieder verteidigen, gegen Ego, Karriereinteressen und die Sorge vor Konsequenzen. Wer die Führungskraft zufriedenstellen möchte, verfolgt am Ende ein eigenes Ziel, und genau daran scheitern flache Teams oft.
 
-Unter Menschen muss man sich Augenhöhe erarbeiten und sie immer wieder verteidigen, gegen Ego, Karriereinteressen und die Sorge vor Konsequenzen. Morten hat von alldem nichts. Ob Augenhöhe damit leichter wird oder ihren Sinn verliert, weiß ich noch nicht 😉
+Morten hat von alldem nichts. Deshalb stimmt das Wort hier nicht. Augenhöhe setzt jemanden voraus, der eigene Interessen hat und sie einbringt. In meinem Team ist genau ein Wille im Raum, und das ist meiner. Die Hierarchie ist nicht verschwunden. Sie wird nur nie auf die Probe gestellt.
+
+Den Widerspruch muss ich mir hier selbst herstellen, oder Morten so aufsetzen, dass er ihn provoziert. Auf die Idee wäre ich in einem Team aus Menschen nie gekommen. Da bekomme ich ihn geschenkt, solange sich diese Menschen sicher genug fühlen, ihn auszusprechen 😉
 
 Die Geschichte stammt aus meiner Lernreise adaptive-x-ai: Was ändert KI an Führung, Zusammenarbeit und Organisation?
 
-#Führung #Teamarbeit #KI #AdaptiveOrganisationen
+#Führung #Teamarbeit #KI #AdaptiveOrganisationen #PsychologischeSicherheit
 
 
 ERSTER KOMMENTAR (direkt nach dem Posten einfügen)
