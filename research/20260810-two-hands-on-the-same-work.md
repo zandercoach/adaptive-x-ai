@@ -43,8 +43,9 @@
 - Read what was on it: after the "changes requested" review, Morten had
   regenerated all four images against the oval-torsos commit and written a second
   explanation for 17.08 into the pull request — this time the signature as the
-  carrying idea, "the work did not change, the name under it did". The pull
-  request had been closed an hour before he pushed it.
+  carrying idea, "the work did not change, the name under it did". He had done
+  that because I told him about the review by hand; there is no structured
+  procedure for it. The pull request had been closed an hour before he pushed it.
 - Recorded on the closed pull request why it ended without a merge: four images
   in one commit could not be accepted or rejected individually, and the oval-torso
   correction had been written into the shared style guide, so it changed the robot
@@ -64,9 +65,11 @@
 ## Technical Learnings
 
 - A closed pull request swallows the agent's reaction. Morten did react to the
-  review — he regenerated all four images and wrote why — but the pull request
-  was already closed, so the work landed on a branch nobody opens. The missing
-  capability is not reacting; it is learning that the request is closed.
+  review — he regenerated all four images and wrote why — but only because he was
+  told about it by hand, and by then the request was closed, so the work landed on
+  a branch nobody opens. He can act on a review once he knows of it. What is
+  missing is any structured way for him to find out that one happened, and that
+  the request is closed.
 - Four images in one pull request cannot be reviewed. Accepting or rejecting is
   all-or-nothing, so a single objection kills three pictures that were fine. The
   batch size of a delivery decides whether a review can be granular at all.
