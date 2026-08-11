@@ -39,6 +39,16 @@ Harvested 2026-07-12 from all journal entries in `research/`; extended
 again 2026-08-06 from everything since — the A-side of 20260728, plus 20260729,
 both 20260731 sessions and 20260801 (A25–A27, B9–B11).
 
+**Harvest watermark: `20260801-catching-up-the-record.md`.** Everything in
+`research/` up to and including that file has been folded into this queue. From
+2026-08-11 the harvest is **Morten's job**: every Friday he reads each entry whose
+filename sorts after the watermark, proposes new rows with status `idea` in a pull
+request, and moves the watermark in the same pull request. He appends and never
+edits an existing row — where he thinks new material belongs inside one of the
+umbrellas, he names it in the pull request description and Christian makes the
+call. Filename order rather than date order, because two sessions can share a
+date, as 20260731 already does.
+
 ## Track A — leadership stories (German, du-form)
 
 AI story first (mostly), then the people-leadership translation.

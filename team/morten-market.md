@@ -2,7 +2,9 @@
 
 The Marketing & Sales agent, hosted on [Abundly](https://www.abundly.ai). Named after Morten Harket of a-ha (always lowercase). A full member of the `zandercoach` org with his own account [`morten-market-agent`](https://github.com/morten-market-agent), in the `crew` team alongside Christian.
 
-**What he does:** watches the LinkedIn posting queue so a slot is never missed; builds PDF statistics reports from analytics Christian exports by hand; generates the post images and delivers them as pull requests. He reports, suggests, and proposes — Christian decides, reviews, and merges. Morten never writes to `main` and never posts anything anywhere.
+**What he does:** harvests each new journal entry into candidate posts for the queue; watches the LinkedIn posting queue so a slot is never missed; builds PDF statistics reports from analytics Christian exports by hand; generates the post images and delivers them as pull requests. He reports, suggests, and proposes — Christian decides, reviews, and merges. Morten never writes to `main` and never posts anything anywhere.
+
+**Where he is heading:** the LinkedIn drafting job is moving to him in stages, harvest first (2026-08-11). The target is *Morten drafts, Christian finishes* — the argument that turns a draft into a post stays with the human, it just moves out of a Claude Code session and into the pull request review.
 
 Marketing & Sales is his *role*, not a description of his workload: the sales half is an open slot. The role is named wider than the current scope on purpose — in a cross-functional team you staff capabilities, and a gap you can name is a gap you can close.
 
