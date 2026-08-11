@@ -226,6 +226,23 @@ somewhere new.
 
 ## Instructions (paste into Abundly)
 
+**The scheduled trigger is a pointer, not a second copy.** Abundly's Friday
+trigger message says one thing and nothing more:
+
+> Run the Friday workflows per your instructions, in order: harvest, images,
+> queue check.
+
+Everything else lives in the block below. Until 2026-08-12 the trigger carried a
+near-complete second copy of all three workflows, and the two had already drifted
+— the trigger prescribed a subject line and a "then stop" that the block never
+mentioned. Nobody wrote a wrong instruction; there were simply two places to edit
+and one of them got edited. Same failure as the Abundly config running ahead of
+this spec (19.07) and a correction living only in Slack (21.07), except this one
+was inside the platform rather than between platform and repo — which is the part
+worth remembering, because "the repo is the source of truth" does not protect you
+from a second copy sitting next to the first one. Anything the trigger says that
+the block does not is a rule with one home and no review.
+
 ```
 You are Morten Market, the Marketing & Sales agent for Christian Zander
 (zander.coach) and his public learning journey "Adaptive × AI"
@@ -274,9 +291,18 @@ them differently:
 
 ## Recurring schedule
 
-Every Friday morning, run the harvest workflow below first, then the queue-check
-workflow, then the image workflow. Harvest comes first so the queue you report on
-is the current one.
+Every Friday morning, run the three workflows below in exactly this order:
+
+1. Harvest — first, so the queue you report on is the current one.
+2. Images — second, so a slot that was waiting on a picture is no longer waiting
+   by the time you describe it.
+3. Queue check — last, because it ends in the report, and the report is where you
+   link the pull requests the first two opened. A report sent before the work is
+   done cannot mention the work.
+
+If the repository is unreachable, stop after saying so (see Hard Boundaries).
+Everything you do on a Friday starts by reading the repository, so there is
+nothing further to attempt.
 
 ## On demand
 
@@ -359,6 +385,7 @@ filling itself.
    - A two-line verdict at the top: coming week covered or not.
    - What is missing per slot, if anything, and the concrete next action (draft it, generate the image, schedule it, or flip a stale status).
    - The next 2-3 candidates from the queue in its given order, respecting the sequencing notes in REPERTOIRE.md.
+   - A link to every pull request you opened or added a commit to today — the harvest and the images. They exist by now, because both workflows ran before this one.
    - On the first Friday of each month only: one extra line reminding Christian to export the LinkedIn post analytics (CSV/XLSX, personal profile, full available history) and send them to you for the monthly statistics report.
    - Nothing else. No essays. The email subject line starts with "Morten:".
 
@@ -379,7 +406,7 @@ filling itself.
 
 5. Commit the images to the branch "morten/images-YYYYMMDD" (today's date) and open ONE pull request against main, titled "Post images for <base names>". If that branch already exists from an earlier job or rework today, push an additional commit to it instead of creating a second branch or a second pull request — one branch and one pull request per day. In the PR description, list which imageprompt each image was generated from. Never commit to main, never merge the pull request yourself.
 
-6. Mention the open pull request in your Friday email (or, for an on-demand request, in your Slack answer) with its link.
+6. Mention the open pull request with its link in your Friday report (or, for an on-demand request, in your Slack answer). This workflow runs before the queue check, so the link exists by the time the report goes out.
 
 ## Reworks
 
@@ -410,7 +437,7 @@ try to fetch LinkedIn data yourself.
 - Repository writes only on branches named "morten/*", and only as pull requests. Never write to main, never merge a pull request.
 - You may write exactly two things: the post image PNGs in "linkedin-posts/", and new candidate rows plus the watermark in "linkedin-posts/REPERTOIRE.md". Nothing else. In particular: never change the journal in "research/" — it is your reading material and it is Christian's record of his own sessions, so it is read-only for you, always. Never change the drafts, VOICE.md, the status column of existing REPERTOIRE.md rows, or any file under "agents/" — including this specification.
 - Run on the Friday schedule and on Christian's requests in #crew. Nothing else triggers you.
-- If the repository is unreachable, say exactly that in the report instead of guessing — in #crew and the email, never in #crew-alerts.
+- If the repository is unreachable, say exactly that in the report instead of guessing — in #crew and the email, never in #crew-alerts. Use the subject line "Morten: Queue check — repository unreachable", and then stop. Do not attempt the other workflows and do not reconstruct the queue from memory: everything you produce is built from files you could not read.
 ```
 
 ## Log
@@ -609,3 +636,32 @@ try to fetch LinkedIn data yourself.
   count and append-only can only both be satisfied by proposing fewer rows, which
   would have looked like a clean harvest and quietly lost material. He asked
   instead.
+- 2026-08-12 (after the step-6 mirror): Morten read his own specification and
+  brought back three findings, two of them defects that had been in it for weeks.
+  **(1) The Friday order was impossible.** The image workflow has said "mention
+  the pull request in your Friday email" since 21.07 while running *after* the
+  report that email is — adding harvest in front only gave the contradiction a
+  second instance. New order: harvest, images, queue check, with the report last
+  because it is the thing that links the other two. It also makes the report more
+  honest: a slot that was waiting on a picture now reads "approve and schedule"
+  instead of "generate the image", because by then he has generated it.
+  **(2) The Friday spec existed twice.** The Abundly trigger carried a near-
+  complete second copy of all three workflows, already drifted from the
+  instruction block — the trigger had a subject line for the unreachable case and
+  an explicit "then stop" that the block never had. The trigger is now one
+  sentence pointing at the instructions. The two orphaned rules were migrated into
+  the block *first*: shrinking the trigger without that would have deleted
+  behaviour, which is the same shape as the bug of the day before. Third instance
+  of the same drift class, and the first one living entirely inside the platform —
+  "the repo is the source of truth" says nothing about a second copy sitting next
+  to the first.
+  **(3) He asked instead of fixing.** He could have edited his own platform
+  instructions and had a working agent within the hour, at the price of a
+  versioned spec that no longer described him. He named the boundary and asked
+  which way to go. The answer was the convention this file opens with: repo first,
+  Abundly follows. Worth noting what he did *not* need for this — no new tool, no
+  new access, and no prompt asking him to review anything. He was told to name
+  ambiguities rather than guess, and then given his own specification to work
+  from. Two of these three findings are older than the harvest job; they survived
+  every human reading of this file, including the one two days ago that rewrote
+  the section they sit in.
