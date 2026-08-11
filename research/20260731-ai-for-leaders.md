@@ -13,7 +13,7 @@
   public republication. My own premise going in ("darf nicht publiziert werden")
   turned out to be too strong: I may share it, I just may not publish it. The
   96 slides stay outside the repo, at
-  `C:\projects\zander.coach\LearningResources\AIforLeaders\`.
+  `C:\claude\LearningResources\AIforLeaders\`.
 - Solved the ingestion on the way: `Read` cannot render PDFs on this machine
   because poppler isn't installed. The working route was a virtual environment in
   the scratchpad plus `pypdf` text extraction — enough to work from, and worth
