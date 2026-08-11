@@ -104,6 +104,16 @@ about five open ideas:
 
 A19, A22, A23 and B5–B7 are out or scheduled and are not counted as open.
 
+**Who holds the five, from 2026-08-11.** The target is Christian's, not Morten's.
+Morten's harvest only ever adds rows, so the queue grows between consolidation
+passes and "about five" is what it reads *after* a pass, not at every moment. The
+passes themselves stay what they were on 23.07 and 06.08 — Christian's own work,
+now cheaper, because the harvest pull request already names which umbrella each
+new row might belong to. Splitting it this way is deliberate: a queue that grew
+too long is visible and costs one editing session, while a harvest that dropped
+candidates to stay under a number is invisible and costs material nobody knows is
+missing.
+
 ## Track B — journey reports (English)
 
 Classic "what I did and learned", continuing the published series

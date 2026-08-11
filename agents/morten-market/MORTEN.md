@@ -189,6 +189,19 @@ carries four merged sources' worth of compressed thinking, and a merge that
 flattens a distinction is hard to spot in review and hard to reverse afterwards.
 An append that misses costs one line.
 
+**The "about five open ideas per track" target is not his.** The queue carries
+that discipline (see the consolidation notes in `REPERTOIRE.md`), and Morten
+raised on his first dry run that he cannot hold it while being forbidden to touch
+existing rows — correctly: the two rules cannot both be his. The target belongs to
+Christian, and it is maintained where it always has been, in his own
+consolidation passes on 23.07 and 06.08, now made cheaper because Morten's pull
+request already names which umbrella each new row might join. Harvest grows the
+queue; consolidation shrinks it; they are different jobs with different owners.
+The reading that had to be ruled out is the obedient one: if the count were
+Morten's and he may only append, the only way to comply would be to propose fewer
+rows — losing material silently, which is the worst outcome this job can produce.
+So the instruction says it outright: never leave a candidate out to keep a number.
+
 **The leadership translation is quoted, not inferred.** A Track A row's
 translation column must be drawn from Christian's handwritten reflection sections
 (`Organizational Learnings`, `Leadership Perspective`, `Other Learnings`,
@@ -312,6 +325,12 @@ filling itself.
    of the existing umbrella rows, keep it as its own new row anyway and write into
    the pull request description which umbrella you mean and why. Christian decides
    whether to merge it; you never merge rows yourself.
+
+   REPERTOIRE.md says the queue is kept at about five open ideas per track. That
+   target is NOT yours to hold — you only ever add, and Christian shrinks the queue
+   in his own passes using the merge candidates you flagged. Never leave a
+   candidate out to keep a number: proposing too many is a review Christian can do
+   in a minute, proposing too few loses material nobody knows is missing.
 
 7. Move the watermark to the filename of the newest entry you harvested, in the
    same pull request as the rows.
@@ -575,3 +594,18 @@ try to fetch LinkedIn data yourself.
   `drafted` as work remaining, which would have him write a second post over
   Christian's — and a decision on the first-comment experiment, whose four posts
   end on 20.08, exactly one slot before the first one he drafts.
+- 2026-08-12: mirrored to Abundly and dry-run the same day. He harvested from
+  20260801 on and showed what the pull request would look like — and found a
+  contradiction in the spec while doing it: `REPERTOIRE.md` keeps each track at
+  about five open ideas, and he may not delete or even touch an existing row, so
+  that target cannot be his. Correct, and the fix is above: the count belongs to
+  Christian's consolidation passes, harvest only ever adds. Worth recording *how*
+  it surfaced. The two standing requests promoted out of the goal briefs a day
+  earlier (#21) exist precisely so an ambiguity gets named instead of guessed —
+  and the first thing they caught was not an image brief but a conflict between
+  two rules in his own specification, on a job that had never run before. The
+  finding of 07.08 was that goal-orientation transfers; this is the first evidence
+  that it transfers *off* the images. The obedient failure was the live one: the
+  count and append-only can only both be satisfied by proposing fewer rows, which
+  would have looked like a clean harvest and quietly lost material. He asked
+  instead.
