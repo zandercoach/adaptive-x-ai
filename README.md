@@ -142,7 +142,5 @@ The goal is to understand what it takes for a business model, a leadership model
 - [20260731 - From a Marketing Team to One Crew](research/20260731-one-crew.md)
 - [20260801 - Catching Up the Record](research/20260801-catching-up-the-record.md)
 - [20260806 - The Brief Without a List](research/20260806-the-brief-without-a-list.md)
-
-## Status
-
-The journey has just begun.
+- [20260810 - Two Hands on the Same Work](research/20260810-two-hands-on-the-same-work.md)
+- [20260812 - Morten Takes the Harvest](research/20260812-morten-takes-the-harvest.md)

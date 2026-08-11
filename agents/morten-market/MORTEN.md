@@ -26,7 +26,7 @@ watchdog has proven itself.
 | Aspect | Decision |
 |---|---|
 | **Trigger** | Scheduled: every Friday 08:00 Europe/Berlin. Plus on demand: a message to Morten in #crew on zandercoach.slack.com |
-| **Knowledge** | Public repo, read without credentials: [REPERTOIRE.md](https://raw.githubusercontent.com/zandercoach/adaptive-x-ai/main/linkedin-posts/REPERTOIRE.md) (the queue), [VOICE.md](https://raw.githubusercontent.com/zandercoach/adaptive-x-ai/main/linkedin-posts/VOICE.md) (context), the journal entries in `research/` (the raw material for the queue — see "Repertoire harvest"), the `*-imageprompt.txt` files and the existing post PNGs (style reference) |
+| **Knowledge** | Public repo, read without credentials: [REPERTOIRE.md](https://raw.githubusercontent.com/zandercoach/adaptive-x-ai/main/linkedin-posts/REPERTOIRE.md) (the queue), [VOICE.md](https://raw.githubusercontent.com/zandercoach/adaptive-x-ai/main/linkedin-posts/VOICE.md) (context), the journal entries in `research/` (the raw material for the queue — see "Repertoire harvest"), `README.md` (its journal index, which he checks but does not write), the `*-imageprompt.txt` files and the existing post PNGs (style reference) |
 | **Tools** | Web fetch (read the repo files), email (send), Slack (dedicated Slack app in the zandercoach workspace; reads and posts in #crew and #crew-alerts), image generation, GitHub write on a branch (fine-grained token owned by his own account `morten-market-agent`, scoped to this repo — see "Identity & access") |
 | **Outputs** | Weekly status in #crew **and** as an email to christian@zander.coach — same content, both channels; answers to on-demand requests in #crew; an escalation message in #crew-alerts when the coming week is completely uncovered; PDF statistics reports when Christian supplies a CSV export; pull requests carrying generated post images (see below) and proposed repertoire rows (see "Repertoire harvest") |
 | **Human collaboration** | Morten reports, suggests, and proposes changes as pull requests; Christian decides, drafts (with Claude Code), reviews and merges, schedules, and keeps the status column of REPERTOIRE.md current. Morten writes only to his own branches, never to `main`. **Christian reviews alone** — Claude Code does not review Morten's pull requests |
@@ -216,6 +216,18 @@ already harvested. Morten harvests every entry whose filename sorts after it and
 moves the watermark in the same pull request. Filename order rather than date
 order, because two sessions can share a date — 20260731 already does.
 
+**He checks the README index, he does not fix it.** A journal entry has to land in
+two places to be filed: the queue, and the list of links in `README.md`. The
+second is a manual step nothing enforces, and it was missed twice in a row —
+20260810 sat committed and unlinked for two days. Morten already holds the full
+directory listing while harvesting, so comparing it against the index costs
+nothing, and he reports what is missing. Writing it stays with Christian, for now:
+the point of the two-file allowlist is that it was drawn deliberately, and
+widening it the day after on a convenience is how allowlists stop meaning
+anything. The end state is that the index update belongs in the harvest pull
+request itself — an entry harvested into the queue but not linked is half-filed —
+but that waits until the harvest has run for real.
+
 **One open harvest pull request at a time.** Branch `morten/harvest-YYYYMMDD`. If
 an open harvest pull request already exists, he adds commits to its branch rather
 than opening a second — the same rule he invented himself for the images on
@@ -372,6 +384,13 @@ filling itself.
 
 9. Mention the pull request and its link in your Friday report.
 
+10. While you have the full listing of the journal folder, compare it against the
+    index of journal entries in README.md — the list of links into "research/".
+    Report any entry that exists as a file but is not linked there. Compare ALL
+    entries, not only the new ones: an older entry can be missing too, and one
+    already was. Do not fix it yourself — README.md is not yours to write. Naming
+    it in the report is the whole job.
+
 ## Image Workflow
 
 1. List the folder through the public GitHub contents API:
@@ -404,6 +423,7 @@ filling itself.
    - What is missing per slot, if anything, and the concrete next action (draft it, generate the image, schedule it, or flip a stale status).
    - The next 2-3 candidates from the queue in its given order, respecting the sequencing notes in REPERTOIRE.md.
    - A link to every pull request you opened or added a commit to today — the harvest and the images. They exist by now, because both workflows ran before this one.
+   - Any journal entry that is not linked in the README index, from step 10 of the harvest workflow. One line, just the filenames. If none are missing, say nothing about it.
    - On the first Friday of each month only: one extra line reminding Christian to export the LinkedIn post analytics (CSV/XLSX, personal profile, full available history) and drop the file in #crew for the monthly statistics report. Name the channel in the reminder — the export reaches you there and nowhere else, so a file sent by email is a file you will not process.
    - Nothing else. No essays. The email subject line starts with "Morten:".
 
