@@ -17,7 +17,7 @@ The appendix samples are.
 | Language | **German**, du-form | **English** (intentional, keeps the series) |
 | Audience | German-speaking leaders, decision-makers; feeds the zander.coach repositioning | International AI / agentic-engineering crowd |
 | Cadence | ~weekly | ~weekly |
-| Framing | Mostly AI story first, then the people-leadership translation; varies when the story is served better the other way | Established ritual: learning report, "full disclosure, not a how-to", ends "Next up: … More to come, warts included." |
+| Framing | Mostly AI story first, then the people-leadership translation; varies when the story is served better the other way | Established ritual: learning report, "full disclosure, not a how-to". A closing "Next up: …" teaser is **available, not required** — several reports end without one, and a proposal to make it binding was refused on 2026-08-06, because a pattern seen three times is an observation and not a convention. Where a published post does carry one, it binds the next report of that track: it is a promise the series has already made out loud. |
 
 A German leadership story may link to the English journal ("die ganze Geschichte
 steht im Journal, englisch"). The language split itself signals the intent split:
@@ -103,8 +103,15 @@ German = about leading people, English = the lab notebook.
 
 ## Workflow
 
-Claude drafts, Christian voice-checks and posts himself. The final "post" click is
-always his. File naming: `YYYYMMDD-li-report-<topic>.txt` for journey reports,
+Christian voice-checks and posts himself; the final "post" click is always his,
+and so is the argument that turns a draft into a post. Who writes the first draft
+depends on the track: from 2026-08-28 Morten drafts the Track B reports and
+delivers them as pull requests, one per post, while the Track A stories are still
+drafted in a Claude Code session. Both tracks move to Morten no earlier than
+2026-09-04, and only if the first draft holds up. Whoever drafts, this file is
+binding for them.
+
+File naming: `YYYYMMDD-li-report-<topic>.txt` for journey reports,
 `YYYYMMDD-li-story-<topic>.txt` for leadership stories (+ `-imageprompt.txt`), where
 **`YYYYMMDD` is the intended posting date** (the Mon/Tue or Thu/Fri slot), not the
 drafting date, and `<topic>` carries no hyphens; images in the Zander Flipchart
