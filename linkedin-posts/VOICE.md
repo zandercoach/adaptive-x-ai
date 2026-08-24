@@ -108,7 +108,9 @@ always his. File naming: `YYYYMMDD-li-report-<topic>.txt` for journey reports,
 `YYYYMMDD-li-story-<topic>.txt` for leadership stories (+ `-imageprompt.txt`), where
 **`YYYYMMDD` is the intended posting date** (the Mon/Tue or Thu/Fri slot), not the
 drafting date, and `<topic>` carries no hyphens; images in the Zander Flipchart
-style (see the 20260709 imageprompt for the style guide).
+style, whose style guide lives in `IMAGE-STYLE.md` — that file is the source a new
+imageprompt copies its header from, and the header of an older one is a record of
+what was true when that post was written.
 
 ## Appendix — genuine voice samples (written by Christian himself)
 

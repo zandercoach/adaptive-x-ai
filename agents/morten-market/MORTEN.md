@@ -26,7 +26,7 @@ watchdog has proven itself.
 | Aspect | Decision |
 |---|---|
 | **Trigger** | Scheduled: every Friday 08:00 Europe/Berlin. Plus on demand: a message to Morten in #crew on zandercoach.slack.com |
-| **Knowledge** | Public repo, read without credentials: [REPERTOIRE.md](https://raw.githubusercontent.com/zandercoach/adaptive-x-ai/main/linkedin-posts/REPERTOIRE.md) (the queue), [VOICE.md](https://raw.githubusercontent.com/zandercoach/adaptive-x-ai/main/linkedin-posts/VOICE.md) (context), the journal entries in `research/` (the raw material for the queue — see "Repertoire harvest"), `README.md` (its journal index, which he checks but does not write), the `*-imageprompt.txt` files and the existing post PNGs (style reference) |
+| **Knowledge** | Public repo, read without credentials: [REPERTOIRE.md](https://raw.githubusercontent.com/zandercoach/adaptive-x-ai/main/linkedin-posts/REPERTOIRE.md) (the queue), [VOICE.md](https://raw.githubusercontent.com/zandercoach/adaptive-x-ai/main/linkedin-posts/VOICE.md) (context), [IMAGE-STYLE.md](https://raw.githubusercontent.com/zandercoach/adaptive-x-ai/main/linkedin-posts/IMAGE-STYLE.md) (the image style guide, source for the block a new imageprompt copies), the journal entries in `research/` (the raw material for the queue — see "Repertoire harvest"), `README.md` (its journal index, which he checks but does not write), the `*-imageprompt.txt` files and the existing post PNGs (style reference) |
 | **Tools** | Web fetch (read the repo files), email (send), Slack (dedicated Slack app in the zandercoach workspace; reads and posts in #crew and #crew-alerts), image generation, GitHub write on a branch (fine-grained token owned by his own account `morten-market-agent`, scoped to this repo — see "Identity & access") |
 | **Outputs** | Weekly status in #crew **and** as an email to christian@zander.coach — same content, both channels; answers to on-demand requests in #crew; an escalation message in #crew-alerts when the coming week is completely uncovered; PDF statistics reports when Christian supplies a CSV export; pull requests carrying generated post images (see below) and proposed repertoire rows (see "Repertoire harvest") |
 | **Human collaboration** | Morten reports, suggests, and proposes changes as pull requests; Christian decides, drafts (with Claude Code), reviews and merges, schedules, and keeps the status column of REPERTOIRE.md current. Morten writes only to his own branches, never to `main`. **Christian reviews alone** — Claude Code does not review Morten's pull requests |
@@ -109,7 +109,11 @@ This is deliberately the review gate from IDEAS #4, pulled forward on a
 harmless first case: a wrong image costs a rejected PR, nothing else.
 
 **Style consistency.** Every imageprompt file carries the "Zander Flipchart"
-style guide in its header. In addition Morten uses two existing post PNGs from
+style guide in its header, copied from `IMAGE-STYLE.md`, which is where the style
+is changed. The copies are records and are never brought up to date: an older
+brief describes the image that was generated from it. Until 2026-08-24 there was
+no source, only copies, so "the current style guide" meant whichever imageprompt
+had the newest date. In addition Morten uses two existing post PNGs from
 the repo as visual references, so the series does not drift when the generating
 model changes.
 
@@ -524,7 +528,7 @@ You write the post; Christian finishes it. The argument that turns a draft into 
 
 4. Write the draft to "<base>.txt", where <base> is "YYYYMMDD-li-report-<topic>" for a journey report and "YYYYMMDD-li-story-<topic>" for a leadership story. YYYYMMDD is the intended posting date of the slot, not today. <topic> is one lowercase word without hyphens. Follow the layout of the existing draft files exactly: the two header lines, the title, the body, the hashtags, then the FIRST COMMENT (English) or ERSTER KOMMENTAR (German) block with the adaptive-x-ai.org line.
 
-5. Write "<base>-imageprompt.txt" for the same post. Copy the style guide block VERBATIM from the most recently dated "-imageprompt.txt" in the folder — corrections accumulate there, so it is the current one, and writing it from memory loses whatever was last decided. Below it write a goal brief, not a checklist: what the post says, what the picture should do to someone scrolling past, what is fixed (square, white background, the two figures of the series and no invented third, the language of any lettering, and the exact caption text), and what is left to whoever draws it. You identify the post's goal while drafting, so brief and draft come from one reading.
+5. Write "<base>-imageprompt.txt" for the same post. Copy the style guide block VERBATIM out of "linkedin-posts/IMAGE-STYLE.md", between its style-block markers. That file is the source; the block inside an existing imageprompt is a snapshot of what was true when that post was written, so never copy from a sibling file, and never write the block from memory. Below it write a goal brief, not a checklist: what the post says, what the picture should do to someone scrolling past, what is fixed (square, white background, the two figures of the series and no invented third, the language of any lettering, and the exact caption text), and what is left to whoever draws it. You identify the post's goal while drafting, so brief and draft come from one reading.
 
 6. Deliver ONE PULL REQUEST PER POST, on the branch "morten/draft-<base>", titled "Draft for <base>". It contains exactly those two new files and nothing else — no PNG, no REPERTOIRE.md change.
 
@@ -917,6 +921,11 @@ email to christian@zander.coach, subject line starting with "Morten:".
   much was being tested at once; a dry run without a live slot would repeat what
   the harvest did on 12.08, which is worth less here because a draft gets a real
   review either way and an unused draft costs a slot nobody needed.
+  Late the same evening, the style guide got a home: `linkedin-posts/IMAGE-STYLE.md`
+  is now the source a new imageprompt copies its header from. The copies stay and
+  stay frozen, since a brief has to be one self-contained file and an old brief is
+  the record of the image it produced. Only the authoring step changed, from "copy
+  the newest sibling" to "copy the named file".
   Not built, and deliberately: an event-driven trigger, which would depend on an
   inbound hook Abundly may not offer, and any way for Morten to contradict a
   review rather than work through it. The second is the open question of
