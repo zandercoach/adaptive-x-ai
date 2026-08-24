@@ -277,10 +277,10 @@ Then the topmost open row. Note what this is not: it is not a rule that every
 post carries a teaser — that proposal was refused on 06.08 and stays refused. It
 only says that if one exists, it binds.
 
-**One deviation from the 12.08 design, and it needs Christian's confirmation.**
-That design said the drafting pull request carries the draft plus two image
-proposals. Here it carries the draft and the imageprompt, and no picture. Two
-reasons. The image workflow already exists and already generates from any
+**One deviation from the 12.08 design, confirmed 2026-08-24.** That design said
+the drafting pull request carries the draft plus two image proposals. Here it
+carries the draft and the imageprompt, and no picture. Two reasons. The image
+workflow already exists and already generates from any
 imageprompt on `main` that has no PNG beside it, so the picture costs nothing
 extra once the brief is merged. And an image generated against an unmerged brief
 is the 10.08 failure waiting to happen: the message changed during review, and
@@ -432,6 +432,14 @@ reviews on your own open pull requests — a request waiting for a rework comes
 before a new one. If a request falls outside the jobs listed above, say so
 in the channel rather than improvising.
 
+**Dry runs.** Christian may ask for a dry run of any workflow. Then you read
+everything the workflow reads and write nothing at all: no branch, no commit, no
+pull request, no email. Post in #crew what you would have produced — file names
+and their full content, the branch and pull request you would have opened, the
+report you would have sent — and name anything in the workflow you could read
+more than one way. The reason dry runs are worth the round: a pull request opened
+by mistake cannot be taken back by you, because a closed one is a full stop.
+
 ## Friday Review Workflow
 
 This runs first, before anything else you do on a Friday, and also at the start of an on-demand job.
@@ -558,9 +566,9 @@ You write the post; Christian finishes it. The argument that turns a draft into 
 1. Fetch the current queue:
    https://raw.githubusercontent.com/zandercoach/adaptive-x-ai/main/linkedin-posts/REPERTOIRE.md
 
-2. Determine coverage for the COMING week using today's date:
-   - Track B slot (journey report, English): next Monday/Tuesday.
-   - Track A slot (leadership story, German): next Thursday/Friday.
+2. Determine the TARGET WEEK and the coverage of its two slots. The target week is the next calendar week, Monday to Sunday, that has NOT begun yet. On a Friday that is the week after the coming weekend; on any other day it is still that same week, never the one you are standing in. This holds whatever day you run on — the definition used to say "the coming week" and silently assumed a Friday, which says nothing on a Monday.
+   - Track B slot (journey report, English): Monday/Tuesday of the target week.
+   - Track A slot (leadership story, German): Thursday/Friday of the target week.
    - A slot is COVERED when a post for it has status "approved — scheduled in LinkedIn" or "posted". Only a covered slot is safe: it goes out on its own.
    - A slot is OCCUPIED as soon as anything exists for it — a draft file "YYYYMMDD-li-*.txt" in linkedin-posts/ whose date is that slot, a draft on an open branch, or a row with status "drafted", "approved", "scheduled" or "posted". Never draft for an occupied slot: somebody is already on it, and a second post would be written over the first.
    - The two are not the same question. A "drafted" post occupies its slot and does not cover it: report it as waiting, with what is still missing (image, approval, scheduling), and leave it alone.
@@ -903,10 +911,25 @@ email to christian@zander.coach, subject line starting with "Morten:".
   with the row picked by teaser, then sequencing notes, then queue order. The
   write allowlist grew from two files to four so a draft and its imageprompt are
   allowed at all — the boundary that would otherwise have forbidden the job.
-  One deviation from 12.08, marked as needing confirmation: the drafting pull
-  request carries the draft and the imageprompt but no picture, because an image
-  generated against a brief that is still under review is the 10.08 failure by
-  construction.
+  One deviation from 12.08, confirmed the same evening: the drafting pull request
+  carries the draft and the imageprompt but no picture, because an image generated
+  against a brief that is still under review is the 10.08 failure by construction.
+  A dry run is set for Sat 2026-08-25, in the shape of the harvest dry run of
+  12.08: he runs the workflow and shows in #crew what he would have committed,
+  without opening a pull request, so the Mon 31.08 slot stays free for the real
+  run on Friday. This workflow is the largest he has been given and has never
+  executed; on 12.08 exactly such a run found a defect that every human reading of
+  the file had missed. It paid off before it started. Asked to run it, Morten came
+  back with two readings he could not decide between, and both were real. Whether
+  a dry run means reading only or running for real had never been defined anywhere
+  — now a named mode under "On demand", and worth having precisely because the
+  full-stop rule written this afternoon means a pull request opened by mistake
+  cannot be taken back by him. And which week "the coming week" is: a definition
+  written for a Friday, run on a Monday, where it says nothing. It is now the next
+  calendar week that has not begun, whatever day he runs on. Same defect class as
+  the impossible Friday order of 21.07 — correct for the case it was written in,
+  silent about every other, and found only when somebody had to follow it end to
+  end.
   Order now reads the same in four places, one more than on 12.08: the Abundly
   trigger, the numbered job list, the section layout and the recurring schedule.
   The trigger sentence changed with them and has to be updated in Abundly, or the
@@ -921,6 +944,9 @@ email to christian@zander.coach, subject line starting with "Morten:".
   much was being tested at once; a dry run without a live slot would repeat what
   the harvest did on 12.08, which is worth less here because a draft gets a real
   review either way and an unused draft costs a slot nobody needed.
+  Mirrored to Abundly the same evening: the instruction block and the trigger
+  sentence, which now names five workflows. Order reads the same in all four
+  places again, the one outside the repo included.
   Late the same evening, the style guide got a home: `linkedin-posts/IMAGE-STYLE.md`
   is now the source a new imageprompt copies its header from. The copies stay and
   stay frozen, since a brief has to be one self-contained file and an old brief is
