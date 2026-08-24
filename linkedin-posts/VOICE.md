@@ -47,6 +47,21 @@ German = about leading people, English = the lab notebook.
   but LinkedIn sees no link.
 - **Emoji:** sparingly is fine. His natural set: 😉 ;-) ✅️ 😄 — roughly one per
   post, usually a self-ironic wink near the end.
+- **AI disclosure (agreed 2026-08-24, not from the interview):** every post states
+  that it was made together with AI and that Christian reviewed it before it went
+  out. The claim being made is accountability: the work is shared, being answerable
+  for it is not, and the review is what makes that sentence true. Journey reports
+  carry it inside the closing "Full disclosure" line; leadership stories carry it
+  as their last paragraph, after the journey anchor and before the hashtags, so
+  that a closing wink is not blunted by it. There it may be introduced as an aside
+  ("Übrigens:") — it is a footnote to the story, not part of it. The English
+  wording may use *accountable*, which is the precise word there; German collapses
+  the distinction into *Verantwortung* and simply keeps it. First used on 24./27.08:
+  "Text and image were made together with AI, and I reviewed both before they went
+  out. The work can be shared. Being accountable for it cannot." /
+  "Text und Bild sind gemeinsam mit KI entstanden, ich habe beides geprüft, bevor
+  es rausging. Die Arbeit lässt sich teilen, die Verantwortung dafür nicht."
+  Vary the wording, keep the two claims: made with AI, and reviewed by him.
 - **German is gender-inclusive** with colon forms: "Nutzer:innen, Stakeholder:innen".
 
 ## Voice markers (from his own posts)
