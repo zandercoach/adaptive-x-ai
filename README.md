@@ -144,3 +144,4 @@ The goal is to understand what it takes for a business model, a leadership model
 - [20260806 - The Brief Without a List](research/20260806-the-brief-without-a-list.md)
 - [20260810 - Two Hands on the Same Work](research/20260810-two-hands-on-the-same-work.md)
 - [20260812 - Morten Takes the Harvest](research/20260812-morten-takes-the-harvest.md)
+- [20260824 - The Fish Leaves the Circle](research/20260824-the-fish-leaves-the-circle.md)
