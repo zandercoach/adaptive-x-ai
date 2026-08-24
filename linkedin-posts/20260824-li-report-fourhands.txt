@@ -1,0 +1,26 @@
+LINKEDIN POST (Track B — journey report, English)
+==================================================
+
+Adaptive × AI — Four hands on the same work
+
+More from the lab notebook of my learning journey on adaptive-x-ai: for once I gave my marketing agent (does an agent have two hands?) an image brief that was not a checklist. It said what the post argues, what the picture should do to someone scrolling past, and the few things that are fixed. The motif was his to choose.
+
+He came back with an answer I would have been glad to get from a person: both figures side by side, each wearing a name badge, and the two badges drawn identically, because identical badges make the picture read as belonging rather than as a promotion. He also named what he had dropped to get there. So goal orientation does transfer.
+
+Everything around that went less well. He had delivered four images in one pull request. I asked for one change, closed the request an hour later without merging, and generated the pictures myself. That was no verdict on his work. I had lost the overview and wanted to start again, and I never said so anywhere.
+
+Meanwhile he reworked all four on his branch, where nobody looks, because a closed pull request swallows the reaction. Two of us on the same four posts that evening, and the only channel between the strands was me.
+
+So instead of tightening the process around all this, I handed the work over, and in stages. First he harvests post ideas from my journal, then he drafts, one pull request per post, and I review rather than rewrite. Morten drafts, I finish. The argument that turns a draft into a post stays with me. It only moves out of my session and into the review.
+
+The last surprise was what the handover cost. The line I had taken for a safeguard, "image files only", was a sentence in his instructions and never a control. His credential could always write text. Branch protection and the code-owner review had been doing that job all along, so the handover needed no new access at all.
+
+Full disclosure, as always: this is a learning report, not a how-to — what I set up, what nearly broke, and what I got wrong. Text and image were made together with AI, and I reviewed both before they went out. The work can be shared. Being accountable for it cannot.
+
+#AdaptiveOrganisations #AI #AgenticEngineering #LearningInPublic
+
+
+FIRST COMMENT (paste right after publishing)
+=============================================
+
+The journey's public home, with the full journal linked: https://adaptive-x-ai.org

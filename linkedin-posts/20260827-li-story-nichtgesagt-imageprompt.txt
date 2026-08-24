@@ -1,0 +1,22 @@
+IMAGE STYLE GUIDE ("Zander Flipchart" — use for every future post)
+====================================================================
+
+Hand-drawn flipchart illustration, as sketched live by a trainer with markers: clean black marker outlines on a plain white background, simple friendly shapes, hand-lettered text. Human figures are always drawn with a body — a round head, an oval torso, and thin arms and legs attached to that torso, never a head with limbs hanging directly off it — and the posture carries the expression. This applies to the human figures only; the robot of this series keeps his own look (boxy head with antenna, segmented arms and legs) and is not changed by it. Accents only in classic flipchart marker colors — yellow, orange, green, blue, red — applied as wide, slightly uneven marker strokes. No gradients, no photorealism, no dark shading, plenty of white space. Light, warm, optimistic mood. Square composition.
+
+
+IMAGE PROMPT ("Nicht gesagt") — GOAL, NOT A CHECKLIST
+======================================================
+
+This brief tells you what the picture is for and leaves the motif to you. It does not describe the scene element by element.
+
+WHAT THE POST SAYS
+The human took a piece of work back out of the agent's hands and did it himself, without saying why. The real reason was harmless: he had lost the overview and wanted to start over, which says nothing about the agent's ability. Left unspoken, it reads as distrust, because whoever gets a task taken away picks a reason themselves and rarely a kind one. The post then finds the same silence on the other side of the same relationship: the agent now drafts the posts and carries part of the result, but what those posts are meant to achieve was never discussed. It closes on a third silence, the one every organization has: a review is something people work through, contradiction has to be asked for, and there is a channel for the first almost everywhere and for the second almost nowhere.
+
+WHAT THE PICTURE SHOULD DO
+Someone scrolling past should feel the unsaid thing in the room, the gap between what was done and what was explained. The human is the one noticing this about himself, so the mood is honest and a little rueful, warm rather than heavy. Avoid making the agent look hurt or reproachful, avoid anything that reads as scolding, conflict or a sad robot. Not a speech bubble full of text; the silence is the subject.
+
+WHAT IS FIXED
+The style guide above. Square composition, white background. The small friendly stick-figure robot that carries this series is the agent, and the stick-figure person is his human colleague. There are exactly these two figures — no further colleagues, since an invented third would make the picture say something untrue. Any hand-lettering in the picture is German, since the post is German. A hand-lettered caption at the bottom in black marker, underlined, reading exactly: "Nicht gesagt". As always, fetch two existing post PNGs from the same folder as visual reference so the series keeps one look.
+
+WHAT IS YOURS
+The motif, the composition, and which single detail carries the message. Pick one clear idea and let it breathe, rather than assembling several.

@@ -1,0 +1,22 @@
+IMAGE STYLE GUIDE ("Zander Flipchart" — use for every future post)
+====================================================================
+
+Hand-drawn flipchart illustration, as sketched live by a trainer with markers: clean black marker outlines on a plain white background, simple friendly shapes, hand-lettered text. Human figures are always drawn with a body — a round head, an oval torso, and thin arms and legs attached to that torso, never a head with limbs hanging directly off it — and the posture carries the expression. This applies to the human figures only; the robot of this series keeps his own look (boxy head with antenna, segmented arms and legs) and is not changed by it. Accents only in classic flipchart marker colors — yellow, orange, green, blue, red — applied as wide, slightly uneven marker strokes. No gradients, no photorealism, no dark shading, plenty of white space. Light, warm, optimistic mood. Square composition.
+
+
+IMAGE PROMPT ("The same work, twice") — GOAL, NOT A CHECKLIST
+==============================================================
+
+This brief tells you what the picture is for and leaves the motif to you. It does not describe the scene element by element.
+
+WHAT THE POST SAYS
+The agent had done good work on a job, and the human took it back mid-flight without explaining why: he had lost the overview and wanted to start again, which says nothing about the agent's ability, but he never wrote that down anywhere. So both of them spent the same evening working on the same four pieces, each unaware of the other, and the only connection between the two strands was the human himself. The agent's rework landed where nobody looks. The answer was not a tighter process but handing the job over properly and in stages, with the review as the place where the two strands finally meet.
+
+WHAT THE PICTURE SHOULD DO
+Someone scrolling past should recognize the waste of two people doing the same work in parallel without knowing it, and should feel it as a rueful, self-aware observation rather than as blame or as a machine-versus-human contest. The human is the one telling this about himself. Warm, a little wry, never gloomy. Avoid conflict imagery, tug-of-war, races and anything that makes one of the two the loser.
+
+WHAT IS FIXED
+The style guide above. Square composition, white background. The small friendly stick-figure robot that carries this series is the agent, and the stick-figure person is his human colleague. There are exactly these two figures — no further colleagues, since the team really does have two members and an invented third would make the picture say something untrue. Any hand-lettering in the picture is English, since the post is English. A hand-lettered caption at the bottom in black marker, underlined, reading exactly: "The same work, twice". As always, fetch two existing post PNGs from the same folder as visual reference so the series keeps one look.
+
+WHAT IS YOURS
+The motif, the composition, and which single detail carries the message. Pick one clear idea and let it breathe, rather than assembling several.
