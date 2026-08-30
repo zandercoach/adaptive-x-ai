@@ -314,6 +314,11 @@ German = about leading people, English = the lab notebook.
   but LinkedIn sees no link.
 - **Length:** whatever the story needs, shorter is better. Leadership stories
   tend ~120–250 words; journey reports may run longer (250–350) per the format.
+  **These are limits, not descriptions (2026-08-30).** The reports of 10./24./31.08
+  ran 398, 399 and 398 words and Christian read all three as too long, his own
+  drafting included. The range stays; the practice moves back to it. A report over
+  350 words is trimmed before it is scheduled, and the pass that helps drops a
+  whole beat rather than tightening sentences (20260806).
 - **AI disclosure (agreed 2026-08-24, not from the interview):** every post states
   that it was made together with AI and that Christian reviewed it before it went
   out. The claim being made is accountability: the work is shared, being answerable
@@ -337,7 +342,7 @@ German = about leading people, English = the lab notebook.
 | Gender-inclusive German, form open | **Colon form**: "Nutzer:innen, Stakeholder:innen" | In the body of a post, both nouns spelled out cost more line than LinkedIn shows before "see more" | 2026-07-12 |
 | Emoji sparingly | **Roughly one per post**, usually the self-ironic wink near the end | A post is short enough that a second one turns into a shtick | 2026-07-12 |
 | Self-irony at least once | **One per post** — the same one as the emoji wink where it sits there | Post length; the core asks for one, and no more fits | 2026-07-12 |
-| Em-dashes: one per paragraph, on average one per 120 words | In practice **once or twice per post** | The same density, worked out in post lengths — not a deviation, just the handier number | 2026-07-12 |
+| Em-dashes: one per paragraph, on average one per 120 words | **At most two per post, and fewer is better. None at all is fine** | Tightened 2026-08-30, after three drafts in a row where the dash was put in for the density and taken out again on the voice check. The core's number is a ceiling here, not a target: at post length one dash is a stress mark, and two already read as a habit | 2026-07-12, tightened 2026-08-30 |
 
 ## Workflow
 
