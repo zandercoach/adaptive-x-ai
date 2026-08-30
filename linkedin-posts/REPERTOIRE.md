@@ -5,6 +5,12 @@ against `VOICE.md`, Christian voice-checks and posts. Status: `idea` → `drafte
 → `approved` → `scheduled (date)` → `posted (date)`. `scheduled` means the post
 sits in LinkedIn's own scheduler with its image and goes out by itself.
 
+**What a status cell carries (2026-08-31).** `drafted` names the source marker the
+row already had and the draft's filename — no date, because a draft has no date
+worth keeping. From `scheduled` on it names the slot date, the filename and the
+post's own title, which is often not the row's. Morten sets `idea` → `drafted`
+inside his drafting pull request; every later transition is Christian's.
+
 **Cadence (agreed 2026-07-12):** journey reports (Track B) go out early in the
 week, Monday or Tuesday; leadership stories (Track A) late in the week, Thursday
 or Friday. Out so far: B3 Mon 2026-07-13, A1 Thu 2026-07-16, B1 Mon 2026-07-20,
@@ -12,7 +18,8 @@ A2 Thu 2026-07-23, B4 Mon 2026-07-27, A11 Thu 2026-07-30, B5 Mon 2026-08-03,
 A23 Thu 2026-08-06, B6 Mon 2026-08-10, A22 Thu 2026-08-13, B7 Mon 2026-08-17,
 A19 Thu 2026-08-20, B13 Mon 2026-08-24, A31 Thu 2026-08-27. Scheduled in
 LinkedIn, text and image complete, going out on its own: B8 Mon 2026-08-31.
-The first open slot is Thu 2026-09-03.
+Drafted, with its image, and waiting to be scheduled: A43 Thu 2026-09-03. The
+first open slot is Mon 2026-09-07.
 
 **The 24.08 slot was Morten's, and it did not happen.** Stage 2 of the handover
 (MORTEN.md, 2026-08-11) had him drafting exactly this Track B post on Fri
@@ -29,8 +36,9 @@ was on none of the lists was written the same evening. Morten drafted B8, took
 one rework on review, and the post went out of his hands and into Christian's
 finish — which is where it changed most, and which produced the two workflow
 steps of 30.08: the rework path the stage had been built without, and the
-read-back that keeps a merged pull request from swallowing the finish. Stage 3,
-both tracks, on Fri 2026-09-04.
+read-back that keeps a merged pull request from swallowing the finish. **Stage 3
+followed on 30.08**, four days early and on Christian's call, with the Track A
+story for 03.09 — the first German post an agent has drafted.
 
 **Running experiment (from B6, 2026-08-10):** the in-body pointer to the first
 comment ("The full journal is public (link in the first comment)" / "Das Journal

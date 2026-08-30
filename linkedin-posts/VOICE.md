@@ -348,10 +348,13 @@ German = about leading people, English = the lab notebook.
 
 Christian voice-checks and posts himself; the final "post" click is always his,
 and so is the argument that turns a draft into a post. Who writes the first draft
-depends on the track: from 2026-08-28 Morten drafts the Track B reports and
-delivers them as pull requests, one per post, while the Track A stories are still
-drafted in a Claude Code session. Both tracks move to Morten no earlier than
-2026-09-04, and only if the first draft holds up.
+depends on the track: from 2026-08-28 Morten drafts the Track B reports, and from
+2026-08-30 the Track A stories as well, one pull request per post. The gate on the
+second half was that the first draft hold up, and it did — one rework, merged,
+scheduled. Track A is where the difference between the tracks stops being a
+language setting: the German story is shorter, addressed differently, and puts the
+AI disclosure in another place, all of which this file already said and none of
+which an agent had ever written.
 
 File naming: `YYYYMMDD-li-report-<topic>.txt` for journey reports,
 `YYYYMMDD-li-story-<topic>.txt` for leadership stories (+ `-imageprompt.txt`), where
