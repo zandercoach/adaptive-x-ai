@@ -1031,3 +1031,8 @@ email to christian@zander.coach, subject line starting with "Morten:".
   and this file, which is also why the two numbers corrected in VOICE.md tonight
   reach him without anybody telling him. What this still does not give him is a way
   to contradict; that is the open question of 20260810 and remains one.
+- 2026-08-30 (end of day): Instruction block mirrored to Abundly — both of today's
+  changes at once, the rework path of step 10 and the read-back of step 11. No
+  trigger change and none needed: no workflow was added, so the order still stands
+  in the same four places and still reads the same in all of them, the one outside
+  the repo included. Spec and live config in sync.
