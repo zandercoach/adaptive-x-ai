@@ -1,19 +1,19 @@
 LINKEDIN POST (Track B — journey report, English)
 ==================================================
 
-Adaptive × AI — The company gets a brain
+Adaptive × AI — The company gets a brain — or a memory?
 
-More from the lab notebook of my learning journey on adaptive-x-ai: the instructions file at the root of this repository used to open with "This repo is Christian's second brain." That sentence is gone. It now says "our company brain", and rewriting it was the most useful thing in the session.
+More from the lab notebook of my learning journey on adaptive-x-ai: the instructions file at the root of this repository used to open with "This repo is Christian's second brain." It now says "our company brain", and rewriting it was the most useful thing in the session. Strictly it is a memory — nothing in the repository thinks — and "company brain" is only the term that has caught on.
 
 What forced it was an audit. Claude, my pairing agent, carries knowledge of its own, in a memory that lives outside the repository, so I finally looked at what was in there. Six items, most of them already in the repo, so memory was holding duplicates that could quietly drift away from the originals. Exactly one was a genuine gap: the hosting setup, the DNS records, the domains, the legal note. It has a file now.
 
 So instead of copying that memory in wholesale, I wrote down which layer holds what. The repository is authoritative. Memory is an index into it, plus the two things the repo should not hold: how the agent prefers to work with me, and whatever it is juggling for the next ten minutes. The new name carries that definition in the same sentence, because "company brain" on its own would have invited everything being dumped straight back in. A name can carry a discipline, or quietly lose one.
 
-Then the roster. Who works here got its own place in the repo, separate from the config files the agents have: the who and the how are two different questions. Describing the two agents side by side was the part I had not expected. Morten is a member, with his own account and his name in the history. Claude is something else, a capability I wear: my Iron Man suit, powerful in my hands and inert without me in them. The asymmetry is the content here, not an awkwardness to smooth over.
+Then the roster. Who works here got its own place in the repo, separate from the config files the agents have: the who and the how are two different questions. Morten is a member, with his own account and his name in the history. Claude is something else, a capability I wear: my Iron Man suit, superpowers in my hands and inert without me in them. The asymmetry is fully intended.
 
 My own entry corrected a framing I had let stand: I am not relearning how to lead people, I do that wherever I show up. What I am relearning is engineering, and doing it with AI. Player-coach, back in the game 😉
 
-Full disclosure, as always: a learning report, not a how-to. What I renamed, what turned out to be a duplicate, and what I had to correct about myself. Text and image came out of working with AI; the last read before publishing was mine — and being accountable for it is the one part of this I cannot hand to anyone.
+Full disclosure, as always: a learning report, not a how-to. What I renamed, what turned out to be a duplicate, and what I had to correct about myself. Text and image came out of working with AI; the last read before publishing was mine. Being accountable for it is the one part of this I cannot hand to anyone.
 
 #AdaptiveOrganisations #AI #AgenticEngineering #LearningInPublic
 
