@@ -1065,3 +1065,9 @@ email to christian@zander.coach, subject starting "Morten:".
   and A31 rather than against the English reports. Note also that the row for this
   one is Christian's pick and not the workflow's: by rule (c) the topmost open row
   is A20, and A43 was named in #crew instead.
+- 2026-08-31: Abundly brought into line with all of 30.08 in one pass — the
+  shortened instruction block replacing the old one whole rather than in patches,
+  the new webhook trigger, and the daily review run. The webhook trigger carries
+  one sentence and not the event list, which stays in the block; two copies of
+  that list would be the 12.08 defect rebuilt on purpose. Spec and live config in
+  sync, and the direction was the file first again.
