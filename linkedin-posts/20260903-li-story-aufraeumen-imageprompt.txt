@@ -1,0 +1,22 @@
+IMAGE STYLE GUIDE ("Zander Flipchart" — use for every future post)
+====================================================================
+
+Hand-drawn flipchart illustration, as sketched live by a trainer with markers: clean black marker outlines on a plain white background, simple friendly shapes, hand-lettered text. Human figures are always drawn with a body — a round head, an oval torso, and thin arms and legs attached to that torso, never a head with limbs hanging directly off it — and the posture carries the expression. This applies to the human figures only; the robot of this series keeps his own look (boxy head with antenna, segmented arms and legs) and is not changed by it. Accents only in classic flipchart marker colors — yellow, orange, green, blue, red — applied as wide, slightly uneven marker strokes. No gradients, no photorealism, no dark shading, plenty of white space. Light, warm, optimistic mood. Square composition. Captions are hand-lettered in black marker and underlined in black as well; the underline belongs to the lettering and is not a colour accent.
+
+
+IMAGE PROMPT ("Erst feiern, dann aufräumen") — GOAL, NOT A CHECKLIST
+==============================================================
+
+This brief tells you what the picture is for and leaves the motif to you. It does not describe the scene element by element.
+
+WHAT THE POST SAYS
+With AI, several fields are running in parallel at once — a corporate design, work with partners, learning nuggets, the learning journey, the posts — and each of them produces a first, showable result fast. Losing the overview takes about as long. So a whole weekend went into work that produces nothing to show: one folder structure, git repositories throughout, the same rules for all of them, line endings unified, the content pulled into line, rules written down for images and their originals. That unglamorous work is what keeps good ideas and good results from turning into a heap. Speed produces things worth celebrating long before it produces things worth keeping, and the temptation is not laziness, it is how quickly a first result can be celebrated. The post ends on the question that is still open: how to assure quality while more and more subject areas move to somebody else.
+
+WHAT THE PICTURE SHOULD DO
+Someone scrolling past should feel the difference between quick, celebrated results lying around loose and the quiet ordering that keeps them usable — and should read the ordering as worth doing rather than as a chore or a reprimand. The mood is warm, matter-of-fact and quietly pleased, never scolding and never a mess being cleaned up after somebody. Steer away from: infrastructure imagery of any kind (servers, database cylinders, clouds, architecture diagrams), calendars, checklists whose ticks are the whole idea, and any before/after split that reads as a rule being taught.
+
+WHAT IS FIXED
+The style guide above. Square composition, white background. The two figures of this series carry the picture: the stick-figure person and the small friendly stick-figure robot, exactly these two and no invented third. They tidy together, side by side; no hierarchy, nobody supervising the other, no conflict. Any hand-lettering in the picture is German, since the post is German. A hand-lettered caption at the bottom in black marker, underlined in black, reading exactly: "Erst feiern, dann aufräumen". As always, fetch two existing post PNGs from the same folder as visual reference so the series keeps one look.
+
+WHAT IS YOURS
+The motif, the composition, and which single detail carries the message. Pick one clear idea and let it breathe, rather than assembling several.
