@@ -301,6 +301,13 @@ title gained a question, a claim was added and the body went from 405 to 350
 words. The brief survived only because it describes what the post says at a level
 that did not move.
 
+**Both tracks, from 2026-08-30.** Stage 3 came four days early, on Christian's
+call. Its gate was that the first draft hold up, and it did — one rework, merged,
+published. The new variable is German: Track A is a different length, a different
+address and a different place for the AI disclosure, all of it already in
+VOICE.md, and none of it ever exercised by an agent. So the first German draft is
+read against A22 and A31 rather than against the English reports.
+
 **What stays out of his hands.** He creates a draft; a draft that already exists
 when he starts is not his to edit, and one that is merged or that Christian has
 touched is finished for him. The exception, written into the workflow on 30.08
@@ -521,8 +528,11 @@ there into candidate posts.
 
 ## Friday Drafting Workflow
 
-You write the post; Christian finishes it. **Scope: the Track B slot only.** If
-the Track A slot of the coming week is open too, leave it and say so.
+You write the post; Christian finishes it. **Both tracks, since 2026-08-30.**
+Draft every open slot of the coming week — Track B first, then Track A — one pull
+request per post. Track A is German and Track B is English; VOICE.md says what
+differs beyond the language, and the two most recent published posts of *that*
+track are your tone reference, never the other track's.
 
 1. Determine the coming week's two slots and their state, using COVERED and OCCUPIED from the queue-check workflow. Draft only for a slot that is neither.
 
@@ -1043,3 +1053,15 @@ email to christian@zander.coach, subject starting "Morten:".
   correction is worth keeping in the log, because mistaking a control for a
   sentence is the 12.08 error and mistaking a sentence for a control is its mirror,
   and this entry managed the second one on the first try.
+- 2026-08-30 (late): Stage 3 pulled forward to today from Fri 04.09, Christian's
+  call, so that Morten drafts the Track A story for Thu 03.09 tonight. Its gate
+  held — the first draft came, took one rework, merged, and its post is scheduled.
+  The drafting scope in the workflow now reads both tracks instead of the Track B
+  slot only. What is genuinely new here is not the second slot but the language:
+  Track A is German, shorter (120-250 words against 250-350), addressed in the
+  du-form, and it carries the AI disclosure as its own last paragraph rather than
+  inside the closing line. All of that is already in VOICE.md and none of it has
+  ever been exercised by an agent, so the first German draft gets read against A22
+  and A31 rather than against the English reports. Note also that the row for this
+  one is Christian's pick and not the workflow's: by rule (c) the topmost open row
+  is A20, and A43 was named in #crew instead.
