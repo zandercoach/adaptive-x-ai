@@ -1,0 +1,22 @@
+IMAGE STYLE GUIDE ("Zander Flipchart" — use for every future post)
+====================================================================
+
+Hand-drawn flipchart illustration, as sketched live by a trainer with markers: clean black marker outlines on a plain white background, simple friendly shapes, hand-lettered text. Human figures are always drawn with a body — a round head, an oval torso, and thin arms and legs attached to that torso, never a head with limbs hanging directly off it — and the posture carries the expression. This applies to the human figures only; the robot of this series keeps his own look (boxy head with antenna, segmented arms and legs) and is not changed by it. Accents only in classic flipchart marker colors — yellow, orange, green, blue, red — applied as wide, slightly uneven marker strokes. No gradients, no photorealism, no dark shading, plenty of white space. Light, warm, optimistic mood. Square composition. Captions are hand-lettered in black marker and underlined in black as well; the underline belongs to the lettering and is not a colour accent.
+
+
+IMAGE PROMPT ("Our company brain") — GOAL, NOT A CHECKLIST
+==============================================================
+
+This brief tells you what the picture is for and leaves the motif to you. It does not describe the scene element by element.
+
+WHAT THE POST SAYS
+The repository behind this journey used to be described as one man's second brain, private notes kept outside his head. It is now described as the company's brain: one shared, reviewed source of truth that people and agents both read from and onboard through. What forced the rename was finding that the agent's own memory, outside the repository, was holding duplicate copies of things the repository already knew, and duplicates drift. So the layers were separated — the repository is authoritative, the private memory is only an index into it — and the definition was attached to the new name in the same sentence, because a name can carry a discipline or quietly lose one. The roster written into that shared place then described the two agents honestly rather than symmetrically: one a colleague with an identity of his own, the other a capability the human wears.
+
+WHAT THE PICTURE SHOULD DO
+Someone scrolling past should get the shift from a private notebook to a shared source: one thing in the middle that both figures work from and keep up, rather than one figure's possession. The mood is warm, matter-of-fact, and quietly pleased about the tidiness. Two things to steer away from: it should not read as infrastructure — no servers, no database cylinders, no cloud, no architecture diagram, because this is a flipchart and the subject is a shared habit rather than a system — and any brain that appears must be hand-drawn and friendly rather than clinical or a glowing sci-fi hologram. No conflict, no hierarchy between the two figures, and no sense of one of them being the source and the other the consumer.
+
+WHAT IS FIXED
+The style guide above. Square composition, white background. The two figures of this series carry the picture: the small friendly stick-figure robot as the agent, the stick-figure person as his human colleague. Exactly these two and no invented third. Note the tension there, because the post does talk about two agents: the second one is described in the post as something the human wears rather than as a colleague, and the series has one robot and one human, so a third figure would say the team is bigger than it is. If you think the picture needs the second agent visible, say so instead of inventing him — that is a change to the fixed part of this brief and it is Christian's call. Any hand-lettering in the picture is English, since the post is English. A hand-lettered caption at the bottom in black marker, underlined in black, reading exactly: "Our company brain". As always, fetch two existing post PNGs from the same folder as visual reference so the series keeps one look.
+
+WHAT IS YOURS
+The motif, the composition, and which single detail carries the message. Pick one clear idea and let it breathe, rather than assembling several.
