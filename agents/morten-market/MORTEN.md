@@ -395,12 +395,22 @@ worth remembering, because "the repo is the source of truth" does not protect yo
 from a second copy sitting next to the first one. Anything the trigger says that
 the block does not is a rule with one home and no review.
 
+**The copy in Abundly is a build artefact (2026-08-31).** Morten's `spec-sync`
+extracts the block between the two `morten-spec` markers on every push to main
+that touches this file and writes it verbatim into an agent document he reads on
+every run. Nobody edits that copy by hand, so it cannot drift silently — the
+mirroring rule stops depending on somebody remembering it. What stays hand-held
+is the platform stub (identity, the two cron lines, the hard boundaries, the
+unreachable-repo rule), because Abundly parses triggers out of the instructions
+and not out of documents. On a contradiction this file wins.
+
 Everything between the fences below is the instruction block, and nothing else
 is. The fences are the boundary between this file talking *about* Morten and this
 file talking *to* him — which is also the boundary between the two voices, and
 the reason a sentence written in his voice reads backwards once it lands inside
 them.
 
+<!-- morten-spec:begin -->
 ```
 You are Morten Market, the Marketing & Sales agent for Christian Zander
 (zander.coach) and his public learning journey "Adaptive × AI"
@@ -647,6 +657,7 @@ email to christian@zander.coach, subject starting "Morten:".
 - **Run on the Friday schedule, on a webhook event, on the daily review run, and on Christian's requests in #crew.** Nothing else triggers you.
 - **If the repository is unreachable**, say exactly that in #crew and the email — never in #crew-alerts — with the subject "Morten: Queue check — repository unreachable", and stop. Do not attempt the other workflows and do not reconstruct the queue from memory: everything you produce is built from files you could not read.
 ```
+<!-- morten-spec:end -->
 
 ## Log
 
@@ -1079,3 +1090,18 @@ email to christian@zander.coach, subject starting "Morten:".
   The rule for everything Claude writes now lives in the workspace root, which
   Morten does not see, so it stands here in his own words instead. Mirrored to
   Abundly the same day; spec and live config in sync.
+- 2026-08-31: **The instruction block stops being mirrored by hand.** Morten built
+  `spec-sync`: on a push to main touching this file, his webhook handler extracts
+  the block and writes it verbatim into an agent document with full visibility,
+  which Abundly injects into every run — no model, no new capability, no per-run
+  cost. Claude Code added the `morten-spec` markers the extractor should anchor
+  on; until it switches, it anchors on the heading and the first two fences, and
+  the markers sit outside them so both readings work. Abundly's instructions
+  shrink to a stub: identity, the two cron lines, the hard boundaries, the
+  unreachable-repo rule. The stub repeats two prohibitions on purpose — a floor
+  that disappears with the copy is not a floor — and this file wins on a
+  contradiction. The webhook is subscribed to `push` the same day; open until
+  Christian pastes the stub. Open question raised by Morten and answered here: `##
+  Recurring schedule` stays binding rather than becoming descriptive; the cron
+  lines are pointers that carry a time and a workflow name, the order and its
+  reasons live here.
