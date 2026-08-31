@@ -404,6 +404,14 @@ is the platform stub (identity, the two cron lines, the hard boundaries, the
 unreachable-repo rule), because Abundly parses triggers out of the instructions
 and not out of documents. On a contradiction this file wins.
 
+**Two sentences of this file are quoted in the stub**, verbatim: the publishing
+boundary and the repository-write boundary. A floor that vanishes with the copy
+is not a floor, so they are deliberately in both places — and the sync compares
+them on every run, ignoring bold marks and line breaks, and says in #crew which
+one has drifted. Consequence when editing: changing either sentence here starts a
+daily drift message until the stub is pasted again. That is the point rather than
+a defect; a silent floor that no longer fits is the 12.08 failure.
+
 Everything between the fences below is the instruction block, and nothing else
 is. The fences are the boundary between this file talking *about* Morten and this
 file talking *to* him — which is also the boundary between the two voices, and
@@ -1105,3 +1113,12 @@ email to christian@zander.coach, subject starting "Morten:".
   Recurring schedule` stays binding rather than becoming descriptive; the cron
   lines are pointers that carry a time and a workflow name, the order and its
   reasons live here.
+- 2026-08-31 (later): spec-sync's net and its quotes. The daily trigger points at
+  the sync rather than at the review loop, so the comparison happens before the
+  work and not after it; on a match it posts nothing and passes "Spec unchanged"
+  to the run. The two quoted boundaries are verbatim, the bold sentence only —
+  the reasoning behind the second one (branch protection, 23.07) explains the
+  rule and is not the rule. Verbatim also means "email to Christian" without the
+  address, which lives in the block: with no spec loaded Morten does nothing
+  except say so in #crew, and the stub's unreachable-repo rule governs that case
+  rather than the block's. Still open: Christian pastes the stub.
