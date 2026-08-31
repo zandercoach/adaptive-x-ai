@@ -400,8 +400,9 @@ extracts the block between the two `morten-spec` markers on every push to main
 that touches this file and writes it verbatim into an agent document he reads on
 every run. Nobody edits that copy by hand, so it cannot drift silently — the
 mirroring rule stops depending on somebody remembering it. What stays hand-held
-is the platform stub (identity, the two cron lines, the hard boundaries, the
-unreachable-repo rule), because Abundly parses triggers out of the instructions
+is the platform stub (identity, the two cron lines, two quoted boundary
+sentences, and a no-spec rule), because Abundly parses triggers out of the
+instructions
 and not out of documents. On a contradiction this file wins.
 
 **Two sentences of this file are quoted in the stub**, verbatim: the publishing
@@ -1105,14 +1106,14 @@ email to christian@zander.coach, subject starting "Morten:".
   cost. Claude Code added the `morten-spec` markers the extractor should anchor
   on; until it switches, it anchors on the heading and the first two fences, and
   the markers sit outside them so both readings work. Abundly's instructions
-  shrink to a stub: identity, the two cron lines, the hard boundaries, the
-  unreachable-repo rule. The stub repeats two prohibitions on purpose — a floor
+  shrink to a stub: identity, the two cron lines, two quoted boundary sentences,
+  and a no-spec rule. The stub repeats two prohibitions on purpose — a floor
   that disappears with the copy is not a floor — and this file wins on a
-  contradiction. The webhook is subscribed to `push` the same day; open until
-  Christian pastes the stub. Open question raised by Morten and answered here: `##
-  Recurring schedule` stays binding rather than becoming descriptive; the cron
-  lines are pointers that carry a time and a workflow name, the order and its
-  reasons live here.
+  contradiction. Webhook subscribed to `push` and the stub pasted the same day —
+  the block is no longer mirrored by hand. Open question raised by Morten and
+  answered here: `## Recurring schedule` stays binding rather than becoming
+  descriptive; the cron lines are pointers that carry a time and a workflow name,
+  the order and its reasons live here.
 - 2026-08-31 (later): spec-sync's net and its quotes. The daily trigger points at
   the sync rather than at the review loop, so the comparison happens before the
   work and not after it; on a match it posts nothing and passes "Spec unchanged"
@@ -1120,5 +1121,15 @@ email to christian@zander.coach, subject starting "Morten:".
   the reasoning behind the second one (branch protection, 23.07) explains the
   rule and is not the rule. Verbatim also means "email to Christian" without the
   address, which lives in the block: with no spec loaded Morten does nothing
-  except say so in #crew, and the stub's unreachable-repo rule governs that case
-  rather than the block's. Still open: Christian pastes the stub.
+  except say so in #crew, which is the stub's no-spec rule. An unreachable
+  repository is the other case and keeps the block's rule, mail and subject line
+  included — the last good copy of the spec is still in the document, which is
+  what it was built for.
+- 2026-08-31 (Morten's pass on the stub): the Friday cron line was a second copy
+  in miniature — it listed the five workflows in order and repeated the
+  unreachable rule, so a sixth workflow would have made the stub prescribe the
+  wrong order. It now says "run the Friday workflows, in the order the
+  specification gives"; the daily line lost its description of the script for the
+  same reason. spec-sync anchors on the `morten-spec` markers, with the heading
+  and fences kept as a fallback that announces itself in #crew when it is used —
+  otherwise the weaker reading would quietly become the normal case.
