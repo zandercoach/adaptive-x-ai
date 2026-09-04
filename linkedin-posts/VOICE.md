@@ -347,13 +347,19 @@ happened.
   is not the three-times pattern refused on 06.08. If the subject ever widens past
   the journey, `#AdaptiveOrganisationen` stops fitting every post and the core falls
   to two.
-- **No external links in the post body** (LinkedIn downranks them). Refer to
-  "link in the first comment" / "Link im ersten Kommentar" instead, and every
-  draft file carries a paste-ready `FIRST COMMENT` / `ERSTER KOMMENTAR` block
-  with the URL, to be posted right after publishing. The journey anchor in the
-  body is "my learning journey on adaptive-x-ai" (German: "meine Lernreise
-  adaptive-x-ai") — the domain name without the TLD, so readers see the brand
-  but LinkedIn sees no link.
+- **No external link and no pointer to one in the post body** (LinkedIn downranks
+  links). Every draft carries a paste-ready `ERSTER KOMMENTAR` block with the URL,
+  to be posted right after publishing: the comment stays, the sentence announcing
+  it does not. **Read out 2026-09-04, experiment closed.** The pointer came out of
+  both tracks from 10./13.08 to see whether it costs impressions. It does not. The
+  measurement rests on the stable track, the only usable instrument here — Track B
+  fell 53 % across the same cut and proves nothing, because it was already falling
+  before it. The stories carrying the pointer averaged 305 impressions, those
+  without it 284: −7 %, against a per-post spread of 166 to 426. That is noise.
+  (The 16.07 premiere and the one-day-old 03.09 are out of both sides.) Do not run
+  this one again. The journey anchor in the body is "meine Lernreise
+  adaptive-x-ai" — the domain name without the TLD, so readers see the brand but
+  LinkedIn sees no link.
 - **Length: 200–300 words**, and shorter is better inside that. **Set 2026-09-04**,
   from what the eight published stories did (208–282, mean 253) and from the form
   now carrying two things instead of one: the journey material and a lesson that is
