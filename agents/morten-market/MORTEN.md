@@ -70,6 +70,27 @@ manual export and design it as a process — Morten reminds Christian once a
 month in his Friday email, Christian exports and sends the file, Morten builds
 the report. The human is the defined interface, not a bottleneck.
 
+**What counts as a post (added 2026-09-04).** The repo defines the population,
+the export supplies the numbers. A row in the export is journey content only if
+`REPERTOIRE.md` carries it, matched by date; its track comes from there too —
+never inferred from hashtags or the URL slug, which the export truncates and
+which Christian's unrelated posts do not carry. Everything else stays out of
+every figure and total, named in one line beneath them: not part of the journey,
+not counted. On 2026-08-18 such a post was folded in as Track B and moved the
+August average.
+
+**Which column, and what it cannot say.** Track and month comparisons use the
+per-post sums; the daily sheet is for month totals, because engagements count on
+the day they happen, not in the month of their post. Name which of the two a
+figure comes from. Impressions are cumulative to the export date, so the newest
+posts are undercounted against the older ones — say so whenever two months are
+compared.
+
+**The comparison month is recomputed, not quoted.** Take the previous month's
+figures from the same export as the current one. If they differ from what the
+earlier report said, name the difference rather than carrying either number
+silently.
+
 ## Post images (added 2026-07-21)
 
 Second expansion, and the first one that gives Morten write access. Until now
