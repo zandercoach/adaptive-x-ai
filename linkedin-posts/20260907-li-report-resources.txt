@@ -1,0 +1,24 @@
+LINKEDIN POST (Track B — journey report, English)
+==================================================
+
+Adaptive × AI — What the company brain reads
+
+More from the lab notebook of my learning journey on adaptive-x-ai: everything I learn outside my own sessions, a deck, a talk, an article, had no place in the repository at all. So I built the page for it before I had anything to put on it.
+
+Two decisions came first. It logs every source I actually took something from, instead of recommending a shortlist. A recommendation list ages into a claim about my taste; a log stays a record. And every entry has two layers: the facts about the source, which AI can draft, and what I took from it, which is handwritten. Then I published it empty. "Nothing here yet" is a valid published state, and it kept the format decisions apart from the material.
+
+The first real source broke the format within an hour. It was a deck under a licence that lets me share it with clients but not republish it, so the entry had to be able to say where the material sits and why there is no link. That became the general rule: characterise, don't reproduce. It holds even where a licence would allow more.
+
+The other limit is what I can feed in at all. Articles and PDFs, fine. YouTube only where auto-captions exist. Gated trainings and webinar recordings not at all, and for those I am the sensor: the note I write afterwards is the only version that ever reaches the repository.
+
+The find I did not expect came from the first entry. "Player-coach" sits in my roster entry three days before I named the source anywhere. The influence was provable instead of remembered. My old reading list never managed that 😉
+
+Full disclosure, as always: a learning report, not a how-to. Text and image were made together with AI, and the last read before publishing was mine. The work can be shared. Being accountable for it cannot.
+
+#AdaptiveOrganisations #AI #LearningInPublic #CompanyBrain
+
+
+FIRST COMMENT (paste right after publishing)
+=============================================
+
+The journey's public home, with the full journal linked: https://adaptive-x-ai.org
