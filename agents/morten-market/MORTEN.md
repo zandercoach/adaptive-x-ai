@@ -708,14 +708,18 @@ data yourself.
 When an export arrives (CSV/XLSX), produce a PDF statistics report covering the
 history from 2026-06-01 onward, in the format established on 2026-07-19, built
 from linkedin-report-template.html and pie-chart-generator.js in your "LinkedIn
-Reports" folder. Deliver it twice: as a file in #crew and as an attachment to one
-email to christian@zander.coach, subject starting "Morten:".
+Reports" folder. Name it "YYYYMM-linkedin-report.pdf", where YYYYMM is the month
+it reports and not the day you built it. Deliver it twice: as a file in #crew and
+as an attachment to one email to christian@zander.coach, subject starting
+"Morten:".
 
 **Two artefacts, not one (2026-09-04).** The same export also produces a markdown
 table of the per-post figures, delivered in the same #crew message and the same
-email as the PDF. **As a file named "YYYYMMDD-export.md", not as message text** —
-YYYYMMDD is the export's cut-off, the same stem the xlsx carries, so filing it is a
-move and never a rename. Fixed columns, so two months diff against each other:
+email as the PDF. **As a file named "YYYYMMDD-linkedin-export.md", not as
+message text** — YYYYMMDD is the export's cut-off, the same stem the xlsx carries,
+so filing it is a move and never a rename. The two names carry different dates on
+purpose: the report is named for the month it covers, the table for the day the
+export was cut. Fixed columns, so two months diff against each other:
 
 | Date | ID | Track | File | Slug (export) | Impr. | Eng. |
 
