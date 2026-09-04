@@ -1,0 +1,22 @@
+IMAGE STYLE GUIDE ("Zander Flipchart" — use for every future post)
+====================================================================
+
+Hand-drawn flipchart illustration, as sketched live by a trainer with markers: clean black marker outlines on a plain white background, simple friendly shapes, hand-lettered text. Human figures are always drawn with a body — a round head, an oval torso, and thin arms and legs attached to that torso, never a head with limbs hanging directly off it — and the posture carries the expression. This applies to the human figures only; the robot of this series keeps his own look (boxy head with antenna, segmented arms and legs) and is not changed by it. Accents only in classic flipchart marker colors — yellow, orange, green, blue, red — applied as wide, slightly uneven marker strokes. No gradients, no photorealism, no dark shading, plenty of white space. Light, warm, optimistic mood. Square composition. Captions are hand-lettered in black marker and underlined in black as well; the underline belongs to the lettering and is not a colour accent.
+
+
+IMAGE PROMPT ("Gib das Ziel, nicht die Liste") — GOAL, NOT A CHECKLIST
+==============================================================
+
+This brief tells you what the picture is for and leaves the motif to you. It does not describe the scene element by element.
+
+WHAT THE POST SAYS
+An image brief went to the agent as a goal instead of a checklist: what the post says, what the picture should do to someone scrolling past, and the few things that are fixed. The motif was left to him, with one request attached — ask instead of guessing if the goal reads two ways. What came back was a motif the human would not have thought of, with a reason for it and a list of what had been left out to get there. The reflex to write the list comes from worrying about the result, but a list never shows you how far someone gets on their own. Giving the goal is only the second step: enabling comes first, and enabling is largely documentation, since every new team member starts like a new session. A brief without context is not trust, it is abandonment. What makes the attempt cheap is the review — a proposal you can turn down costs nothing — and the leader's own role moves from knowing better to judging: is it right, does it land, what do I risk. The close is honest rather than triumphant: with people he still catches himself holding the list.
+
+WHAT THE PICTURE SHOULD DO
+Someone scrolling past should feel the difference between handing over a goal and handing over a list, and should read the goal as the more generous of the two, not as the vaguer one. The mood is warm and collegial, no supervision, no teaching. Steer away from: bar charts and dashboards, arrows hitting a target as a success metaphor for performance, ticked-off checklists as the whole idea, and any composition where one figure stands above or in front of the other.
+
+WHAT IS FIXED
+The style guide above. Square composition, white background. The two figures of this series carry the picture: the stick-figure person and the small friendly stick-figure robot, exactly these two and no invented third. They face each other as equals. Any hand-lettering in the picture is German, since the post is German. A hand-lettered caption at the bottom in black marker, underlined in black, reading exactly: "Gib das Ziel, nicht die Liste". As always, fetch two existing post PNGs from the same folder as visual reference so the series keeps one look.
+
+WHAT IS YOURS
+The motif, the composition, and which single detail carries the message. Pick one clear idea and let it breathe, rather than assembling several.
