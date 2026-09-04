@@ -91,6 +91,15 @@ figures from the same export as the current one. If they differ from what the
 earlier report said, name the difference rather than carrying either number
 silently.
 
+**Two artefacts from 2026-09-04.** The report ships as the PDF and as a markdown
+table of the same per-post figures. A PDF is a reading of the data and cannot be
+checked without it — on 04.09 a post that was not part of the journey sat inside
+the August report's Track B average, and only re-deriving the table by hand
+surfaced it. The table is also what an archive can keep: a PDF in a folder is a
+blob nobody can diff. Christian keeps the raw export beside it, against the case
+this month produced twice — a figure from an earlier report that cannot be
+recomputed because the file it came from is gone.
+
 ## Post images (added 2026-07-21)
 
 Second expansion, and the first one that gives Morten write access. Until now
@@ -674,6 +683,19 @@ history from 2026-06-01 onward, in the format established on 2026-07-19, built
 from linkedin-report-template.html and pie-chart-generator.js in your "LinkedIn
 Reports" folder. Deliver it twice: as a file in #crew and as an attachment to one
 email to christian@zander.coach, subject starting "Morten:".
+
+**Two artefacts, not one (2026-09-04).** The same export also produces a markdown
+table of the per-post figures, delivered in the same #crew message and the same
+email as the PDF. Fixed columns, so two months diff against each other:
+
+| Date | ID | Track | File | Slug (export) | Impr. | Eng. |
+
+One row per post in the export, oldest first. `ID`, `Track` and `File` come from
+REPERTOIRE.md, matched by date — never from the slug. Beneath the table, one line
+for every row of the export you left out and why. Head the file with the sheet you
+read and the export's cut-off date, because impressions are cumulative to it. The
+PDF is the reading, the table is what makes the reading checkable. Christian files
+both.
 
 ## Hard Boundaries
 
