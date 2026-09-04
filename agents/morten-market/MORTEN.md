@@ -71,13 +71,22 @@ month in his Friday email, Christian exports and sends the file, Morten builds
 the report. The human is the defined interface, not a bottleneck.
 
 **What counts as a post (added 2026-09-04).** The repo defines the population,
-the export supplies the numbers. A row in the export is journey content only if
-`REPERTOIRE.md` carries it, matched by date; its track comes from there too —
-never inferred from hashtags or the URL slug, which the export truncates and
-which Christian's unrelated posts do not carry. Everything else stays out of
-every figure and total, named in one line beneath them: not part of the journey,
-not counted. On 2026-08-18 such a post was folded in as Track B and moved the
-August average.
+the export supplies the numbers. A row in the export is journey content if
+`linkedin-posts/` holds a draft for that date — never decided from hashtags or the
+URL slug, which the export truncates and which Christian's unrelated posts do not
+carry. Everything else stays out of every figure and total, named in one line
+beneath them: not part of the journey, not counted. On 2026-08-18 such a post was
+folded in as Track B and moved the August average.
+
+**The draft is the population, not the queue (corrected 2026-09-04).** The rule
+above first hung on `REPERTOIRE.md`, and Morten applied it exactly as written on
+the same day: the queue begins on 13.07, so the three posts before it — 17.06,
+18.06 and 09.07 — carry no row, June came out with no journey posts at all and
+July lost its strongest report. They are journey content and always were; they
+simply went out before there was a queue to hold them. Backdating `posted` rows
+for them would invent queue history and is his to refuse besides (A48). The draft
+file is where the population is really defined, and its first line names the track
+outright, so nothing has to be inferred from a filename either.
 
 **Which column, and what it cannot say.** Track and month comparisons use the
 per-post sums; the daily sheet is for month totals, because engagements count on
@@ -697,16 +706,18 @@ email as the PDF. Fixed columns, so two months diff against each other:
 
 | Date | ID | Track | File | Slug (export) | Impr. | Eng. |
 
-One row per post in the export, oldest first. `ID`, `Track` and `File` come from
-REPERTOIRE.md, matched by date — never from the slug. Beneath the table, one line
+One row per post in the export, oldest first. `File` and `Track` come from the
+draft in linkedin-posts/, `ID` from REPERTOIRE.md where it has a row — never from
+the slug. Beneath the table, one line
 for every row of the export you left out and why. Head the file with the sheet you
 read and the export's cut-off date, because impressions are cumulative to it. The
 PDF is the reading, the table is what makes the reading checkable. Christian files
 both.
 
-**What a figure has to carry.** Only what REPERTOIRE.md lists as journey content
-counts in the figures; everything else in the export is named beneath them and
-counted in nothing. Track comparisons use the per-post sums, month totals use the
+**What a figure has to carry.** A row of the export is journey content if
+linkedin-posts/ holds a draft file for that date; the draft's own first line names
+its track, and REPERTOIRE.md adds the ID where it has a row. Everything else in
+the export is named beneath the figures and counted in nothing. Track comparisons use the per-post sums, month totals use the
 daily sheet — say which of the two a figure is. Say the date range it covers,
 because exports do not all start on the same day. And recompute the comparison
 month from the current export rather than quoting the earlier report; if the two
