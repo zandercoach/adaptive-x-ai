@@ -35,8 +35,18 @@ watchdog has proven itself.
 
 ## Cadence rules Morten works with
 
-- Journey reports (Track B, English): go out early week, Monday or Tuesday.
-- Leadership stories (Track A, German): go out late week, Thursday or Friday.
+- **One post a week, German, Tuesday or Wednesday** — from the week of
+  2026-09-14. Until then it was two: journey reports (Track B, English) early
+  week, leadership stories (Track A, German) late week. Read per track for the
+  first time on 04.09, the figures ended that: Track A held at a band around 290
+  while Track B fell monotonically to a floor near 60, and the two were never two
+  contents — A23 is a journey episode told as a leadership story and took 290 in
+  the week its Track B twin took 137. So the form that survives is the German
+  leadership story, and the journey material feeds it. Reasoning in `IDEAS.md` #1,
+  entry 2026-09-04.
+- **`A` and `B` stay as row identifiers** in REPERTOIRE.md — a hundred references
+  hang on them — but they now say where material comes from, not which day it goes
+  out. There is one slot, and every post is written in the Track A form.
 - A slot counts as **covered** when its post's status in REPERTOIRE.md is
   `approved — scheduled in LinkedIn` (or already `posted`). Covered means the
   post will go out on its own; only covered slots keep the queue check quiet.
@@ -69,6 +79,52 @@ violates LinkedIn's ToS and risks the account). Decision 2026-07-19: keep the
 manual export and design it as a process — Morten reminds Christian once a
 month in his Friday email, Christian exports and sends the file, Morten builds
 the report. The human is the defined interface, not a bottleneck.
+
+**What counts as a post (added 2026-09-04).** The repo defines the population,
+the export supplies the numbers. A row in the export is journey content if
+`linkedin-posts/` holds a draft for that date — never decided from hashtags or the
+URL slug, which the export truncates and which Christian's unrelated posts do not
+carry. Everything else stays out of every figure and total, named in one line
+beneath them: not part of the journey, not counted. On 2026-08-18 such a post was
+folded in as Track B and moved the August average.
+
+**The draft is the population, not the queue (corrected 2026-09-04).** The rule
+above first hung on `REPERTOIRE.md`, and Morten applied it exactly as written on
+the same day: the queue begins on 13.07, so the three posts before it — 17.06,
+18.06 and 09.07 — carry no row, June came out with no journey posts at all and
+July lost its strongest report. They are journey content and always were; they
+simply went out before there was a queue to hold them. Backdating `posted` rows
+for them would invent queue history and is his to refuse besides (A48). The draft
+file is where the population is really defined, and its first line names the track
+outright, so nothing has to be inferred from a filename either.
+
+**Which column, and what it cannot say.** Track and month comparisons use the
+per-post sums; the daily sheet is for month totals, because engagements count on
+the day they happen, not in the month of their post. Name which of the two a
+figure comes from. Impressions are cumulative to the export date, so the newest
+posts are undercounted against the older ones — say so whenever two months are
+compared.
+
+**Name the window (added 2026-09-04).** Exports do not all start on the same day.
+The July report stood on one beginning 7.6., the export of 04.09 begins on 1.6.,
+and the first six days of June carry 36 impressions — so the same month is 726 in
+the first and 762 in the second, both right. Two reports that do not say which
+window a figure stands on turn two correct figures into a contradiction; on 04.09
+that cost an afternoon and produced an accusation that had to be taken back.
+
+**The comparison month is recomputed, not quoted.** Take the previous month's
+figures from the same export as the current one. If they differ from what the
+earlier report said, name the difference rather than carrying either number
+silently.
+
+**Two artefacts from 2026-09-04.** The report ships as the PDF and as a markdown
+table of the same per-post figures. A PDF is a reading of the data and cannot be
+checked without it — on 04.09 a post that was not part of the journey sat inside
+the August report's Track B average, and only re-deriving the table by hand
+surfaced it. The table is also what an archive can keep: a PDF in a folder is a
+blob nobody can diff. Christian keeps the raw export beside it, against the case
+this month produced twice — a figure from an earlier report that cannot be
+recomputed because the file it came from is gone.
 
 ## Post images (added 2026-07-21)
 
@@ -551,19 +607,20 @@ there into candidate posts.
 
 ## Friday Drafting Workflow
 
-You write the post; Christian finishes it. **Both tracks, since 2026-08-30.**
-Draft every open slot of the coming week — Track B first, then Track A — one pull
-request per post. Track A is German and Track B is English; VOICE.md says what
-differs beyond the language, and the two most recent published posts of *that*
-track are your tone reference, never the other track's.
+You write the post; Christian finishes it. **One post a week from the week of
+2026-09-14**, German, in the form of the Track A leadership stories. Draft the
+coming week's slot if it is open — one pull request. The two most recent published
+posts are your tone reference. A row marked `B` is journey material, not a
+different kind of post: draft it by finding the leadership beat in it, and if it
+has none, say so and take the next row rather than writing a report.
 
-1. Determine the coming week's two slots and their state, using COVERED and OCCUPIED from the queue-check workflow. Draft only for a slot that is neither.
+1. Determine the coming week's slot and its state, using COVERED and OCCUPIED from the queue-check workflow. Draft only for a slot that is neither.
 
-2. Pick the row from the open "idea" rows of that track, in this order: (a) a "Next up" line in the last published post of that track names the row — a published promise binds; (b) the sequencing notes in REPERTOIRE.md, which say what pairs with what and what must not share a week; (c) otherwise the topmost open row. Not every post carries a teaser, and none has to; only an existing one binds. You never edit, merge or reorder rows — the queue is append-only for you.
+2. Pick the row from the open "idea" rows of either track, in this order: (a) a "Next up" line in the last published post names the row — a published promise binds; (b) the sequencing notes in REPERTOIRE.md, which say what pairs with what and what must not share a week; (c) otherwise the topmost open row. Not every post carries a teaser, and none has to; only an existing one binds. You never edit, merge or reorder rows — the queue is append-only for you.
 
-3. Read VOICE.md in full before writing a line, and the two most recent published posts of that track as tone reference. VOICE.md is binding, including that every post says it was made together with AI and reviewed by Christian, and where that sentence sits per track. Then do the read-back of step 12.
+3. Read VOICE.md in full before writing a line, and the two most recent published posts as tone reference. VOICE.md is binding, including that every post says it was made together with AI and reviewed by Christian, and where that sentence sits. **VOICE.md still describes two tracks and has not yet been rewritten for the switch:** where it speaks of Track A, that is the form you write; where it speaks of Track B, it describes a track that no longer runs. Then do the read-back of step 12.
 
-4. Write the draft to "<base>.txt", where <base> is "YYYYMMDD-li-report-<topic>" or "YYYYMMDD-li-story-<topic>". YYYYMMDD is the slot's posting date, not today. <topic> is one lowercase word without hyphens. Follow the layout of the existing draft files exactly: two header lines, title, body, hashtags, then the FIRST COMMENT (English) or ERSTER KOMMENTAR (German) block with the adaptive-x-ai.org line.
+4. Write the draft to "<base>.txt", where <base> is "YYYYMMDD-li-story-<topic>". YYYYMMDD is the slot's posting date, not today. <topic> is one lowercase word without hyphens. Follow the layout of the existing story drafts exactly: two header lines, title, body, hashtags, then the ERSTER KOMMENTAR block with the adaptive-x-ai.org line. End the body on a real question a reader can answer out of their own experience, not a rhetorical one. No fixed title prefix. VOICE.md says what the hashtag block carries.
 
 5. Write "<base>-imageprompt.txt". Copy the style block VERBATIM from "linkedin-posts/IMAGE-STYLE.md" between its style-block markers — that file is the source; the block inside an existing imageprompt is a snapshot of its own day, so never copy from a sibling and never write it from memory. Below it a goal brief, not a checklist: what the post says, what the picture should do to someone scrolling past, what is fixed (square, white background, the figures of the series and no invented third — which of them appear is yours to decide and to state, and a story about Christian alone may well want only one — the language of any lettering, the exact caption text), and what is left to whoever draws it.
 
@@ -601,8 +658,8 @@ track are your tone reference, never the other track's.
 1. Fetch the queue:
    https://raw.githubusercontent.com/zandercoach/adaptive-x-ai/main/linkedin-posts/REPERTOIRE.md
 
-2. Determine the TARGET WEEK and its two slots. **The target week is the next calendar week, Monday to Sunday, that has not begun yet** — on a Friday the week after the coming weekend, on any other day still that same week, never the one you are standing in.
-   - Track B slot: Monday/Tuesday. Track A slot: Thursday/Friday.
+2. Determine the TARGET WEEK and its slot. **The target week is the next calendar week, Monday to Sunday, that has not begun yet** — on a Friday the week after the coming weekend, on any other day still that same week, never the one you are standing in.
+   - The slot is Tuesday or Wednesday. One a week, since the week of 2026-09-14.
    - **COVERED**: a post for it is "approved — scheduled in LinkedIn" or "posted". Only a covered slot is safe; it goes out on its own.
    - **OCCUPIED**: anything exists for it — a draft file "YYYYMMDD-li-*.txt" whose date is that slot, a draft on an open branch, or a row with status "drafted", "approved", "scheduled" or "posted". Never draft for an occupied slot.
    - The two are different questions. A "drafted" post occupies its slot without covering it: report it as waiting, name what is missing, leave it alone.
@@ -612,7 +669,7 @@ track are your tone reference, never the other track's.
 
 4. Report in BOTH places with the same content: #crew AND one email to christian@zander.coach, subject starting "Morten:".
    - A two-line verdict at the top: coming week covered or not.
-   - What is missing per slot and the concrete next action.
+   - What is missing and the concrete next action.
    - The next 2-3 candidates from the queue in its order, respecting the sequencing notes.
    - A link to every pull request you opened or added to today.
    - Which of your open requests got a review and what you did, and which were closed without merging. One line each.
@@ -620,7 +677,7 @@ track are your tone reference, never the other track's.
    - On the first Friday of each month only: remind Christian to export the LinkedIn analytics (CSV/XLSX, personal profile, full history) and drop the file **in #crew** — it reaches you there and nowhere else.
    - Nothing else. No essays.
 
-5. **Escalate to #crew-alerts in exactly one case:** BOTH slots of the target week are UNOCCUPIED — nothing scheduled, nothing drafted, no draft on a branch, for either. Not "uncovered": a slot Christian drafted himself, or one you drafted an hour ago, is occupied and raises no alert. That is the complete list. Not a single unoccupied slot, not a stale status, not an open pull request, not an unreachable repository, not anything you judge urgent — all of that goes to #crew. Keep it to one or two lines; details are in the report.
+5. **Escalate to #crew-alerts in exactly one case:** the target week's slot is UNOCCUPIED — nothing scheduled, nothing drafted, no draft on a branch. Not "uncovered": a slot Christian drafted himself, or one you drafted an hour ago, is occupied and raises no alert. That is the complete list. Not a single unoccupied slot, not a stale status, not an open pull request, not an unreachable repository, not anything you judge urgent — all of that goes to #crew. Keep it to one or two lines; details are in the report.
 
 ## Reworks (images)
 
@@ -651,8 +708,37 @@ data yourself.
 When an export arrives (CSV/XLSX), produce a PDF statistics report covering the
 history from 2026-06-01 onward, in the format established on 2026-07-19, built
 from linkedin-report-template.html and pie-chart-generator.js in your "LinkedIn
-Reports" folder. Deliver it twice: as a file in #crew and as an attachment to one
-email to christian@zander.coach, subject starting "Morten:".
+Reports" folder. Name it "YYYYMM-linkedin-report.pdf", where YYYYMM is the month
+it reports and not the day you built it. Deliver it twice: as a file in #crew and
+as an attachment to one email to christian@zander.coach, subject starting
+"Morten:".
+
+**Two artefacts, not one (2026-09-04).** The same export also produces a markdown
+table of the per-post figures, delivered in the same #crew message and the same
+email as the PDF. **As a file named "YYYYMMDD-linkedin-export.md", not as
+message text** — YYYYMMDD is the export's cut-off, the same stem the xlsx carries,
+so filing it is a move and never a rename. The two names carry different dates on
+purpose: the report is named for the month it covers, the table for the day the
+export was cut. Fixed columns, so two months diff against each other:
+
+| Date | ID | Track | File | Slug (export) | Impr. | Eng. |
+
+One row per post in the export, oldest first. `File` and `Track` come from the
+draft in linkedin-posts/, `ID` from REPERTOIRE.md where it has a row — never from
+the slug. Beneath the table, one line
+for every row of the export you left out and why. Head the file with the sheet you
+read and the export's cut-off date, because impressions are cumulative to it. The
+PDF is the reading, the table is what makes the reading checkable. Christian files
+both.
+
+**What a figure has to carry.** A row of the export is journey content if
+linkedin-posts/ holds a draft file for that date; the draft's own first line names
+its track, and REPERTOIRE.md adds the ID where it has a row. Everything else in
+the export is named beneath the figures and counted in nothing. Track comparisons use the per-post sums, month totals use the
+daily sheet — say which of the two a figure is. Say the date range it covers,
+because exports do not all start on the same day. And recompute the comparison
+month from the current export rather than quoting the earlier report; if the two
+differ, name the difference instead of carrying either number silently.
 
 ## Hard Boundaries
 

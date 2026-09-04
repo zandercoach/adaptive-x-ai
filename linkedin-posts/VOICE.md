@@ -283,49 +283,98 @@ apply everywhere, because they are about the drafting, not about the persona.
 
 From the style interview on 2026-07-12 and the agreements since.
 
-Important context: the three journey posts published so far (20260617, 20260618,
-20260709) were mostly drafted by Claude and edited by Christian. They define the
-journey-report *format*, but they are **not** evidence of Christian's natural
-voice. The appendix samples in the core are.
+Important context: the three earliest posts (20260617, 20260618, 20260709) were
+mostly drafted by Claude and edited by Christian. They defined the journey-report
+format, which is retired — they are **not** evidence of Christian's natural voice.
+The appendix samples in the core are.
 
-## The two tracks
+## The track
 
-| | Leadership stories | Journey reports |
-|---|---|---|
-| Language | **German**, du-form | **English** (intentional, keeps the series) |
-| Audience | German-speaking leaders, decision-makers; feeds the zander.coach repositioning | International AI / agentic-engineering crowd |
-| Cadence | ~weekly | ~weekly |
-| Framing | Mostly AI story first, then the people-leadership translation; varies when the story is served better the other way | Established ritual: learning report, "full disclosure, not a how-to". A closing "Next up: …" teaser is **available, not required** — several reports end without one, and a proposal to make it binding was refused on 2026-08-06, because a pattern seen three times is an observation and not a convention. Where a published post does carry one, it binds the next report of that track: it is a promise the series has already made out loud. |
+**One track, German, since the week of 2026-09-14.** Until then there were two:
+leadership stories in German late in the week, journey reports in English early in
+it. Read per track for the first time on 04.09, the figures ended that — the German
+stories held around 290 impressions while the English reports fell to a floor near
+60 — and the two were never two contents. A23 is a journey episode told as a
+leadership story and took 290 in the week its Track B twin took 137. Reasoning in
+`IDEAS.md` #1, entry 2026-09-04. `A` and `B` survive as row identifiers in
+`REPERTOIRE.md` and now say where material comes from, not which day it goes out.
+
+| | |
+|---|---|
+| Language | **German**, du-form |
+| Audience | German-speaking leaders and decision-makers; feeds the zander.coach repositioning |
+| Cadence | one a week, Tuesday or Wednesday |
+| Framing | Mostly AI story first, then the people-leadership translation; varies when the story is served better the other way |
+| Stance | **Full disclosure, not a how-to.** Inherited from the retired report format rather than dropped with it, and here it limits the translation: the lesson is *told*, not recommended. "Was ich daraus mitnehme" is half a step from "was du tun solltest", and that step is not taken. |
+| Subject | Posts about the learning journey. **Provisional, 2026-09-04:** widening the subject past the journey is decided in principle and not yet in force. Until it is, this supplement describes journey posts, and a post outside them is outside this document. |
 
 A German leadership story may link to the English journal ("die ganze Geschichte
-steht im Journal, englisch"). The language split itself signals the intent split:
-German = about leading people, English = the lab notebook.
+steht im Journal, englisch") — the journal stays English, only the posts are not.
+
+## How a post ends
+
+In this order, and the order is the decision:
+
+1. **A question, as the last beat of the story** — one a reader can answer out of
+   their own experience, real and not rhetorical. New on 2026-09-04, and the only
+   element aimed at the comment box: comments are the strongest early signal a post
+   has, and 2,28 % engagement at stable reach says the readers were there and were
+   never asked.
+2. **The journey anchor**, "meine Lernreise adaptive-x-ai".
+3. **The AI disclosure**, as an aside ("Übrigens:").
+4. **The hashtags.**
+
+Anchor and disclosure are footnotes and read as footnotes, which is why the
+question goes before them and not last: a question that follows a footnote reads
+like one.
+
+**No "Next up:" teaser.** It was a device of the report series — available, not
+required, binding once published — and it never once appeared in a story. It dies
+with the series it belonged to: a promise about "the next report" has no object,
+and a promise about the next post is an editorial plan made before the week has
+happened.
 
 ## What applies on LinkedIn only
 
-- **Hashtags:** woven into the sentence (e.g. "meinen eigenen #Rhythmus"), plus
-  any *new* terms parked at the bottom. Few, not a wall.
-- **No external links in the post body** (LinkedIn downranks them). Refer to
-  "link in the first comment" / "Link im ersten Kommentar" instead, and every
-  draft file carries a paste-ready `FIRST COMMENT` / `ERSTER KOMMENTAR` block
-  with the URL, to be posted right after publishing. The journey anchor in the
-  body is "my learning journey on adaptive-x-ai" (German: "meine Lernreise
-  adaptive-x-ai") — the domain name without the TLD, so readers see the brand
-  but LinkedIn sees no link.
-- **Length:** whatever the story needs, shorter is better. Leadership stories
-  tend ~120–250 words; journey reports may run longer (250–350) per the format.
-  **These are limits, not descriptions (2026-08-30).** The reports of 10./24./31.08
+- **Hashtags:** woven into the sentence (e.g. "meinen eigenen #Rhythmus"), plus a
+  block at the bottom. Few, not a wall. **The block is a constant core plus the
+  subject (2026-09-04):** `#Führung #KI #AdaptiveOrganisationen` stood in all eight
+  published stories, and every one of them added one or two naming what *this* post
+  is about — SituativeFührung, PsychologischeSicherheit, Onboarding, UserStory,
+  Teamarbeit, Delegation, Qualität. The core carries belonging, the varying tag
+  carries content; the retired report block had only a core, which is part of why
+  nothing about those posts said what they were. Written down because eight of eight
+  is not the three-times pattern refused on 06.08. If the subject ever widens past
+  the journey, `#AdaptiveOrganisationen` stops fitting every post and the core falls
+  to two.
+- **No external link and no pointer to one in the post body** (LinkedIn downranks
+  links). Every draft carries a paste-ready `ERSTER KOMMENTAR` block with the URL,
+  to be posted right after publishing: the comment stays, the sentence announcing
+  it does not. **Read out 2026-09-04, experiment closed.** The pointer came out of
+  both tracks from 10./13.08 to see whether it costs impressions. It does not. The
+  measurement rests on the stable track, the only usable instrument here — Track B
+  fell 53 % across the same cut and proves nothing, because it was already falling
+  before it. The stories carrying the pointer averaged 305 impressions, those
+  without it 284: −7 %, against a per-post spread of 166 to 426. That is noise.
+  (The 16.07 premiere and the one-day-old 03.09 are out of both sides.) Do not run
+  this one again. The journey anchor in the body is "meine Lernreise
+  adaptive-x-ai" — the domain name without the TLD, so readers see the brand but
+  LinkedIn sees no link.
+- **Length: 200–300 words**, and shorter is better inside that. **Set 2026-09-04**,
+  from what the eight published stories did (208–282, mean 253) and from the form
+  now carrying two things instead of one: the journey material and a lesson that is
+  told rather than recommended. The old floor of 120 was never approached in eight
+  posts and is gone. **These are limits, not descriptions (2026-08-30).** A post over
+  300 words is trimmed before it is scheduled, and the pass that helps drops a whole
+  beat rather than tightening sentences (20260806) — the three reports of 10./24./31.08
   ran 398, 399 and 398 words and Christian read all three as too long, his own
-  drafting included. The range stays; the practice moves back to it. A report over
-  350 words is trimmed before it is scheduled, and the pass that helps drops a
-  whole beat rather than tightening sentences (20260806).
+  drafting included.
 - **AI disclosure (agreed 2026-08-24, not from the interview):** every post states
   that it was made together with AI and that Christian reviewed it before it went
   out. The claim being made is accountability: the work is shared, being answerable
-  for it is not, and the review is what makes that sentence true. Journey reports
-  carry it inside the closing "Full disclosure" line; leadership stories carry it
-  as their last paragraph, after the journey anchor and before the hashtags, so
-  that a closing wink is not blunted by it. There it may be introduced as an aside
+  for it is not, and the review is what makes that sentence true. It sits after the journey
+  anchor and before the hashtags, so that a closing wink is not blunted by it —
+  third of the four closing elements above. There it may be introduced as an aside
   ("Übrigens:") — it is a footnote to the story, not part of it. The English
   wording may use *accountable*, which is the precise word there; German collapses
   the distinction into *Verantwortung* and simply keeps it. First used on 24./27.08:
@@ -348,18 +397,19 @@ German = about leading people, English = the lab notebook.
 
 Christian voice-checks and posts himself; the final "post" click is always his,
 and so is the argument that turns a draft into a post. Who writes the first draft
-depends on the track: from 2026-08-28 Morten drafts the Track B reports, and from
-2026-08-30 the Track A stories as well, one pull request per post. The gate on the
+was staged: from 2026-08-28 Morten drafted the Track B reports, and from 2026-08-30
+the Track A stories as well, one pull request per post. Since 2026-09-04 there is
+one track, and it is his to draft. The gate on the
 second half was that the first draft hold up, and it did — one rework, merged,
 scheduled. Track A is where the difference between the tracks stops being a
 language setting: the German story is shorter, addressed differently, and puts the
 AI disclosure in another place, all of which this file already said and none of
 which an agent had ever written.
 
-File naming: `YYYYMMDD-li-report-<topic>.txt` for journey reports,
-`YYYYMMDD-li-story-<topic>.txt` for leadership stories (+ `-imageprompt.txt`), where
-**`YYYYMMDD` is the intended posting date** (the Mon/Tue or Thu/Fri slot), not the
-drafting date, and `<topic>` carries no hyphens; images in the Zander Flipchart
+File naming: `YYYYMMDD-li-story-<topic>.txt` (+ `-imageprompt.txt`), where
+**`YYYYMMDD` is the intended posting date** (the Tuesday or Wednesday slot), not the
+drafting date. `li-report` is retired with the track it named; the published reports
+keep their names, and `<topic>` carries no hyphens; images in the Zander Flipchart
 style, whose style guide lives in `IMAGE-STYLE.md` — that file is the source a new
 imageprompt copies its header from, and the header of an older one is a record of
 what was true when that post was written.
