@@ -86,6 +86,13 @@ figure comes from. Impressions are cumulative to the export date, so the newest
 posts are undercounted against the older ones — say so whenever two months are
 compared.
 
+**Name the window (added 2026-09-04).** Exports do not all start on the same day.
+The July report stood on one beginning 7.6., the export of 04.09 begins on 1.6.,
+and the first six days of June carry 36 impressions — so the same month is 726 in
+the first and 762 in the second, both right. Two reports that do not say which
+window a figure stands on turn two correct figures into a contradiction; on 04.09
+that cost an afternoon and produced an accusation that had to be taken back.
+
 **The comparison month is recomputed, not quoted.** Take the previous month's
 figures from the same export as the current one. If they differ from what the
 earlier report said, name the difference rather than carrying either number
@@ -696,6 +703,14 @@ for every row of the export you left out and why. Head the file with the sheet y
 read and the export's cut-off date, because impressions are cumulative to it. The
 PDF is the reading, the table is what makes the reading checkable. Christian files
 both.
+
+**What a figure has to carry.** Only what REPERTOIRE.md lists as journey content
+counts in the figures; everything else in the export is named beneath them and
+counted in nothing. Track comparisons use the per-post sums, month totals use the
+daily sheet — say which of the two a figure is. Say the date range it covers,
+because exports do not all start on the same day. And recompute the comparison
+month from the current export rather than quoting the earlier report; if the two
+differ, name the difference instead of carrying either number silently.
 
 ## Hard Boundaries
 
