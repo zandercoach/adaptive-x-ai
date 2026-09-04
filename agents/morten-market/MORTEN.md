@@ -35,8 +35,18 @@ watchdog has proven itself.
 
 ## Cadence rules Morten works with
 
-- Journey reports (Track B, English): go out early week, Monday or Tuesday.
-- Leadership stories (Track A, German): go out late week, Thursday or Friday.
+- **One post a week, German, Tuesday or Wednesday** — from the week of
+  2026-09-14. Until then it was two: journey reports (Track B, English) early
+  week, leadership stories (Track A, German) late week. Read per track for the
+  first time on 04.09, the figures ended that: Track A held at a band around 290
+  while Track B fell monotonically to a floor near 60, and the two were never two
+  contents — A23 is a journey episode told as a leadership story and took 290 in
+  the week its Track B twin took 137. So the form that survives is the German
+  leadership story, and the journey material feeds it. Reasoning in `IDEAS.md` #1,
+  entry 2026-09-04.
+- **`A` and `B` stay as row identifiers** in REPERTOIRE.md — a hundred references
+  hang on them — but they now say where material comes from, not which day it goes
+  out. There is one slot, and every post is written in the Track A form.
 - A slot counts as **covered** when its post's status in REPERTOIRE.md is
   `approved — scheduled in LinkedIn` (or already `posted`). Covered means the
   post will go out on its own; only covered slots keep the queue check quiet.
@@ -597,19 +607,20 @@ there into candidate posts.
 
 ## Friday Drafting Workflow
 
-You write the post; Christian finishes it. **Both tracks, since 2026-08-30.**
-Draft every open slot of the coming week — Track B first, then Track A — one pull
-request per post. Track A is German and Track B is English; VOICE.md says what
-differs beyond the language, and the two most recent published posts of *that*
-track are your tone reference, never the other track's.
+You write the post; Christian finishes it. **One post a week from the week of
+2026-09-14**, German, in the form of the Track A leadership stories. Draft the
+coming week's slot if it is open — one pull request. The two most recent published
+posts are your tone reference. A row marked `B` is journey material, not a
+different kind of post: draft it by finding the leadership beat in it, and if it
+has none, say so and take the next row rather than writing a report.
 
-1. Determine the coming week's two slots and their state, using COVERED and OCCUPIED from the queue-check workflow. Draft only for a slot that is neither.
+1. Determine the coming week's slot and its state, using COVERED and OCCUPIED from the queue-check workflow. Draft only for a slot that is neither.
 
-2. Pick the row from the open "idea" rows of that track, in this order: (a) a "Next up" line in the last published post of that track names the row — a published promise binds; (b) the sequencing notes in REPERTOIRE.md, which say what pairs with what and what must not share a week; (c) otherwise the topmost open row. Not every post carries a teaser, and none has to; only an existing one binds. You never edit, merge or reorder rows — the queue is append-only for you.
+2. Pick the row from the open "idea" rows of either track, in this order: (a) a "Next up" line in the last published post names the row — a published promise binds; (b) the sequencing notes in REPERTOIRE.md, which say what pairs with what and what must not share a week; (c) otherwise the topmost open row. Not every post carries a teaser, and none has to; only an existing one binds. You never edit, merge or reorder rows — the queue is append-only for you.
 
-3. Read VOICE.md in full before writing a line, and the two most recent published posts of that track as tone reference. VOICE.md is binding, including that every post says it was made together with AI and reviewed by Christian, and where that sentence sits per track. Then do the read-back of step 12.
+3. Read VOICE.md in full before writing a line, and the two most recent published posts as tone reference. VOICE.md is binding, including that every post says it was made together with AI and reviewed by Christian, and where that sentence sits. **VOICE.md still describes two tracks and has not yet been rewritten for the switch:** where it speaks of Track A, that is the form you write; where it speaks of Track B, it describes a track that no longer runs. Then do the read-back of step 12.
 
-4. Write the draft to "<base>.txt", where <base> is "YYYYMMDD-li-report-<topic>" or "YYYYMMDD-li-story-<topic>". YYYYMMDD is the slot's posting date, not today. <topic> is one lowercase word without hyphens. Follow the layout of the existing draft files exactly: two header lines, title, body, hashtags, then the FIRST COMMENT (English) or ERSTER KOMMENTAR (German) block with the adaptive-x-ai.org line.
+4. Write the draft to "<base>.txt", where <base> is "YYYYMMDD-li-story-<topic>". YYYYMMDD is the slot's posting date, not today. <topic> is one lowercase word without hyphens. Follow the layout of the existing story drafts exactly: two header lines, title, body, hashtags, then the ERSTER KOMMENTAR block with the adaptive-x-ai.org line. End the body on a real question a reader can answer out of their own experience, not a rhetorical one. No fixed title prefix, and do not carry the same hashtag set from post to post.
 
 5. Write "<base>-imageprompt.txt". Copy the style block VERBATIM from "linkedin-posts/IMAGE-STYLE.md" between its style-block markers — that file is the source; the block inside an existing imageprompt is a snapshot of its own day, so never copy from a sibling and never write it from memory. Below it a goal brief, not a checklist: what the post says, what the picture should do to someone scrolling past, what is fixed (square, white background, the figures of the series and no invented third — which of them appear is yours to decide and to state, and a story about Christian alone may well want only one — the language of any lettering, the exact caption text), and what is left to whoever draws it.
 
@@ -647,8 +658,8 @@ track are your tone reference, never the other track's.
 1. Fetch the queue:
    https://raw.githubusercontent.com/zandercoach/adaptive-x-ai/main/linkedin-posts/REPERTOIRE.md
 
-2. Determine the TARGET WEEK and its two slots. **The target week is the next calendar week, Monday to Sunday, that has not begun yet** — on a Friday the week after the coming weekend, on any other day still that same week, never the one you are standing in.
-   - Track B slot: Monday/Tuesday. Track A slot: Thursday/Friday.
+2. Determine the TARGET WEEK and its slot. **The target week is the next calendar week, Monday to Sunday, that has not begun yet** — on a Friday the week after the coming weekend, on any other day still that same week, never the one you are standing in.
+   - The slot is Tuesday or Wednesday. One a week, since the week of 2026-09-14.
    - **COVERED**: a post for it is "approved — scheduled in LinkedIn" or "posted". Only a covered slot is safe; it goes out on its own.
    - **OCCUPIED**: anything exists for it — a draft file "YYYYMMDD-li-*.txt" whose date is that slot, a draft on an open branch, or a row with status "drafted", "approved", "scheduled" or "posted". Never draft for an occupied slot.
    - The two are different questions. A "drafted" post occupies its slot without covering it: report it as waiting, name what is missing, leave it alone.
@@ -658,7 +669,7 @@ track are your tone reference, never the other track's.
 
 4. Report in BOTH places with the same content: #crew AND one email to christian@zander.coach, subject starting "Morten:".
    - A two-line verdict at the top: coming week covered or not.
-   - What is missing per slot and the concrete next action.
+   - What is missing and the concrete next action.
    - The next 2-3 candidates from the queue in its order, respecting the sequencing notes.
    - A link to every pull request you opened or added to today.
    - Which of your open requests got a review and what you did, and which were closed without merging. One line each.
@@ -666,7 +677,7 @@ track are your tone reference, never the other track's.
    - On the first Friday of each month only: remind Christian to export the LinkedIn analytics (CSV/XLSX, personal profile, full history) and drop the file **in #crew** — it reaches you there and nowhere else.
    - Nothing else. No essays.
 
-5. **Escalate to #crew-alerts in exactly one case:** BOTH slots of the target week are UNOCCUPIED — nothing scheduled, nothing drafted, no draft on a branch, for either. Not "uncovered": a slot Christian drafted himself, or one you drafted an hour ago, is occupied and raises no alert. That is the complete list. Not a single unoccupied slot, not a stale status, not an open pull request, not an unreachable repository, not anything you judge urgent — all of that goes to #crew. Keep it to one or two lines; details are in the report.
+5. **Escalate to #crew-alerts in exactly one case:** the target week's slot is UNOCCUPIED — nothing scheduled, nothing drafted, no draft on a branch. Not "uncovered": a slot Christian drafted himself, or one you drafted an hour ago, is occupied and raises no alert. That is the complete list. Not a single unoccupied slot, not a stale status, not an open pull request, not an unreachable repository, not anything you judge urgent — all of that goes to #crew. Keep it to one or two lines; details are in the report.
 
 ## Reworks (images)
 
@@ -702,7 +713,9 @@ email to christian@zander.coach, subject starting "Morten:".
 
 **Two artefacts, not one (2026-09-04).** The same export also produces a markdown
 table of the per-post figures, delivered in the same #crew message and the same
-email as the PDF. Fixed columns, so two months diff against each other:
+email as the PDF. **As a file named "YYYYMMDD-export.md", not as message text** —
+YYYYMMDD is the export's cut-off, the same stem the xlsx carries, so filing it is a
+move and never a rename. Fixed columns, so two months diff against each other:
 
 | Date | ID | Track | File | Slug (export) | Impr. | Eng. |
 

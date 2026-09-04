@@ -11,9 +11,17 @@ worth keeping. From `scheduled` on it names the slot date, the filename and the
 post's own title, which is often not the row's. Morten sets `idea` → `drafted`
 inside his drafting pull request; every later transition is Christian's.
 
-**Cadence (agreed 2026-07-12):** journey reports (Track B) go out early in the
-week, Monday or Tuesday; leadership stories (Track A) late in the week, Thursday
-or Friday. Out so far: B3 Mon 2026-07-13, A1 Thu 2026-07-16, B1 Mon 2026-07-20,
+**Cadence.** Agreed 2026-07-12, two posts a week: journey reports (Track B)
+early in the week, Monday or Tuesday; leadership stories (Track A) late in the
+week, Thursday or Friday. **Changed 2026-09-04, effective the week of 14.09: one
+post a week, German, Tuesday or Wednesday, in the Track A form.** Track B's reach
+fell monotonically to a floor near 60 while Track A held around 290, and the two
+were never two contents — the journey material now feeds the one form. `A` and `B`
+stay as row identifiers and say where material comes from, not which day it goes
+out. Reasoning in `IDEAS.md` #1, entry 2026-09-04.
+
+The last two-track week is 07.–13.09; both its slots are drafted and waiting for
+review. Out so far: B3 Mon 2026-07-13, A1 Thu 2026-07-16, B1 Mon 2026-07-20,
 A2 Thu 2026-07-23, B4 Mon 2026-07-27, A11 Thu 2026-07-30, B5 Mon 2026-08-03,
 A23 Thu 2026-08-06, B6 Mon 2026-08-10, A22 Thu 2026-08-13, B7 Mon 2026-08-17,
 A19 Thu 2026-08-20, B13 Mon 2026-08-24, A31 Thu 2026-08-27, B8 Mon 2026-08-31,
