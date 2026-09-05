@@ -86,6 +86,44 @@ Tags: `[eng]` engineering / Chronicler lab · `[showcase]` product & visibility 
    (Christian's idea, 2026-09-05; the measurement question was his too.)
 
 
+26. **The journey moves onto zander.coach** `[showcase]` `[lead]`
+   These two pages sit on their own domain, and everyone who reads them leaves
+   again without ever meeting the practice they belong to. The plan is to give the
+   journey a place on the repositioned site and to point `adaptive-x-ai.org` there
+   permanently, so that reading the journey and finding the work are the same
+   visit. **Christian wants this soon** (05.09).
+   **The gap it has to close first:** in the repositioning drafts the journey
+   appears three times, and every time only as a link outward. It has a URL and no
+   place. A redirect needs a target that carries the content, so the pages come
+   first and the redirect last — redirecting onto a page that does not hold the
+   material reads as a soft 404 and loses the indexing instead of passing it on.
+   Per page, too: the journey page and the resources page each get their own
+   target rather than a blanket redirect to a start page.
+   **Where it belongs, and why:** the site answers "why should I believe you" with
+   finished cases. The journey answers it with an unfinished one, and it is the
+   only place a reader can watch the mistakes. That makes it a second kind of
+   evidence rather than a fourth offer — and too small if it stays a paragraph in
+   a biography. The half that matters more than its position in a menu is the way
+   *out* of it: redirect traffic lands directly on the page and never sees a
+   navigation, so what the page needs is where to go next.
+   **Three decisions before any of it:** the pages are English and the site is
+   German — translate, or keep them English behind a German lead-in. The voice
+   exception recorded in `VOICE.md` (self-irony in full, because this is the
+   personal way in) collides with the zander.coach supplement and would have to
+   travel with the content. And whether the repo stays the source with WordPress
+   as the output — which keeps versioning, the voice check and the diff — or
+   WordPress becomes the source, which ends that workflow.
+   **Technically** GitHub Pages cannot issue a real 301; only a meta refresh or
+   JavaScript, neither of which passes the signals cleanly. The domain moves to
+   the WordPress host with its own certificate, or Cloudflare goes in front, which
+   would also fix the certificate warning the two alias domains still show over
+   `https://`. Keep the domain either way: every post so far points at it.
+   *Why now: the site is being rebuilt anyway, and doing it during the rebuild
+   costs a fraction of doing it afterwards. And it makes visitors measurable for
+   the first time — GitHub Pages reports nothing, which is exactly the missing
+   link in #25.* (Christian's idea, 2026-09-05.)
+
+
 ## Next — delegation
 
 4. **Pull-request infrastructure for agent coding** `[eng]` `[org]`
