@@ -15,10 +15,11 @@ His review workflow reads two endpoints:
     /pulls/<number>/reviews
 
 The second one carries the review state and the review body. Inline comments on
-lines live under `/pulls/<n>/comments`, ordinary pull request comments under
-`/issues/<n>/comments` — he queries neither. A comment without a review state
-triggers nothing, and an inline comment probably never reaches him. Whoever
-comments on lines summarises the result in the review body as well.
+lines live under `/pulls/<n>/comments` — and so does "Comment on this file",
+despite looking like the opposite — ordinary pull request comments under
+`/issues/<n>/comments`. He queries neither. A comment without a review state
+triggers nothing, and a comment tied to a file or a line probably never reaches
+him. Whoever uses one repeats the substance in the review body.
 
 He is woken by a repository event (webhook), with the daily run as the net. When
 it is urgent, add a line in **#crew**.
@@ -98,25 +99,42 @@ Not against the brief alone.
 
 ## 5a. Requesting changes
 
-Optional, for individual spots: in "Files changed" hover over the line → the
-**blue "+"** on the left → comment field → **"Start a review"** (not "Add single
-comment"). Further lines the same way; the button then reads **"Add review
-comment"**.
+Everything goes into one text that hangs on the whole pull request. In "Files
+changed", top right: **"Submit review"** (older wording: "Review changes"; while
+a review is in progress: "Finish your review" with a count). It opens a panel:
 
-This step is the binding one: top right, **"Review changes"** (**"Finish your
-review"** while a review is in progress).
-
-1. **The large text field is the channel that arrives.** Summarise everything
-   that matters here — he does not read the inline comments.
+1. **The text field is the channel that arrives.** Everything that matters goes
+   in here.
 2. Radio button **"Request changes"** (third option, below "Comment" and
    "Approve").
-3. **"Submit review"**.
+3. Confirm with **"Submit review"**.
+
+Since there is no line anchor, the text has to say where it applies:
+
+    20260907-li-report-resources.txt
+    - Paragraph 3: … instead of …
+    - The closing question does not carry, because …
+
+    20260907-li-report-resources-imageprompt.txt
+    - The brief should read: "…"
+
+Terminal equivalent, and the more reliable route while the UI keeps renaming its
+buttons: `gh pr review <n> --request-changes --body-file review.md`. Check it
+landed with `gh pr view <n> --json reviewDecision` — it must say
+`CHANGES_REQUESTED`.
+
+**Two things not to use.** Inline comments on lines (hover, the blue "+") and
+**"Comment on this file"** in the "…" menu at the head of a file: both land under
+`/pulls/<n>/comments`, which he does not query. The second one is the trap,
+because it reads exactly like a comment on the whole file. If you use either
+anyway, repeat the substance in the review text.
 
 Then a line in **#crew** if the slot is close.
 
 ## 5b. Approving and merging
 
-"Files changed" → **"Review changes"** → **"Approve"** → **"Submit review"**.
+"Files changed" → **"Submit review"** → **"Approve"** → confirm with **"Submit
+review"**.
 
 Back in **"Conversation"**, scroll down. The merge box is green now.
 
