@@ -43,6 +43,49 @@ Tags: `[eng]` engineering / Chronicler lab · `[showcase]` product & visibility 
    Three directions, none decided. **Have his run merge `main` into his own open branches first** — mechanical, no judgement, his token allows it, and it is one step in a workflow he already runs. **Report mergeability in the Friday report** — does not fix anything, makes it visible the same day, costs nothing. **Take the status out of the shared table**, so two writers stop sharing lines: the real fix and the expensive one, since a hundred references hang on that table and `REPERTOIRE.md` is also what the population rule for the statistics now points at. The fourth direction — taking the `idea → drafted` edge back off him — would also end it and is the one to avoid: that edge was given to him on 30.08 precisely because it is the one status he can observe as his own fact.
    *Why now: it blocks the weekly flow, it will come back, and the cheapest of the three is a single step in an existing workflow.* (From the 20260904 session.)
 
+24. **A glossary for the journey** `[meta]`
+   The vocabulary has outgrown its definitions. *Adaptive organisation*, *agentic
+   engineering*, *Player Coach*, *company brain*, *crew*, *harvest*, *repertoire*,
+   *business / leadership / operating model* — all of them carry weight in the
+   repo, on the site and in the posts, and none of them is defined anywhere. Some
+   are borrowed and mean something specific at their source (Player Coach comes
+   from "AI for Leaders"), some are our own coinage, and a reader has no way to
+   tell which is which. Open: where it lives — a `GLOSSARY.md` next to the journal,
+   or a page on the site — and whether it defines terms as *we* use them or claims
+   general definitions. The first is honest and cheap; the second is a much larger
+   promise. *Why now: every post and every entry adds usage, so the cost of writing
+   it down only goes up — and the site already speaks to readers who were not
+   there when a word was coined.* (Christian's idea, 2026-09-05.)
+
+25. **Morten reports what he cost and what he was worth** `[org]` `[lead]`
+   The statistics report says what the posts did. It says nothing about what
+   Morten did, and nothing about whether having him is worth it. Two halves.
+   **The cost side is arithmetic:** per job type — a harvest run, a drafted post,
+   an image, a statistics report — an assumed human time, times a rate, minus what
+   he actually costs in subscription and tokens. Straightforward, and it needs one
+   honest caveat printed next to it: nobody would have been hired for this work, so
+   "saved" money was never going to be spent. The figure that *is* real is the time
+   Christian would otherwise have spent himself, priced at his own rate.
+   **The value side does not have a clean number, and inventing one would be the
+   failure mode here.** Three levels, in descending order of how defensible they
+   are. *What he produced* — posts delivered, rows harvested, images generated, and
+   the share of drafts that went through without a change request, which is the
+   one figure that measures his quality rather than his volume; every rework is
+   Christian's time coming back. *What it reached* — impressions and engagement per
+   post already sit in the monthly export and can be attributed to his drafts. *What
+   it earned* — enquiries and mandates traceable to a post: the only hard value, and
+   the case numbers are far too small to compute with. The tempting fourth is
+   impressions times an advertising CPM. It produces a pretty number and means
+   nothing: organic reach in a closed room is not bought reach, and at a band around
+   290 impressions the number would flatter more than it informs.
+   The recommendation is therefore to report the three separately and **not** to sum
+   them into one net figure — a single euro number would be false precision, and the
+   report's job is to inform a decision, not to justify one already taken.
+   *Why now: it is the journey's own business-model question at small scale — what
+   is an agent worth — and the material to answer it is already being collected.*
+   (Christian's idea, 2026-09-05; the measurement question was his too.)
+
+
 ## Next — delegation
 
 4. **Pull-request infrastructure for agent coding** `[eng]` `[org]`
