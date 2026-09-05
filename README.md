@@ -146,3 +146,6 @@ The goal is to understand what it takes for a business model, a leadership model
 - [20260812 - Morten Takes the Harvest](research/20260812-morten-takes-the-harvest.md)
 - [20260824 - The Fish Leaves the Circle](research/20260824-the-fish-leaves-the-circle.md)
 - [20260824 - The List Was Complete](research/20260824-the-list-was-complete.md)
+- [20260830 - The Review Is the Work](research/20260830-the-review-is-the-work.md)
+- [20260831 - Mechanism Beats Rule](research/20260831-mechanism-beats-rule.md)
+- [20260904 - The Numbers Retired a Track](research/20260904-the-numbers-retired-a-track.md)
