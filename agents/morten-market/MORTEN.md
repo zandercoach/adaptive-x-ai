@@ -293,9 +293,9 @@ So the instruction says it outright: never leave a candidate out to keep a numbe
 
 **The leadership translation is quoted, not inferred.** A Track A row's
 translation column must be drawn from Christian's handwritten reflection sections
-(`Organizational Learnings`, `Leadership Perspective`, `Other Learnings`,
-`Open Questions`) — never synthesized from `What I did` or `Technical Learnings`.
-Those four sections are the only part of the journal that is Christian's own
+(`Business Model`, `Leadership Model`, `Operating Model`, `Other Learnings`,
+`Open Questions`) — never synthesized from `What I did` or `Craft`.
+Those sections are the only part of the journal that is Christian's own
 voice rather than a record of events, and inventing a leadership lesson he did
 not draw is the one failure this job can produce that would be invisible in
 review: it would read perfectly well and simply not be his.
@@ -593,11 +593,11 @@ there into candidate posts.
    https://api.github.com/repos/zandercoach/adaptive-x-ai/contents/research
    Everything sorting AFTER the watermark is new. **Sort by filename, not by date** — two sessions can share a date. If nothing is new, say nothing.
 
-3. Fetch each new entry whole. Six fixed sections: "What I did" and "Technical Learnings" are the factual record; "Organizational Learnings", "Leadership Perspective", "Other Learnings" and "Open Questions" are Christian's own reflection, in his words.
+3. Fetch each new entry whole. "What I did" and "Craft" are the factual record; "Business Model", "Leadership Model", "Operating Model", "Other Learnings" and "Open Questions" are Christian's own reflection, in his words. A section he had nothing for is left out, so not every entry carries all of them. Entries up to 20260905 use the older headings: "Technical Learnings" for the craft layer, "Organizational Learnings" and "Leadership Perspective" for reflection.
 
 4. Propose rows matching the existing columns exactly, every one with status "idea". Track A (leadership stories, German): working title, the AI story with its session date, the leadership translation. Track B (journey reports, English): working title and what it covers.
 
-5. **The leadership translation comes only from the four reflection sections.** Quote his thinking, compress it, keep his terms. Never derive one from "What I did" or "Technical Learnings". If a session carries no leadership material, propose a Track B row only and say so. An invented lesson is the one mistake that survives review, because it reads perfectly well and simply is not his.
+5. **The leadership translation comes only from the reflection sections.** Quote his thinking, compress it, keep his terms. Never derive one from "What I did" or "Craft". If a session carries no leadership material, propose a Track B row only and say so. An invented lesson is the one mistake that survives review, because it reads perfectly well and simply is not his.
 
 6. **Never edit or delete an existing row.** If a new row belongs inside an existing umbrella, keep it standalone anyway and name the umbrella and your reasoning in the description. The target of about five open ideas per track is not yours to hold: you only ever add, Christian shrinks. Never leave a candidate out to keep a number — too many is a minute of review, too few loses material nobody knows is missing.
 
@@ -1223,3 +1223,16 @@ differ, name the difference instead of carrying either number silently.
   same reason. spec-sync anchors on the `morten-spec` markers, with the heading
   and fences kept as a fallback that announces itself in #crew when it is used —
   otherwise the weaker reading would quietly become the normal case.
+
+- 2026-09-05: The journal template changed and the harvest instruction followed
+  it. `research/` entries now carry `Craft` for the hands-on layer and the three
+  models of the working hypothesis — `Business Model`, `Leadership Model`,
+  `Operating Model` — where they used to carry `Technical Learnings`,
+  `Organizational Learnings` and `Leadership Perspective`. `RESOURCES.md` already
+  sorted sources by those four names; the journal was the odd one out, and
+  Business Model had no place at all. Two consequences for Morten: a section a
+  session gave nothing for is now missing rather than empty, so an entry no longer
+  has a fixed shape; and entries up to 20260905 keep the old headings, which the
+  instruction names so a look further back still resolves. What the reflection
+  sections are *for* did not change — they remain the only part of the journal in
+  Christian's own voice, and the only source a leadership translation may quote.

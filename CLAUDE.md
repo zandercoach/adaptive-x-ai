@@ -5,19 +5,30 @@ This repo is **our company brain** for the "Adaptive × AI" learning journey (se
 ## Structure
 
 - `research/YYYYMMDD-topic.md` — one entry per session or topic, oldest first by filename.
-- Each entry uses a fixed six-section template:
+- Each entry uses this template, in this order:
   1. `## What I did` — factual recap of what happened in the session.
-  2. `## Technical Learnings` — technical/process lessons.
-  3. `## Organizational Learnings` — how the work of building/collaborating changed.
-  4. `## Leadership Perspective` — reflections on directing an agent vs. leading people.
-  5. `## Other Learnings` — anything that doesn't fit the categories above.
-  6. `## Open Questions` — what's still unresolved.
+  2. `## Craft` — technical and process lessons; the hands-on layer.
+  3. `## Business Model` — what AI changes about what is built and sold, and about what a value proposition is worth.
+  4. `## Leadership Model` — leading people and agents; judgement, trust, accountability.
+  5. `## Operating Model` — how work is organized, teams are structured, decisions flow.
+  6. `## Other Learnings` — anything that doesn't fit the categories above.
+  7. `## Open Questions` — what's still unresolved.
+- **A section with nothing in it is left out, not left empty.** Not every session
+  touches all three models; a heading with an invented line under it is worse than
+  a missing heading.
+- The three models are the working hypothesis (see README.md), and `RESOURCES.md`
+  sorts sources by the same four names — so an entry and a source can be held
+  against each other.
+- **Entries up to and including `20260905` use the earlier headings**
+  (`Technical Learnings`, `Organizational Learnings`, `Leadership Perspective`).
+  They are records of their moment and stay as they are; nothing is converted
+  retroactively.
 
 ## Filling in an entry
 
-Sections 1 and 2 (`What I did`, `Technical Learnings`) can be drafted directly from session history — they're factual and observable.
+`What I did` and `Craft` can be drafted directly from session history — they're factual and observable.
 
-Sections 3-6 (`Organizational Learnings`, `Leadership Perspective`, `Other Learnings`, `Open Questions`) are Christian's personal reflection. **Never invent or paraphrase these from inference alone.** Ask him directly, one question at a time, waiting for his answer before asking the next. Write his answers close to his own words — light cleanup for readability is fine, rewriting his voice is not.
+The rest (`Business Model`, `Leadership Model`, `Operating Model`, `Other Learnings`, `Open Questions`) is Christian's personal reflection. **Never invent or paraphrase these from inference alone.** Ask him directly, one question at a time, waiting for his answer before asking the next. Write his answers close to his own words — light cleanup for readability is fine, rewriting his voice is not.
 
 When you write his answer into a reflection section, make it a **self-contained statement, not a reply.** Drop the conversational opener ("Both, actually", "Yes, because…") and put back the thing it refers to, so the bullet stands on its own when the entry is read later without the interview around it. Everything after the opener stays close to his words. E.g. "Both at once" becomes "Giving write access was both at once — giving trust and installing a safeguard — and the safeguard is what made the trust cheap."
 
@@ -33,5 +44,5 @@ When you write his answer into a reflection section, make it a **self-contained 
 ## Working in this repo
 
 - Before updating or referencing an entry, read its current file content — don't rely on memory of what it used to say, since it changes across sessions and may have been edited directly (by Christian or a linter) between sessions.
-- New entries follow the existing template exactly (same six headings, same order) unless Christian asks to change the template itself.
+- New entries follow the template above — same headings, same order, minus whatever a session gave nothing for — unless Christian asks to change the template itself.
 - Commit only when explicitly asked. Push only when explicitly asked — this is a public repo.
