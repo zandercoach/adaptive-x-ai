@@ -139,6 +139,57 @@ dl.facts dt {
   line-height: 1.5;
 }
 dl.facts dd { margin: 0; }
+details {
+  margin: 0 0 1.75rem;
+  padding: 0 0 1.5rem;
+  border-bottom: 1px solid var(--rule);
+}
+details:not([open]) {
+  margin-bottom: 0.9rem;
+  padding-bottom: 0.8rem;
+}
+summary {
+  cursor: pointer;
+  font-family: var(--mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--muted);
+  list-style: none;
+  padding-left: 1.4rem;
+  position: relative;
+}
+summary::-webkit-details-marker { display: none; }
+summary::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+}
+details[open] summary::before { content: "▾"; }
+summary:hover { color: var(--accent); }
+summary:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 1px;
+}
+details dl.facts {
+  margin: 1.5rem 0 1.25rem;
+  padding: 0;
+  border-bottom: 0;
+}
+details > p { margin: 1.5rem 0 0; }
+p.themes {
+  font-family: var(--mono);
+  font-size: 0.8125rem;
+  color: var(--accent);
+  margin: 0 0 1.5rem;
+}
+p.meta { margin: 0 0 0.3rem; }
+@media print {
+  details::details-content { content-visibility: visible; }
+  summary::before { content: "▾"; }
+}
 @media (max-width: 36rem) {
   dl.facts {
     grid-template-columns: 1fr;
@@ -208,7 +259,7 @@ footer a:hover { color: var(--accent); }
 <section>
   <h2>What this page is</h2>
   <p>A complete log, not a recommendation list. Things that turned out to be a waste of time stay in, labelled as such — that is the more useful signal, and it fits a journal that publishes its mistakes.</p>
-  <p>Each entry has two layers, kept deliberately apart. The facts — what a source is, who made it, what it argues — may be drafted by an agent. What I took from it, where it landed, and whether it is worth your time is handwritten. Same rule as the journal itself.</p>
+  <p>Each entry has two layers, kept deliberately apart. The facts — what a source is, who made it, what it argues — may be drafted by an agent. What I took from it, where it landed, and whether it is worth your time is handwritten. Same rule as the journal itself. Both layers fold away under each entry and the verdict stays standing, so the log keeps scanning cleanly as it grows.</p>
   <p>Which means entries appear here half-finished, and stay that way until I have had my say. Half an entry is honest. An invented take is not.</p>
 </section>
 
@@ -217,21 +268,26 @@ footer a:hover { color: var(--accent); }
 
   <h3>“Agentic Coding Teams” — Pierluigi Pugliese, Dario Zanotto</h3>
 
+  <p class="meta">Book · read August 2026 · <a href="https://connexxo.com/resources/agentic-coding-teams/">connexxo.com/resources/agentic-coding-teams</a></p>
+  <p class="themes">Craft · Operating model · Leadership model</p>
+
+  <details>
+    <summary>The facts, and what it argues</summary>
+
   <dl class="facts">
     <dt>Authors</dt>
     <dd>Pierluigi Pugliese and Dario Zanotto, Connexxo. German edition by Dr. Jürgen Hoffmann.</dd>
     <dt>Format</dt>
-    <dd>Book, PDF, 103 pages. Connexxo GmbH, 2026; published in English, German and Italian — <a href="https://connexxo.com/resources/agentic-coding-teams/">connexxo.com/resources/agentic-coding-teams</a>.</dd>
-    <dt>Consumed</dt>
-    <dd>August 2026, the German edition.</dd>
-    <dt>Themes</dt>
-    <dd>Craft · Operating model · Leadership model.</dd>
+    <dd>Book, PDF, 103 pages. Connexxo GmbH, 2026; published in English, German and Italian.</dd>
     <dt>Material</dt>
     <dd>Bought through the Connexxo shop. Each PDF is personalised to its buyer, which is one more reason it is not reproduced here; characterised only.</dd>
   </dl>
 
-  <h4>What it argues</h4>
   <p>An evidence-based account of how teams of humans actually work with AI agents, positioned against both marketing poles — the claim that nothing essential has changed, and the promise that human teams are about to disappear. It runs in six parts: what the evidence supports on team size and on the patterns of human-agent collaboration; how teamwork, developer skills and the path from junior to senior change; the technical disciplines that keep agents on course, from the XP practices through domain-driven design to shared standards and the platform; the hidden costs — cognitive load, cognitive fatigue, token spend, security; what changes for Scrum Masters and Agile Coaches; and finally governance, sovereignty and the gap between hype and reality. The book was itself drafted largely by AI, with every substantive claim checked against its source — a method it states up front and documents in a closing note.</p>
+  </details>
+
+  <details>
+    <summary>What I took from it, and where it landed</summary>
 
   <h4>What I took from it</h4>
   <ul>
@@ -242,29 +298,35 @@ footer a:hover { color: var(--accent); }
   <ul>
     <li>Nothing concrete yet. It sharpened my understanding.</li>
   </ul>
+  </details>
 
   <h4>Verdict</h4>
   <p>Highly recommended for anyone working with agile teams who is looking for solid evidence behind claims about how those teams should be composed and how they should work in relation to AI.</p>
 
   <h3>“AI for Leaders” (Level 1) — Agile Academy</h3>
 
+  <p class="meta">Training · attended 21–22 and 28–29 July 2026</p>
+  <p class="themes">Leadership model · Business model · Operating model</p>
+
+  <details>
+    <summary>The facts, and what it argues</summary>
+
   <dl class="facts">
     <dt>Facilitator</dt>
     <dd>Sohrab Salimi, Founder &amp; CEO of Agile Academy — a fellow trainer and a mentor of mine.</dd>
     <dt>Format</dt>
     <dd>Training. Normally two days, in person or remote; for the ambassador cohort it ran as four afternoons.</dd>
-    <dt>Consumed</dt>
-    <dd>21–22 and 28–29 July 2026.</dd>
     <dt>Context</dt>
     <dd>Attended as one of the Agile Academy’s ambassadors.</dd>
-    <dt>Themes</dt>
-    <dd>Leadership model · Business model · Operating model.</dd>
     <dt>Material</dt>
     <dd>The deck is licensed CC BY-NC-ND 4.0 — free to share, but not for public republication. Not reproduced here; characterised only.</dd>
   </dl>
 
-  <h4>What it argues</h4>
   <p>The premise is that AI is infrastructure, not software: the ground the business runs on, touching People, Process and Product at once — which makes it a leadership question rather than an IT purchase, and explains why so few AI initiatives return anything. Its central move is the <em>Player Coach</em>: as the cost of delivering work collapses and the value-creating unit shrinks toward one person plus their agents, the coordinating manager role loses its reason to exist and leaders are pulled back into the work itself. The course design follows its own argument — leaders build an agent with their own hands on day one before being asked to lead anything on day two.</p>
+  </details>
+
+  <details>
+    <summary>What I took from it, and where it landed</summary>
 
   <h4>What I took from it</h4>
   <ul>
@@ -283,27 +345,33 @@ footer a:hover { color: var(--accent); }
     <li>The move to Player Coach was inspired here as well. It is datable: the line in my team profile about being “back in the game as a player-coach” went in on 28 July 2026 — the same afternoon the training covered the model, and before the source was named anywhere.</li>
     <li>I will check the learning journey for business-model viability — moonshot — the same way I check my existing business and the repositioning. And probably the tool we are learning on as well: the Chronicler.</li>
   </ul>
+  </details>
 
   <h4>Verdict</h4>
   <p>Absolutely worth recommending for leaders who are ready to question an existing understanding of leadership and an existing understanding of organisation.</p>
 
   <h3>“From agent use cases to agentic organization” — Nils Janse / Abundly</h3>
 
+  <p class="meta">Webinar, 59 min · watched live 23 June 2026 · <a href="https://www.abundly.ai/events/2026-06-23/webinar-from-agent-use-cases-to-agentic-organization">abundly.ai/events/2026-06-23</a></p>
+  <p class="themes">Operating model · Leadership model</p>
+
+  <details>
+    <summary>The facts, and what it argues</summary>
+
   <dl class="facts">
     <dt>Speaker</dt>
     <dd>Nils Janse, Co-founder &amp; Gen AI Expert at Abundly AI.</dd>
     <dt>Format</dt>
-    <dd>Webinar, online, 59 minutes — <a href="https://www.abundly.ai/events/2026-06-23/webinar-from-agent-use-cases-to-agentic-organization">abundly.ai/events/2026-06-23</a>.</dd>
-    <dt>Consumed</dt>
-    <dd>23 June 2026, live.</dd>
-    <dt>Themes</dt>
-    <dd>Operating model · Leadership model.</dd>
+    <dd>Webinar, online, 59 minutes.</dd>
     <dt>Material</dt>
     <dd>The event page carries the description and the recording. Linked and characterised here, not reproduced.</dd>
   </dl>
 
-  <h4>What it argues</h4>
   <p>The step that matters is not the single agent but the fleet: how agents across business functions are wired into end-to-end processes rather than left standing as isolated tools. It offers a repeatable way of getting there for any function — a method for turning scattered agent ideas into a structured portfolio — and shows concrete fleet examples. It takes an organisation that is already building agents as its starting point, and addresses executives and department heads, AI leads structuring an agent portfolio, and the champions and agent builders who want to see how their own agents fit the bigger picture.</p>
+  </details>
+
+  <details>
+    <summary>What I took from it, and where it landed</summary>
 
   <h4>What I took from it</h4>
   <ul>
@@ -314,27 +382,33 @@ footer a:hover { color: var(--accent); }
   <ul>
     <li>On the basis of this webinar I wanted to build the learning journey professionally, and to do everything that happens in a way that stays clean and maintainable even if I scale up to several agents.</li>
   </ul>
+  </details>
 
   <h4>Verdict</h4>
   <p>Worth recommending for people with experience — at minimum with AI assistants, ideally with agentic engineering as well.</p>
 
   <h3>“The secure road to AI agents — Governance &amp; Guardrails” — Nils Janse / Abundly</h3>
 
+  <p class="meta">Webinar, 1 h · recording watched 20 June 2026 · <a href="https://www.abundly.ai/events/2026-05-28/webinar-the-secure-road-to-ai-agents-governance-guardrails">abundly.ai/events/2026-05-28</a></p>
+  <p class="themes">Operating model · Leadership model</p>
+
+  <details>
+    <summary>The facts, and what it argues</summary>
+
   <dl class="facts">
     <dt>Speaker</dt>
     <dd>Nils Janse, Co-founder &amp; Gen AI Expert at Abundly AI.</dd>
     <dt>Format</dt>
-    <dd>Webinar, online, one hour — <a href="https://www.abundly.ai/events/2026-05-28/webinar-the-secure-road-to-ai-agents-governance-guardrails">abundly.ai/events/2026-05-28</a>.</dd>
-    <dt>Consumed</dt>
-    <dd>20 June 2026, as a recording; the session itself ran on 28 May 2026.</dd>
-    <dt>Themes</dt>
-    <dd>Operating model · Leadership model.</dd>
+    <dd>Webinar, online, one hour.</dd>
     <dt>Material</dt>
     <dd>The event page carries the description and the recording. Linked and characterised here, not reproduced.</dd>
   </dl>
 
-  <h4>What it argues</h4>
   <p>Governance is what makes agents scalable rather than what holds them back: who is allowed to create an agent, how agents get reviewed, what data and systems they may reach, how their performance is monitored, and who carries the risk. It works through the conversations to have with IT, the guardrails that let people build fast without giving up safety, and the ownership structures a growing agent portfolio needs. Addressed at AI leads, at the C-level accountable for direction, ROI, risk and security, at heads of IT and compliance, at engineering and platform leads, and at the department heads whose teams build and use agents.</p>
+  </details>
+
+  <details>
+    <summary>What I took from it, and where it landed</summary>
 
   <h4>What I took from it</h4>
   <ul>
@@ -347,27 +421,33 @@ footer a:hover { color: var(--accent); }
     <li>I worked in a considerably more organised and structured way afterwards: Morten's permissions, the PR gates, the separation of the repos.</li>
     <li>All of that is still the “Foundation” phase — “build your muscle” — but already with a view to building on it without tumbling into chaos.</li>
   </ul>
+  </details>
 
   <h4>Verdict</h4>
   <p>The audience list on the event page fits well. I would add consultants who want to move in this context — and I count myself among them, even though I am exploring in “1 + AI” mode at the moment.</p>
 
   <h3>“Agentic Engineering in Practice” — Henrik Kniberg / Abundly</h3>
 
+  <p class="meta">Webinar, 80 min · attended live 17 June 2026 · <a href="https://www.abundly.ai/events/2026-06-17/webinar-agentic-engineering-in-practice">abundly.ai/events/2026-06-17</a></p>
+  <p class="themes">Craft · Operating model</p>
+
+  <details>
+    <summary>The facts, and what it argues</summary>
+
   <dl class="facts">
     <dt>Speaker</dt>
     <dd>Henrik Kniberg, Co-founder &amp; Chief Scientist at Abundly AI.</dd>
     <dt>Format</dt>
-    <dd>Webinar, online, 80 minutes — <a href="https://www.abundly.ai/events/2026-06-17/webinar-agentic-engineering-in-practice">abundly.ai/events/2026-06-17</a>.</dd>
-    <dt>Consumed</dt>
-    <dd>17 June 2026, live.</dd>
-    <dt>Themes</dt>
-    <dd>Craft · Operating model.</dd>
+    <dd>Webinar, online, 80 minutes.</dd>
     <dt>Material</dt>
     <dd>The event page carries the description and the recording. Linked and characterised here, not reproduced.</dd>
   </dl>
 
-  <h4>What it argues</h4>
   <p>How far agents can be taken in a real development workflow, grounded in Abundly’s own large and complex codebase rather than a prototype — the claim being a tenfold productivity gain and a new platform version shipped every day. It works through what holds up in practice: helping an agent navigate a big codebase, keeping control of the architecture when agents write most of the code, avoiding technical debt, and balancing agent autonomy with human oversight. It then goes beyond coding — agents for backlog and release management — and closes on what that means for team structure, processes and the engineering craft.</p>
+  </details>
+
+  <details>
+    <summary>What I took from it, and where it landed</summary>
 
   <h4>What I took from it</h4>
   <ul>
@@ -379,27 +459,33 @@ footer a:hover { color: var(--accent); }
     <li>Direct connection: the journey started the same day, 17 June 2026, with the repo split, the characterisation tests and the Maven wrapper.</li>
     <li>Watching it was also a way to prepare myself a little for the “AI for Leaders” training that followed in July 2026.</li>
   </ul>
+  </details>
 
   <h4>Verdict</h4>
   <p>Absolutely worth recommending for developers and for leaders who want to develop further. It can be a first step towards the Player Coach.</p>
 
   <h3>“Generative AI in a Nutshell” — Henrik Kniberg</h3>
 
+  <p class="meta">Video, 18 min · watched February 2025 · <a href="https://www.youtube.com/watch?v=2IK3DFHRFfw">youtube.com/watch?v=2IK3DFHRFfw</a></p>
+  <p class="themes">Craft · Leadership model</p>
+
+  <details>
+    <summary>The facts, and what it argues</summary>
+
   <dl class="facts">
     <dt>Author</dt>
     <dd>Henrik Kniberg — Certified Scrum Trainer with the Scrum Alliance, so a fellow CST; co-founder and Chief Scientist at Abundly, the platform Morten runs on.</dd>
     <dt>Format</dt>
-    <dd>Video, 18 minutes — <a href="https://www.youtube.com/watch?v=2IK3DFHRFfw">youtube.com/watch?v=2IK3DFHRFfw</a>.</dd>
-    <dt>Consumed</dt>
-    <dd>February 2025.</dd>
-    <dt>Themes</dt>
-    <dd>Craft · Leadership model.</dd>
+    <dd>Video, 18 minutes.</dd>
     <dt>Material</dt>
     <dd>Fully public: the video itself, the complete drawing as a PNG on <code>blog.crisp.se</code>, a book on Leanpub, and AI voice translations into eight languages, German among them. Linked and characterised here, not reproduced.</dd>
   </dl>
 
-  <h4>What it argues</h4>
   <p>A full day of AI course compressed into eighteen minutes of drawing and talking, aimed at everyone rather than at engineers. It starts from what a language model actually does — predict the next piece of text — and works outward from there to prompting, autonomous agents, the limitations that follow from the prediction mechanism, the origins of ChatGPT and AI-powered product development. It closes on the role of humans and on mindset: the tool has to be played with to be understood.</p>
+  </details>
+
+  <details>
+    <summary>What I took from it, and where it landed</summary>
 
   <h4>What I took from it</h4>
   <ul>
@@ -411,6 +497,7 @@ footer a:hover { color: var(--accent); }
   <ul>
     <li>The video itself was not yet a driver to change anything. It created deeper understanding.</li>
   </ul>
+  </details>
 
   <h4>Verdict</h4>
   <p>Absolutely worth recommending for anyone who wants to understand AI. Not outdated, even though some things have moved on since.</p>
