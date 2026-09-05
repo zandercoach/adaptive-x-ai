@@ -149,3 +149,4 @@ The goal is to understand what it takes for a business model, a leadership model
 - [20260830 - The Review Is the Work](research/20260830-the-review-is-the-work.md)
 - [20260831 - Mechanism Beats Rule](research/20260831-mechanism-beats-rule.md)
 - [20260904 - The Numbers Retired a Track](research/20260904-the-numbers-retired-a-track.md)
+- [20260905 - No Rule Before Its Case](research/20260905-no-rule-before-its-case.md)
