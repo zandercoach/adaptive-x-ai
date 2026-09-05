@@ -150,3 +150,4 @@ The goal is to understand what it takes for a business model, a leadership model
 - [20260831 - Mechanism Beats Rule](research/20260831-mechanism-beats-rule.md)
 - [20260904 - The Numbers Retired a Track](research/20260904-the-numbers-retired-a-track.md)
 - [20260905 - No Rule Before Its Case](research/20260905-no-rule-before-its-case.md)
+- [20260905 - The Model Without a Section](research/20260905-the-model-without-a-section.md)
