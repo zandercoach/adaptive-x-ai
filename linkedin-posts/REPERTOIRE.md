@@ -26,7 +26,10 @@ post a week, German, Tuesday or Wednesday, in the Track A form.** Track B's reac
 fell monotonically to a floor near 60 while Track A held around 290, and the two
 were never two contents — the journey material now feeds the one form. `A` and `B`
 stay as row identifiers and say where material comes from, not which day it goes
-out. Reasoning in `IDEAS.md` #1, entry 2026-09-04.
+out. Reasoning in `IDEAS.md` #1, entry 2026-09-04. **Track B rows are still
+harvested and still maintained** (2026-09-05): one track is an experiment rather
+than a verdict, and the journey material may yet be played out on a channel of
+its own, Substack among the candidates.
 
 The last two-track week is 07.–13.09; both its slots are scheduled. Out so far:
 B3 Mon 2026-07-13, A1 Thu 2026-07-16, B1 Mon 2026-07-20, A2 Thu 2026-07-23, B4
