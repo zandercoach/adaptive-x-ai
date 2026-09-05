@@ -28,7 +28,7 @@ Rules of the house:
 - Never write "What I took from it", "Where it landed" or "Verdict" from
   inference. Ask Christian, one question at a time. Write his answers close to
   his own words, as self-contained statements.
-- Link, characterize and comment — do not reproduce the content of a source. This
+- Link, characterise and comment — do not reproduce the content of a source. This
   holds even where a licence would allow more: the value of an entry is the take,
   not the material.
 - Material that is not ours to publish stays outside the repo entirely. Name it,
@@ -64,7 +64,7 @@ factual layer is filled in and Christian has had his say.
 | **Consumed** | 21–22 and 28–29 July 2026 |
 | **Context** | Attended as one of the Agile Academy's ambassadors |
 | **Themes** | Leadership model · Business model · Operating model |
-| **Source material** | The deck is licensed CC BY-NC-ND 4.0 — free to share, but not for public republication, which is what this repo would be. Not reproduced here; characterized only |
+| **Source material** | The deck is licensed CC BY-NC-ND 4.0 — free to share, but not for public republication, which is what this repo would be. Not reproduced here; characterised only |
 
 **What it argues.** The premise is that AI is infrastructure, not software: the
 ground the business runs on, touching People, Process and Product at once — which
@@ -80,7 +80,7 @@ being asked to lead anything on day two.
 
 - Confirmed: AI is infrastructure, not IT. It has an effect on virtually every
   aspect and every step of the value chain of products, it can open new markets
-  for new business models, and it reaches the people in the organization and how
+  for new business models, and it reaches the people in the organisation and how
   they work together — including with AI — and therefore how people and companies
   are led.
 - Confirmed: the delivery part of value creation gets much faster and more
@@ -117,7 +117,7 @@ being asked to lead anything on day two.
 
 **Verdict.** Absolutely worth recommending for leaders who are ready to question
 an existing understanding of leadership and an existing understanding of
-organization.
+organisation.
 
 ---
 
