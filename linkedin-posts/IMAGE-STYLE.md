@@ -27,7 +27,7 @@ Everything between the markers goes into the header of a new `*-imageprompt.txt`
 under the heading `IMAGE STYLE GUIDE ("Zander Flipchart" — use for every future post)`.
 
 <!-- style-block:start -->
-Hand-drawn flipchart illustration, as sketched live by a trainer with markers: clean black marker outlines on a plain white background, simple friendly shapes, hand-lettered text. Human figures are always drawn with a body — a round head, an oval torso, and thin arms and legs attached to that torso, never a head with limbs hanging directly off it — and the posture carries the expression. This applies to the human figures only; the robot of this series keeps his own look (boxy head with antenna, segmented arms and legs) and is not changed by it. Accents only in classic flipchart marker colors — yellow, orange, green, blue, red — applied as wide, slightly uneven marker strokes. No gradients, no photorealism, no dark shading, plenty of white space. Light, warm, optimistic mood. Square composition. Captions are hand-lettered in black marker and underlined in black as well; the underline belongs to the lettering and is not a colour accent.
+Hand-drawn flipchart illustration, as sketched live by a trainer with markers: clean black marker outlines on a plain white background, simple friendly shapes, hand-lettered text. Human figures are always drawn with a body — a round head, an oval torso, and single-line arms and legs attached to that torso, each ending in a small round hand or foot, never a head with limbs hanging directly off it — and the posture carries the expression. This applies to the human figures only; the robot of this series keeps his own look (boxy head with antenna, segmented arms and legs) and is not changed by it. Accents only in classic flipchart marker colors — yellow, orange, green, blue, red — applied as wide, slightly uneven marker strokes. No gradients, no photorealism, no dark shading, plenty of white space. Light, warm, optimistic mood. Square composition. Captions are hand-lettered in black marker and underlined in black as well; the underline belongs to the lettering and is not a colour accent.
 <!-- style-block:end -->
 
 ## History
@@ -51,3 +51,9 @@ Hand-drawn flipchart illustration, as sketched live by a trainer with markers: c
   "caption at the bottom in black marker, underlined" and left the underline
   open, and the series carried both. He decided for black and said why, which
   was right on both counts.
+- **2026-09-05.** Arms and legs are single lines ending in a small round hand or
+  foot, where the block had said "thin arms and legs" and left the ends open.
+  Asked for in the review of pull request #10; Morten named that the block did
+  not say it and generated nothing, which is the rule working. Human figures
+  only, like the rule above it — the robot keeps his segmented limbs. In force
+  from the post of 07.09 onward, not backwards.
