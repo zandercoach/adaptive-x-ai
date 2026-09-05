@@ -7,19 +7,25 @@ actually reaches him. Written 2026-09-05, against the draft pull requests #10 an
 
 ## The one channel that arrives
 
-**A formal review with "Request changes" — the text in the summary field.**
+**A formal review with "Request changes".** The state is what counts: a comment
+without one triggers nothing at all.
 
-His review workflow reads two endpoints:
+His specification names two endpoints for the workflow:
 
     /pulls?state=open
     /pulls/<number>/reviews
 
-The second one carries the review state and the review body. Inline comments on
-lines live under `/pulls/<n>/comments` — and so does "Comment on this file",
-despite looking like the opposite — ordinary pull request comments under
-`/issues/<n>/comments`. He queries neither. A comment without a review state
-triggers nothing, and a comment tied to a file or a line probably never reaches
-him. Whoever uses one repeats the substance in the review body.
+The second carries the review state and the review body, and inline comments on
+lines live somewhere it does not name — `/pulls/<n>/comments`. **Read on 05.09
+that this made them invisible to him; the first real review disproved it the same
+morning.** Three comments sat on lines, the review body was empty, and he worked
+all three: two done, the third refused with its reason. Line comments reach him.
+
+What stands is the narrower rule. The body is the documented channel and the one
+his specification guarantees; line comments work but rest on behaviour rather
+than on the spec, so anything that must not be missed belongs in the body as
+well. "Comment on this file" in the "…" menu posts to the same endpoint as a line
+comment and has not been tried.
 
 He is woken by a repository event (webhook), with the daily run as the net. When
 it is urgent, add a line in **#crew**.
@@ -130,11 +136,14 @@ buttons: `gh pr review <n> --request-changes --body-file review.md`. Check it
 landed with `gh pr view <n> --json reviewDecision` — it must say
 `CHANGES_REQUESTED`.
 
-**Two things not to use.** Inline comments on lines (hover, the blue "+") and
-**"Comment on this file"** in the "…" menu at the head of a file: both land under
-`/pulls/<n>/comments`, which he does not query. The second one is the trap,
-because it reads exactly like a comment on the whole file. If you use either
-anyway, repeat the substance in the review text.
+**Line comments work too**, and on 05.09 they carried a whole review on their own:
+hover over the line, the **blue "+"**, then **"Start a review"** (not "Add single
+comment"), and finish with "Submit review" as above. They anchor a correction to
+the exact spot, which the body cannot do. What they do not do is guarantee
+anything — his specification does not name the endpoint they land on — so put
+what must not be missed in the body as well. One caveat learned the same day: a
+comment on the imageprompt reads as being about the picture. He asked whether
+"leave out Player Coach" meant the post too, rather than assuming it.
 
 Then a line in **#crew** if the slot is close.
 
