@@ -56,6 +56,13 @@ A review changes this one post. For everything beyond it there are two files:
 He is instructed not to turn a change into a rule: something Christian changed
 once is an observation. To make it bind, it goes into one of those two files.
 
+**A push to main does not wake him.** His specification counts pushes, merges and
+branch deletions as news; he acts on a review of his open pull request, a comment
+on one, or one closed without merging. So changing the style guide is only half
+the move — the other half is a second review on his pull request saying the block
+is updated and asking him to copy it and regenerate. Say in it that this is the
+same rework rather than a second one, or the change costs one of his two.
+
 ## Limits
 
 - **Two reworks per post.** On a third he says in #crew that the brief and the
