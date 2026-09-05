@@ -38,7 +38,7 @@ media.
 
 | Channel | Supplement | What it governs |
 |---|---|---|
-| LinkedIn | `projects/adaptive-x-ai/linkedin-posts/VOICE.md` | Two tracks, hashtags, first comment, length, AI disclosure, file naming, workflow. It also carries a dated **transcript of this file**, because Morten reads it over GitHub and cannot see the workspace root |
+| LinkedIn | `projects/adaptive-x-ai/linkedin-posts/VOICE.md` | The track and its cadence, hashtags, first comment, length, AI disclosure, file naming, workflow. It also carries a dated **transcript of this file**, because Morten reads it over GitHub and cannot see the workspace root |
 | Website (zander.coach) | `brand/positioning/VOICE.md` | Gender form, dose of self-irony, capitalisation of the address, what does not carry over from LinkedIn |
 | Journal site (adaptive-x-ai.org) | `projects/adaptive-x-ai/VOICE.md` | Dose of self-irony on a page that reads as the personal way in, what the English pages inherit from neither of the other two |
 | Slide decks | `material/decks/VOICE.md` | Who speaks on the slide, gender form, capitalisation of the address; the slide carries fragments and the voice lives in the director's notes, so the dose is per slide instead of per text |
