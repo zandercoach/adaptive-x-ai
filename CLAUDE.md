@@ -28,6 +28,14 @@ This repo is **our company brain** for the "Adaptive × AI" learning journey (se
 
 `What I did` and `Craft` can be drafted directly from session history — they're factual and observable.
 
+**`Craft` holds four bullets at most.** A session yields two or three lessons that
+matter; a list of eight buries them. Keep what changed how the work is done, drop
+what merely happened — that is what `What I did` is for.
+
+**Keep `What I did` short as well**, though without a fixed number: a recap of the
+session, not a transcript of it. Christian writes shorter than an agent does by
+default, and the entry should read like his.
+
 The rest (`Business Model`, `Leadership Model`, `Operating Model`, `Other Learnings`, `Open Questions`) is Christian's personal reflection. **Never invent or paraphrase these from inference alone.** Ask him directly, one question at a time, waiting for his answer before asking the next. Write his answers close to his own words — light cleanup for readability is fine, rewriting his voice is not.
 
 When you write his answer into a reflection section, make it a **self-contained statement, not a reply.** Drop the conversational opener ("Both, actually", "Yes, because…") and put back the thing it refers to, so the bullet stands on its own when the entry is read later without the interview around it. Everything after the opener stays close to his words. E.g. "Both at once" becomes "Giving write access was both at once — giving trust and installing a safeguard — and the safeguard is what made the trust cheap."
