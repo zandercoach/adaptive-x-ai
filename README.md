@@ -94,9 +94,11 @@ Questions I'm currently sitting with:
 
 ## Working Hypothesis
 
-The biggest challenge of the AI disruption is not technology.
+The biggest challenge of the AI disruption is not the technology.
 
 It is whether your business model, leadership model, and operating model — all built for a different world — can adapt fast enough to benefit from AI instead of being disrupted by it.
+
+Adapting them is a leadership challenge.
 
 ## Why learn in public?
 
