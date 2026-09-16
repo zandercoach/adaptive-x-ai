@@ -1,0 +1,22 @@
+IMAGE STYLE GUIDE ("Zander Flipchart" — use for every future post)
+====================================================================
+
+Hand-drawn flipchart illustration, as sketched live by a trainer with markers: clean black marker outlines on a plain white background, simple friendly shapes, hand-lettered text. Human figures are always drawn with a body — a round head, an oval torso, and single-line arms and legs attached to that torso, each ending in a small round hand or foot, never a head with limbs hanging directly off it — and the posture carries the expression. This applies to the human figures only; the robot of this series keeps his own look (boxy head with antenna, segmented arms and legs) and is not changed by it. Accents only in classic flipchart marker colors — yellow, orange, green, blue, red — applied as wide, slightly uneven marker strokes. No gradients, no photorealism, no dark shading, plenty of white space. Light, warm, optimistic mood. Square composition. Captions are hand-lettered in black marker and underlined in black as well; the underline belongs to the lettering and is not a colour accent.
+
+
+IMAGE PROMPT ("Experiment beendet") — GOAL, NOT A CHECKLIST
+==============================================================
+
+This brief tells you what the picture is for and leaves the motif to you. It does not describe the scene element by element.
+
+WHAT THE POST SAYS
+Since July the journey ran two post tracks side by side: an English journey report early in the week, a German leadership story late in it. Two languages, two forms, two audiences, twice the work every week. For three monthly reports reach was read as one number. At the beginning of September it was read per track for the first time, and the two tracks turned out to have nothing in common: the German stories held their level, the English reports fell further with every post until they reached only a fraction of the stories. Not fluctuating, falling post by post. After that the decision was a small one: one track, German, once a week, the freed slot spent commenting under other people's posts. The turn of the post is not the measurement but the ending. In organisations experiments are rarely ended; they run out, stop being mentioned, and eventually nobody asks. What is lost is not the attempt but its result. A failed experiment on this learning journey belongs publicly ended, not quietly buried.
+
+WHAT THE PICTURE SHOULD DO
+Someone scrolling past should see something being closed on purpose, and should read it as calm and matter-of-fact rather than as a confession of failure. The two tracks and their different fates should be legible in a second, without a single figure being given. Steer away from: tombstones, graves, funerals, dustbins, thumbs-down, sad or crying faces, big red crosses as a verdict, dashboards, screens, and anything that makes the picture look like a report. The negated half of the closing sentence — quietly buried — is exactly what the motif must not show.
+
+WHAT IS FIXED
+The style guide above. Square composition, white background. Only ONE figure of this series carries the picture: the stick-figure person, no robot and no invented third. The story is one person reading his own figures and stopping one of them, and there is no second voice in it. Two lines of different fate must be visible, one holding its level and one falling step by step. The ending must be drawn as a visible stop with the falling line still fully there behind it, never as an erasure. No numbers, digits, percentages or axis labels anywhere, because the post deliberately shows the relation between the figures and not the figures. Any hand-lettering is German, since the post is German. A hand-lettered caption at the bottom in black marker, underlined in black, reading exactly: "Experiment beendet". Apart from the caption the picture carries no words. As always, fetch two existing post PNGs from the same folder as visual reference so the series keeps one look.
+
+WHAT IS YOURS
+The motif and the composition: whether the two lines sit on a flipchart, on the floor, as two paths or two ribbons; the posture; which marker colour carries which line; and how the stop is drawn. Pick one clear idea and let it breathe rather than assembling several.
