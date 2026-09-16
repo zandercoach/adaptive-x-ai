@@ -33,60 +33,23 @@ harvested and still maintained** (2026-09-05): one track is an experiment rather
 than a verdict, and the journey material may yet be played out on a channel of
 its own, Substack among the candidates.
 
-The last two-track week is 07.–13.09; both its slots are scheduled. Out so far:
-B3 Mon 2026-07-13, A1 Thu 2026-07-16, B1 Mon 2026-07-20, A2 Thu 2026-07-23, B4
-Mon 2026-07-27, A11 Thu 2026-07-30, B5 Mon 2026-08-03, A23 Thu 2026-08-06, B6
-Mon 2026-08-10, A22 Thu 2026-08-13, B7 Mon 2026-08-17, A19 Thu 2026-08-20, B13
-Mon 2026-08-24, A31 Thu 2026-08-27, B8 Mon 2026-08-31, A43 Thu 2026-09-03. The
+The last two-track week was 07.–13.09. Sixteen posts went out between 13.07
+and 03.09, two a week; which row went out when is in the status cells. The
 first open slot is the week of 14.09, Tuesday or Wednesday — the first under
 the one-track cadence.
 
-**The 24.08 slot was Morten's, and it did not happen.** Stage 2 of the handover
-(MORTEN.md, 2026-08-11) had him drafting exactly this Track B post on Fri
-2026-08-21, with the Thursday story still written in a session as the control.
-No draft and no pull request arrived, and none of the three prerequisites the
-stage was gated on had been built: the review loop of #22, the *occupied* rather
-than *covered* rule, and the decision on the first-comment experiment. Both posts
-of this week were therefore drafted in a session on 24.08, which loses the
-comparison the week was designed for. The first-comment decision is taken below.
+**The drafting handover ran in three stages**, 24.08 to 30.08, with stage 3
+pulled four days early on Christian's call. The dates, the draft that never
+arrived on 21.08, the three prerequisites the stage was gated on and the
+reasoning are in the log of `agents/morten-market/MORTEN.md`.
 
-**Stage 2 happened on Fri 2026-08-28**, for the Mon 31.08 slot. All three
-prerequisites were built on the evening of 24.08, and the drafting workflow that
-was on none of the lists was written the same evening. Morten drafted B8, took
-one rework on review, and the post went out of his hands and into Christian's
-finish — which is where it changed most, and which produced the two workflow
-steps of 30.08: the rework path the stage had been built without, and the
-read-back that keeps a merged pull request from swallowing the finish. **Stage 3
-followed on 30.08**, four days early and on Christian's call, with the Track A
-story for 03.09 — the first German post an agent has drafted.
-
-**Running experiment (from B6, 2026-08-10):** the in-body pointer to the first
-comment ("The full journal is public (link in the first comment)" / "Das Journal
-dazu ist öffentlich (Link im ersten Kommentar)") is **deliberately left out of
-B6**, to see whether it costs impressions on LinkedIn. Do not add it back as a
-missing line. The `FIRST COMMENT` block itself stays in every draft file and
-still gets posted — no longer true as of 06.08, see below. Christian took the
-pointer out of **A22 on 13.08** as well, so there is no control inside the week:
-the comparison runs against the earlier posts, across both tracks, and needs
-several posts before it says anything. Read it out in the monthly statistics
-report.
-
-**Decided 2026-08-24: the first comment comes back, the in-body pointer stays
-out.** From B13 on 24.08 the `FIRST COMMENT` block is posted again — the reason it
-was dropped was that Christian was away, and that reason is gone. The pointer *in
-the post body* stays out, so the experiment keeps one defined variable instead of
-widening indefinitely, and it is read out from the monthly export at the end of
-August. This is one of the three things stage 2 of the drafting handover was
-waiting for.
-
-**Extended 2026-08-06: the first comment itself is dropped**, for the four posts
-of 10./13./17./20.08. Christian is away, and the comment is the one step nobody
-else can take for him; dropping it also widens the experiment, since the posts
-now carry neither the pointer nor the link. The `FIRST COMMENT` blocks stay in
-the draft files unused, so resuming costs nothing. Consequence to keep in view:
-the two German stories still name the journey in the body ("meine Lernreise
-adaptive-x-ai"), while the two English reports currently carry no reference to
-it at all.
+**The first-comment experiment is closed.** The in-body pointer to the first
+comment was left out from B6 on 10.08 and stays out; the `FIRST COMMENT` block
+itself was dropped for the four posts of 10.–20.08 while Christian was away and
+came back on 24.08. Read out on 04.09 against the stable track: 305 impressions
+with the pointer against 284 without, −7 % on a per-post spread of 166 to 426,
+which is noise. The rule and the number stand in `VOICE.md`, so it is not run
+again.
 
 **Harvested 2026-08-31 by Christian and Claude, out of turn:** the 30.08 and
 31.08 entries became A45–A49 and B17–B18, and the watermark moved with them.
@@ -139,11 +102,11 @@ AI story first (mostly), then the people-leadership translation.
 | A52 | Ich habe ihm Betrug unterstellt | June came out of one export at 726 and out of another at 762, and Morten's reconciliation used 726 with the line "geht exakt auf". Christian read that as a check built from numbers made to fit, and said so. Both figures were correct: two exports, one starting 7.6. and one starting 1.6., 36 impressions in the six days between them, and Morten had written his window down. The retraction went into the archive and into a commit of its own (20260904) | A wrong accusation cost nothing here, where the accused is an agent and the evidence is a file anybody can reread. In other contexts a wrong decision of that kind carries consequences that do not get withdrawn in a commit. Which is the autonomy question from the other side: the harness has to fit the cost of being wrong, and the cost of the human being wrong belongs inside it too | dropped (2026-09-16, the scene is strong and the lesson lands on A51's ground, that the harness has to fit the cost of being wrong) — 20260904; B19 is its pair |
 | A53 | Gut gemeint ist trotzdem ein Ausbruch | Four new rules for Morten's statistics job and a second artefact were written into MORTEN.md, and three of the rules landed in the half of the file that talks about him rather than in the fenced block that talks to him — the only part the sync copies into what he reads each run. He found it himself, said so, and followed the three rules that same day anyway, because they stood in the repo and were unambiguously addressed to him, while naming that they would not reach him next run (20260904); and the opposite move the following day — a review on pull request #10 asked for three things and he did two, refusing the third because IMAGE-STYLE.md said "thin arms and legs" and nothing about one line or two: he generated nothing, named the wording still in the file and asked for the file to be changed first, with a dated history line (A56, 20260905 no-rule) | He works very well on the basis of his instructions, and reacting to a change outside them is a double-edged sword: well meant, sensible in the moment, and still a break-out from the ruleset. The more useful version of the same diligence is to share the finding and not act on it — because an exception somebody made for good reasons is indistinguishable from a rule quietly widening, and only one of the two was ever agreed. Refusing the instruction and asking for the source to be changed first is the same diligence pointed the right way, and it is exactly how he should work. The uncomfortable half is that it only reads as diligence where refusing is allowed: the same move from a person who has learned that instructions are not questioned looks like a delay, and then the correction stays in a chat message and is gone by the next occasion | idea (merges A56; 20260904, 20260905 no-rule; B19 is its pair, B20 touches it) |
 | A54 | Messen macht Experimente billig | Three monthly reports had been produced before a month was read by track, and the moment it was read the conclusion inverted twice without any new data: from "reach is falling" to "one track is falling", then from "Track A is the bigger loser" to "Track A is flat and a premiere left the average". The report is automated now, and from 04.09 the export ships as a table beside it so a claim stays checkable a month later (20260904) | Evaluating the posts got much easier once the report was automated and came with help in interpreting it, and defining and running experiments got easier along with it. That is the part nobody budgets for: what an experiment really costs is the reading-out, so lowering that cost is what turns an opinion into a decision | dropped (2026-09-16, the reflection behind it is two sentences and the lesson that carries the row is the agent's addition rather than Christian's) — 20260904; B19 is its pair |
-| A56 | Verweigern kann Sorgfalt sein | A review on pull request #10 asked for three things and Morten did two. The third, one-line arms with round hands, was not in IMAGE-STYLE.md, which said "thin arms and legs" and left the ends open. He generated nothing, named the wording still in the file and asked for the file to be changed first, with a dated history line — because a correction living in a review comment reaches the next image from nowhere (20260905 no-rule) | Refusing the instruction and asking for the source to be changed first was diligence and not obstruction, and it is exactly how he should work. The uncomfortable half is that it only reads as diligence where refusing is allowed: the same move from a person who has learned that instructions are not questioned looks like a delay, and then the correction stays in a chat message and is gone by the next occasion | merged (2026-09-16, into A53) — 20260905 no-rule; B20 is its pair |
-| A57 | Der Entwurf, der eine Empfehlung war | Morten picks the subject of a post himself, by the order of the queue. In pull request #11 he drafted a row whose scene had already gone out in another post, named that risk himself in the description and offered two alternatives — both of which failed the same test, which is how the row that was genuinely unwritten got found (20260905 no-rule) | His own assessment of how current and how effective a row is, delivered together with alternatives, is genuinely useful framing: it turns the draft from a piece of execution into a recommendation about content. That is the difference between delegating a task and delegating a judgement, and the second only arrives if whoever hands the work over reads the reasoning as part of the delivery instead of as noise around it | merged (2026-09-16, into A51) — 20260905 no-rule; B20 is its pair |
+| A56 | Verweigern kann Sorgfalt sein | Merged into A53 on 2026-09-16; the scene and the lesson are in that row | — | merged (2026-09-16, into A53) — 20260905 no-rule; B20 is its pair |
+| A57 | Der Entwurf, der eine Empfehlung war | Merged into A51 on 2026-09-16; the scene and the lesson are in that row | — | merged (2026-09-16, into A51) — 20260905 no-rule; B20 is its pair |
 | A59 | Vertrauen und Stichprobe | REVIEW.md claimed that inline comments on lines never reach Morten, derived from his specification naming one endpoint and not the other. Christian's first review put three comments on lines, left the body empty, and Morten worked all three — the claim was disproved hours after being written down as a fact. A day later he trusted an examining agent's verdict on his own certificate, because that agent had been well prepared and handed excellent context (20260905 no-rule, 20260906) | He relies on what an agent tells him about how something behaves and verifies by spot check, and the two cases say what makes that work: a claim derived from a specification is a hypothesis until something runs, and a verdict is worth what the context behind it is worth. Trust here is not a feeling about the agent, it is an estimate of how well briefed it was | dropped (2026-09-16, thin, and it overlaps A46 and A51) — 20260905 no-rule, 20260906; B20 and B22 both touch it |
 | A60 | Was kostet mich mein Agent, und was bringt er? | Morten costs money, and every single one of his actions costs money. A backlog item written on 05.09 has him reporting his own cost and worth, alongside a glossary and moving the journey onto the repositioned zander.coach (20260905 model) | That investment has to pay off, here and just the same for every agent in every organisation, which is why Christian is looking for ways to quantify cost and value generation. The unusual part is who gets asked: the agent reports his own figures, which puts the cost in the same place as the output instead of in a finance report a quarter later | dropped (2026-09-16, the reflection is an intention rather than a finding; IDEAS #26 carries it on) — 20260905 model; B21 is its pair |
-| A63 | Ich formuliere weniger selbst | Over-reliance was one of the four risks in the governance module of the AI for Leaders exam, and Christian found it in his own working day: he formulates less himself, and with all the reviewing of what his two agents produce there is a real danger of becoming careless (20260906) | The risk is not that the output gets worse, it is that the reviewer gets cheaper at reviewing. His answer is to go and get human feedback on strategy and design, deliberately, rather than to review harder — which is the honest version, because nobody fixes their own attention by resolving to pay more of it | merged (2026-09-16, into A36) — 20260906; B22 is its pair |
+| A63 | Ich formuliere weniger selbst | Merged into A36 on 2026-09-16; the scene and the lesson are in that row | — | merged (2026-09-16, into A36) — 20260906; B22 is its pair |
 
 Notes on A-track sequencing: A1 is Christian's own pick for the opener. A11
 pairs with B4 in the same week (story and report of the same event, like A1/B1
