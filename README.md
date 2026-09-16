@@ -154,3 +154,4 @@ The goal is to understand what it takes for a business model, a leadership model
 - [20260905 - No Rule Before Its Case](research/20260905-no-rule-before-its-case.md)
 - [20260905 - The Model Without a Section](research/20260905-the-model-without-a-section.md)
 - [20260906 - The Spec Answered for Me](research/20260906-the-spec-answered-for-me.md)
+- [20260916 - A Failed Experiment, Ended Out Loud](research/20260916-a-failed-experiment-ended-out-loud.md)

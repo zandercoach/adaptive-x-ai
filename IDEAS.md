@@ -123,6 +123,40 @@ Tags: `[eng]` engineering / Chronicler lab · `[showcase]` product & visibility 
    the first time — GitHub Pages reports nothing, which is exactly the missing
    link in #25.* (Christian's idea, 2026-09-05.)
 
+27. **Morten works his harvest into the rows instead of appending them** `[org]` `[meta]`
+   The harvest job has been append-only since 2026-08-11: he proposes new rows and
+   never edits an existing one, naming in the pull request description where he
+   thinks material belongs inside an umbrella, and Christian makes the call. The
+   split was deliberate — the reading is the expensive part and it is his, the
+   editorial call is the valuable part and it stays Christian's, and a merge that
+   flattens a distinction is hard to spot in review while an append that misses
+   costs one line. **Decided 2026-09-16 to move the editorial half to him as well:**
+   he works findings into the existing rows. **The condition that makes it safe is
+   the one the old rule relied on anyway — he describes every change he makes in
+   the pull request description**, so what he merged, and into what, is readable
+   without diffing sixteen table rows. *Why now: the harvest of 11.09 proposed
+   sixteen rows at once and the consolidation that followed cut them to five the
+   same day, which is the append-only rule paying for itself twice over — once in
+   his run and once in Christian's. The counter-evidence to weigh while building it
+   is A64 of the same harvest: a translation that carried a lesson Christian never
+   drew, visible precisely because it sat in a new row rather than inside an
+   existing one.* (Christian's decision, 2026-09-16.)
+
+28. **Pull the harvest and the drafting apart** `[org]`
+   The Friday run executes five workflows in one fixed order, with the repertoire
+   harvest and the post drafting among them. They are different jobs with
+   different owners — the harvest grows the queue, the drafting spends it — and
+   running them back to back means one long pull request window in which the queue
+   changes underneath the draft. **Decided 2026-09-16:** they get separate runs.
+   *Why now: on 16.09 a consolidation pass removed a row while a draft for it sat
+   in a pull request that had been open two days. The occupied signal lived on the
+   branch, the decision was taken from the table, and the fix Christian named is
+   discipline about how long pull requests stay open — which is easier to hold
+   when the two jobs do not share a window. In a real team he would propagate pair
+   programming and working directly on main; Morten is asynchronous on purpose,
+   because that is what there is to learn from, so the asynchrony has to be paid
+   for somewhere.* (Christian's decision, 2026-09-16.)
+
 
 ## Next — delegation
 
