@@ -321,7 +321,15 @@ In this order, and the order is the decision:
    element aimed at the comment box: comments are the strongest early signal a post
    has, and 2,28 % engagement at stable reach says the readers were there and were
    never asked.
-2. **The journey anchor**, "meine Lernreise adaptive-x-ai".
+2. **The journey anchor**, "meine Lernreise adaptive-x-ai", followed by what the
+   journey is about. **Wording set 2026-09-18:** "Die Geschichte stammt aus meiner
+   Lernreise adaptive-x-ai: KI und Business Model, Operating Model, Leadership
+   Model." The three models are the journey's working hypothesis and `RESOURCES.md`
+   sorts its sources by the same names, so the anchor now says what a reader would
+   find. It replaces the question "Was ändert KI an Führung, Zusammenarbeit und
+   Organisation?", which stood word-identical in the ten posts before and put a
+   second question into a post that already ends on one. The published posts keep
+   their wording.
 3. **The AI disclosure**, as an aside ("Übrigens:").
 4. **The hashtags.**
 
@@ -360,7 +368,7 @@ happened.
   (The 16.07 premiere and the one-day-old 03.09 are out of both sides.) Do not run
   this one again. The journey anchor in the body is "meine Lernreise
   adaptive-x-ai" — the domain name without the TLD, so readers see the brand but
-  LinkedIn sees no link.
+  LinkedIn sees no link. Its full wording is in "How a post ends" above.
 - **Length: 200–300 words**, and shorter is better inside that. **Set 2026-09-04**,
   from what the eight published stories did (208–282, mean 253) and from the form
   now carrying two things instead of one: the journey material and a lesson that is
