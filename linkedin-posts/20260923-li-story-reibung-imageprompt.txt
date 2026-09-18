@@ -7,16 +7,60 @@ Hand-drawn flipchart illustration, as sketched live by a trainer with markers: c
 IMAGE PROMPT ("Reibung") — GOAL, NOT A CHECKLIST
 ==============================================================
 
-This brief tells you what the picture is for and leaves the motif to you. It does not describe the scene element by element.
+This brief tells you what the picture is for. The motif is named below rather than
+left open, which is a departure from the usual form: the first version of this
+image worked from an open brief and could not be read (review of 18.09, "I do not
+understand the picture — friction, effortlessness?"). The staging is still yours.
 
 WHAT THE POST SAYS
-Christian changed the design direction of his brand twice this summer, and both times it was done quickly, because a revision with an agent costs nothing. Had a person worked on it, somebody would have asked why, pushed back, and put a third proposal on the table that neither of them had brought into the room. That is what falls away: a revision that costs nothing costs nobody anything, and what costs nothing brings nothing either. He now notices it in himself. He formulates less than he did in June and reviews more of what his two agents produce, and the better that gets, the more lightly he reviews. The risk is not that the output gets worse, it is that his own attention gets cheaper without him noticing, and "then I will review harder" is an answer he does not believe from himself. What he does instead is fetch feedback on strategy and design from people, deliberately, because friction is part of what a colleague contributes and the uncomfortable conversation is where the third idea comes from. In teams the same holds without any AI: whoever makes disagreement expensive gets fast agreement and few ideas.
+Christian changed the design direction of his brand twice this summer, and both
+times it was done quickly, because a revision with an agent costs nothing. Had a
+person worked on it, somebody would have asked why, pushed back, and put a third
+proposal on the table that neither of them had brought into the room. That is what
+falls away: a revision that costs nothing costs nobody anything, and what costs
+nothing brings nothing either. He now notices it in himself. He formulates less
+than he did in June and reviews more of what his two agents produce, and the better
+that gets, the more lightly he reviews. The risk is not that the output gets worse,
+it is that his own attention gets cheaper without him noticing, and "then I will
+review harder" is an answer he does not believe from himself. What he does instead
+is fetch feedback on strategy and design from people who know the subject, for two
+reasons in this order: their expert judgement, which he trusts over his agent's on
+design and innovation, and the disagreement that comes with it, because the
+uncomfortable conversation is where the third idea comes from. Friction alone is not
+enough. In teams the same holds without any AI: whoever makes disagreement
+expensive gets fast agreement and few ideas.
 
 WHAT THE PICTURE SHOULD DO
-Someone scrolling past should feel the effortlessness first and sense a second later that something has gone missing with it. Ease, then loss. Not a warning, not a telling-off, and not a picture that makes the agent the culprit. Steer away from: broken or grinding cogs and gears, sparks, flames, sandpaper, two figures arguing, angry or sad faces, red warning signs, screens, dashboards, and speech bubbles full of text.
+Someone scrolling past should feel the effortlessness first and sense a second later
+that something has gone missing with it. Ease, then loss. The loss sits on the
+human's side, not the agent's: this is the post's own sharpest line, that the risk
+is him. Not a warning, not a telling-off, and not a picture that makes the agent the
+culprit.
+
+THE MOTIF
+A review that costs nothing. The robot holds out a finished sheet; the person walks
+past and stamps it through with a rubber stamp without looking at it, gaze already
+elsewhere, and a small pile of identically stamped sheets lies behind him. Both are
+friendly and content — waving it through is pleasant, which is the whole problem.
+Steer away from: broken or grinding cogs and gears, sparks, flames, sandpaper, rope
+and tug-of-war, two figures arguing, angry or sad faces, red warning signs, screens,
+dashboards, and speech bubbles full of text.
 
 WHAT IS FIXED
-The style guide above. Square composition, white background. Two figures of this series and no invented third: the stick-figure person and the robot. The colleague who is missing must not be drawn, not even faintly or in outline — the picture shows what is there, and the absence has to be legible from that. Both figures are friendly and content; the loss is in the situation, not on a face. No numbers, digits or percentages anywhere. Any hand-lettering is German, since the post is German. A hand-lettered caption at the bottom in black marker, underlined in black, reading exactly: "Was nichts kostet, bringt nichts". Apart from the caption the picture carries no words. As always, fetch two existing post PNGs from the same folder as visual reference so the series keeps one look.
+The style guide above. Square composition, white background. Two figures of this
+series and no invented third: the stick-figure person and the robot. The colleague
+who is missing must not be drawn, not even faintly or in outline — the picture shows
+what is there, and the absence has to be legible from that. Both figures friendly
+and content; the loss is in the situation, not on a face. No numbers, digits or
+percentages anywhere. The sheets carry no writing: apart from the caption and the
+stamp mark the picture has no words in it. Any hand-lettering is German, since the
+post is German. A hand-lettered caption at the bottom in black marker, underlined in
+black, reading exactly: "Was nichts kostet, bringt nichts". As always, fetch two
+existing post PNGs from the same folder as visual reference so the series keeps one
+look.
 
 WHAT IS YOURS
-The motif and the composition: how you show a pull that meets nothing — a slack rope, a lean against something that is not there, a handover with nothing coming back; the posture of the person, which carries the whole thing; and which marker colour does the work. Pick one clear idea and let it breathe rather than assembling several.
+The staging: where the two stand and how much air is between them, the posture of
+the person walking past, how many sheets are in the pile, and which marker colour
+does the work. Keep it one clear moment with room around it rather than a busy
+scene.
