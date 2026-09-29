@@ -67,13 +67,12 @@ both 20260731 sessions and 20260801 (A25–A27, B9–B11).
 
 **Harvest watermark: `20260916-a-failed-experiment-ended-out-loud.md`.** Everything in
 `research/` up to and including that file has been folded into this queue. From
-2026-08-11 the harvest is **Morten's job**: every Friday he reads each entry whose
-filename sorts after the watermark, proposes new rows with status `idea` in a pull
-request, and moves the watermark in the same pull request. He appends and never
-edits an existing row — where he thinks new material belongs inside one of the
-umbrellas, he names it in the pull request description and Christian makes the
-call. Filename order rather than date order, because two sessions can share a
-date, as 20260731 already does.
+2026-08-11 the harvest is **Morten's job**: every Monday he reads each entry whose
+filename sorts after the watermark, works new material into open `idea` rows or
+proposes new ones in a pull request, and moves the watermark in the same pull
+request. Every change to an existing row is named in the description; status
+cells and consolidation stay Christian's. Filename order rather than date order,
+because two sessions can share a date, as 20260731 already does.
 
 ## Track A — leadership stories (German, du-form)
 
