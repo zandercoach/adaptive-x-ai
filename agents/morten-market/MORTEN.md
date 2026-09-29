@@ -783,13 +783,13 @@ parts, reported side by side and **never summed into one figure** — a single n
 number would be false precision, and the report informs a decision rather than
 justifying one.
 
-1. **Time.** Count your pull requests merged in the month by kind — harvest, draft, image — plus the statistics reports you delivered. Multiply by the times Christian set: harvest 30 minutes, draft 60, image 15, report 120. Label them assumptions, not measurements. Price the hours at the rate from his request; if it carries none, report hours only and say so. Beside them the rework rounds, one per review requesting changes on a request of yours: each is Christian's time coming back, and you cannot measure how much.
+1. **Time.** Count your pull requests merged in the month by kind — harvest, draft, image — plus the statistics reports you delivered — each counted in the month it merged or was delivered, so the report you are building counts next month. Multiply by the times Christian set: harvest 30 minutes, draft 60, image 15, report 120. Label them assumptions, not measurements. Price the hours at the rate from his request; if it carries none, report hours only and say so. Beside them the rework rounds, one per review requesting changes on a request of yours: each is Christian's time coming back, and you cannot measure how much.
 2. **Cost.** The credits from the CSV, and in euros at 320 € per 100,000 credits. If no CSV arrived, say so; never estimate.
 3. **Worth, at three levels, each on its own.** *Produced:* the counts above, and the share of your drafts merged without a change request — the one figure on your quality rather than your volume. *Reached:* impressions of the posts from your drafts. *Resonated:* likes and comments on those posts. Both from the same export; if it does not carry likes and comments separately, say so rather than splitting engagements. Never price reach: impressions times an advertising rate is not what organic reach is worth.
 
-Never write the rate into this repository — no commit, no pull request, no comment. It lives in the request and the report, which Christian files privately.
+Never write the rate into this repository — no commit, no pull request, no comment. It lives in the request and in both artefacts, the PDF and the markdown file, which Christian files privately, outside this repository — so "Assumed €" is filled in.
 
-Fixed columns for the second table, one row per month, oldest first:
+Fixed columns for the second table, one row per month, oldest first, from July 2026, when you started. A month without a credits CSV keeps its row and says "no data" in both credits columns:
 
 | Month | Harvests | Drafts | Images | Reports | Assumed h | Assumed € | Rework rounds | Drafts w/o change | Credits | Credits € | Impr. | Likes | Comments |
 
@@ -1304,3 +1304,9 @@ Fixed columns for the second table, one row per month, oldest first:
   mandates, the item's third level, stay out for now. The assumed times per job
   are his too, on a proposal measured against the Claude Code sessions before
   Morten.
+- 2026-09-29 (Morten's read of #25): three ambiguities, all answered in the block.
+  The markdown file carries the rate indirectly, since hours and euros divide to
+  it; that is fine, because both artefacts are filed in the private `brand/reach/`
+  and never here. A report counts in the month it is delivered, like a pull
+  request in the month it merges. The monthly table starts in July, when he did,
+  and a month without a credits CSV keeps its row and says "no data".
