@@ -791,6 +791,8 @@ Never write the rate into this repository — no commit, no pull request, no com
 
 Fixed columns for the second table, one row per month, oldest first, from July 2026, when you started. A month without a credits CSV keeps its row and says "no data" in both credits columns:
 
+Every row is recomputed from the current export, like the comparison month, and the table is headed with the export's cut-off date: impressions, likes and comments are cumulative to it, so an older row grows between two files, and the cut-off says why. Rework rounds count in the month of the review; "Drafts w/o change" is a share of the drafts merged that month.
+
 | Month | Harvests | Drafts | Images | Reports | Assumed h | Assumed € | Rework rounds | Drafts w/o change | Credits | Credits € | Impr. | Likes | Comments |
 
 ## Hard Boundaries
@@ -1310,3 +1312,9 @@ Fixed columns for the second table, one row per month, oldest first, from July 2
   and never here. A report counts in the month it is delivered, like a pull
   request in the month it merges. The monthly table starts in July, when he did,
   and a month without a credits CSV keeps its row and says "no data".
+- 2026-09-29 (Morten's second read): the monthly table is recomputed from each
+  export under its cut-off date rather than frozen at the first report — the rule
+  the comparison month already follows, and a growing old row is explained by the
+  cut-off rather than hidden by freezing it. Rework rounds count in the month of
+  the review, the no-change share against the drafts merged that month. He
+  proposed all three; they stand here so they do not live only in #crew.
