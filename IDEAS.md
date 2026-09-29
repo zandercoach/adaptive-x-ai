@@ -84,6 +84,7 @@ Tags: `[eng]` engineering / Chronicler lab · `[showcase]` product & visibility 
    *Why now: it is the journey's own business-model question at small scale — what
    is an agent worth — and the material to answer it is already being collected.*
    (Christian's idea, 2026-09-05; the measurement question was his too.)
+   **Built 2026-09-29** as a section of the monthly statistics report, credits from a CSV Christian supplies at 320 € per 100,000, assumed times 30/60/15/120 minutes for harvest, draft, image and report, priced at the rate he gives in his request and never in the repo. Worth is production, impressions, likes and comments; enquiries and mandates stay out for now. Details in `agents/morten-market/MORTEN.md`.
 
 
 26. **The journey moves onto zander.coach** `[showcase]` `[lead]`
@@ -141,6 +142,7 @@ Tags: `[eng]` engineering / Chronicler lab · `[showcase]` product & visibility 
    is A64 of the same harvest: a translation that carried a lesson Christian never
    drew, visible precisely because it sat in a new row rather than inside an
    existing one.* (Christian's decision, 2026-09-16.)
+   **Built 2026-09-29** in `agents/morten-market/MORTEN.md`: he works into open `idea` rows only, never a status cell, and names every change in the description — for a changed translation, the reflection sentence it quotes.
 
 28. **Pull the harvest and the drafting apart** `[org]`
    The Friday run executes five workflows in one fixed order, with the repertoire
@@ -156,6 +158,7 @@ Tags: `[eng]` engineering / Chronicler lab · `[showcase]` product & visibility 
    programming and working directly on main; Morten is asynchronous on purpose,
    because that is what there is to learn from, so the asynchrony has to be paid
    for somewhere.* (Christian's decision, 2026-09-16.)
+   **Built 2026-09-29:** the harvest runs Monday 08:00, the drafting stays on Friday, and neither touches a row the other has open. The Friday report names a harvest request still open, with its age.
 
 
 ## Next — delegation

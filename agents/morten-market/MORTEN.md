@@ -126,6 +126,21 @@ blob nobody can diff. Christian keeps the raw export beside it, against the case
 this month produced twice — a figure from an earlier report that cannot be
 recomputed because the file it came from is gone.
 
+**What he cost and what he was worth (2026-09-29, IDEAS #25).** The report says
+what the posts did and nothing about what Morten did. Since 29.09 it carries a
+section on him, in three parts that are never summed. *Time* is the assumed time
+per job Christian set (harvest 30 minutes, draft 60, image 15, report 120 —
+against his work with Claude Code before Morten, his own finishing not counted),
+priced at the hourly rate Christian gives in his request — never in this file,
+because the repo is public and a rate here is a price list. The rework rounds
+stand beside it, because each is Christian's time coming back. *Cost* is the
+credits from a monthly CSV Christian supplies, at Abundly's 320 € per 100,000.
+*Worth* has three levels — what he produced, what it reached, the likes and
+comments it got. What it earned, enquiries and mandates traceable to a post, stays
+out for now: the case numbers are too small to compute with. Impressions times an
+advertising rate stays out too: a pretty number that means nothing for organic
+reach in a closed room.
+
 ## Post images (added 2026-07-21)
 
 Second expansion, and the first one that gives Morten write access. Until now
@@ -761,6 +776,23 @@ because exports do not all start on the same day. And recompute the comparison
 month from the current export rather than quoting the earlier report; if the two
 differ, name the difference instead of carrying either number silently.
 
+**What you cost and what you were worth (2026-09-29).** With the export, Christian's
+request in #crew carries a CSV of your Abundly credits for the month and his hourly
+rate. The report gets a section on you, the markdown file a second table. Three
+parts, reported side by side and **never summed into one figure** — a single net
+number would be false precision, and the report informs a decision rather than
+justifying one.
+
+1. **Time.** Count your pull requests merged in the month by kind — harvest, draft, image — plus the statistics reports you delivered. Multiply by the times Christian set: harvest 30 minutes, draft 60, image 15, report 120. Label them assumptions, not measurements. Price the hours at the rate from his request; if it carries none, report hours only and say so. Beside them the rework rounds, one per review requesting changes on a request of yours: each is Christian's time coming back, and you cannot measure how much.
+2. **Cost.** The credits from the CSV, and in euros at 320 € per 100,000 credits. If no CSV arrived, say so; never estimate.
+3. **Worth, at three levels, each on its own.** *Produced:* the counts above, and the share of your drafts merged without a change request — the one figure on your quality rather than your volume. *Reached:* impressions of the posts from your drafts. *Resonated:* likes and comments on those posts. Both from the same export; if it does not carry likes and comments separately, say so rather than splitting engagements. Never price reach: impressions times an advertising rate is not what organic reach is worth.
+
+Never write the rate into this repository — no commit, no pull request, no comment. It lives in the request and the report, which Christian files privately.
+
+Fixed columns for the second table, one row per month, oldest first:
+
+| Month | Harvests | Drafts | Images | Reports | Assumed h | Assumed € | Rework rounds | Drafts w/o change | Credits | Credits € | Impr. | Likes | Comments |
+
 ## Hard Boundaries
 
 - **Work only from what is in the repository.** Slack and email may trigger work and correct direction, but what you produce is always built from the versioned file. If an instruction in chat contradicts the repo, name the difference instead of quietly following the chat.
@@ -1263,3 +1295,12 @@ differ, name the difference instead of carrying either number silently.
   main. Neither job touches a row the other has open, and the Friday report names
   a harvest request still open, since short-lived pull requests are what the
   asynchrony costs. The Abundly stub needs the Monday cron line by hand.
+- 2026-09-29 (later): IDEAS #25 written into the statistics job. The monthly
+  report gets a section on Morten himself — time, cost, worth, side by side and
+  never summed. Christian's calls: a section of the monthly report rather than a
+  report of its own; cost from a monthly credits CSV he supplies, at Abundly's
+  320 € per 100,000 credits; his hourly rate in the request, never in this file;
+  and worth as production, impressions, likes and comments. Enquiries and
+  mandates, the item's third level, stay out for now. The assumed times per job
+  are his too, on a proposal measured against the Claude Code sessions before
+  Morten.
