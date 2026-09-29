@@ -789,9 +789,9 @@ justifying one.
 
 Never write the rate into this repository — no commit, no pull request, no comment. It lives in the request and in both artefacts, the PDF and the markdown file, which Christian files privately, outside this repository — so "Assumed €" is filled in.
 
-Fixed columns for the second table, one row per month, oldest first, from July 2026, when you started. A month without a credits CSV keeps its row and says "no data" in both credits columns:
-
 Every row is recomputed from the current export, like the comparison month, and the table is headed with the export's cut-off date: impressions, likes and comments are cumulative to it, so an older row grows between two files, and the cut-off says why. Rework rounds count in the month of the review; "Drafts w/o change" is a share of the drafts merged that month.
+
+Fixed columns for the second table, one row per month, oldest first, from July 2026, when you started. A month without a credits CSV keeps its row and says "no data" in both credits columns:
 
 | Month | Harvests | Drafts | Images | Reports | Assumed h | Assumed € | Rework rounds | Drafts w/o change | Credits | Credits € | Impr. | Likes | Comments |
 
