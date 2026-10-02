@@ -1,0 +1,28 @@
+LINKEDIN POST (Track A — leadership story, German)
+===================================================
+
+Dreimal hat dieselbe Regel versagt, jedes Mal auf dieselbe Art.
+
+Die Regel war einfach: Ändere ich die Anweisungen meines Agenten Morten Market im Repository, übertrage ich sie von Hand in seine Plattform. Seit Juli hing das daran, dass jemand daran denkt. Dieser Jemand war ich, und ich habe es dreimal vergessen 😉 Gemerkt hat es zunächst niemand, denn eine vergessene Regel meldet sich nicht.
+
+Ende August habe ich Morten gefragt, wie wir das Abschreiben loswerden. Seine Antwort: Die Kopie wird generiert. Bei jeder Änderung schreibt ein Skript den Text wortgleich in ein Dokument, das er vor jedem Lauf liest. Seitdem kann die Kopie nicht mehr still abweichen, und wenn etwas hakt, meldet sich das System im Teamkanal.
+
+Es war schon der dritte Fall dieser Art. Vorher hatte eine technische Sperre den Satz „Schreib nie direkt in die Hauptversion“ ersetzt, und ein täglicher Kontrolllauf fängt auf, was eine verlorene Benachrichtigung sonst verschlucken würde.
+
+Mechanismus schlägt Regel. Wo ich eine Regel durch einen Mechanismus ersetzen kann, tue ich es inzwischen bewusst. Eine Regel, die davon lebt, dass jemand an sie denkt, scheitert leise, und leises Scheitern ist das teure. Ein Mechanismus, der nie etwas sagt, ist allerdings bald wieder nur eine Regel.
+
+Wo das aufhört, habe ich nicht entschieden. Die Grenze ist ganz praktisch: Ich kenne noch längst nicht alle Mechanismen, mit denen sich Regeln ersetzen ließen.
+
+Welche Regel in deinem Team hängt gerade davon ab, dass jemand an sie denkt, und woran würdest du merken, dass sie nicht mehr eingehalten wird?
+
+Die Geschichte stammt aus meiner Lernreise adaptive-x-ai: KI und Business Model, Operating Model, Leadership Model.
+
+Übrigens: Text und Bild habe ich gemeinsam mit KI erarbeitet und beides selbst geprüft, bevor es online ging. Die Arbeit lässt sich teilen, die Verantwortung dafür nicht.
+
+#Führung #Regeln #Organisationsdesign #KI #AdaptiveOrganisationen
+
+
+ERSTER KOMMENTAR (direkt nach dem Posten einfügen)
+===================================================
+
+Das öffentliche Zuhause der Lernreise, mit Link zum vollständigen (englischen) Journal: https://adaptive-x-ai.org
