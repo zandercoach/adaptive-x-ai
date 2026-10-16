@@ -179,8 +179,8 @@ a review can be granular at all.
 This is deliberately the review gate from IDEAS #4, pulled forward on a
 harmless first case: a wrong image costs a rejected PR, nothing else.
 
-**Style consistency.** Every imageprompt file carries the "Zander Flipchart"
-style guide in its header, copied from `IMAGE-STYLE.md`, which is where the style
+**Style consistency.** Every imageprompt file carries the "zander.coach flipchart
+style" guide in its header, copied from `IMAGE-STYLE.md`, which is where the style
 is changed. The copies are records and are never brought up to date: an older
 brief describes the image that was generated from it. Until 2026-08-24 there was
 no source, only copies, so "the current style guide" meant whichever imageprompt

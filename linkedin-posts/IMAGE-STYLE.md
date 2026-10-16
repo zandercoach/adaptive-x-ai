@@ -1,4 +1,4 @@
-# Zander Flipchart — the image style guide
+# zander.coach flipchart style — the image style guide
 
 **This file is the source. The copies are records.**
 
@@ -24,7 +24,7 @@ finding the truth meant sorting filenames. Now it is here.
 ## The block, to be copied verbatim
 
 Everything between the markers goes into the header of a new `*-imageprompt.txt`,
-under the heading `IMAGE STYLE GUIDE ("Zander Flipchart" — use for every future post)`.
+under the heading `IMAGE STYLE GUIDE ("zander.coach flipchart style" — use for every future post)`.
 
 <!-- style-block:start -->
 Hand-drawn flipchart illustration, as sketched live by a trainer with markers: clean black marker outlines on a plain white background, simple friendly shapes, hand-lettered text. Human figures are always drawn with a body — a round head, an oval torso, and single-line arms and legs attached to that torso, each ending in a small round hand or foot, never a head with limbs hanging directly off it — and the posture carries the expression. This applies to the human figures only; the robot of this series keeps his own look (boxy head with antenna, segmented arms and legs) and is not changed by it. Accents only in classic flipchart marker colors — yellow, orange, green, blue, red — applied as wide, slightly uneven marker strokes. No gradients, no photorealism, no dark shading, plenty of white space. Light, warm, optimistic mood. Square composition. Captions are hand-lettered in black marker and underlined in black as well; the underline belongs to the lettering and is not a colour accent.
@@ -57,3 +57,6 @@ Hand-drawn flipchart illustration, as sketched live by a trainer with markers: c
   not say it and generated nothing, which is the rule working. Human figures
   only, like the rule above it — the robot keeps his segmented limbs. In force
   from the post of 07.09 onward, not backwards.
+- **2026-10-16.** Renamed: the style is called "zander.coach flipchart style",
+  no longer "Zander Flipchart" (Christian). Nothing in the style changes. Briefs
+  written before keep the old name in their header, like every other record.
