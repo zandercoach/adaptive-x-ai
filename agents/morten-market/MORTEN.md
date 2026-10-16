@@ -180,8 +180,10 @@ This is deliberately the review gate from IDEAS #4, pulled forward on a
 harmless first case: a wrong image costs a rejected PR, nothing else.
 
 **Style consistency.** Every imageprompt file carries the "zander.coach flipchart
-style" guide in its header, copied from `IMAGE-STYLE.md`, which is where the style
-is changed. The copies are records and are never brought up to date: an older
+style" guide in its header, copied from the style block of `IMAGE-STYLE.md`.
+Since 2026-10-16 that block is generated: the core of the style lives in
+Christian's workspace and applies to every medium, the series' own additions
+stand in the medium block of `IMAGE-STYLE.md`. The copies are records and are never brought up to date: an older
 brief describes the image that was generated from it. Until 2026-08-24 there was
 no source, only copies, so "the current style guide" meant whichever imageprompt
 had the newest date. In addition Morten uses two existing post PNGs from
