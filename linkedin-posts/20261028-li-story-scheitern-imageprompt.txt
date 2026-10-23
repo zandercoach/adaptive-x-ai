@@ -1,0 +1,49 @@
+IMAGE STYLE GUIDE ("zander.coach flipchart style" — use for every future post)
+================================================================================
+
+Hand-drawn flipchart illustration, as sketched live by a trainer with markers: clean near-black marker outlines on a plain white background, simple friendly shapes. Human figures are always drawn with a body — a round head, an oval torso, and single-line arms and legs attached to that torso, each ending in a small round hand or foot, never a head with limbs hanging directly off it — and the posture carries the expression. Each figure is about five heads tall: a large round head, a tall narrow oval torso about one and a half heads long, long straight legs. Faces are two dot eyes and a small curved smile, no nose, the head often turned slightly to one side; hair is a few loose marker strokes that tell the figures apart. Torsos are filled flat or left white. One even line weight throughout, like a medium marker at about half a percent of the image width, never thicker for emphasis. Colours only from this palette, applied as wide, slightly uneven marker strokes and flat fills. Petrol (#008888) is the eye-catcher: used sparingly, on the one or two things the eye should land on first. Supporting accents: deep petrol (#005F5F), deep sea (#06393A), pale petrol (#C7DBD8) and sand (#A98B5B), the only warm colour. Quiet neutrals for secondary shapes: soft ink (#354544), muted grey-green (#556564), light surface (#F1F5F4) and pale line grey (#DCE5E3). Outlines and lettering in ink (#0F1A1A); no pure black, no other colours. No hatching, no cross-hatching, no paper texture, no grain, no gradients, no shading, no photorealism. Few details and plenty of white space. Light, warm, optimistic mood. Hand-lettered text is allowed. This series has a recurring robot with his own look (boxy head with antenna, segmented arms and legs); the figure rule above applies to the human figures only and does not change him. Captions are hand-lettered in the ink colour and underlined in the ink colour as well; the underline belongs to the lettering and is not a colour accent. Square composition.
+
+
+IMAGE PROMPT ("Scheitern") — GOAL, NOT A CHECKLIST
+==============================================================
+
+This brief tells you what the picture is for. The staging is yours.
+
+WHAT THE POST SAYS
+In mid-September Christian declared one of his own experiments failed, in public:
+two formats on LinkedIn, one did not carry, so there is only one now. A coach who
+helps organisations experiment, admitting that an experiment of his own failed,
+sounds like bad advertising. His answer: there is no learning journey without
+failures, hiding one would make the whole journey dishonest, and the failed
+experiment does not damage the brand, it adds to it. What did not work is what
+makes the rest of the account believable, a status report included.
+
+WHAT THE PICTURE SHOULD DO
+Someone scrolling past should see a person showing a failure openly and calmly,
+as a normal part of the way, and feel that this makes him more trustworthy, not
+less. Relaxed and matter-of-fact, not a confession, not a disaster, not shame.
+
+THE MOTIF DIRECTION
+The person stands at a flipchart or wall that shows his journey as a row of
+sheets or a hand-drawn path, and pins one sheet among the others where everyone
+can see it: a sheet that plainly did not work out, a line that runs downhill or a
+crossed-out shape. He looks at it with a small, relaxed smile. Steer away from:
+gravestones and burials (the post of 17.09 already ended an experiment), red
+crosses, alarm signs, broken things lying on the floor, crying or slumped
+postures, speech bubbles full of text, screens and dashboards.
+
+WHAT IS FIXED
+The style guide above, including its palette: this is the first post in the new
+colours, so Petrol (#008888) goes on the one thing the eye should land on first,
+the failed sheet. Square composition, white background. One figure only, the
+stick-figure person; the story is about Christian alone, so no robot and no other
+person, not even faintly. No readable words, numbers or digits on the sheets. Any
+hand-lettering is German, since the post is German. A hand-lettered caption at
+the bottom in the ink colour, underlined in the ink colour, reading exactly:
+"Auch das gehört zur Reise". Fetch two existing post PNGs from the same folder as
+visual reference for hand and figures only: they still carry the old colours, so
+take no colour from them.
+
+WHAT IS YOURS
+The staging: flipchart, wall or a path of sheets, how many sheets, where the
+failed one sits among them. Keep it one clear moment with plenty of room around it.
