@@ -177,8 +177,8 @@ closed.
 In `linkedin-posts/REPERTOIRE.md`, on the post's row:
 
 - after the finish → `approved`
-- after scheduling → `scheduled (<date>)` with the filename and the post's actual
-  title, which is often not the row's
+- after scheduling → `scheduled (<date>, <base>)`; a post has no title of its
+  own
 
 Commit and push.
 
