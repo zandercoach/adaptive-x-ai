@@ -1,0 +1,26 @@
+LINKEDIN POST (Track A — leadership story, German)
+===================================================
+
+Anfang September war ich einen ganzen Tag lang vor allem eins: die Schnittstelle zwischen meinen Agenten und meinem Repository.
+
+Der Monatsbericht von Morten Market, meinem Marketing-Agenten. Eine Rückfrage von ihm, zwei Korrekturen an seiner eigenen Arbeit, eine Unterstellung von mir, die ich zurücknehmen musste. Eine Entscheidung über meine Posts und vier neue Regeln für seine Arbeit. Am Abend waren es siebzehn Commits in drei Repositories, und jeder davon ging durch mich. Gefühlt war ich an diesem Tag weniger Chef als Poststelle 😉
+
+Je mehr meine Agenten liefern, desto klarer wird: Der Flaschenhals bin ich.
+
+Am Tag danach zeigte sich, wie es anders laufen kann. Morten wählt das Thema eines Entwurfs selbst, nach der Reihenfolge meiner Themenliste. Diesmal hatte er eines erwischt, dessen Szene schon in einem anderen Post erzählt war. Er hat das selbst benannt und zwei Alternativen angeboten. Beide scheiterten am selben Test, und genau so fanden wir das Thema, das wirklich noch offen war. Sein Entwurf war damit mehr als eine erledigte Aufgabe: eine Empfehlung zum Inhalt.
+
+Was daraus folgt, ist ein Arbeiten über Ziele, in dem Agenten mehr selbst entscheiden. Dafür braucht es passende Rahmenbedingungen, damit nichts Unvorhergesehenes passiert. Verantwortlich für die gewählten Schritte und für das Ergebnis bleibe ich trotzdem. Wo diese Balance liegt, muss ich wohl in jedem Kontext neu finden. Und wie ich mehr Ziele abgebe, ohne dass mir die Verantwortung dafür entgleitet, weiß ich noch nicht.
+
+Bei welcher Entscheidung bist du gerade selbst der Flaschenhals, und was müsste da sein, damit du sie abgeben kannst?
+
+Die Geschichte stammt aus meiner Lernreise adaptive-x-ai: KI und Business Model, Operating Model, Leadership Model.
+
+Übrigens: Auch dieser Text und sein Bild sind gemeinsam mit KI entstanden, und ich habe beides geprüft, bevor es rausging. Die Arbeit lässt sich teilen, die Verantwortung dafür nicht.
+
+#Führung #Delegation #KI #AdaptiveOrganisationen
+
+
+ERSTER KOMMENTAR (direkt nach dem Posten einfügen)
+===================================================
+
+Das öffentliche Zuhause der Lernreise, mit Link zum vollständigen (englischen) Journal: https://adaptive-x-ai.org
