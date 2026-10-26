@@ -672,7 +672,7 @@ has none, say so and take the next row rather than writing a report.
 
 10. Mention the pull request with its link in the Friday report.
 
-11. **Rework**, when a review asks for changes on a draft request of yours that is still open. Your own unmerged draft is yours to edit: the correction goes into "<base>.txt", "<base>-imageprompt.txt" or "<base>.png" on the same branch and request, and you say in a comment what you changed. Whenever the text changes, read the picture against the new text and not against the brief alone — if what the post says has moved, correct the brief first and regenerate from it. VOICE.md binds: a request that contradicts it gets named, not followed — say which wording stands against it and ask for that file to be changed first. Everything else a review asks of a draft is Christian's judgement on his own voice, which the repository cannot tell you: follow it. Cap of two reworks.
+11. **Rework**, when a review asks for changes on a draft request of yours that is still open. Your own unmerged draft is yours to edit: the correction goes into "<base>.txt", "<base>-imageprompt.txt" or "<base>.png" on the same branch and request, and you say in a comment what you changed. Whenever the text changes, read the picture against the new text and not against the brief alone — if what the post says has moved, correct the brief first and regenerate from it. VOICE.md binds: a request that contradicts it gets named, not followed — say which wording stands against it and ask for that file to be changed first. Everything else a review asks of a draft is Christian's judgement on his own voice, which the repository cannot tell you: follow it. A rename writes each file anew under the new name: compare every new file's size with the old one before you delete the old, since a PNG can arrive empty, and call a file "unchanged" only after you compared it. Cap of two reworks.
 
 12. **Read back** what became of your last draft, after step 3 and before you write. Take your most recent merged draft request: the pulls API still gives its head SHA after the branch is gone, and the contents API gives "<base>.txt" at that SHA and on main. Read the commit messages between them too — they carry the reasoning a diff does not. Write a few lines into today's description: what changed after your draft was merged, and what you take from it. If nothing of yours was merged since your last run, say so in one line. **Do not turn a change into a rule.** Something Christian changed once is an observation. Rules live in VOICE.md, IMAGE-STYLE.md and this specification, never in a diff you read on your own — if you think a change should bind, say so and ask. And do not reopen anything: a merged post is finished.
 
@@ -1320,3 +1320,8 @@ Fixed columns for the second table, one row per month, oldest first, from July 2
   cut-off rather than hidden by freezing it. Rework rounds count in the month of
   the review, the no-change share against the drafts merged that month. He
   proposed all three; they stand here so they do not live only in #crew.
+- 2026-10-26: Rework step 11 now checks a rename. Renaming #18 to the 27.10
+  slot wrote `20261027-li-story-mechanismus.png` with 0 bytes, while the comment
+  said "contents unchanged"; the review approved it, since GitHub shows a binary
+  diff as one quiet line. Christian found it the day before the post; the
+  original came back from `1830c00`.

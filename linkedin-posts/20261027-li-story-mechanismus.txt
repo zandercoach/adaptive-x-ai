@@ -9,7 +9,7 @@ Ende August habe ich Morten gefragt, wie wir das Abschreiben loswerden. Seine An
 
 Es war schon der dritte Fall dieser Art. Vorher hatte eine technische Sperre den Satz „Schreib nie direkt in die Hauptversion“ ersetzt, und ein täglicher Kontrolllauf fängt auf, was eine verlorene Benachrichtigung sonst verschlucken würde.
 
-Mechanismus schlägt Regel. Wo ich eine Regel durch einen Mechanismus ersetzen kann, tue ich es inzwischen bewusst. Eine Regel, die davon lebt, dass jemand an sie denkt, scheitert leise, und leises Scheitern ist das teure. Ein Mechanismus, der nie etwas sagt, ist allerdings bald wieder nur eine Regel.
+Mechanismus schlägt Regel. Wo ich eine Regel durch einen Mechanismus ersetzen kann, tue ich es inzwischen bewusst. Eine Regel, die davon lebt, dass jemand an sie denkt, scheitert leise, und leises Scheitern ist teuer.
 
 Wo das aufhört, habe ich nicht entschieden. Die Grenze ist ganz praktisch: Ich kenne noch längst nicht alle Mechanismen, mit denen sich Regeln ersetzen ließen.
 
