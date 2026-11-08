@@ -1,0 +1,374 @@
+/* Adaptive × AI — the journal site in the zander.coach corporate design.
+   Core: C:\claude\CORPORATE-DESIGN.md (tokens from theme `zander` 0.9.17).
+   What this site adds beyond the core: docs/DESIGN.md. */
+
+@font-face { font-family: "Epilogue"; font-style: normal; font-weight: 100 900; font-display: swap; src: url("fonts/epilogue-latin.woff2") format("woff2"); }
+@font-face { font-family: "Epilogue"; font-style: italic; font-weight: 100 900; font-display: swap; src: url("fonts/epilogue-latin-italic.woff2") format("woff2"); }
+@font-face { font-family: "Spectral"; font-style: normal; font-weight: 400; font-display: swap; src: url("fonts/spectral-latin-400.woff2") format("woff2"); }
+@font-face { font-family: "Spectral"; font-style: italic; font-weight: 400; font-display: swap; src: url("fonts/spectral-latin-400-italic.woff2") format("woff2"); }
+@font-face { font-family: "Spectral"; font-style: normal; font-weight: 600; font-display: swap; src: url("fonts/spectral-latin-600.woff2") format("woff2"); }
+
+:root {
+  --paper: #FBFCFC;
+  --surface: #F1F5F4;
+  --rule: #DCE5E3;
+  --ink: #0F1A1A;
+  --ink-soft: #354544;
+  --muted: #556564;
+  --brand: #008888;
+  --brand-deep: #005F5F;
+  --deep: #06393A;
+  --brand-light: #C7DBD8;
+  --display: "Epilogue", -apple-system, "Segoe UI", sans-serif;
+  --text: "Spectral", Georgia, "Times New Roman", serif;
+  --mono: ui-monospace, "Cascadia Code", Consolas, "SF Mono", Menlo, monospace;
+  --column: 45rem;
+  --space: 4rem;
+}
+
+* { box-sizing: border-box; }
+html { background: var(--paper); }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--text);
+  font-size: 17px;
+  line-height: 1.72;
+}
+
+/* Text stays in the reading column; only the band steps out. */
+main > header,
+main > section:not(.band),
+.band > *,
+body > footer > * {
+  max-width: var(--column);
+  margin-inline: auto;
+  padding-inline: 1.5rem;
+}
+
+a {
+  color: var(--brand-deep);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+a:hover { color: var(--brand); }
+a:focus-visible {
+  outline: 2px solid var(--brand-deep);
+  outline-offset: 2px;
+}
+
+p { margin: 0 0 1.1rem; }
+p:last-child { margin-bottom: 0; }
+strong { font-weight: 600; }
+code {
+  font-family: var(--mono);
+  font-size: 0.85em;
+  color: var(--ink-soft);
+}
+
+/* ---------- Hero ---------- */
+
+main > header { padding-top: 6rem; padding-bottom: var(--space); }
+
+.eyebrow,
+.label,
+h4 {
+  font-family: var(--display);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  line-height: 1.5;
+  color: var(--brand-deep);
+  margin: 0 0 1.5rem;
+}
+.eyebrow a { text-decoration: none; }
+.eyebrow a:hover { text-decoration: underline; }
+
+h1, h2, h3 {
+  font-family: var(--display);
+  text-wrap: balance;
+}
+h1 {
+  font-size: clamp(2.5rem, 1.5rem + 5vw, 5rem);
+  font-weight: 800;
+  line-height: 0.98;
+  letter-spacing: -0.035em;
+  max-width: 16ch;
+  margin: 0 0 1.5rem;
+}
+.x { color: var(--brand); }
+
+.lede {
+  font-size: clamp(1.15rem, 1rem + 0.8vw, 1.4rem);
+  line-height: 1.55;
+  max-width: 34rem;
+  margin: 0 0 1.5rem;
+}
+
+/* The highlighter stroke: Christian's drawn stroke as a mask, in petrol,
+   under the bold words of the lede. Once per page. */
+.lede strong {
+  position: relative;
+  z-index: 0;
+  display: inline-block;
+}
+.lede strong::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: -0.2em;
+  right: -0.2em;
+  bottom: -0.3em;
+  height: 1.35em;
+  background: var(--brand);
+  -webkit-mask: url("highlight.webp") no-repeat center / 100% 100%;
+  mask: url("highlight.webp") no-repeat center / 100% 100%;
+}
+
+.byline {
+  font-family: var(--display);
+  font-size: 0.86rem;
+  color: var(--muted);
+  margin: 0;
+}
+
+/* ---------- Text sections ---------- */
+
+/* Separation by space; two text sections in a row share one hairline. */
+main > section:not(.band) {
+  padding-top: var(--space);
+  padding-bottom: var(--space);
+}
+main > section:not(.band) + section:not(.band)::before {
+  content: "";
+  display: block;
+  border-top: 1px solid var(--rule);
+  margin-top: calc(-1 * var(--space));
+  margin-bottom: var(--space);
+}
+
+h2 {
+  font-size: clamp(1.6rem, 1.2rem + 1.6vw, 2.4rem);
+  font-weight: 700;
+  line-height: 1.12;
+  letter-spacing: -0.025em;
+  color: var(--ink);
+  margin: 0 0 1.5rem;
+}
+h3 {
+  font-size: clamp(1.15rem, 1.1rem + 0.3vw, 1.3rem);
+  font-weight: 700;
+  line-height: 1.35;
+  letter-spacing: 0.005em;
+  margin: 4rem 0 1rem;
+}
+h2 + h3 { margin-top: 0; }
+h3.label { font-size: 0.8rem; letter-spacing: 0.08em; margin: 2.5rem 0 1rem; }
+h2 + h3.label { margin-top: 0; }
+h4 { margin: 2.5rem 0 0.75rem; }
+
+/* The sentence a section stands on. */
+.statement {
+  font-family: var(--display);
+  font-style: italic;
+  font-weight: 300;
+  font-size: clamp(1.2rem, 1.05rem + 0.7vw, 1.55rem);
+  line-height: 1.45;
+  letter-spacing: -0.01em;
+  margin: 2.5rem 0;
+}
+
+.meta-note {
+  font-size: 0.94rem;
+  color: var(--muted);
+  margin-top: 2.5rem;
+}
+
+/* ---------- Lists ---------- */
+
+/* The × is this site's mark and takes the signet's place as the bullet. */
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+ul li {
+  padding-left: 1.5rem;
+  position: relative;
+}
+ul li::before {
+  content: "×";
+  position: absolute;
+  left: 0;
+  font-family: var(--display);
+  font-size: 1.15em;
+  line-height: 1.5;
+  font-weight: 700;
+  color: var(--brand);
+}
+
+/* Nothing in it: a thin petrol dash, never the mark in front of a "no". */
+.empty {
+  position: relative;
+  padding-left: 1.5rem;
+  color: var(--muted);
+  font-style: italic;
+}
+.empty::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.86em;
+  width: 0.8rem;
+  border-top: 1px solid var(--brand);
+}
+
+/* ---------- Resources log ---------- */
+
+p.meta {
+  font-family: var(--display);
+  font-size: 0.86rem;
+  color: var(--muted);
+  margin: 0 0 0.3rem;
+}
+p.themes {
+  font-family: var(--display);
+  font-size: 0.86rem;
+  font-weight: 600;
+  color: var(--brand-deep);
+  margin: 0 0 1.5rem;
+}
+
+details {
+  margin: 0 0 1.5rem;
+  padding: 0 0 1.5rem;
+  border-bottom: 1px solid var(--rule);
+}
+details:not([open]) {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+summary {
+  cursor: pointer;
+  font-family: var(--display);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--brand-deep);
+  list-style: none;
+  padding-left: 1.5rem;
+  position: relative;
+}
+summary::-webkit-details-marker { display: none; }
+summary::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  color: var(--brand);
+}
+details[open] summary::before { content: "▾"; }
+summary:hover { color: var(--brand); }
+summary:focus-visible {
+  outline: 2px solid var(--brand-deep);
+  outline-offset: 2px;
+}
+details > p { margin: 1.5rem 0 0; }
+
+dl.facts {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 0.5rem 1.5rem;
+  margin: 1.5rem 0 1rem;
+  font-size: 0.94rem;
+}
+dl.facts dt {
+  font-family: var(--display);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  padding-top: 0.45em;
+  line-height: 1.5;
+}
+dl.facts dd { margin: 0; }
+
+@media (max-width: 36rem) {
+  dl.facts { grid-template-columns: 1fr; gap: 0; }
+  dl.facts dt { padding-top: 1rem; }
+  dl.facts dt:first-child { padding-top: 0; }
+}
+
+/* ---------- Closing band ---------- */
+
+/* The dark band closes the page; the footer follows directly. */
+.band {
+  background: var(--brand-deep);
+  color: var(--paper);
+  text-align: center;
+  padding: var(--space) 0;
+}
+.band h2 {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  line-height: 1.5;
+  color: var(--brand-light);
+  margin-bottom: 1.5rem;
+}
+.band a { color: var(--paper); }
+.band a:hover { color: var(--brand-light); }
+.band a:focus-visible { outline-color: var(--paper); }
+
+/* ---------- Footer ---------- */
+
+footer {
+  background: var(--deep);
+  color: var(--paper);
+  font-family: var(--display);
+  font-size: 0.86rem;
+  padding: 2.5rem 0 4rem;
+}
+footer p { margin-top: 0; margin-bottom: 0.4rem; }
+footer a { color: var(--paper); }
+footer a:hover { color: var(--brand-light); }
+footer a:focus-visible { outline-color: var(--paper); }
+
+/* The endorsement: the signet in its negative version, paper on deep. */
+.endorsement {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 1.5rem;
+}
+.endorsement svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  flex: none;
+  fill: currentColor;
+}
+.endorsement a { text-decoration: none; font-weight: 600; }
+.endorsement a:hover { text-decoration: underline; }
+
+/* ---------- Phones and print ---------- */
+
+@media (max-width: 36rem) {
+  :root { --space: 3rem; }
+  main > header { padding-top: 4rem; }
+}
+
+@media print {
+  details::details-content { content-visibility: visible; }
+  summary::before { content: "▾"; }
+  .band, footer { background: none; color: var(--ink); }
+  .band h2 { color: var(--brand-deep); }
+  .band a, footer a { color: var(--brand-deep); }
+}

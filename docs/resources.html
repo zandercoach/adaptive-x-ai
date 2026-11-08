@@ -5,247 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Learning Resources — Adaptive × AI</title>
 <meta name="description" content="Books, videos, webinars, articles and trainings that fed into the Adaptive × AI learning journey — with what they actually changed.">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ctext x='8' y='13' font-size='14' text-anchor='middle' fill='%233E7D68' font-family='Georgia,serif'%3E%C3%97%3C/text%3E%3C/svg%3E">
-<style>
-:root {
-  --paper: #F5F6F2;
-  --ink: #212721;
-  --muted: #5A645B;
-  --accent: #3E7D68;
-  --rule: #DDE1D9;
-  --serif: Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
-  --mono: ui-monospace, "Cascadia Code", Consolas, "SF Mono", Menlo, monospace;
-}
-@media (prefers-color-scheme: dark) {
-  :root {
-    --paper: #161A16;
-    --ink: #D9DED4;
-    --muted: #93A094;
-    --accent: #7FBCA5;
-    --rule: #2B312B;
-  }
-}
-:root[data-theme="light"] {
-  --paper: #F5F6F2;
-  --ink: #212721;
-  --muted: #5A645B;
-  --accent: #3E7D68;
-  --rule: #DDE1D9;
-}
-:root[data-theme="dark"] {
-  --paper: #161A16;
-  --ink: #D9DED4;
-  --muted: #93A094;
-  --accent: #7FBCA5;
-  --rule: #2B312B;
-}
-* { box-sizing: border-box; }
-html { background: var(--paper); }
-body {
-  margin: 0;
-  background: var(--paper);
-  color: var(--ink);
-  font-family: var(--serif);
-  font-size: 1.125rem;
-  line-height: 1.7;
-}
-main {
-  max-width: 48rem;
-  margin: 0 auto;
-  padding: 4.5rem 1.5rem 2rem;
-}
-a {
-  color: var(--accent);
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 0.2em;
-}
-a:hover { text-decoration-thickness: 2px; }
-a:focus-visible {
-  outline: 2px solid var(--accent);
-  outline-offset: 2px;
-  border-radius: 1px;
-}
-header { margin-bottom: 3.5rem; }
-.eyebrow {
-  font-family: var(--mono);
-  font-size: 0.75rem;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
-  color: var(--muted);
-  margin: 0 0 1.5rem;
-}
-.eyebrow a { color: var(--muted); }
-.eyebrow a:hover { color: var(--accent); }
-h1 {
-  font-size: clamp(2.25rem, 6.5vw, 3.25rem);
-  font-weight: 400;
-  line-height: 1.1;
-  margin: 0 0 1.25rem;
-  letter-spacing: -0.01em;
-  text-wrap: balance;
-}
-h1 .x { color: var(--accent); }
-.lede {
-  font-size: 1.375rem;
-  line-height: 1.55;
-  margin: 0 0 1.25rem;
-  text-wrap: balance;
-}
-section { margin-bottom: 4rem; }
-h2 {
-  font-family: var(--serif);
-  font-size: 1.75rem;
-  font-weight: 600;
-  line-height: 1.25;
-  letter-spacing: -0.01em;
-  color: var(--ink);
-  margin: 0 0 1.1rem;
-  text-wrap: balance;
-}
-h3 {
-  font-family: var(--serif);
-  font-size: 1.375rem;
-  font-weight: 600;
-  line-height: 1.3;
-  margin: 4rem 0 1.25rem;
-  text-wrap: balance;
-}
-h2 + h3 { margin-top: 0; }
-h4 {
-  font-family: var(--serif);
-  font-size: 1.0625rem;
-  font-weight: 600;
-  margin: 2rem 0 0.75rem;
-}
-p { margin: 0 0 1.1rem; }
-p:last-child { margin-bottom: 0; }
-dl.facts {
-  display: grid;
-  grid-template-columns: max-content 1fr;
-  gap: 0.5rem 1.5rem;
-  margin: 0 0 1.75rem;
-  padding: 0 0 1.5rem;
-  border-bottom: 1px solid var(--rule);
-  font-size: 1rem;
-}
-dl.facts dt {
-  font-family: var(--mono);
-  font-size: 0.6875rem;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
-  color: var(--muted);
-  padding-top: 0.45em;
-  line-height: 1.5;
-}
-dl.facts dd { margin: 0; }
-details {
-  margin: 0 0 1.75rem;
-  padding: 0 0 1.5rem;
-  border-bottom: 1px solid var(--rule);
-}
-details:not([open]) {
-  margin-bottom: 0.9rem;
-  padding-bottom: 0.8rem;
-}
-summary {
-  cursor: pointer;
-  font-family: var(--mono);
-  font-size: 0.6875rem;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
-  color: var(--muted);
-  list-style: none;
-  padding-left: 1.4rem;
-  position: relative;
-}
-summary::-webkit-details-marker { display: none; }
-summary::before {
-  content: "▸";
-  position: absolute;
-  left: 0;
-  color: var(--accent);
-}
-details[open] summary::before { content: "▾"; }
-summary:hover { color: var(--accent); }
-summary:focus-visible {
-  outline: 2px solid var(--accent);
-  outline-offset: 2px;
-  border-radius: 1px;
-}
-details dl.facts {
-  margin: 1.5rem 0 1.25rem;
-  padding: 0;
-  border-bottom: 0;
-}
-details > p { margin: 1.5rem 0 0; }
-p.themes {
-  font-family: var(--mono);
-  font-size: 0.8125rem;
-  color: var(--accent);
-  margin: 0 0 1.5rem;
-}
-p.meta { margin: 0 0 0.3rem; }
-@media print {
-  details::details-content { content-visibility: visible; }
-  summary::before { content: "▾"; }
-}
-@media (max-width: 36rem) {
-  dl.facts {
-    grid-template-columns: 1fr;
-    gap: 0;
-  }
-  dl.facts dt { padding-top: 1rem; }
-  dl.facts dt:first-child { padding-top: 0; }
-}
-code {
-  font-family: var(--mono);
-  font-size: 0.85em;
-}
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 0.9rem;
-}
-ul li {
-  padding-left: 1.4rem;
-  position: relative;
-}
-ul li::before {
-  content: "×";
-  position: absolute;
-  left: 0;
-  color: var(--accent);
-}
-.meta {
-  font-family: var(--mono);
-  font-size: 0.8125rem;
-  color: var(--muted);
-}
-.empty {
-  border-left: 2px solid var(--rule);
-  padding-left: 1.4rem;
-  color: var(--muted);
-  font-style: italic;
-}
-footer {
-  border-top: 1px solid var(--rule);
-  margin-top: 4rem;
-  padding: 1.5rem 0 3rem;
-  font-family: var(--mono);
-  font-size: 0.8125rem;
-  color: var(--muted);
-  display: flex;
-  flex-direction: column;
-  gap: 0.4rem;
-}
-footer p { margin: 0; }
-footer a { color: var(--muted); }
-footer a:hover { color: var(--accent); }
-</style>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M3.5 3.5l9 9M12.5 3.5l-9 9' stroke='%23008888' stroke-width='2.8'/%3E%3C/svg%3E">
+<link rel="preload" href="assets/fonts/epilogue-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/spectral-latin-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
 <main>
@@ -253,7 +16,7 @@ footer a:hover { color: var(--accent); }
 <header>
   <p class="eyebrow"><a href="./">Adaptive × AI</a> · Learning resources</p>
   <h1>Learning <span class="x">×</span> resources</h1>
-  <p class="lede">Not everything is learned by building. This is what came from the outside — books, videos, webinars, articles, trainings — and what it actually changed.</p>
+  <p class="lede">Not everything is learned by building. This is what came from the outside — books, videos, webinars, articles, trainings — and <strong>what it actually changed</strong>.</p>
 </header>
 
 <section>
@@ -509,16 +272,18 @@ footer a:hover { color: var(--accent); }
   <p class="empty">Nothing waiting at the moment.</p>
 </section>
 
-<section>
+<section class="band">
   <h2>Follow along</h2>
   <p>The full journal — including the mistakes — is public: <a href="https://github.com/zandercoach/adaptive-x-ai">github.com/zandercoach/adaptive-x-ai</a>. Back to <a href="./">the journal</a>.</p>
 </section>
 
+</main>
+
 <footer>
+  <p class="endorsement"><svg viewBox="0 0 107.392 106.164" aria-hidden="true"><path fill-rule="evenodd" d="M53.696 106.162C27.731 106.162 6.113 87.968 1.095 63.802C34.018 63.905 47.303 86.011 68.214 86.815C55.673 63.766 55.673 42.813 68.322 19.835C49.209 20.847 33.843 42.533 1.026 42.673C5.899 18.333 27.626 0 53.696 0C83.334 0 107.392 23.78 107.392 53.08C107.392 82.38 83.334 106.162 53.696 106.162"/></svg><span>A journal by <a href="https://www.zander.coach">zander.coach</a></span></p>
   <p>© 2026 Christian Zander · <a href="https://www.zander.coach/impressum/">Impressum</a> · <a href="https://www.zander.coach/datenschutz/">Datenschutz</a></p>
   <p>adaptive-x-ai.org — also answers to adaxai.org and adaptivexai.org</p>
 </footer>
 
-</main>
 </body>
 </html>
