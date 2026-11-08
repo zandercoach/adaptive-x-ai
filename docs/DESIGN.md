@@ -14,3 +14,4 @@ Adaptive × AI is a sub-brand of zander.coach: own name, own mark, the core desi
 
 - `assets/fonts/` — Epilogue and Spectral as woff2, copied from the theme, with their OFL licences. Refresh them when the theme's fonts change.
 - `assets/highlight.webp` — the highlighter stroke, copied from the theme. It works as a CSS mask and therefore only over HTTP, not from `file://`.
+- `assets/og-image.png` (1200 × 630, the preview when a link is shared) and `assets/touch-icon.png` (180 × 180) are artefacts, built from `assets/src/`. Rebuild after a change to the title, the lede or `site.css`: serve `docs/` over HTTP (`python -m http.server 8765`) and screenshot each source with Edge headless at its size (`--headless --force-device-scale-factor=1 --window-size=W,H --screenshot=…`).
