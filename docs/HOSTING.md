@@ -43,6 +43,8 @@ section (verified live 2026-07-09). **If the site ever gains anything interactiv
 — analytics, a form, an embed — the Datenschutzerklärung needs a matching section
 *first*.
 
+**Visits are counted with Umami** since 2026-11-09: `index.html` and `resources.html` load `https://umami.zander.coach/script.js`, self-hosted at Mittwald, with `data-domains="adaptive-x-ai.org"` (a local preview does not count) and `data-do-not-track="true"`, which the Datenschutzerklärung promises. Its section „Reichweitenmessung" names this site and came first, as the rule above asks. A new page gets the same tag; the website ID is public.
+
 ## History
 
 - 2026-07-09: site live; all three domains registered; HTTPS enforced.
