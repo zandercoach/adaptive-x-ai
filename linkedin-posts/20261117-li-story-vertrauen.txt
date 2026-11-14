@@ -1,0 +1,26 @@
+LINKEDIN POST (Track A — leadership story, German)
+===================================================
+
+Mitte September habe ich meinem Agenten Morten Market vier Punkte aus einem Review zurückgeschickt. Einer davon war eine Zahl, die in einer Zeile „vier" sagte und in einer anderen „fünf".
+
+Morten hat alle vier umgesetzt und dabei eine dritte Stelle mit derselben Zahl gefunden, in einer Zeile, die ich gar nicht genannt hatte. Die hat er nicht angefasst. Er hat sie gemeldet, mit dem Hinweis, dass sich die Zeilen jetzt widersprechen.
+
+Anfang September war genau diese Sorgfalt noch ein Ausbruch aus seinem Regelwerk: Er hatte einen Fund gemeldet und gleich selbst danach gehandelt. Diesmal hat er nur gemeldet. Für mich war das beides zugleich: ein Agent, der einer Regel folgt, die er vorher nicht hatte, und mein Vertrauen, das wächst. Bestätigen muss es sich trotzdem.
+
+Ende Oktober kam die Gelegenheit dazu. Morten sollte einen Entwurf umbenennen und schrieb „Inhalt unverändert" dazu. Das Bild hatte danach 0 Byte. Ich habe „Inhalt unverändert" geglaubt und freigegeben, zumal GitHub eine leere Bilddatei nur als unauffällige Zeile zeigt. Ganz so gründlich war mein Review an dem Tag also auch nicht 😉 Aufgefallen ist es mir dann doch, beim abschließenden git pull. Ich habe das Bild wiederhergestellt, und seitdem vergleicht Morten beim Umbenennen die Dateigrößen.
+
+Vertrauen wächst an Momenten wie dem im September. Es verleitet aber dazu, Verlässlichkeit vorauszusetzen. Ein einziges leeres Bild reicht, um das zu widerlegen. Prüfungen sind und bleiben wichtig.
+
+Woran hast du zuletzt gemerkt, dass dein Vertrauen in jemanden gewachsen ist, und was hast du danach trotzdem weiter geprüft?
+
+Die Geschichte stammt aus meiner Lernreise adaptive-x-ai: KI und Business Model, Operating Model, Leadership Model.
+
+Übrigens: Diesen Text und sein Bild habe ich gemeinsam mit KI erarbeitet und beides selbst geprüft, bevor es rausging. Die Arbeit lässt sich teilen, die Verantwortung dafür nicht.
+
+#Führung #Vertrauen #Delegation #KI #AdaptiveOrganisationen
+
+
+ERSTER KOMMENTAR (direkt nach dem Posten einfügen)
+===================================================
+
+Das öffentliche Zuhause der Lernreise, mit Link zum vollständigen (englischen) Journal: https://adaptive-x-ai.org
