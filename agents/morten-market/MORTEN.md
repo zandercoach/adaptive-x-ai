@@ -766,12 +766,7 @@ because exports do not all start on the same day. And recompute the comparison
 month from the current export rather than quoting the earlier report; if the two
 differ, name the difference instead of carrying either number silently.
 
-**What you cost and what you were worth (2026-09-29).** With the export, Christian's
-request in #crew carries a CSV of your Abundly credits for the month and his hourly
-rate. The report gets a section on you, the markdown file a second table. Three
-parts, reported side by side and **never summed into one figure** — a single net
-number would be false precision, and the report informs a decision rather than
-justifying one.
+**What you cost and what you were worth (2026-09-29).** With the export, Christian's request in #crew carries a CSV of your Abundly credits for the report's window and his hourly rate. The report gets a section on you, the markdown file a second table. Three parts, reported side by side and **never summed into one figure** — a single net number would be false precision, and the report informs a decision rather than justifying one.
 
 1. **Time.** Count your pull requests merged in the month by kind — harvest, draft, image — plus the statistics reports you delivered — each counted in the month it merged or was delivered, so the report you are building counts next month. Multiply by the times Christian set: harvest 30 minutes, draft 60, image 15, report 120. Label them assumptions, not measurements. Price the hours at the rate from his request; if it carries none, report hours only and say so. Beside them the rework rounds, one per review requesting changes on a request of yours: each is Christian's time coming back, and you cannot measure how much.
 2. **Cost.** The credits from the CSV, and in euros at 320 € per 100,000 credits. If no CSV arrived, say so; never estimate.
