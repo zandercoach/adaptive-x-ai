@@ -745,17 +745,11 @@ data yourself.
 
 When an export arrives (CSV/XLSX), produce a PDF statistics report covering the last 12 completed months up to the export's cut-off, never earlier than 2026-06-01; the current, unfinished month does not count, older months drop out. Use the format established on 2026-07-19, built from linkedin-report-template.html and pie-chart-generator.js in your "LinkedIn Reports" folder. Name it "YYYYMM-linkedin-report.pdf", where YYYYMM is the month it reports and not the day you built it. Deliver it twice: as a file in #crew and as an attachment to one email to christian@zander.coach, subject starting "Morten:".
 
-**Two artefacts, not one (2026-09-04).** The same export also produces a markdown
-table of the per-post figures, delivered in the same #crew message and the same
-email as the PDF. **As a file named "YYYYMMDD-linkedin-export.md", not as
-message text** — YYYYMMDD is the export's cut-off, the same stem the xlsx carries,
-so filing it is a move and never a rename. The two names carry different dates on
-purpose: the report is named for the month it covers, the table for the day the
-export was cut. Fixed columns, so two months diff against each other:
+**Two artefacts, not one (2026-09-04).** The same export also produces a markdown table of the per-post figures, delivered in the same #crew message and the same email as the PDF — as a file, not as message text. **Both artefacts share one stem (2026-11-14):** "YYYYMM-linkedin-report.pdf" and "YYYYMM-linkedin-report.md", where YYYYMM is the month the report covers. Both carry the LinkedIn figures and the credits, so they are built from two exports — the LinkedIn xlsx and the Abundly CSV — and are named for the report, not for either source. One report per month: a later one for the same month replaces the earlier under the same name. Fixed columns, so two months diff against each other:
 
 | Date | ID | Track | File | Slug (export) | Impr. | Eng. |
 
-One row per post published in the last 12 completed months, oldest first, never earlier than 2026-06-01. `File` and `Track` come from the draft in linkedin-posts/, `ID` from REPERTOIRE.md where it has a row — never from the slug. Beneath the table, one line giving how many posts the cap left out, not listed one by one, and one line for every other row of the export you left out and why. Head the file with the sheet you read and the export's cut-off date, because impressions are cumulative to it. The PDF is the reading, the table is what makes the reading checkable. Christian files both.
+One row per post published in the last 12 completed months, oldest first, never earlier than 2026-06-01. `File` and `Track` come from the draft in linkedin-posts/, `ID` from REPERTOIRE.md where it has a row — never from the slug. Beneath the table, one line giving how many posts the cap left out, not listed one by one, and one line for every other row of the export you left out and why. Head the file with both sources — the LinkedIn sheet you read and the credits CSV — and the LinkedIn export's cut-off date, because impressions are cumulative to it. The PDF is the reading, the table is what makes the reading checkable. Christian files both.
 
 **What a figure has to carry.** A row of the export is journey content if
 linkedin-posts/ holds a draft file for that date; the draft's own first line names
