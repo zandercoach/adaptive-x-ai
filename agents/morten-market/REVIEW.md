@@ -218,11 +218,15 @@ does come back with a question instead of a picture, this is where it comes from
 
 Not a pull request, but the other thing Christian hands Morten by hand. Specification: `MORTEN.md`, "Statistics Reports".
 
-## 1. Fetch the credits CSV from Abundly
+## 1. Export the LinkedIn analytics
+
+Own profile → **Analytics** → **Show all analytics** → **Post impressions** → date range **Past 365 days** (the history he reports starts 2026-06-01) → **Export** top right, gives an `.xlsx`. Name it `YYYYMMDD-linkedin-export.xlsx`, the date being the export's cut-off. Path from LinkedIn's help (`linkedin.com/help/linkedin/answer/a701208`), not yet walked in the UI. He reminds you on the first Friday of the month.
+
+## 2. Fetch the credits CSV from Abundly
 
 **Usage** (left navigation) → tab **Credits** → period **Last month** (calendar month, UTC) → chart **Credit usage**: **By agent**, **monthly** → **Export CSV**, aggregation "per time period and agent". Not the **Agent usage** tab: it knows only 7/30/90 days and exports JSON. Path from the Abundly docs (`docs.abundly.ai/features/usage.md`), not yet walked in the UI.
 
-## 2. Post in #crew
+## 3. Post in #crew
 
 One message, two attachments: the LinkedIn export (XLSX or CSV) and the credits CSV. The hourly rate goes into the message text, never into this repo. The export reaches him only through #crew, never by email.
 
@@ -230,6 +234,6 @@ One message, two attachments: the LinkedIn export (XLSX or CSV) and the credits 
 
 A missing piece does not stop him: no credits CSV gives "no data", no rate gives hours only. The gap shows in the report, not as a question.
 
-## 3. File what comes back
+## 4. File what comes back
 
 `YYYYMM-linkedin-report.pdf` and `YYYYMMDD-linkedin-export.md`, in #crew and by email. Both go privately into `brand/reach/`, with the export xlsx.
