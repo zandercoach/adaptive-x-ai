@@ -220,11 +220,11 @@ Not a pull request, but the other thing Christian hands Morten by hand. Specific
 
 ## 1. Export the LinkedIn analytics
 
-Own profile → **Analytics** → **Show all analytics** → **Post impressions** → date range **Past 365 days** (the history he reports starts 2026-06-01) → **Export** top right, gives an `.xlsx`. Name it `YYYYMMDD-linkedin-export.xlsx`, the date being the export's cut-off. Path from LinkedIn's help (`linkedin.com/help/linkedin/answer/a701208`), not yet walked in the UI. He reminds you on the first Friday of the month.
+Own profile → **Analytics** → **Show all analytics** → **Post impressions** → date range **Past 365 days** (the history he reports starts 2026-06-01) → **Export** top right, gives an `.xlsx`. Name it `YYYYMM-linkedin-export.xlsx`, the month the report covers. Path from LinkedIn's help (`linkedin.com/help/linkedin/answer/a701208`), not yet walked in the UI. He reminds you on the first Friday of the month.
 
 ## 2. Fetch the credits CSV from Abundly
 
-**Usage** (left navigation) → tab **Credits** → period **Custom**: the last 12 completed months, never before July 2026 (calendar months, UTC; the spec reads no credits from earlier requests) → chart **Credit usage**: **By agent**, **monthly** → **Export CSV**, aggregation "per time period and agent". Not the **Agent usage** tab: it knows only 7/30/90 days and exports JSON. Path from the Abundly docs (`docs.abundly.ai/features/usage.md`), not yet walked in the UI.
+**Usage** (left navigation) → tab **Credits** → period **Custom**: the last 12 completed months, never before July 2026 (calendar months, UTC; the spec reads no credits from earlier requests) → chart **Credit usage**: **By agent**, **monthly** → **Export CSV**, aggregation "per time period and agent". Not the **Agent usage** tab: it knows only 7/30/90 days and exports JSON. Path from the Abundly docs (`docs.abundly.ai/features/usage.md`), not yet walked in the UI. Name it `YYYYMM-abundly-export.csv`, the same month.
 
 ## 3. Post in #crew
 
@@ -236,4 +236,4 @@ A missing piece does not stop him: no credits CSV gives "no data", no rate gives
 
 ## 4. File what comes back
 
-`YYYYMM-linkedin-report.pdf` and `YYYYMMDD-linkedin-export.md`, in #crew and by email. Both go privately into `brand/reach/`, with the export xlsx.
+`YYYYMM-linkedin-report.pdf` and `YYYYMM-linkedin-report.md`, in #crew and by email. Both go privately into `brand/reach/`, with the two exports: four files under one month.
