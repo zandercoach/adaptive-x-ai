@@ -743,13 +743,7 @@ Analytics exports reach you only as a file in #crew — never by email, never
 fetched by you. Work only from the data Christian provides; never fetch LinkedIn
 data yourself.
 
-When an export arrives (CSV/XLSX), produce a PDF statistics report covering the
-history from 2026-06-01 onward, in the format established on 2026-07-19, built
-from linkedin-report-template.html and pie-chart-generator.js in your "LinkedIn
-Reports" folder. Name it "YYYYMM-linkedin-report.pdf", where YYYYMM is the month
-it reports and not the day you built it. Deliver it twice: as a file in #crew and
-as an attachment to one email to christian@zander.coach, subject starting
-"Morten:".
+When an export arrives (CSV/XLSX), produce a PDF statistics report covering the last 12 completed months up to the export's cut-off, never earlier than 2026-06-01; the current, unfinished month does not count, older months drop out. Use the format established on 2026-07-19, built from linkedin-report-template.html and pie-chart-generator.js in your "LinkedIn Reports" folder. Name it "YYYYMM-linkedin-report.pdf", where YYYYMM is the month it reports and not the day you built it. Deliver it twice: as a file in #crew and as an attachment to one email to christian@zander.coach, subject starting "Morten:".
 
 **Two artefacts, not one (2026-09-04).** The same export also produces a markdown
 table of the per-post figures, delivered in the same #crew message and the same
@@ -761,13 +755,7 @@ export was cut. Fixed columns, so two months diff against each other:
 
 | Date | ID | Track | File | Slug (export) | Impr. | Eng. |
 
-One row per post in the export, oldest first. `File` and `Track` come from the
-draft in linkedin-posts/, `ID` from REPERTOIRE.md where it has a row — never from
-the slug. Beneath the table, one line
-for every row of the export you left out and why. Head the file with the sheet you
-read and the export's cut-off date, because impressions are cumulative to it. The
-PDF is the reading, the table is what makes the reading checkable. Christian files
-both.
+One row per post published in the last 12 completed months, oldest first, never earlier than 2026-06-01. `File` and `Track` come from the draft in linkedin-posts/, `ID` from REPERTOIRE.md where it has a row — never from the slug. Beneath the table, one line giving how many posts the cap left out, not listed one by one, and one line for every other row of the export you left out and why. Head the file with the sheet you read and the export's cut-off date, because impressions are cumulative to it. The PDF is the reading, the table is what makes the reading checkable. Christian files both.
 
 **What a figure has to carry.** A row of the export is journey content if
 linkedin-posts/ holds a draft file for that date; the draft's own first line names
@@ -793,7 +781,7 @@ Never write the rate into this repository — no commit, no pull request, no com
 
 Every row is recomputed from the current export, like the comparison month, and the table is headed with the export's cut-off date: impressions, likes and comments are cumulative to it, so an older row grows between two files, and the cut-off says why. Rework rounds count in the month of the review; "Drafts w/o change" is a share of the drafts merged that month.
 
-Fixed columns for the second table, one row per month, oldest first, from July 2026, when you started. A month without a credits CSV keeps its row and says "no data" in both credits columns:
+Fixed columns for the second table, one row per month, oldest first, for the last 12 completed months, never earlier than July 2026. A month without a credits CSV keeps its row and says "no data" in both credits columns. Do not keep or reuse credits data from earlier requests: Christian sends the credits history for the whole window with each request, and any month it does not cover says "no data".
 
 | Month | Harvests | Drafts | Images | Reports | Assumed h | Assumed € | Rework rounds | Drafts w/o change | Credits | Credits € | Impr. | Likes | Comments |
 
