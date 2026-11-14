@@ -15,9 +15,11 @@ In September Morten found a third instance of an inconsistent number, in a row
 Christian had not named. He reported it and left it alone, where weeks earlier he
 had acted on a finding himself. For Christian that was an agent following a rule
 he did not have before, and his own trust growing; it still had to confirm itself.
-In October a renamed picture arrived empty under "contents unchanged", and
-Christian approved it anyway. Trust grows from moments like September's; checks
-are and stay important.
+In October a renamed picture arrived empty under "contents unchanged". Christian
+believed it and approved, then caught it himself on the finishing pull and
+restored it; since then file sizes are compared. Trust grows from moments like
+September's, but it tempts you to assume reliability; checks are and stay
+important.
 
 WHAT THE PICTURE SHOULD DO
 Someone scrolling past should see the good moment, a find handed over instead of
@@ -26,22 +28,25 @@ of October stays in the text. Not a guilty robot, not a suspicious human, nothin
 that reads as control.
 
 THE MOTIF DIRECTION
-A flipchart sheet with a grid of scribbled rows, one cell circled. The robot keeps
-his hands off the sheet and holds out a small sticky note to the person, as if
-saying "found this, over to you". The person looks pleased and attentive. Steer
-away from: warning signs, red crosses, magnifying glasses, screens, speech bubbles
-full of text.
+The person stands beside the robot, the flipchart behind them. The robot holds out
+the sticky note and the person's open hand reaches for it, so the hand-over is the
+centre of the picture. On the flipchart sheet, a grid of scribbled rows with one
+cell circled; the robot keeps his hands off the sheet. The person looks pleased
+and attentive. Steer away from: warning signs, red crosses, magnifying glasses,
+screens, speech bubbles full of text.
 
 WHAT IS FIXED
 The style guide above. Square composition, white background. Two figures of this
-series and no invented third: the stick-figure person and the robot. The sheet and
-the note carry scribbled lines only, with no readable words, numbers or digits.
-Petrol goes on what the eye should land on first: the sticky note and the circled
-cell. Any hand-lettering is German, since the post is German. A hand-lettered
-caption at the bottom in the ink colour, underlined in the ink colour, reading
-exactly: "Gemeldet, nicht angefasst". Fetch two existing post PNGs from the same
-folder as visual reference so the series keeps one look.
+series and no invented third: the stick-figure person and the robot. The person
+keeps the proportions the style guide gives: about five heads tall, a tall narrow
+torso about one and a half heads long, long straight legs. The sheet and the note
+carry scribbled lines only, with no readable words, numbers or digits. Petrol goes
+on what the eye should land on first: the sticky note and the circled cell. Any
+hand-lettering is German, since the post is German. A hand-lettered caption at the
+bottom in the ink colour, underlined in the ink colour, reading exactly:
+"Gemeldet, nicht angefasst". Fetch two existing post PNGs from the same folder as
+visual reference so the series keeps one look.
 
 WHAT IS YOURS
-The staging: where the two stand, how the note is held out, and which supporting
-palette colours do the rest. Keep it one clear moment with plenty of room around it.
+How the two lean in, how the note is held out, and which supporting palette
+colours do the rest. Keep it one clear moment with plenty of room around it.
