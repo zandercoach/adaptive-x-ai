@@ -224,7 +224,7 @@ Own profile → **Analytics** → **Show all analytics** → **Post impressions*
 
 ## 2. Fetch the credits CSV from Abundly
 
-**Usage** (left navigation) → tab **Credits** → period **Last month** (calendar month, UTC) → chart **Credit usage**: **By agent**, **monthly** → **Export CSV**, aggregation "per time period and agent". Not the **Agent usage** tab: it knows only 7/30/90 days and exports JSON. Path from the Abundly docs (`docs.abundly.ai/features/usage.md`), not yet walked in the UI.
+**Usage** (left navigation) → tab **Credits** → period **Custom**: the last 12 completed months, never before July 2026 (calendar months, UTC; the spec reads no credits from earlier requests) → chart **Credit usage**: **By agent**, **monthly** → **Export CSV**, aggregation "per time period and agent". Not the **Agent usage** tab: it knows only 7/30/90 days and exports JSON. Path from the Abundly docs (`docs.abundly.ai/features/usage.md`), not yet walked in the UI.
 
 ## 3. Post in #crew
 
