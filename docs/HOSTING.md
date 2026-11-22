@@ -22,9 +22,12 @@ All three domains are registered at **INWX**.
 | `adaptive-x-ai.org` | **Canonical** | Apex `A` → `185.199.108–111.153` (GitHub Pages) + `AAAA`; `www` `CNAME` → `zandercoach.github.io` |
 | `adaxai.org` | Redirect alias | INWX "URL" record, `301` → `https://adaptive-x-ai.org` |
 | `adaptivexai.org` | Redirect alias | INWX "URL" record, `301` → `https://adaptive-x-ai.org` |
+| `chronicler.adaptive-x-ai.org` | Demo chronicle | `CNAME` → `zandercoach.github.io`; served by GitHub Pages from `zandercoach/chronicler-data-demo` |
 
 `zandercoach.github.io` is the GitHub **organization** Pages host; the 2026-07-23
 repo transfer into the org left Pages intact.
+
+The demo chronicle is not part of this repo: `zandercoach/chronicler-data-demo` publishes it through its own workflow (generate with the engine's `main`, check the invariants, deploy to Pages) on every push to its `main`. HTTPS by Let's Encrypt via GitHub Pages, enforced.
 
 ## HTTPS
 
