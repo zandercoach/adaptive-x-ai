@@ -20,7 +20,7 @@ length). That is not an exception in need of a reason.
 
 | Core rule | On this site | Reason | Decided |
 |---|---|---|---|
-| Self-irony exactly once — two are a shtick | **All of it stays**: "Fashionably late, I tell myself", "On good days, that includes me", "In other words: it is perfect", and "Relapsed Developer" in the byline | This page is the personally written way in to the journal, not one piece in a feed. A reader arrives on purpose and meets the whole voice at once, where a post gets one gesture and the next post gets the next | 2026-09-05 |
+| Self-irony exactly once — two are a shtick | **All of it stays**: "Fashionably late, I tell myself", "faster than my agents, on good days" (since 2026-11-22; before it, "On good days, that includes me"), "In other words: it is perfect", and "Relapsed Developer" in the byline | This page is the personally written way in to the journal, not one piece in a feed. A reader arrives on purpose and meets the whole voice at once, where a post gets one gesture and the next post gets the next | 2026-09-05 |
 
 ## Measurements
 
