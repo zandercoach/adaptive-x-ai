@@ -8,7 +8,7 @@
 
 **What was hardcoded became instance configuration.** Title, welcome text, copyright, wiki source and icon, imprint and privacy links, the map and the calendar now come from the data repo. The home page reads its heroes from the data; a hero with a status has retired and keeps only their own page.
 
-**Two instances, two ways out.** The campaign is checked against its real data on every push and uploaded over SFTP to dsa.zander.coach, replacing a site from April 2025. The new public demo at [chronicler.adaptive-x-ai.org](https://chronicler.adaptive-x-ai.org) publishes itself through GitHub Pages: its own calendar, eighteen pictures in the flipchart style drawn from Claude's briefs, no Google map. This site links it and now says how I learn.
+**Two instances, two ways out.** The campaign is checked against its real data on every push and uploaded over SFTP to a hidden instance, replacing a site from April 2025. The new public demo at [chronicler.adaptive-x-ai.org](https://chronicler.adaptive-x-ai.org) publishes itself through GitHub Pages: its own calendar, eighteen pictures in the flipchart style drawn from Claude's briefs, no Google map. This site links it and now says how I learn.
 
 ## Craft
 
@@ -19,7 +19,7 @@
 
 ## Business Model
 
-- The Chronicler in the open matters to me personally, and it is proof that I am not only dealing with AI but with agentic engineering and agentic coding. It will flow into a new training on agentic coding, and it serves as proof when acquiring new project engagements.
+- The Chronicler in the open matters to me personally, and it is proof that I am not only dealing with AI but with agentic engineering and agentic coding. It will flow into a new training on agentic coding, and it serves as proof when acquiring new project engagements. Maybe it will even be part of a developer training.
 
 ## Leadership Model
 
