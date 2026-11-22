@@ -32,3 +32,8 @@
 ## Open Questions
 
 - The Velocity update is open: the engine still runs on Velocity 1.7.
+
+## Later the same day
+
+- Dependabot answered within minutes of its introduction: one grouped pull request for GitHub Actions, green and merged, and one for Maven with seven updates that failed to compile. Three of them needed a migration rather than a bump — Spring 7, JUnit 6 and `jaxb-runtime` 4, which moves from `javax.xml.bind` to `jakarta.xml.bind`. That request was closed; Dependabot now groups only minor and patch updates and lets every major version come on its own (#19). The majors join the Velocity update.
+- The frame has to be readjusted too; it grows along with the work.
