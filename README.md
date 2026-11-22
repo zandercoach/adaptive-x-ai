@@ -156,3 +156,4 @@ The goal is to understand what it takes for a business model, a leadership model
 - [20260906 - The Spec Answered for Me](research/20260906-the-spec-answered-for-me.md)
 - [20260916 - A Failed Experiment, Ended Out Loud](research/20260916-a-failed-experiment-ended-out-loud.md)
 - [20261026 - The Rule Held Against Me](research/20261026-the-rule-held-against-me.md)
+- [20261122 - A Chronicle in the Open](research/20261122-a-chronicle-in-the-open.md)
