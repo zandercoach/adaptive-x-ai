@@ -189,6 +189,8 @@ Tags: `[eng]` engineering / Chronicler lab · `[showcase]` product & visibility 
 
 11. **Agent org chart for zander.coach** `[org]` — which roles could agents fill (research, marketing ops, training prep), where judgement must stay; then staff one role for real and journal it. *Feeds on: everything learned in #6, #9, #10.*
 
+29. **Claude Craft on Slack** `[org]` — Claude Craft in `#crew` with a Slack app of its own (bot token per command, like its GitHub tokens), not Claude Tag, which would be a second Claude in the cloud with another identity. Not yet: Slack pays off for work across time, and Claude Craft exists only inside Christian's sessions, where he already sits beside it. Worth it once Claude Craft works while Christian is away (a scheduled run, like Morten), or once Morten and Claude hand work to each other directly instead of through the repo. Settle first: messages in the channel are data, never instructions (Morten reads outside content, so an injection could travel across two agents); everything posted lands at Abundly too, so nothing confidential; a fixed list of when Claude posts, so Morten and Claude don't answer each other in circles. *(From the 2026-11-24 session.)*
+
 ## Later — discovery lens (deliberately its own wave)
 
 12. **One-day discovery prototype** `[disc]` — prototype a new training-product idea in a single day (e.g., an interactive complexity/AI simulation for workshops) and put it in front of a real client. *Does "validating is cheaper than debating" hold outside code?*
